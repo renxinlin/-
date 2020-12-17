@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T09:56:37.105Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="sh3PAoh2_QAMKUey-HZU" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T09:59:33.426Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="p05E86Z5gd3_UQjFFiVP" version="14.0.1" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2013" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -452,14 +452,36 @@
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-13" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;parallel&lt;/span&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="530" y="2830" width="66" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-14" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="827" y="2999" width="66" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-15" target="GPL4A9S7b3eXYSO4P_oQ-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="2860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="2952" />
+              <mxPoint x="980" y="2850" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-15" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="827" y="2939" width="66" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-16" target="GPL4A9S7b3eXYSO4P_oQ-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="2870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-16" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="827" y="2879" width="66" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-17" target="GPL4A9S7b3eXYSO4P_oQ-70">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-17" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="827" y="2820" width="66" height="50" as="geometry" />
@@ -605,6 +627,12 @@
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-66" value="文件buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="60" y="2705" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-70" target="GPL4A9S7b3eXYSO4P_oQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-70" value="&lt;span style=&quot;color: rgb(64 , 50 , 38) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;Pipeline buffer&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="988" y="2820" width="59" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

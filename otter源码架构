@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T02:52:49.725Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="YVWq3wnlddVhPpxyRwAI" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T03:05:37.187Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="6x2iVZMIgVcp73GFwH2g" version="14.0.1" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2013" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -430,14 +430,16 @@
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-4" value="connection" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="250" y="2980" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-5" target="GPL4A9S7b3eXYSO4P_oQ-6">
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404" y="3005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-5" target="GPL4A9S7b3eXYSO4P_oQ-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-5" value="parser" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="323" y="2980" width="66" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-6" value="回环数据filter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="404" y="2980" width="66" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-10" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;parallel&lt;/span&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="530" y="2999" width="66" height="50" as="geometry" />
@@ -465,7 +467,7 @@
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-18" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="780" y="3210" as="sourcePoint" />
+            <mxPoint x="780" y="3120" as="sourcePoint" />
             <mxPoint x="780" y="2710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -474,12 +476,6 @@
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-21" value="滑动窗口顺序控制" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="820" y="2780" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-22" value="Db污染filter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="404" y="3020" width="66" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-23" value="自定义filter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="404" y="3060" width="66" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-24" target="GPL4A9S7b3eXYSO4P_oQ-25">
           <mxGeometry relative="1" as="geometry" />
@@ -491,10 +487,30 @@
           <mxGeometry x="1300" y="2910" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-27" value="IDC1" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
-          <mxGeometry x="486" y="2700" width="80" height="30" as="geometry" />
+          <mxGeometry x="486" y="2710" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-28" value="IDC2" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="900" y="2710" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-29" value="&lt;ol style=&quot;margin: 0px ; padding: 0px 0px 0px 40px ; color: rgb(64 , 50 , 38) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;ParseEventFilter：格式化同步指令；生成指令回环校验key；赋值指令所属DB；过滤Rotter自身产生的指令&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;DBFilter：过滤掉不需要同步的DB&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;KeyFilter：过滤掉不需要同步的KEY&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;CircleSyncFilter：过滤掉回环指令和删除保护指令&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;MultiThreadFilter：多线程分发，提高同步效率&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;OvertimeFilter：经过队列积压，判断该指令是否已经过期&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;DeleteKeyFilter：生成删除保护KEY&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;RateLimitFilter：限流，包括带宽和指令数&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;SendTargetFilter：执行目标redis写入&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;MonitorFilter：监控和上报正在同步的指令&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;ComputeRateFilter：计算同步速率、带宽、队列积压长度等&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;自定义filter&lt;/li&gt;&lt;/ol&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="389" y="3410" width="620" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.045;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-30" target="GPL4A9S7b3eXYSO4P_oQ-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="418" y="3130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-30" value="aof&lt;br&gt;filters" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="404" y="2990" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.014;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-32" target="GPL4A9S7b3eXYSO4P_oQ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-32" value="Rdb&lt;br&gt;filters" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2950" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-34" value="&lt;ol style=&quot;margin: 0px ; padding: 0px 0px 0px 40px ; color: rgb(64 , 50 , 38) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;ParseEventFilter：格式化同步指令；生成指令回环校验key；赋值指令所属DB；过滤Rotter自身产生的指令&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;dumpfilter：&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;DBFilter：过滤掉不需要同步的DB&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;KeyFilter：过滤掉不需要同步的KEY&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;RateLimitFilter：限流，包括带宽和指令数&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;SendTargetDumpFilter：执行目标redis写入&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;ComputeRateFilter：计算同步速率、带宽、队列积压长度等&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;自定义filter&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="455" y="3160" width="710" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

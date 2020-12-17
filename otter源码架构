@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T03:59:33.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="4f6yPNuHtgICC2t3b-Fr" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T09:56:37.105Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="sh3PAoh2_QAMKUey-HZU" version="14.0.1" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2013" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -424,11 +424,10 @@
         <mxCell id="UUUX9VpjRV9iLtEIWb1o-6" value="node" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="1160" y="2760" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-4" target="GPL4A9S7b3eXYSO4P_oQ-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-4" value="connection" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="234" y="2980" width="60" height="50" as="geometry" />
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="GPL4A9S7b3eXYSO4P_oQ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="294" y="3005" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-5">
           <mxGeometry relative="1" as="geometry">
@@ -529,16 +528,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-37" value="Channel" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry y="2968" width="81" height="81" as="geometry" />
+          <mxGeometry x="-20" y="2968" width="81" height="81" as="geometry" />
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-39" value="Node Monitor" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="38.3" y="2804.5" width="81" height="81" as="geometry" />
+          <mxGeometry x="-50" y="2800" width="81" height="81" as="geometry" />
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-40" value="Pipeline" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="90" y="3039" width="81" height="81" as="geometry" />
+          <mxGeometry x="78.65" y="3039" width="81" height="81" as="geometry" />
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-41" value="Pipeline" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="91" y="2889.5" width="81" height="81" as="geometry" />
+          <mxGeometry x="80" y="2887" width="81" height="81" as="geometry" />
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-47" target="GPL4A9S7b3eXYSO4P_oQ-37">
           <mxGeometry relative="1" as="geometry">
@@ -578,8 +577,11 @@
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-58" value="channel&amp;nbsp;pipeline&amp;nbsp; process" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1460" y="2740" width="180" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-59" target="GPL4A9S7b3eXYSO4P_oQ-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-59" value="socketBuffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="190" y="2870" width="100" height="50" as="geometry" />
+          <mxGeometry x="-150" y="2630" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-60" value="MixedBuffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="405" y="2890" width="100" height="50" as="geometry" />
@@ -594,6 +596,15 @@
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-62" value="window&lt;br&gt;size" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
           <mxGeometry x="670" y="2810" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-65" target="GPL4A9S7b3eXYSO4P_oQ-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-65" value="replicator" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="2650" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-66" value="文件buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2705" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

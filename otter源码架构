@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T03:09:46.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="DnBTnmNaCPjCCrS36vYj" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T03:11:22.577Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="RGZrp406-JkCZ0HQpwi-" version="14.0.1" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2013" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -526,12 +526,12 @@
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.012;entryY=0.654;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-37" target="GPL4A9S7b3eXYSO4P_oQ-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-46" value="Master IDC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GPL4A9S7b3eXYSO4P_oQ-44">
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-46" value="Not Master IDC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GPL4A9S7b3eXYSO4P_oQ-44">
           <mxGeometry x="0.0487" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-37" value="Channel HA" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-37" value="Channel" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry y="2968" width="81" height="81" as="geometry" />
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-39" value="Node Monitor" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
@@ -542,6 +542,14 @@
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-41" value="Pipeline" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="91" y="2889.5" width="81" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-47" target="GPL4A9S7b3eXYSO4P_oQ-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="3135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-47" value="auto Scan&lt;br&gt;config" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="2983.5" width="60" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T03:08:04.909Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="X3UArXEo4ZRXf2sdQg-c" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T03:08:54.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="CWSNvEnypRcvUozVud6m" version="14.0.1" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2013" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -515,11 +515,23 @@
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-34" value="&lt;ol style=&quot;margin: 0px ; padding: 0px 0px 0px 40px ; color: rgb(64 , 50 , 38) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;ParseEventFilter：格式化同步指令；生成指令回环校验key；赋值指令所属DB；过滤Rotter自身产生的指令&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;dumpfilter：&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;DBFilter：过滤掉不需要同步的DB&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;KeyFilter：过滤掉不需要同步的KEY&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;RateLimitFilter：限流，包括带宽和指令数&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;SendTargetDumpFilter：执行目标redis写入&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;ComputeRateFilter：计算同步速率、带宽、队列积压长度等&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: decimal&quot;&gt;自定义filter&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="455" y="3160" width="710" height="220" as="geometry" />
         </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.012;entryY=0.377;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-37" target="GPL4A9S7b3eXYSO4P_oQ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.012;entryY=0.654;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GPL4A9S7b3eXYSO4P_oQ-37" target="GPL4A9S7b3eXYSO4P_oQ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-37" value="Channel HA" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="39" y="2965" width="81" height="81" as="geometry" />
+          <mxGeometry y="2968" width="81" height="81" as="geometry" />
         </mxCell>
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-39" value="Node Monitor" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="38.3" y="2804.5" width="81" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-40" value="Pipeline" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="69" y="3039" width="81" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-41" value="Pipeline" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="69" y="2889.5" width="81" height="81" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

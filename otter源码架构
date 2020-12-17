@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-12-16T19:13:42.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="s-2_YJUtZ7NG6A_PcxD-" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T02:39:44.220Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="EUJZWkSW9FQdFF4MpCjJ" version="14.0.1" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
-    <mxGraphModel dx="2222" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UUUX9VpjRV9iLtEIWb1o-5" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="UUUX9VpjRV9iLtEIWb1o-5" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="140" y="2750" width="1060" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="UUUX9VpjRV9iLtEIWb1o-3" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="UUUX9VpjRV9iLtEIWb1o-3" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="180" y="2760" width="950" height="330" as="geometry" />
         </mxCell>
         <mxCell id="Izg6cQM03WtnhEp0tlEd-61" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
@@ -395,10 +395,21 @@
         <mxCell id="Izg6cQM03WtnhEp0tlEd-114" value="zk" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="910" y="2670" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Izg6cQM03WtnhEp0tlEd-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="509" y="2870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Izg6cQM03WtnhEp0tlEd-115" value="Select" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="220" y="2810" width="260" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="Izg6cQM03WtnhEp0tlEd-116" value="exctator" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Izg6cQM03WtnhEp0tlEd-116" target="UUUX9VpjRV9iLtEIWb1o-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GPL4A9S7b3eXYSO4P_oQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Izg6cQM03WtnhEp0tlEd-116" target="Izg6cQM03WtnhEp0tlEd-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Izg6cQM03WtnhEp0tlEd-116" value="Send" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="510" y="2810" width="250" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Izg6cQM03WtnhEp0tlEd-117" value="load" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
@@ -407,10 +418,10 @@
         <mxCell id="Izg6cQM03WtnhEp0tlEd-118" value="目标:&lt;br&gt;跨机房&lt;br&gt;[可并发&lt;br&gt;顺序保障]&lt;br&gt;&lt;br&gt;故障转移&lt;br&gt;可自动发现任务&lt;br&gt;数据无丢失&lt;br&gt;可防mysql污染&lt;br&gt;高性能&lt;br&gt;顺序性" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="140" y="3250" width="150" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="UUUX9VpjRV9iLtEIWb1o-4" value="task" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="UUUX9VpjRV9iLtEIWb1o-4" value="task" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="645" y="2770" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UUUX9VpjRV9iLtEIWb1o-6" value="node" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="UUUX9VpjRV9iLtEIWb1o-6" value="node" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="1160" y="2760" width="30" height="30" as="geometry" />
         </mxCell>
       </root>

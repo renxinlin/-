@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T13:09:39.877Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="zmHUpbTSNKBS4oBbHdpC" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-21T13:12:46.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="eKl-tpfQt9Z67ZXWIZ9Q" version="14.0.4" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2804" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -871,6 +871,18 @@
         </mxCell>
         <mxCell id="Jh-QG41R19KGqBq2jbBX-70" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;RedisReplicator&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-440" y="4370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh-QG41R19KGqBq2jbBX-75" value="sel过程" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="3900" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh-QG41R19KGqBq2jbBX-77" value="任务创建过程" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="4930" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh-QG41R19KGqBq2jbBX-78" value="HA过程" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="5100" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh-QG41R19KGqBq2jbBX-79" value="源库: HA 机器[1,2,3]&amp;nbsp;&lt;br&gt;目标库:Ha【机器】" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="4930" width="660" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T13:16:11.353Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="yoOQUYPLKhkDpIg__uAl" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-21T16:50:15.778Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="d9ZriBAw7Qbpgp4Z4mUM" version="14.0.4" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
-    <mxGraphModel dx="2804" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -709,13 +709,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jh-QG41R19KGqBq2jbBX-10" value="parallel type [s e l ack]&amp;nbsp;&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="Jh-QG41R19KGqBq2jbBX-10" value="parallel type [s e l ack]&amp;nbsp; &amp;nbsp;0，1，2，3，4" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="31" y="4040" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jh-QG41R19KGqBq2jbBX-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=75.605;exitDy=4.395000000000001;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jh-QG41R19KGqBq2jbBX-11" target="Jh-QG41R19KGqBq2jbBX-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jh-QG41R19KGqBq2jbBX-11" value="parallel size" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="Jh-QG41R19KGqBq2jbBX-11" value="ProcessId" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="31" y="4100" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jh-QG41R19KGqBq2jbBX-12" value="parallel size" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">

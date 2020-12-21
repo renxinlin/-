@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T13:15:49.638Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ngpDm1F3KGRjPTFhlifv" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-21T13:16:11.353Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="yoOQUYPLKhkDpIg__uAl" version="14.0.4" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2804" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -904,6 +904,9 @@
         </mxCell>
         <mxCell id="Jh-QG41R19KGqBq2jbBX-86" value="任务定时刷新启动" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-410" y="5660" width="660" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh-QG41R19KGqBq2jbBX-87" value="TODO滑动窗口自增id" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="3960" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

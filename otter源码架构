@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T02:08:40.397Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="3utgB6tS4uc0PVGlR9RO" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T03:00:44.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="m-9wGAIv2MUE5R9KTFX4" version="14.0.5" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="1815" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -874,8 +874,8 @@
         <mxCell id="UWofH2_-VEjcDS4k437c-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jh-QG41R19KGqBq2jbBX-70" target="Jh-QG41R19KGqBq2jbBX-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jh-QG41R19KGqBq2jbBX-70" value="RedisReplicator&lt;br&gt;&lt;br&gt;采用psync2协议" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="4370" width="100" height="50" as="geometry" />
+        <mxCell id="Jh-QG41R19KGqBq2jbBX-70" value="RedisReplicator&lt;br&gt;&lt;br&gt;采用psync2协议&lt;br&gt;socket error HA" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="4370" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Jh-QG41R19KGqBq2jbBX-75" value="sel过程" style="shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-600" y="3900" width="120" height="120" as="geometry" />

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T09:26:21.080Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Vz8GRgAdkZzw_DzdrlJ2" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T10:04:42.988Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="_GTushv3vOFNAoPCN4M1" version="14.0.5" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2840" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -954,7 +954,10 @@
         <mxCell id="UWofH2_-VEjcDS4k437c-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWofH2_-VEjcDS4k437c-14" target="UWofH2_-VEjcDS4k437c-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UWofH2_-VEjcDS4k437c-14" value="manager&amp;nbsp;&lt;br&gt;&lt;br&gt;start task&lt;br&gt;&lt;br&gt;pause task&lt;br&gt;&lt;br&gt;stop task&amp;nbsp;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="UWofH2_-VEjcDS4k437c-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.025;entryY=0.592;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UWofH2_-VEjcDS4k437c-14" target="UWofH2_-VEjcDS4k437c-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWofH2_-VEjcDS4k437c-14" value="manager&amp;nbsp;&lt;br&gt;&lt;br&gt;start task&lt;br&gt;&lt;br&gt;stop task&amp;nbsp;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="-670" y="3350" width="300" height="300" as="geometry" />
         </mxCell>
         <mxCell id="UWofH2_-VEjcDS4k437c-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UWofH2_-VEjcDS4k437c-15" target="UWofH2_-VEjcDS4k437c-17">
@@ -982,20 +985,20 @@
         <mxCell id="UWofH2_-VEjcDS4k437c-20" value="抢占式listen" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;size=0.25" vertex="1" parent="1">
           <mxGeometry x="-21.35" y="3630" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="UWofH2_-VEjcDS4k437c-28" value="Listen Task&lt;br&gt;if ip ok&lt;br&gt;create&amp;nbsp;&lt;br&gt;/task/piplied/&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1050" y="3840" width="160" height="120" as="geometry" />
+        <mxCell id="UWofH2_-VEjcDS4k437c-28" value="Listen Task&lt;br&gt;if ip ok&lt;br&gt;create&amp;nbsp;&lt;br&gt;reading/task/piplied/&lt;br&gt;reading/load/piplined" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="3460" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="UWofH2_-VEjcDS4k437c-29" value="startTask&lt;br&gt;&lt;br&gt;pauseTask&lt;br&gt;stopTask" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1050" y="4000" width="160" height="120" as="geometry" />
+        <mxCell id="UWofH2_-VEjcDS4k437c-29" value="Permit/load/piplined&lt;br&gt;Permit/select/piplined" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="3630" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="UWofH2_-VEjcDS4k437c-30" value="抢占创建器" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="-985" y="3810" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UWofH2_-VEjcDS4k437c-31" value="任务控制监听" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="-990" y="3970" width="30" height="30" as="geometry" />
+        <mxCell id="UWofH2_-VEjcDS4k437c-31" value="任务允许监听" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="3610" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UWofH2_-VEjcDS4k437c-32" value="node 不能主动监听&lt;br&gt;任务的分配必须要manager进行&lt;br&gt;&lt;br&gt;这里的架构要变更下" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1210" y="3940" width="80" height="70" as="geometry" />
+          <mxGeometry x="-1060" y="3560" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UWofH2_-VEjcDS4k437c-33" value="检查&amp;nbsp;&lt;br&gt;停止可能运行的" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="3440" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

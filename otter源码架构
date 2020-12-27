@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T18:56:17.645Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dzdimKZ36QpELEzWw8_6" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-27T18:57:04.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="VzY4qFfjXKNz5DvG__db" version="14.0.5" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2472" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1181,6 +1181,9 @@
         </mxCell>
         <mxCell id="UWofH2_-VEjcDS4k437c-93" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Ha下的相关总结:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1调度不在采用抢占式二是manager完全管控&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2 Ha分别支持node心跳ha和task异常ha&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3 数据模型 :&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;pipline所属的节点&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;节点上拥有的sl任务&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;授权执行的相关情况&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;注册的manager节点[manager采用抢占式选举]&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;注册的node节点&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-1265" y="4490" width="335" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UWofH2_-VEjcDS4k437c-94" value="下一步:模块设计和抽象类设计" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-1256" y="4750" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

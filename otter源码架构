@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T18:49:24.146Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="hPcehcnzXkIbXxw1WCSC" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-27T18:52:09.961Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="JzWalYCBiYQR_TurzobW" version="14.0.5" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2472" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1109,7 +1109,7 @@
         <mxCell id="UWofH2_-VEjcDS4k437c-57" value="&amp;nbsp; &amp;nbsp;/load/pipline" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="-945" y="4160" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UWofH2_-VEjcDS4k437c-59" value="&amp;nbsp; &amp;nbsp;/node/pipline" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="UWofH2_-VEjcDS4k437c-59" value="&amp;nbsp; &amp;nbsp;/node/piplines" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="-1190" y="4225" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UWofH2_-VEjcDS4k437c-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWofH2_-VEjcDS4k437c-63" target="UWofH2_-VEjcDS4k437c-66">
@@ -1141,6 +1141,11 @@
             <mxPoint x="-1060" y="4255" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="UWofH2_-VEjcDS4k437c-92" value="start stop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UWofH2_-VEjcDS4k437c-72">
+          <mxGeometry x="0.1825" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UWofH2_-VEjcDS4k437c-71" value="permit&lt;br&gt;queue" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="-800" y="4240" width="30" height="30" as="geometry" />
         </mxCell>
@@ -1170,6 +1175,9 @@
         </mxCell>
         <mxCell id="UWofH2_-VEjcDS4k437c-88" value="/exception/pipeline" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="-1350" y="4260" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UWofH2_-VEjcDS4k437c-91" value="&amp;nbsp; pipline&lt;br&gt;&amp;nbsp;/nodes" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="4260" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

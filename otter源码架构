@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T10:19:13.167Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="1pbGO9mEC3CPIKixOXPu" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-28T15:22:09.453Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="keJB48UdbA_0g8WtOhKn" version="14.0.5" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
-    <mxGraphModel dx="2472" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2840" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1085,6 +1085,14 @@
         <mxCell id="UWofH2_-VEjcDS4k437c-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWofH2_-VEjcDS4k437c-51" target="UWofH2_-VEjcDS4k437c-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UWofH2_-VEjcDS4k437c-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWofH2_-VEjcDS4k437c-51" target="UWofH2_-VEjcDS4k437c-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWofH2_-VEjcDS4k437c-97" value="抢占式选举" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UWofH2_-VEjcDS4k437c-96">
+          <mxGeometry x="0.3216" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UWofH2_-VEjcDS4k437c-51" value="&lt;font style=&quot;font-size: 6px&quot;&gt;manager&lt;/font&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="-1110" y="4067" width="50" height="50" as="geometry" />
         </mxCell>
@@ -1184,6 +1192,9 @@
         </mxCell>
         <mxCell id="UWofH2_-VEjcDS4k437c-94" value="下一步:模块设计和抽象类设计" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="-1256" y="4750" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UWofH2_-VEjcDS4k437c-95" value="zk&lt;br&gt;/otter/manager" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-1430" y="4010" width="60" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

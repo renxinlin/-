@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T15:22:09.453Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="keJB48UdbA_0g8WtOhKn" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-28T16:46:33.295Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="puamWYbUHpI9ftVXQjOu" version="14.0.5" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2840" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1181,7 +1181,7 @@
         <mxCell id="UWofH2_-VEjcDS4k437c-86" value="heart&lt;br&gt;beat handler" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="-1190" y="4370" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UWofH2_-VEjcDS4k437c-88" value="/exception/pipeline" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="UWofH2_-VEjcDS4k437c-88" value="/exception/pipeline&lt;br&gt;15秒&amp;nbsp;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="-1350" y="4260" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UWofH2_-VEjcDS4k437c-91" value="&amp;nbsp; pipline&lt;br&gt;&amp;nbsp;/nodes" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
@@ -1195,6 +1195,9 @@
         </mxCell>
         <mxCell id="UWofH2_-VEjcDS4k437c-95" value="zk&lt;br&gt;/otter/manager" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
           <mxGeometry x="-1430" y="4010" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UWofH2_-VEjcDS4k437c-98" value="overvider&lt;br&gt;buffer" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="-1385" y="4320" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

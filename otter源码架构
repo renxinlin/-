@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T16:49:29.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="hOziBtxsbNCZiHP-PIL9" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-28T21:24:19.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="2KHfXWioMdCqbnBqdmIO" version="14.0.5" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
-    <mxGraphModel dx="1983" dy="154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2642" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1195,6 +1195,9 @@
         </mxCell>
         <mxCell id="UWofH2_-VEjcDS4k437c-98" value="overvider&lt;br&gt;buffer" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="-1385" y="4320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UWofH2_-VEjcDS4k437c-100" value="otter在zk上注册并行度是为了控制et两个阶段的并行度&lt;br&gt;从而达到所谓的滑动窗口的效果&lt;br&gt;鉴于sel只有e阶段允许并发 所以直接采用线程池取到获取并行度" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-396" y="5460" width="660" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T16:49:03.706Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="D-nnTdwld32RKxDUuhv6" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-28T16:49:29.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="hOziBtxsbNCZiHP-PIL9" version="14.0.5" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="1983" dy="154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -895,7 +895,7 @@
         <mxCell id="Jh-QG41R19KGqBq2jbBX-78" value="HA过程" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="-520" y="5100" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Jh-QG41R19KGqBq2jbBX-79" value="源库: HA 机器[1,2,3]&amp;nbsp;&lt;br&gt;目标库:Ha【机器】&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="Jh-QG41R19KGqBq2jbBX-79" value="源库: HA 机器[1,2,3]&amp;nbsp;&lt;br&gt;目标库:Ha【机器】&lt;br&gt;&lt;br&gt;&lt;br&gt;数据无丢失&lt;br&gt;可防mysql污染&lt;br&gt;高性能&lt;br&gt;顺序性" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-396" y="4920" width="660" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Jh-QG41R19KGqBq2jbBX-80" value="sel过程中出现故障 则切换机器&lt;br&gt;目前认为 阻塞不进行HA，但增加相关报警机制" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">

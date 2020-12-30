@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-30T11:51:21.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="q5N7pBJM4qHoO81AKyOM" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-30T11:52:57.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="YOHd6v6keJnc7lszV9wZ" version="14.1.2" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2840" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1293,7 +1293,7 @@
         <mxCell id="-xjvYcNCUNngnQrsjsBG-36" value="滑动窗口整体模型" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;" vertex="1" parent="1">
           <mxGeometry x="282" y="4940" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-37" value="incr window id&lt;br&gt;滑动窗口序列号" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-37" value="incr window id&lt;br&gt;滑动窗口序列号&lt;br&gt;也就是batchId" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="327" y="5230" width="100" height="50" as="geometry" />
         </mxCell>
       </root>

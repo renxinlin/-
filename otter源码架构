@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-12-30T12:09:22.314Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="FqJM91VVcMuGwNsNh8IE" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-31T03:21:46.820Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="5JYTeQCoZpARyKKPkYjM" version="14.1.3" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
-    <mxGraphModel dx="2840" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3348" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-35" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-35" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="282" y="4940" width="436" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-27" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-27" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="318" y="5300" width="312" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UWofH2_-VEjcDS4k437c-8" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
@@ -649,7 +649,7 @@
         <mxCell id="GPL4A9S7b3eXYSO4P_oQ-70" value="&lt;span style=&quot;color: rgb(64 , 50 , 38) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;Pipeline buffer&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="988" y="2820" width="59" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="Jh-QG41R19KGqBq2jbBX-3" value="batch size" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Jh-QG41R19KGqBq2jbBX-1" edge="1">
+        <mxCell id="Jh-QG41R19KGqBq2jbBX-3" value="batch size&lt;br&gt;timeout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Jh-QG41R19KGqBq2jbBX-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-150" y="4330.529411764706" as="targetPoint" />
           </mxGeometry>
@@ -1205,95 +1205,95 @@
         <mxCell id="UWofH2_-VEjcDS4k437c-100" value="otter在zk上注册并行度是为了控制et两个阶段的并行度&lt;br&gt;从而达到所谓的滑动窗口的效果&lt;br&gt;鉴于sel只有e阶段允许并发 所以直接采用线程池取到获取并行度" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-396" y="5460" width="660" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-1" value="到目前为止&lt;br&gt;zk上存储了manager master&lt;br&gt;node register信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-1" value="到目前为止&lt;br&gt;zk上存储了manager master&lt;br&gt;node register信息" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1630" y="4195" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-4" value="zookeepr&lt;br&gt;/rotter/window/{pipelined}" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-4" value="zookeepr&lt;br&gt;/rotter/window/{pipelined}" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="530" y="4990" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-5" value="根据pipeline并行度创建zk节点数量&lt;br&gt;表示滑动窗口大小" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-5" value="根据pipeline并行度创建zk节点数量&lt;br&gt;表示滑动窗口大小" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="380" y="5060" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-6" value="s" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-6" value="s" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="435" y="5240" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-7" value="e" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-7" value="e" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="537" y="5240" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-8" value="l" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-8" value="l" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="620" y="5240" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-9" value="e" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-9" value="e" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="507" y="5240" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-10" value="nodes" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-10" value="nodes" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" parent="1" vertex="1">
           <mxGeometry x="445" y="5270" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-xjvYcNCUNngnQrsjsBG-11" target="-xjvYcNCUNngnQrsjsBG-6">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-xjvYcNCUNngnQrsjsBG-11" target="-xjvYcNCUNngnQrsjsBG-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-14" value="create&lt;br&gt;update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-xjvYcNCUNngnQrsjsBG-13">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-14" value="create&lt;br&gt;update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-xjvYcNCUNngnQrsjsBG-13" vertex="1" connectable="0">
           <mxGeometry x="-0.1193" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-xjvYcNCUNngnQrsjsBG-11" target="-xjvYcNCUNngnQrsjsBG-9">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-xjvYcNCUNngnQrsjsBG-11" target="-xjvYcNCUNngnQrsjsBG-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-16" value="update" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-xjvYcNCUNngnQrsjsBG-11" target="-xjvYcNCUNngnQrsjsBG-7">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-16" value="update" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-xjvYcNCUNngnQrsjsBG-11" target="-xjvYcNCUNngnQrsjsBG-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-xjvYcNCUNngnQrsjsBG-11" target="-xjvYcNCUNngnQrsjsBG-8">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="-xjvYcNCUNngnQrsjsBG-11" target="-xjvYcNCUNngnQrsjsBG-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-18" value="update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-xjvYcNCUNngnQrsjsBG-17">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-18" value="update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-xjvYcNCUNngnQrsjsBG-17" vertex="1" connectable="0">
           <mxGeometry x="-0.0835" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-11" value="listener" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-11" value="listener" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="490" y="5100" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-19" value="pipelineId&lt;br&gt;ip&lt;br&gt;type&lt;br&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-19" value="pipelineId&lt;br&gt;ip&lt;br&gt;type&lt;br&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="537" y="5060" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-20" value="s buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-20" value="s buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="386" y="5310" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-21" value="e buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-21" value="e buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="470" y="5310" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-22" value="l buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-22" value="l buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="570" y="5310" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-24" value="s buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-24" value="s buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="386" y="5345" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-25" value="e buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-25" value="e buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="470" y="5345" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-26" value="l buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-26" value="l buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="570" y="5345" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-28" value="pipelineId" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-28" value="pipelineId" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="284" y="5310" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-29" value="pipelineId" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-29" value="pipelineId" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="282" y="5345" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-30" value="create ack" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-30" value="create ack" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="5155" width="74" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-33" value="s send" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-33" value="s send" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="467" y="5140" width="74" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-34" value="e send" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-34" value="e send" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="548" y="5140" width="74" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-36" value="滑动窗口整体模型" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-36" value="滑动窗口整体模型" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;" parent="1" vertex="1">
           <mxGeometry x="282" y="4940" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-xjvYcNCUNngnQrsjsBG-37" value="incr window id&lt;br&gt;滑动窗口序列号&lt;br&gt;也就是batchId" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+        <mxCell id="-xjvYcNCUNngnQrsjsBG-37" value="incr window id&lt;br&gt;滑动窗口序列号&lt;br&gt;也就是batchId" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="327" y="5230" width="100" height="50" as="geometry" />
         </mxCell>
       </root>

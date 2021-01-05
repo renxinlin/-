@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-05T02:28:31.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="P0-JmhuQJI1ALO0qFFvm" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-05T03:34:32.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="7UrAjti_SccydWqJ8tkr" version="14.1.8" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
-    <mxGraphModel dx="2472" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2642" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1421,11 +1421,6 @@
             <mxPoint x="1611" y="5220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FZG4lBVg5_AVFyNNWRIB-57" value="batchId&amp;nbsp; &amp;nbsp; getWithBatchAndTimeout" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FZG4lBVg5_AVFyNNWRIB-53" vertex="1" connectable="0">
-          <mxGeometry x="0.1472" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="FZG4lBVg5_AVFyNNWRIB-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.017;entryY=0.705;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="FZG4lBVg5_AVFyNNWRIB-45" target="FZG4lBVg5_AVFyNNWRIB-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1434,7 +1429,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FZG4lBVg5_AVFyNNWRIB-45" value="arrayblockQueue" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="1XPrpU1oLFZgUAlTe5GZ-2" value="getBatchId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZG4lBVg5_AVFyNNWRIB-66">
+          <mxGeometry x="-0.8343" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZG4lBVg5_AVFyNNWRIB-45" value="batchBuffer" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1580" y="5090" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FZG4lBVg5_AVFyNNWRIB-48" value="threads&lt;br&gt;with&amp;nbsp;parallel num" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">

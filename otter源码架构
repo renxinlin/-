@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T13:00:45.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="B-9uQl5_UFa3ip9-9-dS" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T13:04:18.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="q9PWnm2-0ukBUmRLW8Hr" version="14.1.8" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2840" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1545,7 +1545,7 @@
           <mxGeometry x="-1470" y="6270" width="660" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_PhH2-FaUIsss8k3A7cU-4" value="otter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="6270" width="640" height="20" as="geometry" />
+          <mxGeometry x="-770" y="6270" width="1030" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_PhH2-FaUIsss8k3A7cU-5" value="" style="endArrow=classic;html=1;entryX=0.083;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_PhH2-FaUIsss8k3A7cU-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1608,8 +1608,14 @@
         <mxCell id="_PhH2-FaUIsss8k3A7cU-18" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;ping/pong&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="-810" y="6360" width="230" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-20" target="_PhH2-FaUIsss8k3A7cU-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_PhH2-FaUIsss8k3A7cU-20" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;call(SelectTaskEvent)&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="-1060" y="6450" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-23" target="_PhH2-FaUIsss8k3A7cU-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_PhH2-FaUIsss8k3A7cU-23" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;call(SelectTaskEvent)&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="-1057" y="6500" width="230" height="30" as="geometry" />
@@ -1627,6 +1633,33 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-170" y="6770" as="sourcePoint" />
             <mxPoint x="-169.96000000000004" y="6290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-32" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;onSelectTask&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-760" y="6450" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-33" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;onLoadTask&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-760" y="6500" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-37" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callSyncInfo获取复制信息&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-505" y="6450" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-38" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;new Thread[SelectTask]&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-225" y="6450" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-39" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="61" y="6770" as="sourcePoint" />
+            <mxPoint x="61.039999999999964" y="6290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-40" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;new Thread[ExtractTask]&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="35" y="6450" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-41" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="258.65" y="6770" as="sourcePoint" />
+            <mxPoint x="258.68999999999994" y="6290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

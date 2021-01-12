@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T13:07:05.717Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="KQpnSKUYOZYCv_9NRiLI" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T13:10:39.684Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="24duQ4ACws1WLXD8BwFS" version="14.1.8" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2840" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1544,7 +1544,7 @@
         <mxCell id="_PhH2-FaUIsss8k3A7cU-3" value="manager" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-1470" y="6270" width="660" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-4" value="otter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-4" value="node" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-770" y="6270" width="1030" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_PhH2-FaUIsss8k3A7cU-5" value="" style="endArrow=classic;html=1;entryX=0.083;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_PhH2-FaUIsss8k3A7cU-3">
@@ -1647,13 +1647,19 @@
         <mxCell id="_PhH2-FaUIsss8k3A7cU-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-37" target="_PhH2-FaUIsss8k3A7cU-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=225.605;exitDy=4.395000000000001;exitPerimeter=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-37" target="_PhH2-FaUIsss8k3A7cU-40">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=225.605;exitDy=4.395000000000001;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-37" target="_PhH2-FaUIsss8k3A7cU-51">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="20" y="6390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_PhH2-FaUIsss8k3A7cU-37" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callSyncInfo获取复制信息&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="-505" y="6450" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-38" target="_PhH2-FaUIsss8k3A7cU-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-38" target="_PhH2-FaUIsss8k3A7cU-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_PhH2-FaUIsss8k3A7cU-38" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt; Thread[SelectTask]&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="-225" y="6460" width="230" height="30" as="geometry" />
@@ -1663,6 +1669,9 @@
             <mxPoint x="61" y="6770" as="sourcePoint" />
             <mxPoint x="61.039999999999964" y="6290" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-40" target="_PhH2-FaUIsss8k3A7cU-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_PhH2-FaUIsss8k3A7cU-40" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;Thread[ExtractTask]&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="34" y="6460" width="230" height="30" as="geometry" />
@@ -1681,6 +1690,18 @@
         </mxCell>
         <mxCell id="_PhH2-FaUIsss8k3A7cU-44" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;onSelectPermit&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="-775" y="6710" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-49" value="manager" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="6270" width="1030" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-50" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="376.5000000000001" y="6770" as="sourcePoint" />
+            <mxPoint x="376.5400000000001" y="6290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-51" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callSyncInfo获取复制信息&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="315" y="6360" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

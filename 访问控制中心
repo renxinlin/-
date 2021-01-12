@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T16:13:01.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="UnA5bJGysCoz83iUIRmO" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T16:29:06.808Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="D7aAclU0gjcQicnv3WDK" version="14.1.8" type="github">
   <diagram id="OUBSKzxg06N0AtwSQpvy" name="Page-1">
     <mxGraphModel dx="1186" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-48" value="提供以下组合能力" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="310" height="290" as="geometry" />
+        </mxCell>
         <mxCell id="iuPMYW8MAPDHoFXB-HuP-18" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="410" y="-60" width="220" height="90" as="geometry" />
         </mxCell>
@@ -16,7 +19,7 @@
         <mxCell id="iuPMYW8MAPDHoFXB-HuP-2" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="210" y="220" width="310" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="iuPMYW8MAPDHoFXB-HuP-3" value="访问控制注入中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-3" value="标签控制注入中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="210" y="50" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iuPMYW8MAPDHoFXB-HuP-4" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -24,6 +27,14 @@
         </mxCell>
         <mxCell id="iuPMYW8MAPDHoFXB-HuP-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iuPMYW8MAPDHoFXB-HuP-5" target="iuPMYW8MAPDHoFXB-HuP-20">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="iuPMYW8MAPDHoFXB-HuP-5" target="iuPMYW8MAPDHoFXB-HuP-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-41" value="窗口采集器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iuPMYW8MAPDHoFXB-HuP-40">
+          <mxGeometry x="0.675" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="iuPMYW8MAPDHoFXB-HuP-5" value="访问控制规则解析引擎" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="670" y="50" width="120" height="60" as="geometry" />
@@ -39,6 +50,14 @@
         </mxCell>
         <mxCell id="iuPMYW8MAPDHoFXB-HuP-10" value="标签资源关联&lt;br&gt;管理器" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="360" y="310" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iuPMYW8MAPDHoFXB-HuP-11" target="iuPMYW8MAPDHoFXB-HuP-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-34" value="spi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iuPMYW8MAPDHoFXB-HuP-32">
+          <mxGeometry x="0.0222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="iuPMYW8MAPDHoFXB-HuP-11" value="访问控制规则池" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="210" y="310" width="150" height="40" as="geometry" />
@@ -68,7 +87,7 @@
           <mxGeometry x="210" y="170" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iuPMYW8MAPDHoFXB-HuP-24" value="访问控制配置中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="310" y="50" width="100" height="50" as="geometry" />
+          <mxGeometry x="420" y="50" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iuPMYW8MAPDHoFXB-HuP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iuPMYW8MAPDHoFXB-HuP-26" target="iuPMYW8MAPDHoFXB-HuP-5">
           <mxGeometry relative="1" as="geometry" />
@@ -78,6 +97,42 @@
         </mxCell>
         <mxCell id="iuPMYW8MAPDHoFXB-HuP-30" value="访问控制资源中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="210" y="270" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-31" value="规则是否生效&lt;br&gt;调用频率规则&lt;br&gt;调用时间规则&lt;br&gt;匹配的标签&lt;br&gt;匹配的资源&lt;br&gt;窗口计算规则&lt;br&gt;通过spi支持规则扩展满足各类场景" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="205" y="440" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-35" value="注解" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="-90" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-36" value="dubbo" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-90" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-37" value="http" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-90" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-39" value="访问控制数据采集中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="350" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-42" value="" style="triangle;whiteSpace=wrap;html=1;dashed=0;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="335" y="200" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-43" value="规则解析链" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="100" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-44" value="用户可以访问什么样的资源&lt;br&gt;用户有什么样的标签才能访问&lt;br&gt;用户有什么样的标签可以访问什么样的资源" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="460" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-45" value="用户访问是否需要走内核规则池审查&lt;br&gt;用户是否满足内核规则池" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="520" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-46" value="用户应该具备什么样的标签资源[规则匹配]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-47" value="根据用户访问数据进行窗口计算&lt;br&gt;已什么样的频率在什么样的时间有什么样的标签资源" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="580" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iuPMYW8MAPDHoFXB-HuP-49" value="通过规则动态生成，满足强大的扩展性" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="505" y="640" width="300" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

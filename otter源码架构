@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T12:48:36.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="ERdp0JX4uXO3m9K4wXFq" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T12:49:48.909Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="RsFoHRjQpg9H7dZ6gN89" version="14.1.8" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2128" dy="222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1540,6 +1540,36 @@
         </mxCell>
         <mxCell id="_PhH2-FaUIsss8k3A7cU-2" value="rotter启动流程图" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-1140" y="6190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-3" value="manager" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="6270" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-4" value="otter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="6270" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-5" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_PhH2-FaUIsss8k3A7cU-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1234" y="6540" as="sourcePoint" />
+            <mxPoint x="-1190" y="6320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-6" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1085.4" y="6537.21" as="sourcePoint" />
+            <mxPoint x="-1085.3600000000001" y="6300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-7" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-990" y="6537.210000000001" as="sourcePoint" />
+            <mxPoint x="-989.96" y="6300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-8" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-850" y="6537.210000000001" as="sourcePoint" />
+            <mxPoint x="-849.96" y="6300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

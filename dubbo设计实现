@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T12:12:35.351Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="k4DAFP2-sXesX0D7RYDT" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-14T12:13:01.260Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="iMpCYGkGGyHt3TJSEnUo" version="14.1.8" type="github">
   <diagram id="gIrsFCwzMcZvRo0B5mz3" name="Page-1">
     <mxGraphModel dx="1694" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,6 +147,12 @@
         </mxCell>
         <mxCell id="X3NoxhT_wYPO6H0ZtNDK-54" value="zk" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="1190" y="70" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-59" value="提供者架构" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-60" value="消费者架构" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="860" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

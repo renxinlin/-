@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T06:32:00.023Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="txF-0zMZSij5TrN1LSPl" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-15T06:44:26.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="Pj57z0OI4amL5XxUqVVk" version="14.1.8" type="github">
   <diagram id="pvPzZ4vwgpOlM0rEqQq-" name="Page-1">
-    <mxGraphModel dx="2804" dy="2094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1505" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,13 +155,28 @@
           <mxGeometry x="-390" y="-80" width="270" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2XqTr8dZVmVOt3gJeMsM-55" value="采用异步发布订阅模式与应用结合" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="140" width="250" height="50" as="geometry" />
+          <mxGeometry x="-390" y="140" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2XqTr8dZVmVOt3gJeMsM-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2XqTr8dZVmVOt3gJeMsM-56" target="2XqTr8dZVmVOt3gJeMsM-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2XqTr8dZVmVOt3gJeMsM-56" value="buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="-100" y="135" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-59" value="aop+@TraceContext" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-130" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-62" value="代码:CatchContext" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-80" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-63" value="其他..." style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-64" value="aop+ 指定方法出参" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-180" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-65" value="业务方使用:1yml配置invoker&lt;br&gt;2.1 yml配置 指定方法&lt;br&gt;2.2代码中调用CatchContext.put(invoker_uniqueId,Object)&lt;br&gt;2.3 方法上指定注解@TraceContext(invoker_uniqueId,Object）" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-305" y="-250" width="445" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

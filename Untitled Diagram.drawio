@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T06:29:09.510Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="ISNEsMD1Er24JOTFqaer" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-15T06:31:17.497Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="OAB7xT0AlVVpuo5namCU" version="14.1.8" type="github">
   <diagram id="pvPzZ4vwgpOlM0rEqQq-" name="Page-1">
-    <mxGraphModel dx="2013" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3199" dy="2279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -129,6 +129,9 @@
         <mxCell id="2XqTr8dZVmVOt3gJeMsM-46" value="采集应用" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="260" y="-80" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2XqTr8dZVmVOt3gJeMsM-47" target="2XqTr8dZVmVOt3gJeMsM-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2XqTr8dZVmVOt3gJeMsM-47" value="采集应用" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry y="-80" width="100" height="50" as="geometry" />
         </mxCell>
@@ -149,7 +152,16 @@
           <mxGeometry y="-30" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2XqTr8dZVmVOt3gJeMsM-54" value="采集工具提供&lt;br&gt;catch-springboot-starter&lt;br&gt;&lt;br&gt;通过application.yml配置采集Invoker实例化&lt;br&gt;&lt;br&gt;业务层指定Invoker和业务dto完成采集" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="-90" width="270" height="150" as="geometry" />
+          <mxGeometry x="-390" y="-80" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-55" value="采用异步发布订阅模式与应用结合" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="140" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2XqTr8dZVmVOt3gJeMsM-56" target="2XqTr8dZVmVOt3gJeMsM-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-56" value="buffer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="135" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

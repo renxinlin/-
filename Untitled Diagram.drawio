@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T06:26:54.696Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="7JxfGmoZGTMrvMJgz8Za" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-15T06:27:39.301Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="HiQp7CnmVVTJFxj8tR3s" version="14.1.8" type="github">
   <diagram id="pvPzZ4vwgpOlM0rEqQq-" name="Page-1">
     <mxGraphModel dx="2013" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -148,8 +148,8 @@
         <mxCell id="2XqTr8dZVmVOt3gJeMsM-49" value="采集client" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry y="-30" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2XqTr8dZVmVOt3gJeMsM-54" value="采集工具提供&lt;br&gt;catch-springboot-starter&lt;br&gt;&lt;br&gt;通过application.yml配置采集Invoker实例化" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="-40" width="180" height="150" as="geometry" />
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-54" value="采集工具提供&lt;br&gt;catch-springboot-starter&lt;br&gt;&lt;br&gt;通过application.yml配置采集Invoker实例化&lt;br&gt;&lt;br&gt;业务层指定Invoker和业务dto完成采集" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-40" width="180" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

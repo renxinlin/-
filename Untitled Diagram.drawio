@@ -1,14 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T06:08:26.483Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="IsYaYk0LQEoO0CBBp-4b" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-15T06:11:03.909Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="z8-vXcqZdB-8e4hTHH2z" version="14.1.8" type="github">
   <diagram id="pvPzZ4vwgpOlM0rEqQq-" name="Page-1">
     <mxGraphModel dx="1186" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2XqTr8dZVmVOt3gJeMsM-1" value="采集client" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="120" y="160" width="100" height="50" as="geometry" />
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2XqTr8dZVmVOt3gJeMsM-1" target="2XqTr8dZVmVOt3gJeMsM-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2XqTr8dZVmVOt3gJeMsM-2" value="采集server" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-1" value="采集client" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-2" value="采集网关" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="120" y="290" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-3" value="mq" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-5" value="dubbo" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="240" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-8" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="80" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-10" value="dubbo" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-11" value="mq" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="590" y="100" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

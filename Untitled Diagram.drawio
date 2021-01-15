@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T06:44:26.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="Pj57z0OI4amL5XxUqVVk" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-15T06:45:26.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="w5ijk1SLRnH6vEEWvveA" version="14.1.8" type="github">
   <diagram id="pvPzZ4vwgpOlM0rEqQq-" name="Page-1">
-    <mxGraphModel dx="1505" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1815" dy="1632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry x="120" y="-30" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2XqTr8dZVmVOt3gJeMsM-2" value="采集网关" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="120" y="290" width="100" height="50" as="geometry" />
+          <mxGeometry x="120" y="290" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2XqTr8dZVmVOt3gJeMsM-3" value="mq" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="120" y="240" width="50" height="50" as="geometry" />
@@ -69,7 +69,7 @@
         <mxCell id="2XqTr8dZVmVOt3gJeMsM-19" value="invoker transport type config" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="645" y="30" width="155" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2XqTr8dZVmVOt3gJeMsM-20" value="transport" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-20" value="transportAdaptor" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="480" y="100" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2XqTr8dZVmVOt3gJeMsM-21" value="MQ" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
@@ -177,6 +177,9 @@
         </mxCell>
         <mxCell id="2XqTr8dZVmVOt3gJeMsM-65" value="业务方使用:1yml配置invoker&lt;br&gt;2.1 yml配置 指定方法&lt;br&gt;2.2代码中调用CatchContext.put(invoker_uniqueId,Object)&lt;br&gt;2.3 方法上指定注解@TraceContext(invoker_uniqueId,Object）" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-305" y="-250" width="445" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2XqTr8dZVmVOt3gJeMsM-66" value="..." style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

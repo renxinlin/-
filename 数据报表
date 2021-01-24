@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T15:30:14.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="oCjD8-Us1rd06Irps3gC" version="14.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-24T15:30:42.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="Nf3UZCxVKjlBFxCMm0oK" version="14.2.5" type="github">
   <diagram id="hVDEpA-5mrc3DBvWs6C8" name="Page-1">
     <mxGraphModel dx="1186" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,6 +94,15 @@
         </mxCell>
         <mxCell id="jTF8SUTaOBT25Ht25hW8-32" value="用户配置" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="690" y="70" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-33" value="报表存储表" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="420" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-34" value="&lt;span&gt;报表存储表&lt;/span&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="420" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-35" value="元数据表" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="310" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

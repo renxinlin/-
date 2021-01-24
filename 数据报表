@@ -1,1 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T15:20:48.371Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.2.5" etag="Af4WPtd48NEn8WwJBxfT" type="github"><diagram id="hVDEpA-5mrc3DBvWs6C8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-24T15:29:31.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="f6Hsz4Zq0XEpqZWWyvRG" version="14.2.5" type="github">
+  <diagram id="hVDEpA-5mrc3DBvWs6C8" name="Page-1">
+    <mxGraphModel dx="1186" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTF8SUTaOBT25Ht25hW8-5" target="jTF8SUTaOBT25Ht25hW8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-5" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTF8SUTaOBT25Ht25hW8-1" target="jTF8SUTaOBT25Ht25hW8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-1" value="报表引擎" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="100" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-2" value="meta-Map&lt;br&gt;table_name&lt;br&gt;到Dao映射" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-3" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-4" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="390" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-6" value="executor" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTF8SUTaOBT25Ht25hW8-7" target="jTF8SUTaOBT25Ht25hW8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-7" value="查询条件&lt;br&gt;查询模板id&lt;br&gt;xxx=?&lt;br&gt;yyy = ?" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jTF8SUTaOBT25Ht25hW8-8" target="jTF8SUTaOBT25Ht25hW8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-8" value="查询模板 语句部分&lt;br&gt;select * from xxx where u = #{xxx} and z = #{yyy}" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="160" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTF8SUTaOBT25Ht25hW8-13" target="jTF8SUTaOBT25Ht25hW8-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTF8SUTaOBT25Ht25hW8-13" target="jTF8SUTaOBT25Ht25hW8-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-13" value="结果解析器" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTF8SUTaOBT25Ht25hW8-16" target="jTF8SUTaOBT25Ht25hW8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-16" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTF8SUTaOBT25Ht25hW8-17" target="jTF8SUTaOBT25Ht25hW8-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-17" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="390" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.61;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jTF8SUTaOBT25Ht25hW8-18" target="jTF8SUTaOBT25Ht25hW8-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-18" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="460" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTF8SUTaOBT25Ht25hW8-22" target="jTF8SUTaOBT25Ht25hW8-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-22" value="查询模板&lt;br&gt;json部分" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-26" value="模板id" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-27" value="模板sql" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-28" value="模板解析器集合" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTF8SUTaOBT25Ht25hW8-29" value="模板json部分" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="290" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

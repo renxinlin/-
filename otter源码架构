@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T13:32:57.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="o7q_yOgxPJtLPKFYb3a-" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-29T08:14:49.125Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="8SQ-IwFVKuLur988-WX3" version="14.2.7" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
-    <mxGraphModel dx="3049" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2320" dy="306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1535,69 +1535,69 @@
         <mxCell id="1XPrpU1oLFZgUAlTe5GZ-4" value="纯读的接口是没有aof的" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="620" y="5815" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-1" value="" style="image;image=img/lib/atlassian/Atlassian_Logo.svg;" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-1" value="" style="image;image=img/lib/atlassian/Atlassian_Logo.svg;" parent="1" vertex="1">
           <mxGeometry x="10" y="5860" width="66" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-2" value="rotter启动流程图" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-2" value="rotter启动流程图" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-1220" y="6140" width="440" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-3" value="manager" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-3" value="manager" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-1470" y="6270" width="660" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-4" value="node" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-4" value="node" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-770" y="6270" width="1030" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-5" value="" style="endArrow=classic;html=1;entryX=0.083;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_PhH2-FaUIsss8k3A7cU-3">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-5" value="" style="endArrow=classic;html=1;entryX=0.083;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="_PhH2-FaUIsss8k3A7cU-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1418" y="6780" as="sourcePoint" />
             <mxPoint x="-1430" y="6292" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-6" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-6" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1265" y="6770" as="sourcePoint" />
             <mxPoint x="-1264.96" y="6290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-7" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-7" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1000.5" y="6770" as="sourcePoint" />
             <mxPoint x="-1000.46" y="6290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-8" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-8" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-700" y="6790" as="sourcePoint" />
             <mxPoint x="-699.96" y="6290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-10">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1310" y="6375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-10" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;pipelineConfig/&lt;/span&gt;start&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-10" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;pipelineConfig/&lt;/span&gt;start&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-1490" y="6360" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-13" target="_PhH2-FaUIsss8k3A7cU-16">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-13" target="_PhH2-FaUIsss8k3A7cU-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-13" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;PipelineConfigServiceImpl.&lt;/span&gt;start&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-13" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;PipelineConfigServiceImpl.&lt;/span&gt;start&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-1310" y="6360" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-15" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-15" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-460" y="6770" as="sourcePoint" />
             <mxPoint x="-459.96000000000004" y="6290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-16" target="_PhH2-FaUIsss8k3A7cU-18">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-16" target="_PhH2-FaUIsss8k3A7cU-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-16" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;quot;menlo&amp;quot; ; font-size: 9.0pt&quot;&gt;getRuningNode&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-16" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;quot;menlo&amp;quot; ; font-size: 9.0pt&quot;&gt;getRuningNode&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-1070" y="6360" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-18" target="_PhH2-FaUIsss8k3A7cU-25">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-18" target="_PhH2-FaUIsss8k3A7cU-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1000" y="6420" as="targetPoint" />
             <Array as="points">
@@ -1605,142 +1605,145 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-18" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;ping/pong&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-18" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;ping/pong&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-810" y="6360" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-20" target="_PhH2-FaUIsss8k3A7cU-32">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-20" target="_PhH2-FaUIsss8k3A7cU-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-20" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;call(SelectTaskEvent)&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-20" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;call(SelectTaskEvent)&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-1060" y="6450" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-23" target="_PhH2-FaUIsss8k3A7cU-33">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-23" target="_PhH2-FaUIsss8k3A7cU-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-23" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;call(LoadTaskEvent)&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-23" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;call(LoadTaskEvent)&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-1057" y="6500" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-25" value="" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-25" value="" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" parent="1" vertex="1">
           <mxGeometry x="-1010" y="6410" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-27" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;basemapper.update(pipelineConfig)&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-27" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;basemapper.update(pipelineConfig)&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-1057" y="6560" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-28" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;iPipelineNodeInfoService.&lt;/span&gt;save&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-28" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;iPipelineNodeInfoService.&lt;/span&gt;save&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-1057" y="6610" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-31" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-31" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-170" y="6770" as="sourcePoint" />
             <mxPoint x="-169.96000000000004" y="6290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-32" target="_PhH2-FaUIsss8k3A7cU-37">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-32" target="_PhH2-FaUIsss8k3A7cU-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-32" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;TaskServiceListener.&lt;/span&gt;onSelectTask&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-32" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;TaskServiceListener.&lt;/span&gt;onSelectTask&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-760" y="6450" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-33" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;TaskServiceListener.&lt;/span&gt;onLoadTask&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-33" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;TaskServiceListener.&lt;/span&gt;onLoadTask&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-760" y="6620" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-37" target="_PhH2-FaUIsss8k3A7cU-38">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-37" target="_PhH2-FaUIsss8k3A7cU-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=225.605;exitDy=4.395000000000001;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-37" target="_PhH2-FaUIsss8k3A7cU-51">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=225.605;exitDy=4.395000000000001;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-37" target="_PhH2-FaUIsss8k3A7cU-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="20" y="6390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-37" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callSyncInfo获取复制信息&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-37" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callSyncInfo获取复制信息&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-505" y="6450" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-38" target="_PhH2-FaUIsss8k3A7cU-40">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-38" target="_PhH2-FaUIsss8k3A7cU-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-38" target="_PhH2-FaUIsss8k3A7cU-42">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-38" target="_PhH2-FaUIsss8k3A7cU-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-38" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt; Thread[SelectTask]&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-38" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt; Thread[SelectTask]&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-225" y="6460" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-39" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-39" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="61" y="6770" as="sourcePoint" />
             <mxPoint x="61.039999999999964" y="6290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-40" target="_PhH2-FaUIsss8k3A7cU-43">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-40" target="_PhH2-FaUIsss8k3A7cU-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-40" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;Thread[ExtractTask]&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-40" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;Thread[ExtractTask]&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="34" y="6460" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-41" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-41" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="258.65" y="6770" as="sourcePoint" />
             <mxPoint x="258.68999999999994" y="6290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-42" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;SelectTask.start&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-42" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;SelectTask.start&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-220" y="6510" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-43" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;ExtractTask&lt;/span&gt;.start&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-43" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;ExtractTask&lt;/span&gt;.start&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="29.65" y="6510" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-44" target="_PhH2-FaUIsss8k3A7cU-59">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-44" target="_PhH2-FaUIsss8k3A7cU-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-44" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callSelectPermit&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-44" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callSelectPermit&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-760" y="6540" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-49" value="manager" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-49" value="manager" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="300" y="6270" width="1030" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-50" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-50" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="376.5000000000001" y="6770" as="sourcePoint" />
             <mxPoint x="376.5400000000001" y="6290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-51" target="_PhH2-FaUIsss8k3A7cU-56">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-51" target="_PhH2-FaUIsss8k3A7cU-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-51" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callSyncInfo获取复制信息&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-51" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callSyncInfo获取复制信息&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="315" y="6360" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-55" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-55" value="" style="endArrow=classic;html=1;entryX=0.124;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="622" y="6770" as="sourcePoint" />
             <mxPoint x="622.04" y="6290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-56" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;RotterReadingEventListener.onRelpInfo&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-56" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;RotterReadingEventListener.onRelpInfo&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="567" y="6360" width="303" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-58" target="_PhH2-FaUIsss8k3A7cU-60">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-58" target="_PhH2-FaUIsss8k3A7cU-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-58" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callLoadPermit&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-58" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callLoadPermit&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="-760" y="6750" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=225.605;exitDy=25.604999999999997;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-59" target="_PhH2-FaUIsss8k3A7cU-64">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=225.605;exitDy=25.604999999999997;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-59" target="_PhH2-FaUIsss8k3A7cU-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-59" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;RotterReadingEventListener on&lt;/span&gt;SelectReading&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-59" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;RotterReadingEventListener on&lt;/span&gt;SelectReading&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="275" y="6550" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=225.605;exitDy=25.604999999999997;exitPerimeter=0;entryX=0;entryY=0;entryDx=4.395;entryDy=4.395000000000001;entryPerimeter=0;" edge="1" parent="1" source="_PhH2-FaUIsss8k3A7cU-60" target="_PhH2-FaUIsss8k3A7cU-64">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=225.605;exitDy=25.604999999999997;exitPerimeter=0;entryX=0;entryY=0;entryDx=4.395;entryDy=4.395000000000001;entryPerimeter=0;" parent="1" source="_PhH2-FaUIsss8k3A7cU-60" target="_PhH2-FaUIsss8k3A7cU-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-60" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;RotterReadingEventListener &lt;/span&gt;onLoadReading&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-60" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;RotterReadingEventListener &lt;/span&gt;onLoadReading&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="286" y="6670" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-64" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;permit&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-64" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;permit&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="608" y="6670" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_PhH2-FaUIsss8k3A7cU-68" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callSelectAndLoadIpEvent {to select and load}&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="_PhH2-FaUIsss8k3A7cU-68" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callSelectAndLoadIpEvent {to select and load}&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="610" y="6730" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dtbTJJ3rWSG-dihCfH-P-1" value="关于过期保护和数据回环同步:&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="6390" width="720" height="630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

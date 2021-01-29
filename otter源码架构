@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T08:20:34.125Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="dAhbJnq0uqZRwflnWmH3" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-29T08:35:30.022Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="h0IiEqjEZxJv8e-Txq0p" version="14.2.7" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2320" dy="306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1742,46 +1742,53 @@
         <mxCell id="_PhH2-FaUIsss8k3A7cU-68" value="&lt;pre style=&quot;background-color: #c7edcc ; color: #000000 ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;callSelectAndLoadIpEvent {to select and load}&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="610" y="6730" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dtbTJJ3rWSG-dihCfH-P-1" value="关于过期保护和数据回环同步:&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="6390" width="770" height="630" as="geometry" />
-        </mxCell>
-        <mxCell id="dtbTJJ3rWSG-dihCfH-P-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dtbTJJ3rWSG-dihCfH-P-2" target="dtbTJJ3rWSG-dihCfH-P-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dtbTJJ3rWSG-dihCfH-P-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="6390" width="770" height="660" as="geometry" />
         </mxCell>
         <mxCell id="dtbTJJ3rWSG-dihCfH-P-2" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;AofCommandFilter&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="6740" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="dtbTJJ3rWSG-dihCfH-P-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dtbTJJ3rWSG-dihCfH-P-3" target="dtbTJJ3rWSG-dihCfH-P-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="1540" y="6630" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dtbTJJ3rWSG-dihCfH-P-3" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;DbFilter&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="6740" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="dtbTJJ3rWSG-dihCfH-P-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dtbTJJ3rWSG-dihCfH-P-4" target="dtbTJJ3rWSG-dihCfH-P-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1985" y="6810" />
-              <mxPoint x="1588" y="6810" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="1540" y="6690" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dtbTJJ3rWSG-dihCfH-P-4" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;KeyFilter&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="6740" width="110" height="50" as="geometry" />
+          <mxGeometry x="1540" y="6752" width="122" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dtbTJJ3rWSG-dihCfH-P-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dtbTJJ3rWSG-dihCfH-P-5" target="dtbTJJ3rWSG-dihCfH-P-6">
+        <mxCell id="dtbTJJ3rWSG-dihCfH-P-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dtbTJJ3rWSG-dihCfH-P-5" target="dtbTJJ3rWSG-dihCfH-P-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dtbTJJ3rWSG-dihCfH-P-5" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;AofCircleFlagFilter&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1544" y="6820" width="176" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dtbTJJ3rWSG-dihCfH-P-6" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;AofParseEventFilter&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1858" y="6820" width="182" height="50" as="geometry" />
+          <mxGeometry x="1541" y="6920" width="182" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dtbTJJ3rWSG-dihCfH-P-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dtbTJJ3rWSG-dihCfH-P-7" target="dtbTJJ3rWSG-dihCfH-P-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dtbTJJ3rWSG-dihCfH-P-7" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;RdbDumpFilter&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;非主机房直接过滤&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="6560" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dtbTJJ3rWSG-dihCfH-P-7" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;RdbDumpFilter&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="6740" width="110" height="50" as="geometry" />
+        <mxCell id="dtbTJJ3rWSG-dihCfH-P-14" value="过滤&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;FLUSHALL&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;FLUSHDB&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;SWAPDB&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Ping&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;ReplConf 事务等特殊命令&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="1690" y="6640" width="430" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dtbTJJ3rWSG-dihCfH-P-15" value="过滤不需要双向同步的rdb" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="1690" y="6700" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dtbTJJ3rWSG-dihCfH-P-16" value="过滤不需要双向同步的aof" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="1888" y="6700" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dtbTJJ3rWSG-dihCfH-P-17" value="过滤特殊的redis key 不进行同步" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="1690" y="6760" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dtbTJJ3rWSG-dihCfH-P-18" value="过滤数据回环和删除保护标志，即&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;!@#$renxlrotter:cycle:和&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;!@#$renxlrotter:d:开始的key&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="1750" y="6830" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dtbTJJ3rWSG-dihCfH-P-19" value="数据回环处理&lt;br&gt;删除保护处理" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="1760" y="6930" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dtbTJJ3rWSG-dihCfH-P-20" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;LoadMarkFilter&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1539" y="6990" width="182" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dtbTJJ3rWSG-dihCfH-P-21" value="向下游生成数据回环和删除保护标志 hash =&amp;nbsp;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt; Md5Util.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; font-style: italic&quot;&gt;md5&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;(command.toString());&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="1758" y="7000" width="532" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

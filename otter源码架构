@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T08:35:30.022Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="h0IiEqjEZxJv8e-Txq0p" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-29T08:51:52.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="gSF_fMvBN1yKf8YjyUmt" version="14.2.7" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="2320" dy="306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1781,7 +1781,7 @@
         <mxCell id="dtbTJJ3rWSG-dihCfH-P-18" value="过滤数据回环和删除保护标志，即&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;!@#$renxlrotter:cycle:和&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;!@#$renxlrotter:d:开始的key&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="1750" y="6830" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dtbTJJ3rWSG-dihCfH-P-19" value="数据回环处理&lt;br&gt;删除保护处理" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="dtbTJJ3rWSG-dihCfH-P-19" value="判断是否存在删除保护和回环标志决定是否传输" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="1760" y="6930" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dtbTJJ3rWSG-dihCfH-P-20" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;LoadMarkFilter&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">

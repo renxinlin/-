@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T07:15:39.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="gfmqMjkZLCXWi-GdcVTN" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-01T07:16:31.679Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="RazKSZxDH_tredEgDO9Q" version="14.2.7" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="3026" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1801,11 +1801,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vM5xlvNjkAkQ5XPLjXqP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vM5xlvNjkAkQ5XPLjXqP-1" target="vM5xlvNjkAkQ5XPLjXqP-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="vM5xlvNjkAkQ5XPLjXqP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vM5xlvNjkAkQ5XPLjXqP-1" target="vM5xlvNjkAkQ5XPLjXqP-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-710" y="7480" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="vM5xlvNjkAkQ5XPLjXqP-8" value="中心单元: 为后期异地多活打下基础" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vM5xlvNjkAkQ5XPLjXqP-7">
-          <mxGeometry x="-0.0967" y="4" relative="1" as="geometry">
+        <mxCell id="vM5xlvNjkAkQ5XPLjXqP-69" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;正常业务&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vM5xlvNjkAkQ5XPLjXqP-7">
+          <mxGeometry x="0.6826" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1826,11 +1828,10 @@
         <mxCell id="vM5xlvNjkAkQ5XPLjXqP-3" value="机房网关" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-1226" y="7480" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vM5xlvNjkAkQ5XPLjXqP-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vM5xlvNjkAkQ5XPLjXqP-6" target="vM5xlvNjkAkQ5XPLjXqP-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vM5xlvNjkAkQ5XPLjXqP-6" value="正常业务" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-760" y="7480" width="100" height="50" as="geometry" />
+        <mxCell id="vM5xlvNjkAkQ5XPLjXqP-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="vM5xlvNjkAkQ5XPLjXqP-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-710" y="7530" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vM5xlvNjkAkQ5XPLjXqP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vM5xlvNjkAkQ5XPLjXqP-9" target="vM5xlvNjkAkQ5XPLjXqP-1">
           <mxGeometry relative="1" as="geometry" />
@@ -1955,6 +1956,9 @@
         </mxCell>
         <mxCell id="vM5xlvNjkAkQ5XPLjXqP-55" value="dubbo" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="-750" y="7640" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM5xlvNjkAkQ5XPLjXqP-70" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;中心单元: 为后期异地多活打下基础&lt;/span&gt;" style="shape=cloud;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="7530" width="280" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

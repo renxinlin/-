@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T07:17:12.056Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="91y3Uzm2VNzmhrr9eKj4" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-01T07:18:18.197Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="0Mgmc2g_YbppBTkguY4w" version="14.2.7" type="github">
   <diagram id="oms7wKNY255Mk3_Ms5BN" name="Page-1">
     <mxGraphModel dx="3597" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1806,7 +1806,7 @@
             <mxPoint x="-710" y="7480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vM5xlvNjkAkQ5XPLjXqP-69" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;正常业务&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vM5xlvNjkAkQ5XPLjXqP-7">
+        <mxCell id="vM5xlvNjkAkQ5XPLjXqP-69" value="&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;非双活流量&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vM5xlvNjkAkQ5XPLjXqP-7">
           <mxGeometry x="0.6826" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1816,6 +1816,11 @@
         </mxCell>
         <mxCell id="vM5xlvNjkAkQ5XPLjXqP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.219;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vM5xlvNjkAkQ5XPLjXqP-3" target="vM5xlvNjkAkQ5XPLjXqP-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vM5xlvNjkAkQ5XPLjXqP-72" value="双活流量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vM5xlvNjkAkQ5XPLjXqP-21">
+          <mxGeometry x="-0.5335" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vM5xlvNjkAkQ5XPLjXqP-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.31;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vM5xlvNjkAkQ5XPLjXqP-3" target="vM5xlvNjkAkQ5XPLjXqP-12">
           <mxGeometry relative="1" as="geometry" />

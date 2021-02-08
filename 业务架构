@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-08T11:45:53.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="bcEv8fiu13cNi_AqLSg9" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-08T11:48:44.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="_Qiw4J7y61GmaMEslCmO" version="14.2.9" type="github">
   <diagram id="Qkye7AKlpqOIxZT3r_0r" name="Page-1">
-    <mxGraphModel dx="2013" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1645" dy="1552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry x="10" y="-40" width="480" height="110" as="geometry" />
         </mxCell>
         <mxCell id="YGHudtXg5oLbGy2z0bL_-10" value="角色" style="html=1;dashed=0;whitespace=wrap;fillColor=#67AB9F;" vertex="1" parent="1">
-          <mxGeometry x="190" y="101" width="80" height="60" as="geometry" />
+          <mxGeometry x="190" y="80" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YGHudtXg5oLbGy2z0bL_-11" value="功能标签用户" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="-413" y="126" width="80" height="30" as="geometry" />
+          <mxGeometry x="-413" y="105" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YGHudtXg5oLbGy2z0bL_-12" value="品牌商角色" style="html=1;dashed=0;whitespace=wrap;fillColor=#67AB9F;" vertex="1" parent="1">
           <mxGeometry x="190" y="220" width="80" height="30" as="geometry" />
@@ -159,7 +159,7 @@
           <mxGeometry x="30" y="720" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YGHudtXg5oLbGy2z0bL_-64" value="用户" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#E6D0DE;" vertex="1" parent="1">
-          <mxGeometry x="30" y="96" width="60" height="60" as="geometry" />
+          <mxGeometry x="30" y="75" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YGHudtXg5oLbGy2z0bL_-80" value="跟所有身份角色排斥，功能标签没有关系" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
           <mxGeometry x="430" y="390" width="310" height="20" as="geometry" />
@@ -204,7 +204,7 @@
           <mxGeometry x="-410" y="320" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YGHudtXg5oLbGy2z0bL_-100" value="" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-413" y="156" width="1163" height="10" as="geometry" />
+          <mxGeometry x="-413" y="135" width="1163" height="10" as="geometry" />
         </mxCell>
         <mxCell id="YGHudtXg5oLbGy2z0bL_-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#7AFFAB;" edge="1" parent="1" source="YGHudtXg5oLbGy2z0bL_-110" target="YGHudtXg5oLbGy2z0bL_-98">
           <mxGeometry relative="1" as="geometry" />
@@ -236,7 +236,7 @@
           <mxGeometry x="-530" y="555" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YGHudtXg5oLbGy2z0bL_-123" value="营销" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-550" y="615" width="100" height="30" as="geometry" />
+          <mxGeometry x="-520" y="615" width="50" height="25" as="geometry" />
         </mxCell>
         <mxCell id="YGHudtXg5oLbGy2z0bL_-125" value="跟所有身份角色排斥，功能标签没有关系" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
           <mxGeometry x="430" y="455" width="310" height="20" as="geometry" />
@@ -257,7 +257,13 @@
           <mxGeometry x="430" y="225" width="310" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YGHudtXg5oLbGy2z0bL_-131" value="备注" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
-          <mxGeometry x="430" y="136" width="310" height="20" as="geometry" />
+          <mxGeometry x="430" y="115" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YGHudtXg5oLbGy2z0bL_-132" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="560" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YGHudtXg5oLbGy2z0bL_-133" value="入驻条件" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="105" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

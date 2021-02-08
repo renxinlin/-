@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-08T12:45:17.426Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="XvwEr3moQOiFIf2VIRmu" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-08T12:46:09.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="_cGq9en4Coh4mwfFuTOh" version="14.2.9" type="github">
   <diagram id="Qkye7AKlpqOIxZT3r_0r" name="Page-1">
-    <mxGraphModel dx="2222" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2521" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,11 +9,6 @@
         </mxCell>
         <mxCell id="CJKa5TdxEMTpn0F3WpRk-19" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;strokeColor=none;shape=rect;fillColor=#FFF2CC;" vertex="1" parent="1">
           <mxGeometry x="-460" y="830" width="700" height="430" as="geometry" />
-        </mxCell>
-        <mxCell id="CJKa5TdxEMTpn0F3WpRk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.011;entryY=0.529;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CJKa5TdxEMTpn0F3WpRk-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="1045.4999999999998" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="YGHudtXg5oLbGy2z0bL_-9" value="&lt;span&gt;业务术语：&lt;/span&gt;&lt;span&gt;用户，&lt;/span&gt;&lt;span&gt;角色，&lt;/span&gt;&lt;span&gt;功能标签，&lt;/span&gt;&lt;span&gt;渠道&lt;br&gt;用户:&amp;nbsp; &amp;nbsp;分b端c端,B端用户分品牌商用户,店主用户等等&lt;br&gt;角色:&amp;nbsp; &amp;nbsp;店主用户拥有达人,店主角色&lt;br&gt;标签:&amp;nbsp; &amp;nbsp;比如推广员可以推广商品&amp;nbsp; 标签预期设计成原子标签,无互斥&lt;br&gt;渠道:&amp;nbsp; &amp;nbsp;用户拥有快手,视频号,kk等渠道多个来源,&lt;/span&gt;每一种角色只能绑定一个渠道来源&lt;span&gt;&lt;br&gt;&lt;br&gt;一个用户可以拥有多个角色和功能标签，则拥有其组成的所有功能&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="500" y="489" width="480" height="110" as="geometry" />
@@ -478,6 +473,9 @@
         </mxCell>
         <mxCell id="CJKa5TdxEMTpn0F3WpRk-26" value="&lt;b&gt;买家&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="860" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CJKa5TdxEMTpn0F3WpRk-28" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios.iArrowIcon;fillColor=#8BbEff;fillColor2=#135Ec8;strokeColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1050" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

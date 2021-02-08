@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-08T12:24:10.829Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="Vpn6nCvkEBQ7NF4sKZl0" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-08T12:27:47.921Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="kbzFzZ8tW0-3DNPgIUne" version="14.2.9" type="github">
   <diagram id="Qkye7AKlpqOIxZT3r_0r" name="Page-1">
     <mxGraphModel dx="2521" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -323,7 +323,7 @@
         <mxCell id="YGHudtXg5oLbGy2z0bL_-146" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;可邀请vip店主&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="-410" y="260" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="YGHudtXg5oLbGy2z0bL_-150" value="&lt;div&gt;&lt;span&gt;角色入驻互斥说明:[从当前角色看与其他的互斥，因为mcn可以成为达人，达人不可以成为mcn]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;品牌商用户:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;店主用户:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;mcn用户:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;mcn销售&lt;/span&gt;&lt;span&gt;用户:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;达人用户:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;团长用户:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;团员用户:&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFF2CC;align=left;" parent="1" vertex="1">
+        <mxCell id="YGHudtXg5oLbGy2z0bL_-150" value="&lt;div&gt;&lt;span&gt;角色入驻互斥说明:[从当前角色看与其他的互斥，因为mcn可以成为达人，达人不可以成为mcn]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;品牌商用户:&amp;nbsp; &lt;b&gt;所有身份互斥&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;店主用户: 达人 团员 团长 可以&amp;nbsp; 其他互斥&lt;/span&gt;&lt;/div&gt;&lt;div&gt;mcn用户: &lt;b&gt;所有身份互斥 &lt;/b&gt;并且必须是普通用户&lt;/div&gt;&lt;div&gt;mcn销售用户:&lt;b&gt;所有身份互斥&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;达人用户: 团长 团员 店主 mcn 可以入驻 ;其他互斥&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;团长用户:达人 店主 可以入驻&amp;nbsp; ;其他互斥&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;团员用户: 达人可以入驻；其他互斥&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFF2CC;align=left;" parent="1" vertex="1">
           <mxGeometry x="500" y="602.5" width="540" height="157.5" as="geometry" />
         </mxCell>
       </root>

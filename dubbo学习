@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T11:21:04.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="IiIUlUdN3V5u2CzxccJA" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-18T18:32:14.200Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="N8dhrSuGN0ORpRMGZ4Xw" version="14.3.0" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="1186" dy="1667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,8 +49,105 @@
         <mxCell id="lpDv2Aap-CIcRrdwtedn-21" value="http://static.iocoder.cn/images/Dubbo/2018_01_07/03.png" style="text;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="1050" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="YZsckniLNhmDEexGgeEb-3" value="&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-family: &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , serif ; font-size: 22.4px ; vertical-align: baseline ; color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;蓝色虚线&lt;/strong&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , serif ; font-size: 22.4px ; text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;( Init ) 为初始化过程，即启动时组装链。&lt;br&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-family: &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , serif ; font-size: 22.4px ; vertical-align: baseline ; color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;红色实线&lt;/strong&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , serif ; font-size: 22.4px ; text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;( Call )为方法调用过程，即运行时调时链&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;georgia, times new roman, serif&quot;&gt;&lt;span style=&quot;font-size: 22.4px&quot;&gt;http://static.iocoder.cn/images/Dubbo/2018_03_01/01.png&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="YZsckniLNhmDEexGgeEb-3" value="&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-family: &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , serif ; font-size: 22.4px ; vertical-align: baseline ; color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;蓝色虚线&lt;/strong&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , serif ; font-size: 22.4px ; text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;( Init ) 为初始化过程，即启动时组装链。&lt;br&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-family: &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , serif ; font-size: 22.4px ; vertical-align: baseline ; color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;红色实线&lt;/strong&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , serif ; font-size: 22.4px ; text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;( Call )为方法调用过程，即运行时调时链&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;georgia, times new roman, serif&quot;&gt;&lt;span style=&quot;font-size: 22.4px&quot;&gt;http://static.iocoder.cn/images/Dubbo/2018_03_01/01.png&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="50" y="1090" width="640" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1290" width="1100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-2" value="dubbo spi机制&lt;br&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;ExtensionLoader.&lt;span style=&quot;font-style: italic&quot;&gt;getExtensionLoader&lt;/span&gt;(Protocol.&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;class&lt;/span&gt;).getAdaptiveExtension()&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1260" width="620" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-4" target="p4-F5EnrrteNVVbMthXz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-4" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;ExtensionLoader&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1340" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-5" target="p4-F5EnrrteNVVbMthXz-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="1405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-26" value="getExtension" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p4-F5EnrrteNVVbMthXz-22">
+          <mxGeometry x="-0.4" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-5" target="p4-F5EnrrteNVVbMthXz-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="1340" />
+              <mxPoint x="750" y="1295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-27" value="getActivateExtension" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p4-F5EnrrteNVVbMthXz-23">
+          <mxGeometry x="0.2317" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-5" target="p4-F5EnrrteNVVbMthXz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-25" value="getAdaptiveExtension" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p4-F5EnrrteNVVbMthXz-24">
+          <mxGeometry x="-0.3311" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-5" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;ExtensionLoader Instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1340" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-7" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;name instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1400" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-8" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;Adaptive&lt;/span&gt; instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1550" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-9" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Activate&lt;/span&gt; instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1270" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-13" target="p4-F5EnrrteNVVbMthXz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-13" target="p4-F5EnrrteNVVbMthXz-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-13" value="EXTENSION_LOADERS&lt;br&gt;缓存" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1420" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-15" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;创建ExtensionLoader对象&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1500" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-20" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;构造方法传入type&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;objectFactory用于ioc注入&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1570" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-29" target="p4-F5EnrrteNVVbMthXz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-29" target="p4-F5EnrrteNVVbMthXz-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-29" value="holder 缓存" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1400" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-31" target="p4-F5EnrrteNVVbMthXz-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-31" target="p4-F5EnrrteNVVbMthXz-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-31" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;spi &lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1450" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-35" target="p4-F5EnrrteNVVbMthXz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-35" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;指定name的class新建newinstance&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;根据objectfactory ioc&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;根据spi时缓存的aop类进行aop实例化&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1480" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-38" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204)&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;1缓存命中直接返回 所有spi的class&lt;br&gt;解析spi注解缓存默认加载class名到cachedDefaultName&lt;br&gt;扫描META-INF/services/ META-INF/dubbo等路径&lt;br&gt;resource变url&lt;br&gt; url变class-&amp;gt; Class.forName(line, true, classLoader)&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;最后根据class处理下aop和&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Adaptive类注解处理下和类注解&lt;/span&gt;&lt;span style=&quot;color: rgb(128 , 128 , 0) ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Activate&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveClass&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedWrapperClasses&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedActivates&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1520" width="380" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

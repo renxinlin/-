@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T09:24:52.731Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="08Ft45SfBnKCQpj52a8N" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-19T09:25:31.758Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="-jmk2J_qSW7saD8cgyFb" version="14.3.0" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="2600" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -172,7 +172,7 @@
         <mxCell id="p4-F5EnrrteNVVbMthXz-53" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="20" y="2000" width="860" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-54" value="Dubbo 定义了集群接口 Cluster 以及 Cluster Invoker。集群 Cluster 用途是将多个服务提供者合并为一个 Cluster Invoker，&lt;br&gt;并将这个 Invoker 暴露给服务消费者。这样一来，服务消费者只需通过这个 Invoker 进行远程调用即可，至于具体调用哪个服务提供者，&lt;br&gt;以及调用失败后如何处理等问题，现在都交给集群模块去处理" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-54" value="dubbo调用" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="20" y="2000" width="860" height="70" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-55" value="service" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -244,11 +244,14 @@
         <mxCell id="p4-F5EnrrteNVVbMthXz-81" value="" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
           <mxGeometry x="340" y="2230" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-82" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1120" y="2010" width="1010" height="460" as="geometry" />
-        </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-83" value="cluster&lt;br&gt;用于生产&lt;br&gt;cluster invoker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-103" y="2290" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-84" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="2000" width="860" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-85" value="Dubbo 定义了集群接口 Cluster 以及 Cluster Invoker。集群 Cluster 用途是将多个服务提供者合并为一个 Cluster Invoker，&lt;br&gt;并将这个 Invoker 暴露给服务消费者。这样一来，服务消费者只需通过这个 Invoker 进行远程调用即可，至于具体调用哪个服务提供者，&lt;br&gt;以及调用失败后如何处理等问题，现在都交给集群模块去处理" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="2000" width="860" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T09:10:58.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="7gT1woT-B8ttK5S2ll00" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-19T09:11:55.496Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="ZEMeSKBW5bFJzfyG4Xb0" version="14.3.0" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="946" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -231,6 +231,9 @@
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-76" value="&lt;span style=&quot;font-size: 10px&quot;&gt;failover-Invoker&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="265" y="2230" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-77" value="&lt;ul style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1rem ; max-width: 80% ; color: rgb(34 , 34 , 34) ; font-family: &amp;#34;open sans&amp;#34; , , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; ; font-size: 16px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;Failover Cluster - 失败自动切换&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;Failfast Cluster - 快速失败&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;Failsafe Cluster - 失败安全&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;Failback Cluster - 失败自动恢复&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;Forking Cluster - 并行调用多个服务提供者&lt;/li&gt;&lt;/ul&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2275" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

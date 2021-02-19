@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T18:44:49.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="jVBag13SxM13iPpmRFca" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-19T09:10:58.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="7gT1woT-B8ttK5S2ll00" version="14.3.0" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="946" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,6 +168,69 @@
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-52" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveInstance缓存获取&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;根据&lt;/span&gt;cachedDefaultName进行动态编译&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;创建对象&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;ioc&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;默认javassist编译器&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;备注:ClassUtils.&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; font-style: italic&quot;&gt;getClassLoader&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;(ExtensionLoader.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;);&lt;/span&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="300" y="1600" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-53" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2000" width="860" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-54" value="Dubbo 定义了集群接口 Cluster 以及 Cluster Invoker。集群 Cluster 用途是将多个服务提供者合并为一个 Cluster Invoker，&lt;br&gt;并将这个 Invoker 暴露给服务消费者。这样一来，服务消费者只需通过这个 Invoker 进行远程调用即可，至于具体调用哪个服务提供者，&lt;br&gt;以及调用失败后如何处理等问题，现在都交给集群模块去处理" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2000" width="860" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-55" value="service" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="45" y="2110" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-56" value="proxy" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="45" y="2150" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-57" value="ReferenceBean(Fb)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2110" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-58" target="p4-F5EnrrteNVVbMthXz-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-58" value="ref" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="255" y="2110" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-61" value="spring" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2110" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-62" value="proxy" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2150" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-63" value="InvokerInvocationHandler" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="45" y="2190" width="175" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-66" value="统一集群暴露" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2230" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-67" value="d&lt;br&gt;u&lt;br&gt;b&lt;br&gt;b&lt;br&gt;o&lt;br&gt;内&lt;br&gt;核" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2230" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-68" target="p4-F5EnrrteNVVbMthXz-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-68" value="MockClusterInvoker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="45" y="2230" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-69" target="p4-F5EnrrteNVVbMthXz-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-69" value="interceptor" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="45" y="2260" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-70" value="&lt;font style=&quot;font-size: 10px&quot;&gt;failover-Invoker&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="45" y="2290" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-73" value="路由&lt;br&gt;负载" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2320" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-74" value="&lt;span style=&quot;font-size: 10px&quot;&gt;failover-Invoker&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="45" y="2320" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-75" value="registerdirectory" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2230" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-76" value="&lt;span style=&quot;font-size: 10px&quot;&gt;failover-Invoker&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="265" y="2230" width="105" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

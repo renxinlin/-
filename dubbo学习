@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T09:15:56.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="00DrgflT6F826yNTNqMo" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-19T09:21:10.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="a8zTebpi0ln9bIECv6Xb" version="14.3.0" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="946" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,7 +199,7 @@
         <mxCell id="p4-F5EnrrteNVVbMthXz-63" value="InvokerInvocationHandler" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="45" y="2190" width="175" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-66" value="统一集群暴露" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-66" value="统一集群暴露&lt;br&gt;容错降级" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="390" y="2230" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-67" value="d&lt;br&gt;u&lt;br&gt;b&lt;br&gt;b&lt;br&gt;o&lt;br&gt;内&lt;br&gt;核" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -217,14 +217,17 @@
         <mxCell id="p4-F5EnrrteNVVbMthXz-69" value="interceptor" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="45" y="2260" width="105" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.366;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-70" target="p4-F5EnrrteNVVbMthXz-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-70" value="&lt;font style=&quot;font-size: 10px&quot;&gt;failover-Invoker&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="45" y="2290" width="105" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-73" value="路由&lt;br&gt;负载" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="390" y="2320" width="110" height="80" as="geometry" />
+          <mxGeometry x="390" y="2338" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-74" value="&lt;span style=&quot;font-size: 10px&quot;&gt;failover-Invoker&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="45" y="2320" width="105" height="20" as="geometry" />
+        <mxCell id="p4-F5EnrrteNVVbMthXz-74" value="&lt;span style=&quot;font-size: 10px&quot;&gt;select&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="45" y="2350" width="105" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-75" value="registerdirectory" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="160" y="2230" width="105" height="20" as="geometry" />
@@ -232,8 +235,11 @@
         <mxCell id="p4-F5EnrrteNVVbMthXz-76" value="&lt;span style=&quot;font-size: 10px&quot;&gt;failover-Invoker&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="265" y="2230" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-77" value="&lt;ul style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1rem ; max-width: 80% ; color: rgb(34 , 34 , 34) ; font-family: &amp;#34;open sans&amp;#34; , , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; ; font-size: 16px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;Failover Cluster - 失败自动切换&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;Failfast Cluster - 快速失败&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;Failsafe Cluster - 失败安全&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;Failback Cluster - 失败自动恢复&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;Forking Cluster - 并行调用多个服务提供者&lt;/li&gt;&lt;/ul&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="650" y="2275" width="100" height="50" as="geometry" />
+        <mxCell id="p4-F5EnrrteNVVbMthXz-77" value="&lt;ul style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1rem ; max-width: 80% ; color: rgb(34 , 34 , 34) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Failover Cluster - 失败自动切换&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Failfast Cluster - 快速失败&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Failsafe Cluster - 失败安全&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Failback Cluster - 失败自动恢复&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Forking Cluster - 并行调用多个服务提供者&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="570" y="2230" width="310" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-78" value="&lt;span style=&quot;font-size: 10px&quot;&gt;directory list-&amp;gt;routerChain&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="45" y="2330" width="145" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

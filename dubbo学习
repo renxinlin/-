@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T11:56:36.753Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="fH1KmGDxQy58PKFNmewj" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-23T12:03:22.712Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="JNAEiPm2xvGNGR99OlM9" version="14.3.0" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="2442" dy="1632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -265,9 +265,6 @@
         <mxCell id="p4-F5EnrrteNVVbMthXz-90" value="ServiceConfig" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1000" y="2215" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-91" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="2310" width="100" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-92" value="多注册中心循环暴露doExportUrlsFor1Protocol&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22ServiceConfig%22%20style%3D%22html%3D1%3Bdashed%3D0%3Bwhitespace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221000%22%20y%3D%222215%22%20width%3D%22100%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;doExportUrlsFor1Protocol&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#ba0000&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;doExportUrlsFor1Protocol&lt;/span&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1101" y="2215" width="280" height="25" as="geometry" />
         </mxCell>
@@ -285,6 +282,18 @@
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-106" value="Exporter&amp;lt;?&amp;gt; exporter = PROTOCOL.export(PROXY_FACTORY.getInvoker(ref, (Class) interfaceClass, local));" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1000" y="2266" width="610" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-107" value="DelegateProviderMetaDataInvoker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="2290" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-108" value="AbstractProxyInvoker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="2290" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-109" value="Exporter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="2311" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-110" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;exporterMap&lt;/span&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="2311" width="230" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

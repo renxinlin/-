@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T19:06:41.321Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="4ObbgKwKGB-_gHVFDzcr" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-26T19:07:10.680Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="Y0HPMLTxsMEz8k37ncWW" version="14.3.0" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="2600" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -438,8 +438,8 @@
         <mxCell id="p4-F5EnrrteNVVbMthXz-161" value="new HeaderExchangeClient(Transporters.connect(url, new DecodeHandler(new HeaderExchangeHandler(handler))), true);" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-860" y="2534" width="680" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-165" value="Transporters.connect 实现为getTransporter().connect(url, handler)也就是netty 实现" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-860" y="2570" width="500" height="30" as="geometry" />
+        <mxCell id="p4-F5EnrrteNVVbMthXz-165" value="Transporters.connect 实现为getTransporter().connect(url, handler)也就是netty 实现NettyTransporter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="2570" width="550" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

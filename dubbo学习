@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T18:45:45.482Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="vKBI8mdyXKH1dyB_sEUA" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-26T18:49:55.906Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="tagDTdtGQ_BaJaF_crXY" version="14.3.0" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="2600" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -245,7 +245,7 @@
           <mxGeometry x="-103" y="2290" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-84" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-980" y="2000" width="860" height="470" as="geometry" />
+          <mxGeometry x="-980" y="2000" width="860" height="540" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-85" value="Dubbo 服务引用的两种方式:&amp;nbsp; &amp;nbsp;服务直连|注册中心进行引用&lt;br&gt;第一个是在 Spring 容器调用 ReferenceBean 的 afterPropertiesSet 方法时引用服务，&lt;br&gt;第二个是在 ReferenceBean 对应的服务被注入到其他类中时引用。这两个引用服务的时机区别在于&lt;br&gt;第一个是饿汉式的，第二个是懒汉式的。默认情况下，Dubbo 使用懒汉式引用服务。&lt;br&gt;如果需要使用饿汉式，可通过配置 &amp;lt;dubbo:reference&amp;gt; 的 init 属性开启&amp;nbsp; &amp;nbsp; &amp;nbsp; 此外 referencebean是一个factoryBean" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="-980" y="2000" width="860" height="70" as="geometry" />
@@ -367,13 +367,13 @@
           <mxGeometry x="-970" y="2236" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-140" value="&lt;ul style=&quot;margin: 0px 20px ; padding: 0px ; border: 0px ; outline: 0px ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; vertical-align: baseline ; line-height: 1.6em ; color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgb(245 , 245 , 213)&quot;&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-weight: inherit ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; RegistryProtocol&lt;/strong&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-weight: inherit ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;=&amp;gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-weight: inherit ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; DubboProtocol&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-980" y="2480" width="740" height="100" as="geometry" />
+          <mxGeometry x="-970" y="2600" width="740" height="100" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-141" value="registered属性处理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-860" y="2236" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-142" value="合并Invokerinvoker = cluster.join(directory)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="2268.5" width="240" height="22" as="geometry" />
+          <mxGeometry x="-533" y="2267.5" width="240" height="22" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-143" value="zk consumers目录下创建新节点" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-751" y="2235" width="200" height="20" as="geometry" />
@@ -383,6 +383,24 @@
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-145" value="RegistryDirectory" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-970" y="2318" width="100" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-146" value="subscribe" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-861" y="2318" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-147" value="ListenerRegistryWrapper.subscribe" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-751" y="2318" width="281" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-148" value="ZookeeperRegistry" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-970" y="2390" width="100" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-149" value="subscribe" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="2390" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-150" value="notify" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="2390" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-F5EnrrteNVVbMthXz-151" value="dubboProtocol" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-970" y="2470" width="100" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

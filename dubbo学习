@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-27T02:39:38.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="HiINDxWYW4yvAsMtXie6" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T12:28:07.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="PsaV2lo9ZSJPCpqdFW6V" version="14.4.3" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="3231" dy="2094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3844" dy="2279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,24 +52,24 @@
         <mxCell id="YZsckniLNhmDEexGgeEb-3" value="&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-family: &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , serif ; font-size: 22.4px ; vertical-align: baseline ; color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;蓝色虚线&lt;/strong&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , serif ; font-size: 22.4px ; text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;( Init ) 为初始化过程，即启动时组装链。&lt;br&gt;&lt;/span&gt;&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-family: &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , serif ; font-size: 22.4px ; vertical-align: baseline ; color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;红色实线&lt;/strong&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;georgia&amp;#34; , &amp;#34;times new roman&amp;#34; , serif ; font-size: 22.4px ; text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;( Call )为方法调用过程，即运行时调时链&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left ; background-color: rgba(102 , 128 , 153 , 0.05)&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;georgia, times new roman, serif&quot;&gt;&lt;span style=&quot;font-size: 22.4px&quot;&gt;http://static.iocoder.cn/images/Dubbo/2018_03_01/01.png&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="50" y="1090" width="640" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-1" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="30" y="1290" width="1100" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-2" value="dubbo spi机制&lt;br&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;ExtensionLoader.&lt;span style=&quot;font-style: italic&quot;&gt;getExtensionLoader&lt;/span&gt;(Protocol.&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;class&lt;/span&gt;).getAdaptiveExtension()&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-2" value="dubbo spi机制&lt;br&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;ExtensionLoader.&lt;span style=&quot;font-style: italic&quot;&gt;getExtensionLoader&lt;/span&gt;(Protocol.&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;class&lt;/span&gt;).getAdaptiveExtension()&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="30" y="1260" width="620" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-4" target="p4-F5EnrrteNVVbMthXz-13">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-4" target="p4-F5EnrrteNVVbMthXz-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-4" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;ExtensionLoader&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-4" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;ExtensionLoader&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="40" y="1340" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-47" target="p4-F5EnrrteNVVbMthXz-29">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-47" target="p4-F5EnrrteNVVbMthXz-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="610" y="1405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-5" target="p4-F5EnrrteNVVbMthXz-9">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-5" target="p4-F5EnrrteNVVbMthXz-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="750" y="1340" />
@@ -77,234 +77,234 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-27" value="getActivateExtension" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p4-F5EnrrteNVVbMthXz-23">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-27" value="getActivateExtension" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="p4-F5EnrrteNVVbMthXz-23" vertex="1" connectable="0">
           <mxGeometry x="0.2317" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-5" target="p4-F5EnrrteNVVbMthXz-8">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-5" target="p4-F5EnrrteNVVbMthXz-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-25" value="getAdaptiveExtension" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p4-F5EnrrteNVVbMthXz-24">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-25" value="getAdaptiveExtension" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="p4-F5EnrrteNVVbMthXz-24" vertex="1" connectable="0">
           <mxGeometry x="-0.3311" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-5" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;ExtensionLoader Instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-5" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;ExtensionLoader Instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="250" y="1340" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-7" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;name instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-7" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;name instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="920" y="1400" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-8" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;Adaptive&lt;/span&gt; instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-8" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;Adaptive&lt;/span&gt; instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="300" y="1550" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.55;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-9" target="p4-F5EnrrteNVVbMthXz-40">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.55;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-9" target="p4-F5EnrrteNVVbMthXz-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-9" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Activate&lt;/span&gt; instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-9" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Activate&lt;/span&gt; instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="890" y="1270" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-13" target="p4-F5EnrrteNVVbMthXz-5">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-13" target="p4-F5EnrrteNVVbMthXz-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-13" target="p4-F5EnrrteNVVbMthXz-15">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-13" target="p4-F5EnrrteNVVbMthXz-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-13" value="EXTENSION_LOADERS&lt;br&gt;缓存" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-13" value="EXTENSION_LOADERS&lt;br&gt;缓存" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" parent="1" vertex="1">
           <mxGeometry x="85" y="1420" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-15" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;创建ExtensionLoader对象&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-15" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;创建ExtensionLoader对象&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="40" y="1500" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-20" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;构造方法传入type&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;objectFactory用于ioc注入&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-20" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;构造方法传入type&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;objectFactory用于ioc注入&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="40" y="1570" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-29" target="p4-F5EnrrteNVVbMthXz-7">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-29" target="p4-F5EnrrteNVVbMthXz-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-29" target="p4-F5EnrrteNVVbMthXz-31">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-29" target="p4-F5EnrrteNVVbMthXz-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-29" value="&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;cachedInstances&lt;br&gt;&lt;/span&gt;holder 缓存" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-29" value="&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;cachedInstances&lt;br&gt;&lt;/span&gt;holder 缓存" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" parent="1" vertex="1">
           <mxGeometry x="570" y="1400" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-31" target="p4-F5EnrrteNVVbMthXz-35">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-31" target="p4-F5EnrrteNVVbMthXz-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-31" target="p4-F5EnrrteNVVbMthXz-38">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-31" target="p4-F5EnrrteNVVbMthXz-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-31" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;spi &lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-31" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;spi &lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="670" y="1450" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-35" target="p4-F5EnrrteNVVbMthXz-7">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-35" target="p4-F5EnrrteNVVbMthXz-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-35" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;指定name的class新建newinstance&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;根据objectfactory ioc&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;根据spi时缓存的aop类进行aop实例化&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-35" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;指定name的class新建newinstance&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;根据objectfactory ioc&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;根据spi时缓存的aop类进行aop实例化&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="900" y="1480" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-38" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204)&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;1缓存命中直接返回 所有spi的class&lt;br&gt;解析spi注解缓存默认加载class名到cachedDefaultName&lt;br&gt;扫描META-INF/services/ META-INF/dubbo等路径&lt;br&gt;resource变url&lt;br&gt; url变class-&amp;gt; Class.forName(line, true, classLoader)&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;最后根据class处理下aop和&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Adaptive类注解处理下和类注解&lt;/span&gt;&lt;span style=&quot;color: rgb(128 , 128 , 0) ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Activate&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedDefaultName&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveClass&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedWrapperClasses&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedActivates&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-38" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204)&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;1缓存命中直接返回 所有spi的class&lt;br&gt;解析spi注解缓存默认加载class名到cachedDefaultName&lt;br&gt;扫描META-INF/services/ META-INF/dubbo等路径&lt;br&gt;resource变url&lt;br&gt; url变class-&amp;gt; Class.forName(line, true, classLoader)&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;最后根据class处理下aop和&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Adaptive类注解处理下和类注解&lt;/span&gt;&lt;span style=&quot;color: rgb(128 , 128 , 0) ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Activate&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedDefaultName&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveClass&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedWrapperClasses&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedActivates&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="520" y="1520" width="380" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.425;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-40" target="p4-F5EnrrteNVVbMthXz-47">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.425;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-40" target="p4-F5EnrrteNVVbMthXz-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="524" y="1355" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-40" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;遍历&lt;/pre&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bpre%20style%3D%26quot%3Bfont-size%3A%209pt%20%3B%20background-color%3A%20rgb(199%20%2C%20237%20%2C%20204)%20%3B%20font-family%3A%20%26amp%3B%2334%3Bmenlo%26amp%3B%2334%3B%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-family%3A%20%26amp%3B%2334%3Bmenlo%26amp%3B%2334%3B%20%3B%20font-size%3A%209pt%26quot%3B%26gt%3BActivate%26lt%3B%2Fspan%26gt%3B%20instance%26lt%3B%2Fpre%26gt%3B%22%20style%3D%22html%3D1%3Bdashed%3D0%3Bwhitespace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22890%22%20y%3D%221270%22%20width%3D%22180%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&amp;nbsp;cachedActivates&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-40" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;遍历&lt;/pre&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bpre%20style%3D%26quot%3Bfont-size%3A%209pt%20%3B%20background-color%3A%20rgb(199%20%2C%20237%20%2C%20204)%20%3B%20font-family%3A%20%26amp%3B%2334%3Bmenlo%26amp%3B%2334%3B%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-family%3A%20%26amp%3B%2334%3Bmenlo%26amp%3B%2334%3B%20%3B%20font-size%3A%209pt%26quot%3B%26gt%3BActivate%26lt%3B%2Fspan%26gt%3B%20instance%26lt%3B%2Fpre%26gt%3B%22%20style%3D%22html%3D1%3Bdashed%3D0%3Bwhitespace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22890%22%20y%3D%221270%22%20width%3D%22180%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&amp;nbsp;cachedActivates&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="890" y="1330" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-47" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;getExtension&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-47" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;getExtension&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="490" y="1360" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-5" target="p4-F5EnrrteNVVbMthXz-47">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-5" target="p4-F5EnrrteNVVbMthXz-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="1365" as="sourcePoint" />
             <mxPoint x="610" y="1400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-52" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveInstance缓存获取&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;根据&lt;/span&gt;cachedDefaultName进行动态编译&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;创建对象&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;ioc&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;默认javassist编译器&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;备注:ClassUtils.&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; font-style: italic&quot;&gt;getClassLoader&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;(ExtensionLoader.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;);&lt;/span&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-52" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveInstance缓存获取&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;根据&lt;/span&gt;cachedDefaultName进行动态编译&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;创建对象&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;ioc&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;默认javassist编译器&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;备注:ClassUtils.&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; font-style: italic&quot;&gt;getClassLoader&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;(ExtensionLoader.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;);&lt;/span&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="300" y="1600" width="180" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-53" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-53" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="20" y="2000" width="860" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-54" value="dubbo调用" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-54" value="dubbo调用" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="20" y="2000" width="860" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-55" value="service" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-55" value="service" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="45" y="2110" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-56" value="proxy" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-56" value="proxy" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="45" y="2150" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-57" value="ReferenceBean(Fb)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-57" value="ReferenceBean(Fb)" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="150" y="2110" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-58" target="p4-F5EnrrteNVVbMthXz-56">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-58" target="p4-F5EnrrteNVVbMthXz-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-58" value="ref" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-58" value="ref" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="255" y="2110" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-61" value="spring" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-61" value="spring" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="390" y="2110" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-62" value="proxy" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-62" value="proxy" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="390" y="2150" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-63" value="InvokerInvocationHandler" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-63" value="InvokerInvocationHandler" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="45" y="2190" width="175" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-66" value="统一集群暴露&lt;br&gt;容错降级" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-66" value="统一集群暴露&lt;br&gt;容错降级" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="390" y="2230" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-67" value="d&lt;br&gt;u&lt;br&gt;b&lt;br&gt;b&lt;br&gt;o&lt;br&gt;内&lt;br&gt;核" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-67" value="d&lt;br&gt;u&lt;br&gt;b&lt;br&gt;b&lt;br&gt;o&lt;br&gt;内&lt;br&gt;核" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="500" y="2230" width="20" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-68" target="p4-F5EnrrteNVVbMthXz-69">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-68" target="p4-F5EnrrteNVVbMthXz-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-68" value="MockClusterInvoker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-68" value="MockClusterInvoker" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="45" y="2230" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-69" target="p4-F5EnrrteNVVbMthXz-70">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-69" target="p4-F5EnrrteNVVbMthXz-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-69" value="interceptor" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-69" value="interceptor" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="45" y="2260" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.366;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-70" target="p4-F5EnrrteNVVbMthXz-78">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.366;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-70" target="p4-F5EnrrteNVVbMthXz-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-70" value="&lt;font style=&quot;font-size: 10px&quot;&gt;failover-Invoker&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-70" value="&lt;font style=&quot;font-size: 10px&quot;&gt;failover-Invoker&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="45" y="2290" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-73" value="重试策略&lt;br&gt;过滤路由&lt;br&gt;路由负载" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-73" value="重试策略&lt;br&gt;过滤路由&lt;br&gt;路由负载" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="390" y="2338" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-74" value="&lt;span style=&quot;font-size: 10px&quot;&gt;select&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-74" value="&lt;span style=&quot;font-size: 10px&quot;&gt;select&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="45" y="2350" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-75" value="registerdirectory" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-75" value="registerdirectory" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="160" y="2230" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-76" value="&lt;span style=&quot;font-size: 10px&quot;&gt;failover-Invoker&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-76" value="&lt;span style=&quot;font-size: 10px&quot;&gt;failover-Invoker&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="265" y="2230" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-77" value="&lt;ul style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1rem ; max-width: 80% ; color: rgb(34 , 34 , 34) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Failover Cluster - 失败自动切换&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Failfast Cluster - 快速失败&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Failsafe Cluster - 失败安全&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font color=&quot;#222222&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1rem ; max-width: 80% ; color: rgb(34 , 34 , 34) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Failback Cluster - 失败自动恢复&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;FailbackClusterInvoker&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;会在调用失败后，返回一个空结果给服务消费者。&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;并通过定时任务对失败的调用进行重传，&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;适合执行消息通知等操作&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font color=&quot;#222222&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1rem ; max-width: 80% ; color: rgb(34 , 34 , 34) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&amp;nbsp;Forking Cluster - 并行调用多个服务提供者&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;open sans&amp;#34; , , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;BroadcastClusterInvoker 会逐个调用每个服务提供者，如果其中一台报错，在循环调用结束后，BroadcastClusterInvoker 会抛出异常。该类通常用于通知所有提供者更新缓存或日志等本地资源信息&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-77" value="&lt;ul style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1rem ; max-width: 80% ; color: rgb(34 , 34 , 34) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Failover Cluster - 失败自动切换&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Failfast Cluster - 快速失败&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Failsafe Cluster - 失败安全&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font color=&quot;#222222&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1rem ; max-width: 80% ; color: rgb(34 , 34 , 34) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Failback Cluster - 失败自动恢复&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;FailbackClusterInvoker&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;会在调用失败后，返回一个空结果给服务消费者。&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;并通过定时任务对失败的调用进行重传，&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;适合执行消息通知等操作&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font color=&quot;#222222&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 1rem ; max-width: 80% ; color: rgb(34 , 34 , 34) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&amp;nbsp;Forking Cluster - 并行调用多个服务提供者&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box ; margin-bottom: 0.25rem&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;open sans&amp;#34; , , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;BroadcastClusterInvoker 会逐个调用每个服务提供者，如果其中一台报错，在循环调用结束后，BroadcastClusterInvoker 会抛出异常。该类通常用于通知所有提供者更新缓存或日志等本地资源信息&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="20" y="2480" width="310" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-78" value="&lt;span style=&quot;font-size: 10px&quot;&gt;directory list-&amp;gt;routerChain&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-78" value="&lt;span style=&quot;font-size: 10px&quot;&gt;directory list-&amp;gt;routerChain&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="45" y="2330" width="145" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-83" value="cluster&lt;br&gt;用于生产&lt;br&gt;cluster invoker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-83" value="cluster&lt;br&gt;用于生产&lt;br&gt;cluster invoker" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-103" y="2290" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-84" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-84" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-980" y="2000" width="860" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-85" value="Dubbo 服务引用的两种方式:&amp;nbsp; &amp;nbsp;服务直连|注册中心进行引用&lt;br&gt;第一个是在 Spring 容器调用 ReferenceBean 的 afterPropertiesSet 方法时引用服务，&lt;br&gt;第二个是在 ReferenceBean 对应的服务被注入到其他类中时引用。这两个引用服务的时机区别在于&lt;br&gt;第一个是饿汉式的，第二个是懒汉式的。默认情况下，Dubbo 使用懒汉式引用服务。&lt;br&gt;如果需要使用饿汉式，可通过配置 &amp;lt;dubbo:reference&amp;gt; 的 init 属性开启&amp;nbsp; &amp;nbsp; &amp;nbsp; 此外 referencebean是一个factoryBean" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-85" value="Dubbo 服务引用的两种方式:&amp;nbsp; &amp;nbsp;服务直连|注册中心进行引用&lt;br&gt;第一个是在 Spring 容器调用 ReferenceBean 的 afterPropertiesSet 方法时引用服务，&lt;br&gt;第二个是在 ReferenceBean 对应的服务被注入到其他类中时引用。这两个引用服务的时机区别在于&lt;br&gt;第一个是饿汉式的，第二个是懒汉式的。默认情况下，Dubbo 使用懒汉式引用服务。&lt;br&gt;如果需要使用饿汉式，可通过配置 &amp;lt;dubbo:reference&amp;gt; 的 init 属性开启&amp;nbsp; &amp;nbsp; &amp;nbsp; 此外 referencebean是一个factoryBean" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="-980" y="2000" width="860" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-86" value="&lt;div&gt;&lt;div&gt;&lt;ul style=&quot;margin: 0px 0px 0px 30px ; padding: 0px ; word-break: break-all ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: disc&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Random LoadBalance：随机策略。按照概率设置权重，比较均匀，并且可以动态调节提供者的权重。&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: disc&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;RoundRobin LoadBalance：轮询策略。轮询，按公约后的权重设置轮询比率。会存在执行比较慢的服务提供者堆积请求的情况，比如一个机器执行的非常慢，但是机器没有挂调用（如果挂了，那么当前机器会从Zookeeper的服务列表删除），当很多新的请求到达该机器后，由于之前的请求还没有处理完毕，会导致新的请求被堆积，久而久之，所有消费者调用这台机器上的请求都被阻塞。&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: disc&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;LeastActive LoadBalance：最少活跃调用数。如果每个提供者的活跃数相同，则随机选择一个。在每个服务提供者里面维护者一个活跃数计数器，用来记录当前同时处理请求的个数，也就是并发处理任务的个数。所以如果这个值越小说明当前服务提供者处理的速度很快或者当前机器的负载比较低，所以路由选择时候就选择该活跃度最小的机器。如果一个服务提供者处理速度很慢，由于堆积，那么同时处理的请求就比较多，也就是活跃调用数目越大，这也使得慢的提供者收到更少请求，因为越慢的提供者的活跃度越来越大。&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: disc&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;ConsistentHash LoadBalance：一致性Hash策略。一致性Hash，可以保证相同参数的请求总是发到同一提供者，当某一台提供者挂了时，原本发往该提供者的请求，基于虚拟节点，平摊到其他提供者，不会引起剧烈变动。&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-86" value="&lt;div&gt;&lt;div&gt;&lt;ul style=&quot;margin: 0px 0px 0px 30px ; padding: 0px ; word-break: break-all ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: disc&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Random LoadBalance：随机策略。按照概率设置权重，比较均匀，并且可以动态调节提供者的权重。&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: disc&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;RoundRobin LoadBalance：轮询策略。轮询，按公约后的权重设置轮询比率。会存在执行比较慢的服务提供者堆积请求的情况，比如一个机器执行的非常慢，但是机器没有挂调用（如果挂了，那么当前机器会从Zookeeper的服务列表删除），当很多新的请求到达该机器后，由于之前的请求还没有处理完毕，会导致新的请求被堆积，久而久之，所有消费者调用这台机器上的请求都被阻塞。&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: disc&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;LeastActive LoadBalance：最少活跃调用数。如果每个提供者的活跃数相同，则随机选择一个。在每个服务提供者里面维护者一个活跃数计数器，用来记录当前同时处理请求的个数，也就是并发处理任务的个数。所以如果这个值越小说明当前服务提供者处理的速度很快或者当前机器的负载比较低，所以路由选择时候就选择该活跃度最小的机器。如果一个服务提供者处理速度很慢，由于堆积，那么同时处理的请求就比较多，也就是活跃调用数目越大，这也使得慢的提供者收到更少请求，因为越慢的提供者的活跃度越来越大。&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 1em ; padding: 0px ; list-style: disc&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;ConsistentHash LoadBalance：一致性Hash策略。一致性Hash，可以保证相同参数的请求总是发到同一提供者，当某一台提供者挂了时，原本发往该提供者的请求，基于虚拟节点，平摊到其他提供者，不会引起剧烈变动。&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="355" y="2480" width="315" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-87" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-87" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="990" y="2000" width="860" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-88" value="dubbo 暴露&amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;exportServices&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;exportMetadataService&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;registerServiceInstance&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-88" value="dubbo 暴露&amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;exportServices&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;exportMetadataService&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;registerServiceInstance&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="990" y="2000" width="860" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-89" value="DubboBootstrap" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-89" value="DubboBootstrap" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1000" y="2099" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-90" value="ServiceConfig" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-90" value="ServiceConfig&lt;br&gt;ServiceBean" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1000" y="2159" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-92" value="多注册中心循环暴露doExportUrlsFor1Protocol&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22ServiceConfig%22%20style%3D%22html%3D1%3Bdashed%3D0%3Bwhitespace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221000%22%20y%3D%222215%22%20width%3D%22100%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;doExportUrlsFor1Protocol&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#ba0000&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;doExportUrlsFor1Protocol&lt;/span&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-92" value="多注册中心循环暴露doExportUrlsFor1Protocol&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22ServiceConfig%22%20style%3D%22html%3D1%3Bdashed%3D0%3Bwhitespace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221000%22%20y%3D%222215%22%20width%3D%22100%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;doExportUrlsFor1Protocol&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#ba0000&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;doExportUrlsFor1Protocol&lt;/span&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1101" y="2159" width="280" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-93" value="本地" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-93" value="本地" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1201" y="2189" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-94" value="zk处理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-94" value="zk处理" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1402" y="2190" width="89" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-95" value="远程" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-95" value="远程" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1301" y="2189" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-98" value="组装map构建url" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-98" value="组装map构建url" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1100" y="2189" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-106" value="Exporter&amp;lt;?&amp;gt; exporter = PROTOCOL.export(PROXY_FACTORY.getInvoker(ref, (Class) interfaceClass, local));" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-106" value="Exporter&amp;lt;?&amp;gt; exporter = PROTOCOL.export(PROXY_FACTORY.getInvoker(ref, (Class) interfaceClass, local));" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1101" y="2267.5" width="610" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-107" value="DelegateProviderMetaDataInvoker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-107" value="DelegateProviderMetaDataInvoker" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1101" y="2291.5" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-108" value="AbstractProxyInvoker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-108" value="AbstractProxyInvoker" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1331" y="2291.5" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-109" value="Exporter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-109" value="Exporter" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1101" y="2312.5" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-110" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;exporterMap&lt;/span&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-110" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;exporterMap&lt;/span&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1331" y="2312.5" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-111" value="&lt;font color=&quot;#660e7a&quot; face=&quot;menlo&quot;&gt;&lt;b&gt;openServer&lt;/b&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-111" value="&lt;font color=&quot;#660e7a&quot; face=&quot;menlo&quot;&gt;&lt;b&gt;openServer&lt;/b&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1561" y="2311.5" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-112" value="RegistryProtocol" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-112" value="RegistryProtocol" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1000" y="2210" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-113" value="DubboProtocol" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-113" value="DubboProtocol" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1000" y="2267.5" width="100" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-114" target="p4-F5EnrrteNVVbMthXz-113">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-114" target="p4-F5EnrrteNVVbMthXz-113" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1151" y="2260" />
@@ -312,136 +312,136 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-114" value="export" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-114" value="export" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1101" y="2211" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-117" value="register" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-117" value="register" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1201" y="2211" width="159" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-118" value="subscribe" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-118" value="subscribe" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1360" y="2211" width="159" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-121" value="exchange&lt;br&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;open sans&amp;#34; , , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;并不具备通信能力&lt;/font&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-121" value="exchange&lt;br&gt;&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;open sans&amp;#34; , , , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;并不具备通信能力&lt;/font&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="880" y="2146" width="110" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-122" value="transport" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-122" value="transport" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="880" y="2226" width="110" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-123" value="codec" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-123" value="codec[json,protibuf,]" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="880" y="2311.5" width="110" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-124" value="获取注册中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-124" value="获取注册中心" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1200" y="2235" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-125" value="注册" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-125" value="注册" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1280" y="2235" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-126" value="例如监控中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-126" value="例如监控中心" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1360" y="2236" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-127" value="metadata处理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-127" value="metadata处理" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1440" y="2236" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-129" value="网络层" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-129" value="网络层" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="885" y="2000" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-132" value="ReferenceConfig" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-132" value="ReferenceConfig" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-970" y="2174.5" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-133" value="init" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-133" value="init" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-869" y="2174.5" width="280" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-134" value="createProxy" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-134" value="createProxy" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-769" y="2204.5" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-136" value="ConfigValidationUtils.loadRegistries" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-136" value="ConfigValidationUtils.loadRegistries" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-669" y="2204.5" width="199" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-137" value="组装map" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-137" value="组装map" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-870" y="2204.5" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-138" value="protocol.refer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-138" value="protocol.refer" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-470" y="2204.5" width="199" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-139" value="RegistryProtocol" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-139" value="RegistryProtocol" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-970" y="2236" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-140" value="&lt;ul style=&quot;margin: 0px 20px ; padding: 0px ; border: 0px ; outline: 0px ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; vertical-align: baseline ; line-height: 1.6em ; color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgb(245 , 245 , 213)&quot;&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-weight: inherit ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; RegistryProtocol&lt;/strong&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-weight: inherit ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;=&amp;gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-weight: inherit ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; DubboProtocol&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-140" value="&lt;ul style=&quot;margin: 0px 20px ; padding: 0px ; border: 0px ; outline: 0px ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; vertical-align: baseline ; line-height: 1.6em ; color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgb(245 , 245 , 213)&quot;&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-weight: inherit ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; RegistryProtocol&lt;/strong&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-weight: inherit ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;=&amp;gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-weight: inherit ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; DubboProtocol&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-970" y="2600" width="740" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-141" value="registered属性处理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-141" value="registered属性处理" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-860" y="2236" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-142" value="合并Invokerinvoker = cluster.join(directory)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-142" value="合并Invokerinvoker = cluster.join(directory)" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-533" y="2267.5" width="240" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-143" value="zk consumers目录下创建新节点" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-143" value="zk consumers目录下创建新节点" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-751" y="2235" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-144" value="订阅 providers、configurators、routers 等节点数据" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-144" value="订阅 providers、configurators、routers 等节点数据" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-861" y="2267.5" width="310" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-145" value="RegistryDirectory" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-145" value="RegistryDirectory" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-970" y="2318" width="100" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-146" value="subscribe" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-146" value="subscribe" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-861" y="2318" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-147" value="ListenerRegistryWrapper.subscribe" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-147" value="ListenerRegistryWrapper.subscribe" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-751" y="2318" width="281" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-148" value="ZookeeperRegistry" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-148" value="ZookeeperRegistry" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-970" y="2390" width="100" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-149" value="subscribe" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-149" value="subscribe" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-860" y="2390" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-150" value="notify" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-150" value="notify" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-740" y="2390" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-151" value="dubboProtocol" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-151" value="dubboProtocol" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-970" y="2470" width="100" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-152" target="p4-F5EnrrteNVVbMthXz-153">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-152" target="p4-F5EnrrteNVVbMthXz-153" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-152" value="RegistryDirectory,notify&amp;nbsp; &amp;nbsp;toInvokers" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-152" value="RegistryDirectory,notify&amp;nbsp; &amp;nbsp;toInvokers" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-630" y="2390" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-153" value="new dubboInvoker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-153" value="new dubboInvoker" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-860" y="2470" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-154" value="getClients" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-154" value="getClients" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-730" y="2470" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-155" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;默认共享ExchangeClient 连接数为1&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;默认非延迟初始化&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;默认netty&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;也就是是一个dubbo消费者&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;b style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; text-align: left&quot;&gt;默认&lt;/b&gt;&lt;b style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left&quot;&gt;只有一个netty连接 当然线程是多个&lt;/b&gt;&lt;b style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; text-align: left&quot;&gt;&lt;br&gt;&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-155" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;默认共享ExchangeClient 连接数为1&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;默认非延迟初始化&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;默认netty&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot; face=&quot;helvetica neue, helvetica, arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;也就是是一个dubbo消费者&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;b style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; text-align: left&quot;&gt;默认&lt;/b&gt;&lt;b style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left&quot;&gt;只有一个netty连接 当然线程是多个&lt;/b&gt;&lt;b style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; text-align: left&quot;&gt;&lt;br&gt;&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-960" y="2710" width="740" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-156" value="getSharedClient" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-156" value="getSharedClient" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-610" y="2470" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-157" value="initclient" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-157" value="initclient" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-490" y="2470" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-158" value="Exchangers.connect" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-158" value="Exchangers.connect" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-370" y="2470" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.885;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p4-F5EnrrteNVVbMthXz-159" target="p4-F5EnrrteNVVbMthXz-161">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.885;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-159" target="p4-F5EnrrteNVVbMthXz-161" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-159" value="getExchanger(url).connect(url, handler);" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-159" value="getExchanger(url).connect(url, handler);" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-370" y="2500" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-160" value="HeaderExchanger" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-160" value="HeaderExchanger" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-970" y="2534" width="100" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-161" value="new HeaderExchangeClient(Transporters.connect(url, new DecodeHandler(new HeaderExchangeHandler(handler))), true);" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-161" value="new HeaderExchangeClient(Transporters.connect(url, new DecodeHandler(new HeaderExchangeHandler(handler))), true);" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-860" y="2534" width="680" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-165" value="Transporters.connect 实现为getTransporter().connect(url, handler)也就是netty 实现NettyTransporter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-165" value="Transporters.connect 实现为getTransporter().connect(url, handler)也就是netty 实现NettyTransporter" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-860" y="2570" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-166" value="&lt;span&gt;clusterInvoker&amp;nbsp; &amp;nbsp;| force mock&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;FailoverClusterInvoker | error 策略&lt;br&gt;&lt;/div&gt;&lt;div&gt;InvokerDelegate | 委托&lt;br&gt;&lt;/div&gt;&lt;div&gt;AsyncToSyncInvoker | 异步转同步&lt;br&gt;&lt;/div&gt;&lt;div&gt;DubboInvoker | 实际调用&lt;/div&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-166" value="&lt;span&gt;clusterInvoker&amp;nbsp; &amp;nbsp;| force mock&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;FailoverClusterInvoker | error 策略&lt;br&gt;&lt;/div&gt;&lt;div&gt;InvokerDelegate | 委托&lt;br&gt;&lt;/div&gt;&lt;div&gt;AsyncToSyncInvoker | 异步转同步&lt;br&gt;&lt;/div&gt;&lt;div&gt;DubboInvoker | 实际调用&lt;/div&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="-980" y="2080" width="390" height="90" as="geometry" />
         </mxCell>
       </root>

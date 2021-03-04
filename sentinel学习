@@ -1,1 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2021-02-28T09:12:03.813Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.4.3" etag="wRKc-3WCKJb7Pg1k1wy9" type="github"><diagram id="EmIIKKkNHc-ExxnbfPOY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-04T09:14:03.971Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="Zsao14on4UXcM0ucPkZW" version="14.4.3" type="github">
+  <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
+    <mxGraphModel dx="450" dy="264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aMYGjP4ea3GgYwZIRnpw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aMYGjP4ea3GgYwZIRnpw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aMYGjP4ea3GgYwZIRnpw-1" value="dubbo adapter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aMYGjP4ea3GgYwZIRnpw-2" value="api adapter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="670" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aMYGjP4ea3GgYwZIRnpw-3" value="zuul adapter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aMYGjP4ea3GgYwZIRnpw-5" value="ContextUtil.enter(contextName, origin);&lt;br&gt;SphU.entry(&quot;&quot;)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="640" width="290" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

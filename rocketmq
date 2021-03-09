@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T07:19:52.985Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" version="14.4.4" etag="fjP_7bQ4OVdWuP-WuLY2" type="github"><diagram id="jVRZf2C6SAXkT08q0dlN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-09T07:35:25.416Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="gtYB6RjGlzi6r0m5K30L" version="14.4.4" type="github">
+  <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
+    <mxGraphModel dx="946" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-10" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="350" width="610" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-8" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="70" width="340" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-1" value="nameServier" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="70" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-6" value="broker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="350" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-7" value="BrokerStartup" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="430" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-9" value="nameServier" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="150" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.591;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jJkn0IvtKP5OYCp6w5pS-11" target="jJkn0IvtKP5OYCp6w5pS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-13" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jJkn0IvtKP5OYCp6w5pS-12">
+          <mxGeometry x="0.0436" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-11" value="30秒" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="350" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-14" value="加载broker.conf" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="430" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-15" value="创建Broker controller" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="398" y="430" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-16" value="controller.initialize" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="430" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-17" value="controller.start()" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="460" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-18" value="30秒自动注册到nameserver" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="460" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-19" value="各种组件start" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="398" y="460" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

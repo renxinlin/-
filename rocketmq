@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T07:35:25.416Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="gtYB6RjGlzi6r0m5K30L" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T11:47:58.371Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="VcWUyZewGF2idBGBBp4e" version="14.4.4" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="946" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,19 +19,18 @@
         <mxCell id="jJkn0IvtKP5OYCp6w5pS-7" value="BrokerStartup" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="180" y="430" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jJkn0IvtKP5OYCp6w5pS-9" value="nameServier" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="180" y="150" width="100" height="50" as="geometry" />
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-9" value="Default&lt;br&gt;RequestProcessor" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jJkn0IvtKP5OYCp6w5pS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.591;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jJkn0IvtKP5OYCp6w5pS-11" target="jJkn0IvtKP5OYCp6w5pS-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="jJkn0IvtKP5OYCp6w5pS-13" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jJkn0IvtKP5OYCp6w5pS-12">
-          <mxGeometry x="0.0436" y="3" relative="1" as="geometry">
-            <mxPoint x="-3" y="2" as="offset" />
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.591;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="jJkn0IvtKP5OYCp6w5pS-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="350" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJkn0IvtKP5OYCp6w5pS-11" value="30秒" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="330" y="350" width="100" height="50" as="geometry" />
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-23" value="broker心跳30秒" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jJkn0IvtKP5OYCp6w5pS-12">
+          <mxGeometry x="-0.2903" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jJkn0IvtKP5OYCp6w5pS-14" value="加载broker.conf" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="290" y="430" width="100" height="20" as="geometry" />
@@ -50,6 +49,29 @@
         </mxCell>
         <mxCell id="jJkn0IvtKP5OYCp6w5pS-19" value="各种组件start" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="398" y="460" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-21" value="RouteInfoManager" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJkn0IvtKP5OYCp6w5pS-21" target="jJkn0IvtKP5OYCp6w5pS-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="215" />
+              <mxPoint x="480" y="130" />
+              <mxPoint x="410" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-24" value="每10秒扫描broker&lt;br&gt;续期超过120秒剔除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jJkn0IvtKP5OYCp6w5pS-22">
+          <mxGeometry x="-0.3926" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-25" value="brokercoontroller" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="314" y="350" width="146" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jJkn0IvtKP5OYCp6w5pS-26" value="Namesrvcoontroller" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="135" width="146" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

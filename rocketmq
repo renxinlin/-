@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T17:01:39.490Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="rIi9-H9x0TjV-8UACnrG" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-15T17:03:53.953Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="z7SoxzmQFbmmuo2hZcT5" version="14.4.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2178" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -427,6 +427,15 @@
         </mxCell>
         <mxCell id="xi-lC8qzqfooSBcnfqZU-79" value="Scheduled&lt;br&gt;Executor&lt;br&gt;Service" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2370" y="2160" width="70" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xi-lC8qzqfooSBcnfqZU-83" value="DefaultMessageStore" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1750" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xi-lC8qzqfooSBcnfqZU-84" value="commitlog" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1840" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xi-lC8qzqfooSBcnfqZU-85" value="mapperFileQueue" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1940" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

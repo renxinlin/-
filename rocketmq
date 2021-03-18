@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T11:19:25.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="R16Xy_43CsznpM5Hoo9Q" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T11:22:00.957Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="QpYD3EW95sJQ-3FNBe9Q" version="14.4.8" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2178" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,13 +295,7 @@
           <mxGeometry x="1780" y="1510" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.071;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xi-lC8qzqfooSBcnfqZU-37" target="xi-lC8qzqfooSBcnfqZU-58">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1808" y="1600" />
-              <mxPoint x="1640" y="1600" />
-              <mxPoint x="1640" y="1654" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-6" value="接收发送的消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_YNBMqEFQMXRZf3hjl2X-5">
           <mxGeometry x="0.0958" y="-5" relative="1" as="geometry">
@@ -507,8 +501,23 @@
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-19" value="处理死信队列" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2310" y="1870" width="120" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_YNBMqEFQMXRZf3hjl2X-21" target="_YNBMqEFQMXRZf3hjl2X-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2500" y="1900" />
+              <mxPoint x="1825" y="1900" />
+              <mxPoint x="1825" y="1960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-21" value="处理事务消息|普通消息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2440" y="1870" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-39" value="核心处理层" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="1845" y="1910" width="715" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-40" value="DefaultMessageStore" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1845" y="1950" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

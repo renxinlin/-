@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T11:22:00.957Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="QpYD3EW95sJQ-3FNBe9Q" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T11:24:28.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="3tc6k2LUdBRBQ-qyj357" version="14.4.8" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2178" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -517,7 +517,22 @@
           <mxGeometry x="1845" y="1910" width="715" height="10" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-40" value="DefaultMessageStore" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1845" y="1950" width="120" height="20" as="geometry" />
+          <mxGeometry x="1845" y="1950" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-45" value="检查broker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="1950" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-46" value="检查消息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="1950" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-47" value="追加消息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="1950" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-48" value="统计" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="1970" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-49" value="commitlog" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1847.5" y="2000" width="195" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

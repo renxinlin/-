@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T11:24:28.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="3tc6k2LUdBRBQ-qyj357" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T11:37:14.932Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="nS1DFmXGBgPeHUZNkhIN" version="14.4.8" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2178" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -532,7 +532,42 @@
           <mxGeometry x="2050" y="1970" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-49" value="commitlog" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1847.5" y="2000" width="195" height="40" as="geometry" />
+          <mxGeometry x="1847.5" y="2000" width="192.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-50" value="消息属性添加" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="2000" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-52" value="消息属性添加" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="2000" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-53" value="加锁串行化处理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="2000" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.645;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#FFFF66;strokeColor=#99FF33;" edge="1" parent="1" source="_YNBMqEFQMXRZf3hjl2X-54" target="_YNBMqEFQMXRZf3hjl2X-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="2627.1428571428573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-54" value="mappedFileQueue获取mappedfile" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="2024" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-55" value="mappedFileQueue到达结尾则新建重写" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="2024" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-56" value="统计" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="2050" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-57" value="刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="2050" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-58" value="主从复制" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="2050" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-59" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="2690" width="690" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-61" value="内存映射文件获取" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="2690" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

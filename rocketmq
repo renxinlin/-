@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T05:57:01.446Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="e1YsSUDe8EisZk0zhy7D" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T05:57:50.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="FrncuAz87v6el43eslVr" version="14.4.8" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2178" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -440,6 +440,15 @@
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-1" value="元信息服务" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1780" y="2040" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-2" value="刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="1950" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-3" value="内存映射" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="1890" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-4" value="写入消息到内存" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="1920" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

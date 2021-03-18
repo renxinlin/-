@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T11:44:05.809Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="WMRBD7TnConyutzrxwpH" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T12:01:20.763Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="CAbKIcCKAwMJxdCs-EVF" version="14.4.8" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2178" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -570,7 +570,7 @@
           <mxGeometry x="1000" y="2690" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-62" value="MappedFile" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1847.5" y="2080" width="192.5" height="70" as="geometry" />
+          <mxGeometry x="1847.5" y="2080" width="192.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-63" value="appendMessagesInner" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2050" y="2080" width="150" height="20" as="geometry" />
@@ -580,6 +580,15 @@
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-66" value="为什么写到堆外内存而不是直接写到&lt;br&gt;mmap的内存&lt;br&gt;主要是因为mmap内存在内核态&lt;br&gt;堆外内存在用户态&lt;br&gt;1堆内存到内核态需要序列化转堆外内存&lt;br&gt;2需要线程上下文切换从用户态到内核态" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1470" y="2040" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-67" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="3130" width="690" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-68" value="追加消息&lt;br&gt;AppendMessageCallback.doappend" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="3130" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-69" value="&lt;b&gt;处理wrotePosition&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="2155" width="170" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

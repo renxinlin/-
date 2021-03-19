@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T12:01:20.763Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="CAbKIcCKAwMJxdCs-EVF" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-19T08:22:23.492Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="5YMDASAdVderO6Z_6mPK" version="14.4.8" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="2178" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -578,8 +578,8 @@
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-64" value="&lt;b&gt;根据TransientStorePoolEnable交给&lt;br&gt;AppendMessageCallback追写到&lt;br&gt;writeBuffer堆外内存或者mappedByteBuffer内核态内存&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2050" y="2110" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_YNBMqEFQMXRZf3hjl2X-66" value="为什么写到堆外内存而不是直接写到&lt;br&gt;mmap的内存&lt;br&gt;主要是因为mmap内存在内核态&lt;br&gt;堆外内存在用户态&lt;br&gt;1堆内存到内核态需要序列化转堆外内存&lt;br&gt;2需要线程上下文切换从用户态到内核态" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="2040" width="260" height="180" as="geometry" />
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-66" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;为什么写到堆外内存而不是直接写到&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;mmap的内存&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;主要是因为mmap内存在内核态&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;堆外内存在用户态&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1堆内存到内核态需要序列化转堆外内存&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2需要线程上下文切换从用户态到内核态&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3直接mmap导致加锁，页污染&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4 直接内存在提交的时候是批量提交&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;完成读写分离，解决写放大&lt;/span&gt;&lt;/div&gt;" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1970" width="330" height="250" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-67" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1000" y="3130" width="690" height="440" as="geometry" />

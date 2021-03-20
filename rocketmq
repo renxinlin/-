@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T14:07:33.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="zmJszF0u_iqS2BoiH7c6" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T14:19:46.484Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="FgfKDo3UXZAVW76uppyP" version="14.4.8" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="1773" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -654,12 +654,12 @@
           <mxGeometry x="1690" y="3130" width="890" height="440" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-94" value="异步刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="3130" width="120" height="20" as="geometry" />
+          <mxGeometry x="1691" y="3130" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-95" value="CommitLog" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1690" y="3170" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_YNBMqEFQMXRZf3hjl2X-96" value="FlushRealTimeService&lt;br&gt;刷盘间隔500ms" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-96" value="FlushRealTimeService&lt;br&gt;刷盘间隔500ms&lt;br&gt;刷盘页为4" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1690" y="3273" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-97" value="根据是否开启堆外内存唤醒FlushRealTimeService或者CommitRealTimeService&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%AD%90%E7%BA%BF%E7%A8%8B%E6%AF%8F10%E6%AF%AB%E7%A7%92%E6%89%A7%E8%A1%8C%E5%88%B7%E7%9B%98%22%20style%3D%22html%3D1%3Bdashed%3D0%3Bwhitespace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221847.5%22%20y%3D%222853%22%20width%3D%22312.5%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;FlushRealTimeService&lt;/span&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -680,8 +680,32 @@
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-102" value="同同步刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1841" y="3350" width="640" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_YNBMqEFQMXRZf3hjl2X-103" value="提交间隔200" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-103" value="CommitRealTimeService&lt;br&gt;提交间隔200&lt;br&gt;提交页为4" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1690" y="3200" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-104" value="mappedFileQueue.commit" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1841" y="3200" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-106" value="如果真正提交了数据则唤醒刷盘线程" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1841" y="3225" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-107" value="mappedFileQueue" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1691" y="3410" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-108" value="调用mappedFile进行commit" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="3410" width="640" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-109" value="mappedFile" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1691" y="3470" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-110" value="isAbleToCommit" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1837.5" y="3470" width="202.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-111" value="fileChannel.write(byteBuffer)写入内核内存" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1837.5" y="3500" width="242.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-112" value="更新提交指针" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2084.75" y="3500" width="242.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

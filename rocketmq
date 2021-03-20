@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T13:14:48.229Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="g8K3BCFP1t8p3Sy30U-S" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T13:35:37.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="fk8mwnicfp3p25rNfScF" version="14.4.8" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="2404" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -612,7 +612,7 @@
           <mxGeometry x="1847" y="2796" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-78" value="waitForRunning&amp;nbsp; onWaitEnd swapRequests" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2025" y="2796" width="265" height="20" as="geometry" />
+          <mxGeometry x="2045" y="2860" width="265" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-79" value="子线程每10毫秒执行刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1847.5" y="2820" width="170" height="20" as="geometry" />
@@ -646,6 +646,12 @@
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-90" value="isAbleToFlush(flushLeastPages) 刷盘页为0" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1855" y="3000" width="312.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-91" value="根据堆外内存是否开启执行filechannel.force 或者内存映射文件force" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1857.5" y="3030" width="382.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-92" value="刷盘页不够则不进行刷盘，刷盘指针落后写指针则执行刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="3000" width="312.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T14:02:47.500Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="c2w0HbYudd08icHCxXX-" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T14:04:05.946Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="UoG2Dx5tHGiFCV8QPMnm" version="14.4.8" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="1773" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -644,8 +644,8 @@
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-90" value="isAbleToFlush(flushLeastPages) 刷盘页为0" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1851" y="3000" width="312.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_YNBMqEFQMXRZf3hjl2X-91" value="根据堆外内存是否开启执行filechannel.force 或者内存映射文件force" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1850.5" y="3030" width="382.5" height="20" as="geometry" />
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-91" value="根据堆外内存是否开启执行filechannel.force 或者内存映射文件force [注意只有异步刷盘才会开启堆外内存]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1850.5" y="3030" width="589.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-92" value="刷盘页不够则不进行刷盘，刷盘指针落后写指针则执行刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2180" y="3000" width="312.5" height="20" as="geometry" />
@@ -677,7 +677,7 @@
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-101" value="mappedFileQueue" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1690" y="3280" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_YNBMqEFQMXRZf3hjl2X-102" value="如果刷盘时间间隔到达则设置刷盘页数为0 强制刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-102" value="同同步刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1840" y="3280" width="640" height="20" as="geometry" />
         </mxCell>
       </root>

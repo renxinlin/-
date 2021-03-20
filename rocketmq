@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T13:35:37.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="fk8mwnicfp3p25rNfScF" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T13:37:24.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="A2w1xL20TZSGbUSNk2fE" version="14.4.8" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="1773" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -596,9 +596,6 @@
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-71" value="同步刷盘，等待结果" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1700" y="2710" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_YNBMqEFQMXRZf3hjl2X-72" value="异步刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2220" y="2710" width="120" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-73" value="GroupCommitService&lt;br&gt;读写队列" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1700" y="2770" width="140" height="70" as="geometry" />
         </mxCell>
@@ -652,6 +649,12 @@
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-92" value="刷盘页不够则不进行刷盘，刷盘指针落后写指针则执行刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2180" y="3000" width="312.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-93" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="3130" width="890" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-94" value="异步刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="3130" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

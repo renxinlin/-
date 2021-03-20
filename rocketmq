@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T08:22:23.492Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="5YMDASAdVderO6Z_6mPK" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T12:41:55.075Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="jdUCsxk5LUQzfd6wZx4S" version="14.4.8" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="1773" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2404" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -378,7 +378,7 @@
           <mxGeometry x="1780" y="1610" width="790" height="620" as="geometry" />
         </mxCell>
         <mxCell id="xi-lC8qzqfooSBcnfqZU-59" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="2290" width="790" height="410" as="geometry" />
+          <mxGeometry x="1790" y="2290" width="790" height="380" as="geometry" />
         </mxCell>
         <mxCell id="xi-lC8qzqfooSBcnfqZU-60" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2610" y="1610" width="790" height="410" as="geometry" />
@@ -589,6 +589,18 @@
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-69" value="&lt;b&gt;处理wrotePosition&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2050" y="2155" width="170" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-70" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="2690" width="690" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-71" value="同步刷盘，等待结果" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="2710" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-72" value="异步刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="2710" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-73" value="GroupCommitService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="2770" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

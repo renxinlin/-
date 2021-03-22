@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T07:50:46.748Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="jgak1ZaGbacQUBBEPKHI" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T07:54:33.657Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="hjap2kW94eta2gyOsO-H" version="14.4.9" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="1940" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -732,10 +732,13 @@
           <mxGeometry x="1180" y="3640" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-9" value="commitLog" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="3750" width="180" height="50" as="geometry" />
+          <mxGeometry x="1000" y="3730" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-10" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;如果commitlog或者consumequeue使用率大于&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-weight: bold ; font-family: &amp;#34;menlo&amp;#34; ; color: rgb(102 , 14 , 122)&quot;&gt;diskSpaceWarningLevelRatio&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-weight: bold ; font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34; ; color: rgb(102 , 14 , 122)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;【&lt;/span&gt;&lt;font color=&quot;#660e7a&quot; face=&quot;menlo&quot; style=&quot;font-weight: normal&quot;&gt;&lt;b&gt;将设置磁盘不可写，此时会拒绝新消息的写&lt;/b&gt;&lt;/font&gt;&lt;b&gt;】或&lt;/b&gt;&lt;font color=&quot;#660e7a&quot; face=&quot;menlo&quot; style=&quot;font-weight: normal&quot;&gt;&lt;b&gt;者&lt;/b&gt;&lt;/font&gt;&lt;b&gt;diskSpaceWarningLevelRatio&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;或者用户自定义diskMaxUsedSpaceRatio&lt;/b&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;则意味着需要删除&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;如果开启&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; text-align: center&quot;&gt;cleanFileForciblyEnable则立即删除否则否则走hangdelete&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1180" y="3660" width="510" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-11" value="MappedFileQueue.deleteExpiredFileByTime" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="3730" width="260" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T08:22:22.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="TIbaIrvM1dh5xrcF4Jrw" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T12:05:09.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="EpY3M2MJOLgES6tcOSQM" version="14.4.9" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="1773" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1615" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -374,6 +374,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-14" value="&amp;nbsp;registerBrokerAll&lt;br&gt;消息brokeraddr brokerid brokername&lt;br&gt;clustername haserveraddr&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xi-lC8qzqfooSBcnfqZU-73">
+          <mxGeometry x="0.4553" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xi-lC8qzqfooSBcnfqZU-58" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1780" y="1610" width="790" height="620" as="geometry" />
         </mxCell>
@@ -437,11 +442,8 @@
         <mxCell id="xi-lC8qzqfooSBcnfqZU-79" value="Scheduled&lt;br&gt;Executor&lt;br&gt;Service" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2380" y="2410" width="70" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="xi-lC8qzqfooSBcnfqZU-83" value="DefaultMessageStore" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2360" y="1738" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xi-lC8qzqfooSBcnfqZU-84" value="commitlog" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2360" y="1768" width="180" height="30" as="geometry" />
+        <mxCell id="xi-lC8qzqfooSBcnfqZU-84" value="启动broker.initialize&lt;br&gt;加载主题信息【topics.json】&lt;br&gt;加载消费进度订阅信息 消费过滤&lt;br&gt;加载消息存储文件&lt;br&gt;加载持久化配置的相关定时任务" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2390" y="1650" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xi-lC8qzqfooSBcnfqZU-85" value="mapperFileQueue" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2380" y="2100" width="180" height="30" as="geometry" />

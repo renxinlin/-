@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T07:54:47.081Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="2d2pOkdGl5hZ7IJOXYw2" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T08:22:22.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="TIbaIrvM1dh5xrcF4Jrw" version="14.4.9" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="1940" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -739,6 +739,12 @@
         </mxCell>
         <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-11" value="MappedFileQueue.deleteExpiredFileByTime" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1180" y="3730" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-12" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3400" y="1610" width="790" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-13" value="推送消息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3400" y="1610" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T09:52:24.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="AZBXpFYkH2uIizIRgRsZ" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-24T09:54:09.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Fa6oBb9ImuhpIjev6G5W" version="14.4.9" type="github">
   <diagram id="JghzZvX9P35Au-iqdBfg" name="Page-1">
     <mxGraphModel dx="2600" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -246,6 +246,9 @@
         </mxCell>
         <mxCell id="qhX4-I-9h0B54pzbeBBO-83" value="需要映射关系&lt;br&gt;不借助es的列mapping结构自动创建的功能" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-800" y="750" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qhX4-I-9h0B54pzbeBBO-85" value="目标:&lt;br&gt;1准实时&lt;br&gt;2批量写&lt;br&gt;3 防止es冲突" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-463" y="690" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

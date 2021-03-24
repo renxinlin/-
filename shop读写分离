@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T09:58:18.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="q84DirH3QEoko5qrSlCj" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-24T09:59:52.456Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ryYEi_AJSVrBpYKh4faU" version="14.4.9" type="github">
   <diagram id="JghzZvX9P35Au-iqdBfg" name="Page-1">
     <mxGraphModel dx="2600" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -282,6 +282,9 @@
         </mxCell>
         <mxCell id="qhX4-I-9h0B54pzbeBBO-95" value="persistent" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-777" y="850" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qhX4-I-9h0B54pzbeBBO-97" value="buffer要求先进先出&lt;br&gt;并且不会丢失&lt;br&gt;考虑在建设一个topic" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="920" width="80" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

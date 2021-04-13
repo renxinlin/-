@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T06:08:31.834Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="W_tKsy55ryyqlao8eEcm" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T06:09:58.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="VbU7fvzTuvhVkpE6IZWe" version="14.4.9" type="github">
   <diagram id="pJSTPR4djF-uFcay8l8W" name="Page-1">
     <mxGraphModel dx="946" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,14 @@
         </mxCell>
         <mxCell id="dPRooQ1OwFp5i1f49NF_-1" value="seller_user" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dPRooQ1OwFp5i1f49NF_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.333;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dPRooQ1OwFp5i1f49NF_-3" target="dPRooQ1OwFp5i1f49NF_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPRooQ1OwFp5i1f49NF_-19" value="mq: 业务mq还是数据mq" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dPRooQ1OwFp5i1f49NF_-17">
+          <mxGeometry x="-0.317" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="dPRooQ1OwFp5i1f49NF_-3" value="shop_user" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="190" width="100" height="50" as="geometry" />
@@ -32,13 +40,16 @@
           <mxGeometry x="770" y="140" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dPRooQ1OwFp5i1f49NF_-13" value="店铺表" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="70" y="350" width="810" height="50" as="geometry" />
+          <mxGeometry x="70" y="360" width="810" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dPRooQ1OwFp5i1f49NF_-15" value="店铺数据变更监听器" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="280" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dPRooQ1OwFp5i1f49NF_-16" value="店铺数据拉取器" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="230" y="280" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dPRooQ1OwFp5i1f49NF_-18" value="存储API" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

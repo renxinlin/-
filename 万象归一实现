@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T06:48:38.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="BSbmuswwiNoBEskael0Z" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T07:01:43.860Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="O7hqdCbZtZfjIm6qUKU8" version="14.4.9" type="github">
   <diagram id="pJSTPR4djF-uFcay8l8W" name="Page-1">
     <mxGraphModel dx="946" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,6 +58,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dPRooQ1OwFp5i1f49NF_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPRooQ1OwFp5i1f49NF_-16" target="dPRooQ1OwFp5i1f49NF_-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPRooQ1OwFp5i1f49NF_-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dPRooQ1OwFp5i1f49NF_-16" target="dPRooQ1OwFp5i1f49NF_-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dPRooQ1OwFp5i1f49NF_-16" value="店铺数据拉统一模型" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -140,6 +143,27 @@
         </mxCell>
         <mxCell id="dPRooQ1OwFp5i1f49NF_-49" value="模型映射" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="350" y="480" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dPRooQ1OwFp5i1f49NF_-50" value="单向&lt;br&gt;还是&lt;br&gt;双向" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="790" y="290" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPRooQ1OwFp5i1f49NF_-51" value="双向延&lt;br&gt;迟问题&lt;br&gt;如何解决" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="790" y="410" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPRooQ1OwFp5i1f49NF_-52" value="单向店&lt;br&gt;铺表能&lt;br&gt;不能写" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="790" y="350" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPRooQ1OwFp5i1f49NF_-53" value="业务" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="510" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dPRooQ1OwFp5i1f49NF_-54" value="数据映射&lt;br&gt;A.a,A.b-&amp;gt;E.c" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dPRooQ1OwFp5i1f49NF_-55" value="数据映射&lt;br&gt;B.a,-&amp;gt;E.a" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="140" y="410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dPRooQ1OwFp5i1f49NF_-59" value="数据" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="140" y="440" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

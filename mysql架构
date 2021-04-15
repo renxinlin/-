@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T05:56:42.548Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="f0Hn1Zm6it9iU2K5zdk7" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T05:59:48.093Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="SCsFLLqtY25kkQF8xS4X" version="14.4.9" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="1186" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="2LcBF4-c3rlgHzngnAeT-10" value="&amp;nbsp;cache" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="130" y="420" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2LcBF4-c3rlgHzngnAeT-11" value="page&amp;nbsp;cache" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="2LcBF4-c3rlgHzngnAeT-11" value="page&amp;nbsp;cache[16K]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="230" y="420" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2LcBF4-c3rlgHzngnAeT-12" value="自适应hash索引" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">

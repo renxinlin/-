@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T05:59:48.093Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="SCsFLLqtY25kkQF8xS4X" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T07:41:13.277Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="3n5tolMNNZqtRtEwcRBZ" version="14.4.9" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
-    <mxGraphModel dx="1186" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,8 +55,17 @@
         <mxCell id="2LcBF4-c3rlgHzngnAeT-18" value="机械盘&lt;br&gt;顺序写&lt;br&gt;磁头寻道&lt;br&gt;非顺序写&lt;br&gt;磁头寻道" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="545" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="2LcBF4-c3rlgHzngnAeT-20" value="innodb_buffer&lt;br&gt;_pool_instance" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="40" y="430" width="80" height="80" as="geometry" />
+        <mxCell id="2LcBF4-c3rlgHzngnAeT-22" value="innodb_buffer_pool_instance&lt;br&gt;&lt;div&gt;多个缓冲池的时候，必须满足每个池子大于1G才生效&lt;/div&gt;&lt;div&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="420" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2LcBF4-c3rlgHzngnAeT-23" value="Free" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="520" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2LcBF4-c3rlgHzngnAeT-24" value="lru" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="520" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2LcBF4-c3rlgHzngnAeT-25" value="flush" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

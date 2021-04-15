@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T12:04:18.718Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="LfIhgR-u0CVdKQxosp2f" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T12:10:53.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="PW5QhMLM9G7AhnZXtMYm" version="14.6.0" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2013" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,6 +94,9 @@
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-5" value="&lt;div style=&quot;text-align: center&quot;&gt;dirty innodb page cache&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="100" y="740" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-6" value="&lt;div&gt;check point 作用:1 缩短数据库恢复时间&lt;/div&gt;&lt;div&gt;2缓冲池不够用将脏页刷回磁盘&lt;/div&gt;&lt;div&gt;3 redo log不可用 刷新脏页&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="790" width="290" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T08:38:10.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="t8ffVqdTZTz-NV7GE_QX" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T08:40:00.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="nzoLSWCw6kgnMUDZIbEO" version="14.6.0" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2840" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,6 +165,9 @@
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-29" value="共享表空间" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-540" y="990" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-30" value="刷新邻接页:&lt;br&gt;脏页所在区的全部&lt;br&gt;脏页一起刷新&lt;br&gt;innodb_flush_neighbors" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="930" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

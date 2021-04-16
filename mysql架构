@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T08:01:14.267Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="DZDWjVR_Z94hiB3mCYFs" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T08:04:48.789Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="ILgwaLZ-aWK0EYQIE84k" version="14.6.0" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2840" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,6 +136,9 @@
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-20" value="page buffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-550" y="790" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-21" value="感悟: 软件的设计随着时代的发展也在发生变化，比如mysql old 版本的刷盘机制，其实是在那个机械盘主导&lt;br&gt;需要磁头寻道，定位的年代设计下的产物，但随着硬盘IOPS能力的增强，这种软件固定合并刷盘反而自身成为了瓶颈&lt;br&gt;mysql的版本也在新增参数来优化诸如此类问题&lt;br&gt;所以时代是始终向前的,人的创造性是伟大的" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="1130" width="610" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

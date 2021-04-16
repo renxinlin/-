@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T13:08:09.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="Jl14o0Fn6MG_CWHuz_XV" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T08:01:14.267Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="DZDWjVR_Z94hiB3mCYFs" version="14.6.0" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
-    <mxGraphModel dx="2013" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2840" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,8 +16,8 @@
         <mxCell id="2LcBF4-c3rlgHzngnAeT-4" value="IO-Thread" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="230" y="310" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2LcBF4-c3rlgHzngnAeT-5" value="purge-Thread&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="330" y="310" width="240" height="50" as="geometry" />
+        <mxCell id="2LcBF4-c3rlgHzngnAeT-5" value="purge-Thread&lt;br&gt;innodb_purge_page_size每次回收undolog页数20" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="330" y="310" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2LcBF4-c3rlgHzngnAeT-6" value="insert buffer" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="130" y="420" width="100" height="50" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry x="130" y="420" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2LcBF4-c3rlgHzngnAeT-11" value="page&amp;nbsp;cache[16K]" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="230" y="420" width="100" height="20" as="geometry" />
+          <mxGeometry x="230" y="420" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2LcBF4-c3rlgHzngnAeT-12" value="自适应hash索引" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="130" y="470" width="100" height="20" as="geometry" />
@@ -100,6 +100,42 @@
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-7" value="&lt;div style=&quot;text-align: center&quot;&gt;master thread&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;main loop&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;suspend loop&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;background loop : undo log回收&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;suspend loop&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;通过innodb_io_capacity提高insert buffer 和脏页刷写效率&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-30" y="1040" width="460" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-9" value="insert buffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-10" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="790" width="610" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-11" value="innodb" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="740" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-12" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="790" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-13" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="920" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-14" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="790" width="100" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-15" value="purge thread" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="820" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-16" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="880" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-17" value="IO-thread" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="850" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-18" value="msater thread" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="790" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-19" value="buffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="790" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-20" value="page buffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="790" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

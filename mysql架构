@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T08:34:13.235Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="FsIhDALmhfRBPFdl5WT9" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T08:34:42.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="BOhP5TryOvrmlfMeEcWp" version="14.6.0" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2840" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-10" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="790" width="610" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-13" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="920" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-28" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="920" width="210" height="90" as="geometry" />
+        </mxCell>
         <mxCell id="2LcBF4-c3rlgHzngnAeT-1" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="130" y="240" width="630" height="70" as="geometry" />
         </mxCell>
@@ -104,17 +113,11 @@
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-9" value="insert buffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="330" y="440" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-10" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="790" width="610" height="330" as="geometry" />
-        </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-11" value="innodb" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-940" y="740" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-12" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-670" y="790" width="340" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-13" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="920" width="340" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-14" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-790" y="790" width="100" height="220" as="geometry" />
@@ -141,7 +144,7 @@
           <mxGeometry x="-940" y="1130" width="610" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-22" value="dubbowrite page" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="920" width="100" height="90" as="geometry" />
+          <mxGeometry x="-430" y="920" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-23" value="1mb" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-360" y="830" width="30" height="50" as="geometry" />
@@ -160,8 +163,8 @@
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-27" value="可靠性" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-330" y="880" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-28" value="共享表空间" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="980" width="100" height="30" as="geometry" />
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-29" value="共享表空间" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="990" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

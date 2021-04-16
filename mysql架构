@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T08:34:42.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="BOhP5TryOvrmlfMeEcWp" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T08:38:10.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="t8ffVqdTZTz-NV7GE_QX" version="14.6.0" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2840" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -160,8 +160,8 @@
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-24" value="1mb" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-390" y="830" width="30" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-27" value="可靠性" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="880" width="60" height="40" as="geometry" />
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-27" value="可靠性&lt;br&gt;ZFS文件系统提供了部分写失效&lt;br&gt;处理方案 此时没必要开启double write" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="880" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-29" value="共享表空间" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-540" y="990" width="210" height="20" as="geometry" />

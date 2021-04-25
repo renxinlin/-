@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-25T06:17:02.142Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="0IyjvvZJk1bledR1QVq-" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-25T06:22:54.174Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="JQRN3j0Cj9kXkxbc5G-S" version="14.6.0" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="3414" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,10 +190,10 @@
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-36" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-920" y="1670" width="410" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-37" value="page buffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-37" value="index page buffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-920" y="1670" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-38" value="page buffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-38" value="undo page buffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-720" y="1670" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-39" value="page buffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -229,7 +229,7 @@
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-51" value="master thread" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-260" y="1510" width="100" height="136" as="geometry" />
         </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-52" value="master thread" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-52" value="purge logo&lt;br&gt;回收 undo" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-260" y="1646" width="100" height="136" as="geometry" />
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-53" value="master thread" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -243,6 +243,24 @@
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-56" value="insertbuffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-720" y="1610" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-57" value="(dirty)&lt;br&gt;page &lt;br&gt;clean thread" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1510" width="100" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-58" value="数据字典" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="1374" width="100" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-59" value="自适应hash索引" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="1510" width="100" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-60" value="锁信息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="1374" width="100" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-61" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-927" y="1840" width="337" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-63" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-597" y="1840" width="337" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

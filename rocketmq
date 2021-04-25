@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T12:05:09.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="EpY3M2MJOLgES6tcOSQM" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-25T09:40:24.654Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="1nxyo4KVxR3IYEc65ZAS" version="14.6.0" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="1615" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2193" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -374,7 +374,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-14" value="&amp;nbsp;registerBrokerAll&lt;br&gt;消息brokeraddr brokerid brokername&lt;br&gt;clustername haserveraddr&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xi-lC8qzqfooSBcnfqZU-73">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-14" value="&amp;nbsp;registerBrokerAll&lt;br&gt;消息brokeraddr brokerid brokername&lt;br&gt;clustername haserveraddr&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xi-lC8qzqfooSBcnfqZU-73" vertex="1" connectable="0">
           <mxGeometry x="0.4553" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -709,44 +709,50 @@
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-112" value="更新提交指针" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2084.75" y="3500" width="242.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-1" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1000" y="3570" width="690" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-2" value="文件删除" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-2" value="文件删除" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1000" y="3570" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-3" value="CleanConsumeQueueService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-3" value="CleanConsumeQueueService" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1000" y="3790" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-4" value="CleanCommitLogService&lt;br&gt;每10秒执行一次" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-4" value="CleanCommitLogService&lt;br&gt;每10秒执行一次" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1000" y="3620" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-5" value="deleteExpiredFiles" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-5" value="deleteExpiredFiles" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1180" y="3620" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-6" value="根据commitlog最早的commitLog.getMinOffset删除consumequeue和index文件的多余文件" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-6" value="根据commitlog最早的commitLog.getMinOffset删除consumequeue和index文件的多余文件" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1180" y="3790" width="500" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-7" value="redeleteHangedFile" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-7" value="redeleteHangedFile" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1410" y="3620" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-8" value="如果磁盘满了或者凌晨4点或者手动删除" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-8" value="如果磁盘满了或者凌晨4点或者手动删除" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1180" y="3640" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-9" value="commitLog" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-9" value="commitLog" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1000" y="3730" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-10" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;如果commitlog或者consumequeue使用率大于&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-weight: bold ; font-family: &amp;#34;menlo&amp;#34; ; color: rgb(102 , 14 , 122)&quot;&gt;diskSpaceWarningLevelRatio&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-weight: bold ; font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34; ; color: rgb(102 , 14 , 122)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;【&lt;/span&gt;&lt;font color=&quot;#660e7a&quot; face=&quot;menlo&quot; style=&quot;font-weight: normal&quot;&gt;&lt;b&gt;将设置磁盘不可写，此时会拒绝新消息的写&lt;/b&gt;&lt;/font&gt;&lt;b&gt;】或&lt;/b&gt;&lt;font color=&quot;#660e7a&quot; face=&quot;menlo&quot; style=&quot;font-weight: normal&quot;&gt;&lt;b&gt;者&lt;/b&gt;&lt;/font&gt;&lt;b&gt;diskSpaceWarningLevelRatio&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;或者用户自定义diskMaxUsedSpaceRatio&lt;/b&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;则意味着需要删除&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;如果开启&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; text-align: center&quot;&gt;cleanFileForciblyEnable则立即删除否则否则走hangdelete&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-10" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;如果commitlog或者consumequeue使用率大于&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-weight: bold ; font-family: &amp;#34;menlo&amp;#34; ; color: rgb(102 , 14 , 122)&quot;&gt;diskSpaceWarningLevelRatio&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-weight: bold ; font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34; ; color: rgb(102 , 14 , 122)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;【&lt;/span&gt;&lt;font color=&quot;#660e7a&quot; face=&quot;menlo&quot; style=&quot;font-weight: normal&quot;&gt;&lt;b&gt;将设置磁盘不可写，此时会拒绝新消息的写&lt;/b&gt;&lt;/font&gt;&lt;b&gt;】或&lt;/b&gt;&lt;font color=&quot;#660e7a&quot; face=&quot;menlo&quot; style=&quot;font-weight: normal&quot;&gt;&lt;b&gt;者&lt;/b&gt;&lt;/font&gt;&lt;b&gt;diskSpaceWarningLevelRatio&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;或者用户自定义diskMaxUsedSpaceRatio&lt;/b&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;则意味着需要删除&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;如果开启&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; text-align: center&quot;&gt;cleanFileForciblyEnable则立即删除否则否则走hangdelete&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1180" y="3660" width="510" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-11" value="MappedFileQueue.deleteExpiredFileByTime" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-11" value="MappedFileQueue.deleteExpiredFileByTime" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1180" y="3730" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-12" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-12" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="3400" y="1610" width="790" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-13" value="推送消息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="CxyLHPjQ3yQfc9Qwl7OH-13" value="推送消息" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="3400" y="1610" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3JHLhTer2Oc4ov_Gukei-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1279" width="500" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="3JHLhTer2Oc4ov_Gukei-2" value="HA" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1228" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

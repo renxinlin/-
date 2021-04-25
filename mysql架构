@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-25T06:28:55.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="xxEDoE0TNW0Zikg57cxV" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-25T06:41:31.329Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="zhjUUhrp5AVOpapKV9BO" version="14.6.0" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="3414" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -244,7 +244,7 @@
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-56" value="insertbuffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-720" y="1610" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-57" value="(dirty)&lt;br&gt;page &lt;br&gt;clean thread" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-57" value="(dirty)&lt;br&gt;page &lt;br&gt;clean thread&lt;br&gt;脏页刷盘线程" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-160" y="1510" width="100" height="136" as="geometry" />
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-58" value="数据字典" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -273,6 +273,15 @@
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-67" value="redo log&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-805" y="1560" width="35" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-68" value="master线程进行合并" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="1610" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-69" value="purge线程清除undo" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="1510" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-71" value="history list&lt;br&gt;链接undo log" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="1460" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

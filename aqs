@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T04:05:50.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="W5GYp5YSxVgYIUf-qcQj" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-29T04:09:50.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="u0DsMFY1sae848uFciEr" version="14.6.6" type="github">
   <diagram id="4S8dutFwa6XmwHRQU8MG" name="Page-1">
     <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -264,8 +264,23 @@
         <mxCell id="i-K0xPWOGxYHL6_mFFYi-89" value="自旋" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-10" y="750" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="i-K0xPWOGxYHL6_mFFYi-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-K0xPWOGxYHL6_mFFYi-91" target="i-K0xPWOGxYHL6_mFFYi-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i-K0xPWOGxYHL6_mFFYi-91" value="shouldParkAfterFailedAcquire&lt;br&gt;[waitStatus初始为0&lt;br&gt;后一个线程总是会把前一个设置成-1&lt;br&gt;如果是-1则应该挂起]" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
           <mxGeometry x="160" y="830" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i-K0xPWOGxYHL6_mFFYi-100" value="可以看出每次cpu&lt;br&gt;自旋两次后&lt;br&gt;变转换成挂起自旋&lt;br&gt;为什么是两次:以前有大牛告诉我这是个硬件专家该考虑的事" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="990" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-K0xPWOGxYHL6_mFFYi-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-K0xPWOGxYHL6_mFFYi-102" target="i-K0xPWOGxYHL6_mFFYi-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-K0xPWOGxYHL6_mFFYi-102" value="LockSupport.park" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="205" y="920" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i-K0xPWOGxYHL6_mFFYi-104" value="Thread.interrupted()&lt;br&gt;主要用于锁响应中断&lt;br&gt;这里不说了" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="210" y="950" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

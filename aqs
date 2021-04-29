@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T04:01:51.461Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="XFW4EX1eZxDRfGUk4r9W" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-29T04:05:50.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="W5GYp5YSxVgYIUf-qcQj" version="14.6.6" type="github">
   <diagram id="4S8dutFwa6XmwHRQU8MG" name="Page-1">
     <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -217,17 +217,37 @@
         <mxCell id="i-K0xPWOGxYHL6_mFFYi-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-K0xPWOGxYHL6_mFFYi-81" target="i-K0xPWOGxYHL6_mFFYi-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="i-K0xPWOGxYHL6_mFFYi-95" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-K0xPWOGxYHL6_mFFYi-83">
+          <mxGeometry x="-0.6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="i-K0xPWOGxYHL6_mFFYi-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-K0xPWOGxYHL6_mFFYi-81" target="i-K0xPWOGxYHL6_mFFYi-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i-K0xPWOGxYHL6_mFFYi-81" value="轮到自己是头节点&lt;br&gt;的下一个节点" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+        <mxCell id="i-K0xPWOGxYHL6_mFFYi-94" value="不是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-K0xPWOGxYHL6_mFFYi-90">
+          <mxGeometry x="-0.2903" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-K0xPWOGxYHL6_mFFYi-81" value="轮到自己是不是头节点&lt;br&gt;的下一个节点" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
           <mxGeometry x="20" y="760" width="115" height="70" as="geometry" />
         </mxCell>
         <mxCell id="i-K0xPWOGxYHL6_mFFYi-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-K0xPWOGxYHL6_mFFYi-82" target="i-K0xPWOGxYHL6_mFFYi-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="i-K0xPWOGxYHL6_mFFYi-96" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-K0xPWOGxYHL6_mFFYi-86">
+          <mxGeometry x="-0.7333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="i-K0xPWOGxYHL6_mFFYi-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i-K0xPWOGxYHL6_mFFYi-82" target="i-K0xPWOGxYHL6_mFFYi-91">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-K0xPWOGxYHL6_mFFYi-97" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-K0xPWOGxYHL6_mFFYi-92">
+          <mxGeometry x="-0.4667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="i-K0xPWOGxYHL6_mFFYi-82" value="尝试tryAcquire" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
           <mxGeometry x="20" y="850" width="115" height="70" as="geometry" />
@@ -236,7 +256,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i-K0xPWOGxYHL6_mFFYi-85" value="把自己设置为头节点&lt;br&gt;node.thread = null" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="28" y="930" width="100" height="50" as="geometry" />
+          <mxGeometry x="27.5" y="950" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i-K0xPWOGxYHL6_mFFYi-87" value="响应用户线程" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="1020" width="100" height="50" as="geometry" />
@@ -244,7 +264,7 @@
         <mxCell id="i-K0xPWOGxYHL6_mFFYi-89" value="自旋" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-10" y="750" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i-K0xPWOGxYHL6_mFFYi-91" value="shouldParkAfterFailedAcquire" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+        <mxCell id="i-K0xPWOGxYHL6_mFFYi-91" value="shouldParkAfterFailedAcquire&lt;br&gt;[waitStatus初始为0&lt;br&gt;后一个线程总是会把前一个设置成-1&lt;br&gt;如果是-1则应该挂起]" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
           <mxGeometry x="160" y="830" width="190" height="70" as="geometry" />
         </mxCell>
       </root>

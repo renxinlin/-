@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T03:32:20.937Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="0751b6k0SuQ4Sma-CnhS" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-29T03:34:42.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="jer3k9IYfHIh32CtTqno" version="14.6.6" type="github">
   <diagram id="4S8dutFwa6XmwHRQU8MG" name="Page-1">
     <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -207,6 +207,9 @@
         </mxCell>
         <mxCell id="i-K0xPWOGxYHL6_mFFYi-69" value="当前线程不是next节点线程" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
           <mxGeometry x="465" y="600" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i-K0xPWOGxYHL6_mFFYi-75" value="公平就体现在这里&lt;br&gt;队列没元素则没有公平非公平之说 直接尝试获取&lt;br&gt;队列有元素 则判断自己是不是最早入队&lt;br&gt;是则尝试获取&lt;br&gt;[最早入队的在index=1,而非index=0]&lt;br&gt;[最早入队的在index=1,而非index=0]&lt;br&gt;[最早入队的在index=1,而非index=0]" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="670" width="270" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

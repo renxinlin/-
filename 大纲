@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T06:48:53.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="jhxgPLfmVipjPCVB88ZF" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-10T07:06:06.851Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="hlOS_wZnYqtIG_HegJdl" version="14.6.11" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1395" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,6 +165,9 @@
         </mxCell>
         <mxCell id="BftDJLEFvDGJXyfkDrpu-57" value="countdownlatch await countdown&lt;br&gt;Semaphore acquire release&lt;br&gt;CyclicBarrier await reset&lt;br&gt;exchanger" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="310" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BftDJLEFvDGJXyfkDrpu-58" value="threadpool&lt;br&gt;coresize queue keepalive-time time-unit&amp;nbsp; thread-factory&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

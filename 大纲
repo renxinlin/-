@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T06:45:07.594Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="nxHyq0ft0a_j50E_2zhc" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-10T06:48:53.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="jhxgPLfmVipjPCVB88ZF" version="14.6.11" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1395" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
           <mxGeometry x="330" y="-840" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BftDJLEFvDGJXyfkDrpu-11" value="java并发" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="340" y="270" width="100" height="50" as="geometry" />
+          <mxGeometry x="60" y="110" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BftDJLEFvDGJXyfkDrpu-12" value="java内存模型" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="350" y="640" width="100" height="50" as="geometry" />
@@ -146,25 +146,25 @@
           <mxGeometry x="740" y="830" width="570" height="150" as="geometry" />
         </mxCell>
         <mxCell id="BftDJLEFvDGJXyfkDrpu-50" value="concurrent hashmap" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="100" y="140" width="200" height="30" as="geometry" />
+          <mxGeometry x="70" y="165" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BftDJLEFvDGJXyfkDrpu-51" value="ConcurrentLinkedQueue" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="100" y="170" width="200" height="30" as="geometry" />
+          <mxGeometry x="70" y="195" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BftDJLEFvDGJXyfkDrpu-52" value="&lt;div&gt;ArrayBlockingQueue：一个由数组结构组成的有界阻塞队列&lt;/div&gt;&lt;div&gt;LinkedBlockingQueue：一个由链表结构组成的有界阻塞队列&amp;nbsp;&lt;/div&gt;&lt;div&gt;PriorityBlockingQueue：一个支持优先级排序的无界阻塞队列&lt;/div&gt;&lt;div&gt;DelayQueue：一个使用优先级队列实现的无界阻塞队列&amp;nbsp;&lt;/div&gt;&lt;div&gt;SynchronousQueue：一个不存储元素的阻塞队列&lt;/div&gt;&lt;div&gt;LinkedTransferQueue：一个由链表结构组成的无界阻塞队列&lt;/div&gt;&lt;div&gt;LinkedBlockingDeque：一个由链表结构组成的双向阻塞队列&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="314" y="140" width="406" height="110" as="geometry" />
+          <mxGeometry x="314" y="110" width="406" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="BftDJLEFvDGJXyfkDrpu-53" value="Atomic" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="100" y="270" width="200" height="30" as="geometry" />
+        <mxCell id="BftDJLEFvDGJXyfkDrpu-53" value="&lt;div&gt;·AtomicBoolean：原子更新布尔类型。&amp;nbsp;&lt;/div&gt;&lt;div&gt;·AtomicInteger：原子更新整型。&amp;nbsp;&lt;/div&gt;&lt;div&gt;·AtomicLong：原子更新长整型。&lt;/div&gt;&lt;div&gt;·AtomicIntegerArray：原子更新整型数组里的元素。&lt;/div&gt;&lt;div&gt;·AtomicLongArray：原子更新长整型数组里的元素。&amp;nbsp;&lt;/div&gt;&lt;div&gt;·AtomicReferenceArray：原子更新引用类型数组里的元素。&lt;/div&gt;&lt;div&gt;·AtomicReference：原子更新引用类型。&amp;nbsp;&lt;/div&gt;&lt;div&gt;·AtomicReferenceFieldUpdater：原子更新引用类型里的字段。&lt;/div&gt;&lt;div&gt;·AtomicIntegerFieldUpdater：原子更新整型的字段的更新器。&amp;nbsp;&lt;/div&gt;&lt;div&gt;·AtomicLongFieldUpdater：原子更新长整型字段的更新器。&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="330" height="190" as="geometry" />
         </mxCell>
         <mxCell id="BftDJLEFvDGJXyfkDrpu-54" value="locks [AQS + Lock]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="100" y="310" width="200" height="30" as="geometry" />
+          <mxGeometry x="70" y="230" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BftDJLEFvDGJXyfkDrpu-56" value="Fork/Join" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="100" y="350" width="200" height="30" as="geometry" />
+          <mxGeometry x="70" y="270" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BftDJLEFvDGJXyfkDrpu-57" value="countdownlatch await countdown&lt;br&gt;Semaphore acquire release&lt;br&gt;CyclicBarrier await reset&lt;br&gt;exchanger" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="100" y="390" width="200" height="60" as="geometry" />
+          <mxGeometry x="70" y="310" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

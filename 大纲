@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T15:48:52.701Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="3vd4bHv5HoVWr_NKmLDV" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-10T15:49:55.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="-OV7-FAzBa_gD3jGyeg6" version="14.6.11" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,8 +169,11 @@
         <mxCell id="BftDJLEFvDGJXyfkDrpu-58" value="threadpool&lt;br&gt;coresize queue keepalive-time time-unit&amp;nbsp; thread-factory&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="70" y="380" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LpDhEHnJ-QotpTMBIZnT-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="740" y="110" width="300" height="60" as="geometry" />
+        <mxCell id="LpDhEHnJ-QotpTMBIZnT-1" value="unsafe需要通过反射使用，否则会由于类加载器的原因报错" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="740" y="110" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LpDhEHnJ-QotpTMBIZnT-2" value="&lt;div&gt;线程上下文切换时机有 当前线程的CPU时间片使用完处于就绪状态 －，当前线程&lt;/div&gt;&lt;div&gt;被其他线程中断时&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="740" y="150" width="480" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

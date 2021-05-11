@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T07:26:02.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="bVjHNCi-54HJJd5mTmDE" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-11T07:29:47.321Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="aH7az-1C80emJ0zJlGhM" version="14.6.11" type="github">
   <diagram id="hMvWAp2LzvJM06Xpqsub" name="Page-1">
     <mxGraphModel dx="678" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -267,6 +267,12 @@
         </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-94" value="阻塞队列&lt;br&gt;获取任务都会阻塞&lt;br&gt;所以获取不到的逻辑一般走不到&lt;br&gt;shutdown等打断操作除外" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="630" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-96" value="worker.run会获取锁&lt;br&gt;shutdown 也会获取锁&lt;br&gt;也就是shutdown能获取到空闲的线程&lt;br&gt;shutdown发起中断后&lt;br&gt;空闲的线程响应中断&lt;br&gt;之后会判断线程池非running状态&lt;br&gt;从而达到退出目的" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="720" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-97" value="worker.run会获取锁&lt;br&gt;shutdown 也会获取锁&lt;br&gt;也就是shutdown能获取到空闲的线程&lt;br&gt;shutdown发起中断后&lt;br&gt;空闲的线程响应中断&lt;br&gt;之后会判断线程池非running状态&lt;br&gt;从而达到退出目的" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="830" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

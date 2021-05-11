@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T02:49:26.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="vBqORe9c5zutsWBAIpwe" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-11T07:47:54.856Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="Ki9ocoYXJubWiLaNBkkr" version="14.6.11" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,7 +151,7 @@
         <mxCell id="BftDJLEFvDGJXyfkDrpu-51" value="ConcurrentLinkedQueue" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="70" y="195" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BftDJLEFvDGJXyfkDrpu-52" value="&lt;div&gt;ArrayBlockingQueue：一个由数组结构组成的有界阻塞队列&lt;/div&gt;&lt;div&gt;LinkedBlockingQueue：一个由链表结构组成的有界阻塞队列&amp;nbsp;&lt;/div&gt;&lt;div&gt;PriorityBlockingQueue：一个支持优先级排序的无界阻塞队列&lt;/div&gt;&lt;div&gt;DelayQueue：一个使用优先级队列实现的无界阻塞队列&amp;nbsp;&lt;/div&gt;&lt;div&gt;SynchronousQueue：一个不存储元素的阻塞队列&lt;/div&gt;&lt;div&gt;LinkedTransferQueue：一个由链表结构组成的无界阻塞队列&lt;/div&gt;&lt;div&gt;LinkedBlockingDeque：一个由链表结构组成的双向阻塞队列&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="BftDJLEFvDGJXyfkDrpu-52" value="&lt;div&gt;ArrayBlockingQueue：一个由数组结构组成的有界阻塞队列&lt;/div&gt;&lt;div&gt;LinkedBlockingQueue：一个由链表结构组成的有界阻塞队列&amp;nbsp;&lt;/div&gt;&lt;div&gt;PriorityBlockingQueue：一个支持优先级排序的无界阻塞队列&lt;/div&gt;&lt;div&gt;DelayQueue：一个使用优先级队列实现延迟效果&lt;span&gt;的无界阻塞队列&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;SynchronousQueue：一个不存储元素的阻塞队列&lt;/div&gt;&lt;div&gt;LinkedTransferQueue：一个由链表结构组成的无界阻塞队列&lt;/div&gt;&lt;div&gt;LinkedBlockingDeque：一个由链表结构组成的双向阻塞队列&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="314" y="110" width="406" height="110" as="geometry" />
         </mxCell>
         <mxCell id="BftDJLEFvDGJXyfkDrpu-53" value="&lt;div&gt;·AtomicBoolean：原子更新布尔类型。&amp;nbsp;&lt;/div&gt;&lt;div&gt;·AtomicInteger：原子更新整型。&amp;nbsp;&lt;/div&gt;&lt;div&gt;·AtomicLong：原子更新长整型。&lt;/div&gt;&lt;div&gt;·AtomicIntegerArray：原子更新整型数组里的元素。&lt;/div&gt;&lt;div&gt;·AtomicLongArray：原子更新长整型数组里的元素。&amp;nbsp;&lt;/div&gt;&lt;div&gt;·AtomicReferenceArray：原子更新引用类型数组里的元素。&lt;/div&gt;&lt;div&gt;·AtomicReference：原子更新引用类型。&amp;nbsp;&lt;/div&gt;&lt;div&gt;·AtomicReferenceFieldUpdater：原子更新引用类型里的字段。&lt;/div&gt;&lt;div&gt;·AtomicIntegerFieldUpdater：原子更新整型的字段的更新器。&amp;nbsp;&lt;/div&gt;&lt;div&gt;·AtomicLongFieldUpdater：原子更新长整型字段的更新器。&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">

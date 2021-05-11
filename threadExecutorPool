@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T06:50:41.919Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="mwfffsiIhX_FvDP9CqXl" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-11T06:50:52.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="XcQW1qJpMtx3gOOPV3gd" version="14.6.11" type="github">
   <diagram id="hMvWAp2LzvJM06Xpqsub" name="Page-1">
     <mxGraphModel dx="1186" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -216,6 +216,9 @@
         </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-70" value="启动线程" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="660" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-71" target="rpM_hC6Ac0DENALM1l_D-55">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-71" value="执行worker.run()" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="190" y="660" width="110" height="40" as="geometry" />

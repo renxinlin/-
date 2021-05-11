@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T06:23:14.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="p3t2wYaJ1KgUKviHl0y4" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-11T06:50:41.919Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="mwfffsiIhX_FvDP9CqXl" version="14.6.11" type="github">
   <diagram id="hMvWAp2LzvJM06Xpqsub" name="Page-1">
     <mxGraphModel dx="1186" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,20 +178,19 @@
         <mxCell id="rpM_hC6Ac0DENALM1l_D-47" value="新增worker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="810" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rpM_hC6Ac0DENALM1l_D-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-55" target="rpM_hC6Ac0DENALM1l_D-57">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-55" target="rpM_hC6Ac0DENALM1l_D-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-55" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="50" y="510" width="310" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="rpM_hC6Ac0DENALM1l_D-57" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="400" y="510" width="310" height="200" as="geometry" />
-        </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-59" value="cas增加线程" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="50" y="490" width="100" height="20" as="geometry" />
+          <mxGeometry x="50" y="490" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-60" value="并发安全的任务添加到worker 并启动执行" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="400" y="490" width="240" height="20" as="geometry" />
+          <mxGeometry x="130" y="490" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-63" target="rpM_hC6Ac0DENALM1l_D-7">
           <mxGeometry relative="1" as="geometry">
@@ -212,8 +211,59 @@
         <mxCell id="rpM_hC6Ac0DENALM1l_D-69" value="成功新建worker&lt;br&gt;并加入workers" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="600" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-70" target="rpM_hC6Ac0DENALM1l_D-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-70" value="启动线程" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="660" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-71" value="执行worker.run()" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="660" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-73" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="510" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-84" value="成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-75" target="rpM_hC6Ac0DENALM1l_D-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-90" value="获取不到" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-75" target="rpM_hC6Ac0DENALM1l_D-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-75" value="自旋&lt;br&gt;获取任务" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="425" y="530" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-76" target="rpM_hC6Ac0DENALM1l_D-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-76" value="检查中断" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="537.5" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-78" target="rpM_hC6Ac0DENALM1l_D-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-78" value="beforeExecute" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="580" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-82" target="rpM_hC6Ac0DENALM1l_D-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-82" value="task.run" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="625" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-83" value="afterExecute" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="665" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-88" target="rpM_hC6Ac0DENALM1l_D-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-88" value="移除workers" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="615" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-92" value="线程不够addWorker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="665" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-94" value="阻塞队列&lt;br&gt;获取任务都会阻塞&lt;br&gt;所以获取不到的逻辑一般走不到" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="630" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

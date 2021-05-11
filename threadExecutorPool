@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T03:48:19.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="99ETwPY_CNnmmJtJBHqy" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-11T06:20:12.130Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="kHFVGPU9HxoPknultYXJ" version="14.6.11" type="github">
   <diagram id="hMvWAp2LzvJM06Xpqsub" name="Page-1">
     <mxGraphModel dx="1186" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,9 +10,10 @@
         <mxCell id="rpM_hC6Ac0DENALM1l_D-1" value="execute" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="60" y="100" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rpM_hC6Ac0DENALM1l_D-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-2" target="rpM_hC6Ac0DENALM1l_D-5">
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-2" target="rpM_hC6Ac0DENALM1l_D-63">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="145" y="300" as="targetPoint" />
+            <mxPoint x="150" y="310" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-9" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpM_hC6Ac0DENALM1l_D-4">
@@ -31,20 +32,25 @@
         <mxCell id="rpM_hC6Ac0DENALM1l_D-2" value="当前线程池中线程数小于corePoolSize" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
           <mxGeometry x="60" y="190" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rpM_hC6Ac0DENALM1l_D-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-5" target="rpM_hC6Ac0DENALM1l_D-25">
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-63" target="rpM_hC6Ac0DENALM1l_D-25">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="830" y="340" as="targetPoint" />
+            <mxPoint x="150" y="330" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="150" y="430" />
               <mxPoint x="840" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpM_hC6Ac0DENALM1l_D-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-5" target="rpM_hC6Ac0DENALM1l_D-55">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-65" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpM_hC6Ac0DENALM1l_D-29">
+          <mxGeometry x="-0.9052" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="rpM_hC6Ac0DENALM1l_D-5" value="新建worker执行任务" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="60" y="300" width="180" height="30" as="geometry" />
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-63" target="rpM_hC6Ac0DENALM1l_D-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="315" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-7" target="rpM_hC6Ac0DENALM1l_D-17">
           <mxGeometry relative="1" as="geometry">
@@ -186,6 +192,22 @@
         </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-60" value="并发安全的任务添加到worker 并启动执行" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="400" y="490" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-62" value="" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="70" y="540" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-63" target="rpM_hC6Ac0DENALM1l_D-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-67" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpM_hC6Ac0DENALM1l_D-66">
+          <mxGeometry x="-0.1789" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-63" value="新建worker执行任务" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

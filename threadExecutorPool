@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T03:34:58.509Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="bJ2ZrHaom_iSztnsXIbW" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-11T03:48:19.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="99ETwPY_CNnmmJtJBHqy" version="14.6.11" type="github">
   <diagram id="hMvWAp2LzvJM06Xpqsub" name="Page-1">
     <mxGraphModel dx="1186" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,9 @@
               <mxPoint x="840" y="430" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-5" target="rpM_hC6Ac0DENALM1l_D-55">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-5" value="新建worker执行任务" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="60" y="300" width="180" height="30" as="geometry" />
@@ -168,6 +171,21 @@
         </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-47" value="新增线程" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="810" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-55" target="rpM_hC6Ac0DENALM1l_D-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-55" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="510" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-57" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="510" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-59" value="cas增加线程" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="490" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-60" value="并发安全的任务添加到worker 并启动执行" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="490" width="240" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

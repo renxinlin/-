@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T02:13:49.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="nxidI4e4biJjEuKFFizk" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-11T02:14:39.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="TBAZtvHkmZuaPvCjfMXq" version="14.6.11" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,7 +178,7 @@
         <mxCell id="LpDhEHnJ-QotpTMBIZnT-3" value="CopyOnWriteArrayList 使用写时复制的策略来保证 list 一致性，其迭代器使用快照保障修改无感知" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="740" y="190" width="530" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LpDhEHnJ-QotpTMBIZnT-4" value="concurrentLinkedQueue使用cas操作 单向链表 ,size方法不可靠&lt;br&gt;linkedBlockingQueue使用读写两把锁保障原子性&lt;br&gt;ArrayBlockingQueue使用了全局独占锁&lt;br&gt;PriorityBlockingQueue 内部使用全局独占锁+二叉树,出队列先出root元素&lt;br&gt;&lt;div&gt;DelayQueue是一个无界阻塞延迟队 ，队列中的每个元素都有个过期时间，&lt;/div&gt;&lt;div&gt;当从队列获取元素时，只有过期元素才会出队列。队列头元素是最快要过期的元素。&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="LpDhEHnJ-QotpTMBIZnT-4" value="concurrentLinkedQueue使用cas操作 单向链表 ,size方法不可靠&lt;br&gt;linkedBlockingQueue使用读写两把锁保障原子性&lt;br&gt;ArrayBlockingQueue使用了全局独占锁&lt;br&gt;PriorityBlockingQueue 内部使用全局独占锁+二叉树,出队列先出root元素&lt;br&gt;&lt;div&gt;DelayQueue是一个无界阻塞延迟队 ，队列中的每个元素都有个过期时间，&lt;/div&gt;&lt;div&gt;当从队列获取元素时，只有过期元素才会出队列。队列头元素是最快要过期的元素。&lt;/div&gt;&lt;div&gt;内部使用优先级队列，比较的是剩余时间&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="740" y="225" width="530" height="125" as="geometry" />
         </mxCell>
       </root>

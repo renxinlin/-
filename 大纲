@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T09:00:21.263Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="1qxsOG8wDAaVFnp8_5Ti" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-11T09:16:51.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="K3unYM-qTZfwV3ZRe6tl" version="14.6.11" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="565" dy="1431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,6 +186,9 @@
         </mxCell>
         <mxCell id="LpDhEHnJ-QotpTMBIZnT-6" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;scheduleWithFixedDelay: 任务执行完+延迟时间&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;scheduleAtFixedRate: 任务起始时间+ 周期,但不会并发执行&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="910" y="363" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LpDhEHnJ-QotpTMBIZnT-7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;线程池中使用FutureTask时,当拒绝策略为DiscardPolicy或DiscardOldestPolicy时，&lt;/div&gt;&lt;div&gt;在被拒绝的FutureTask上调用get()方法会导致调用线程一直阻塞，&lt;/div&gt;&lt;div&gt;所以在日常开发中尽量使用带超时参数的get方法以避免线程一直阻塞&lt;/div&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="910" y="400" width="440" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

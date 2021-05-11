@@ -1,11 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T03:14:32.713Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="cpdmyBk_ECC-ALq3xeCo" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-11T03:25:42.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="njPZy5BIUS1fZvvr1br2" version="14.6.11" type="github">
   <diagram id="hMvWAp2LzvJM06Xpqsub" name="Page-1">
     <mxGraphModel dx="1186" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rpM_hC6Ac0DENALM1l_D-1" value="execute" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="20" y="120" width="100" height="50" as="geometry" />
+          <mxGeometry x="60" y="100" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-2" target="rpM_hC6Ac0DENALM1l_D-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-9" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpM_hC6Ac0DENALM1l_D-4">
+          <mxGeometry x="-0.2333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-2" target="rpM_hC6Ac0DENALM1l_D-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpM_hC6Ac0DENALM1l_D-8">
+          <mxGeometry x="-0.125" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-2" value="当前线程池中线程数小于corePoolSize" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-5" value="新建worker执行任务" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-7" target="rpM_hC6Ac0DENALM1l_D-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-15" value="不是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpM_hC6Ac0DENALM1l_D-12">
+          <mxGeometry x="-0.1667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-7" target="rpM_hC6Ac0DENALM1l_D-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-16" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpM_hC6Ac0DENALM1l_D-14">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-7" value="线程池running状态" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-19" value="失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-13" target="rpM_hC6Ac0DENALM1l_D-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-13" value="添加到队列" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="550" y="190" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpM_hC6Ac0DENALM1l_D-17" target="rpM_hC6Ac0DENALM1l_D-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-23" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpM_hC6Ac0DENALM1l_D-22">
+          <mxGeometry x="-0.5333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-17" value="新增worker执行" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-20" value="addWorker会检查是否running" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rpM_hC6Ac0DENALM1l_D-21" value="执行拒绝策略" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="590" y="360" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

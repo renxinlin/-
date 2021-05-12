@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-12T10:23:01.352Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="ECyoaMEYTkNu9XTHVT3s" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-12T10:49:17.821Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="nc0uGQLEFi3N1KUR-l4r" version="14.6.11" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="988" dy="1627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -249,6 +249,12 @@
         </mxCell>
         <mxCell id="LpDhEHnJ-QotpTMBIZnT-31" value="通知&amp;nbsp; 前置 后置 异常&amp;nbsp; 环绕&amp;nbsp; 最终" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="2560" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpDhEHnJ-QotpTMBIZnT-33" value="method interceptor实现切面" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2600" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpDhEHnJ-QotpTMBIZnT-34" value="WebApplicationInitializer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2600" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

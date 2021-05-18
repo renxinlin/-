@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T09:37:16.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="0xPU9CDc_pSUbPM5UZaf" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T16:02:17.150Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="7clRDpQ0bGJyul4cl9xf" version="14.6.13" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -506,6 +506,9 @@
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-1" value="三级缓存:&lt;br&gt;https://www.cnblogs.com/lullaby/p/14048869.html&lt;br&gt;https://blog.csdn.net/weixin_42228338/article/details/97163101" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="60" y="2270" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-2" value="&lt;div&gt;Zab 协议包括两种基本的模式：崩溃恢复 和 消息广播&lt;/div&gt;&lt;div&gt;选举阶段 过半成为准leader&lt;/div&gt;&lt;div&gt;发现阶段 获取最大zxid 和最新的提议&lt;/div&gt;&lt;div&gt;同步阶段 全局同步&lt;/div&gt;&lt;div&gt;广播阶段 服务阶段&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="5510" width="280" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

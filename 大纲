@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T09:26:22.099Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="74tEWpTG2OciBwwOnrLr" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T09:30:19.087Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ym9Dk8my2Zln5hrBQv0t" version="14.6.13" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -238,7 +238,7 @@
         <mxCell id="LpDhEHnJ-QotpTMBIZnT-27" value="四种注入方式&lt;br&gt;set 构造 静态工厂&lt;br&gt;实例工厂&lt;br&gt;接口注入&lt;br&gt;反射注入" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="600" y="2338" width="100" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="LpDhEHnJ-QotpTMBIZnT-28" value="constructor&lt;br&gt;byName&lt;br&gt;byType&lt;br&gt;no[ref显示装配]&lt;br&gt;&amp;nbsp;autodetect[c+type]" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="LpDhEHnJ-QotpTMBIZnT-28" value="5种装配方式&lt;br&gt;constructor&lt;br&gt;byName&lt;br&gt;byType&lt;br&gt;no[ref显示装配]&lt;br&gt;&amp;nbsp;autodetect[c+type]" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="600" y="2419" width="100" height="81" as="geometry" />
         </mxCell>
         <mxCell id="LpDhEHnJ-QotpTMBIZnT-29" value="切面" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">

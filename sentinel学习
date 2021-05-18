@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T08:50:32.683Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="PYmtUwSP-6quOOLHlKlO" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T08:51:18.835Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6eD8Uyu_lArrzKn6xnHl" version="14.6.13" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
     <mxGraphModel dx="1815" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -356,6 +356,21 @@
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-84" value="LeepArray&lt;br&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%&lt;/span&gt;AtomicReferenceArray&amp;lt;WindowWrap&amp;lt;MetricBucket&amp;gt;&amp;gt;&amp;nbsp;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;&lt;br&gt;3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22LeepArray%22%20style%3D%22ellipse%3Bshape%3DdoubleEllipse%3Bhtml%3D1%3Bdashed%3D0%3Bwhitespace%3Dwrap%3Baspect%3Dfixed%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-290%22%20y%3D%221570%22%20width%3D%2260%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-290" y="1650" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yPmX36HcYc68Sp4VG16W-87" value="slotchain" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.loop" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1550" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="yPmX36HcYc68Sp4VG16W-88" value="slotchain" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.loop" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1550" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="yPmX36HcYc68Sp4VG16W-89" value="slotchain" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.loop" vertex="1" parent="1">
+          <mxGeometry x="70" y="1550" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="yPmX36HcYc68Sp4VG16W-90" value="slotchain" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.loop" vertex="1" parent="1">
+          <mxGeometry x="200" y="1550" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="yPmX36HcYc68Sp4VG16W-91" value="slotchain" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.loop" vertex="1" parent="1">
+          <mxGeometry x="290" y="1550" width="80" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

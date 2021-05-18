@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T08:33:21.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="0KQODKteoDZ5w9E8LlzZ" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T08:38:14.990Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ng5JxT4cpB6CQOehEp5Q" version="14.6.13" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
-    <mxGraphModel dx="1395" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="565" dy="262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -247,8 +247,11 @@
         <mxCell id="yPmX36HcYc68Sp4VG16W-41" value="&lt;div&gt;Metric rollingCounterInSecond&lt;/div&gt;&lt;div&gt;Metric rollingCounterInMinute&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="227" y="1760" width="213" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yPmX36HcYc68Sp4VG16W-42" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="497" y="1760" width="220" height="40" as="geometry" />
+        <mxCell id="yPmX36HcYc68Sp4VG16W-42" value="ArrayMetric 看做功能层面&lt;br&gt;封装了一系列对滑动窗口的操作" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="497" y="1750" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yPmX36HcYc68Sp4VG16W-45" value="LeapArray存储滑动窗口数据" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="497" y="1810" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

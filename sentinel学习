@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T08:22:46.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="9KMzgxUU-gLwhmr2QlMH" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T08:23:02.387Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="jitPgVhGhAjOi2n1gC7m" version="14.6.13" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
     <mxGraphModel dx="1395" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -228,9 +228,6 @@
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-35" value="FlowSlot调用flowRuleManger&lt;br&gt;获取所有规则与DefaultNode进行比较&lt;br&gt;得出是否限流" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1460" y="1400" width="280" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="yPmX36HcYc68Sp4VG16W-36" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1520" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-37" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt;/**&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt; * contextname上限&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt; */&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;public final static int &lt;/span&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold ; font-style: italic&quot;&gt;MAX_CONTEXT_NAME_SIZE &lt;/span&gt;= &lt;span style=&quot;color: #0000ff&quot;&gt;2000&lt;/span&gt;;&lt;br&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt;/**&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt; *  一个resource一个SLOT_CHAIN  也就是资源数上限&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt; */&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;public final static int &lt;/span&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold ; font-style: italic&quot;&gt;MAX_SLOT_CHAIN_SIZE &lt;/span&gt;= &lt;span style=&quot;color: #0000ff&quot;&gt;6000&lt;/span&gt;;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;contextname和资源数超过指定数目不进行限流&lt;/pre&gt;" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="1490" width="440" height="120" as="geometry" />

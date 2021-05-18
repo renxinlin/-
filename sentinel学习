@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T08:42:50.150Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Q-wEitzhybgoYNqGp0AG" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T08:43:31.758Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="NOB5vaTB7ys7BCIc_uph" version="14.6.13" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
-    <mxGraphModel dx="1186" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,6 +154,14 @@
         <mxCell id="jZ0KXaKC7n5OBmgWtSZm-36" value="SystemSlot" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="980" y="1250" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="yPmX36HcYc68Sp4VG16W-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jZ0KXaKC7n5OBmgWtSZm-37" target="yPmX36HcYc68Sp4VG16W-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="1105" />
+              <mxPoint x="1220" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jZ0KXaKC7n5OBmgWtSZm-37" value="DefaultNode" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="890" y="1080" width="100" height="50" as="geometry" />
         </mxCell>
@@ -233,40 +241,40 @@
           <mxGeometry x="460" y="1490" width="440" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-38" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="227" y="1710" width="490" height="260" as="geometry" />
+          <mxGeometry x="1250" y="950" width="490" height="260" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-39" value="滑动窗口类结构设计" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="227" y="1660" width="183" height="50" as="geometry" />
+          <mxGeometry x="1250" y="900" width="183" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-40" value="StatisticNode包含监控统计信息&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="227" y="1710" width="213" height="90" as="geometry" />
+          <mxGeometry x="1250" y="950" width="213" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yPmX36HcYc68Sp4VG16W-41" target="yPmX36HcYc68Sp4VG16W-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-41" value="&lt;div&gt;Metric rollingCounterInSecond&lt;/div&gt;&lt;div&gt;Metric rollingCounterInMinute&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="227" y="1760" width="213" height="40" as="geometry" />
+          <mxGeometry x="1250" y="1000" width="213" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-42" value="ArrayMetric 看做功能层面&lt;br&gt;封装了一系列对滑动窗口的操作" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1750" width="177" height="80" as="geometry" />
+          <mxGeometry x="1563" y="990" width="177" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yPmX36HcYc68Sp4VG16W-45" target="yPmX36HcYc68Sp4VG16W-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-45" value="&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;data&lt;/span&gt;LeapArray存储滑动窗口数据" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1810" width="177" height="20" as="geometry" />
+          <mxGeometry x="1563" y="1050" width="177" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-46" value="LeapArray滑动窗口存储层接口" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="227" y="1830" width="283" height="80" as="geometry" />
+          <mxGeometry x="1250" y="1070" width="283" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-49" value="AtomicReferenceArray&amp;lt;WindowWrap&amp;lt;MetricBucket&amp;gt;&amp;gt;&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="227" y="1880" width="283" height="30" as="geometry" />
+          <mxGeometry x="1250" y="1120" width="283" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-51" value="AtomicReferenceArray滑动窗口 WindowWrap样本窗口MetricBucket 样本窗口统计数据" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="227" y="1930" width="490" height="40" as="geometry" />
+          <mxGeometry x="1250" y="1170" width="490" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-52" value="AtomicReferenceArray&lt;br&gt;被作为环形数组使用" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="580" y="1860" width="137" height="50" as="geometry" />
+          <mxGeometry x="1603" y="1100" width="137" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T08:23:02.387Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="jitPgVhGhAjOi2n1gC7m" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-18T08:33:21.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="0KQODKteoDZ5w9E8LlzZ" version="14.6.13" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
     <mxGraphModel dx="1395" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -231,6 +231,24 @@
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-37" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt;/**&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt; * contextname上限&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt; */&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;public final static int &lt;/span&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold ; font-style: italic&quot;&gt;MAX_CONTEXT_NAME_SIZE &lt;/span&gt;= &lt;span style=&quot;color: #0000ff&quot;&gt;2000&lt;/span&gt;;&lt;br&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt;/**&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt; *  一个resource一个SLOT_CHAIN  也就是资源数上限&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt; */&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;public final static int &lt;/span&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold ; font-style: italic&quot;&gt;MAX_SLOT_CHAIN_SIZE &lt;/span&gt;= &lt;span style=&quot;color: #0000ff&quot;&gt;6000&lt;/span&gt;;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;contextname和资源数超过指定数目不进行限流&lt;/pre&gt;" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="1490" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yPmX36HcYc68Sp4VG16W-38" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="227" y="1710" width="490" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yPmX36HcYc68Sp4VG16W-39" value="滑动窗口类结构设计" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="227" y="1660" width="183" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yPmX36HcYc68Sp4VG16W-40" value="StatisticNode包含监控统计信息&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="227" y="1710" width="213" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yPmX36HcYc68Sp4VG16W-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yPmX36HcYc68Sp4VG16W-41" target="yPmX36HcYc68Sp4VG16W-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yPmX36HcYc68Sp4VG16W-41" value="&lt;div&gt;Metric rollingCounterInSecond&lt;/div&gt;&lt;div&gt;Metric rollingCounterInMinute&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="227" y="1760" width="213" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yPmX36HcYc68Sp4VG16W-42" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="497" y="1760" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

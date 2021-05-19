@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T07:41:31.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ezh2sQeuNaHV_MSd1nYR" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-19T07:48:30.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="w92Ukf0n4MM82LJXWkGc" version="14.6.13" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -549,6 +549,14 @@
         <mxCell id="NOtvOofxNjyBKURaPAgJ-16" value="db_number" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="160" y="5930" width="100" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOtvOofxNjyBKURaPAgJ-17" target="NOtvOofxNjyBKURaPAgJ-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="5960" />
+              <mxPoint x="95" y="5960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-17" value="key_value_pairs" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="260" y="5930" width="100" height="20" as="geometry" />
         </mxCell>
@@ -560,6 +568,30 @@
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-21" value="key_value_pairs" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="560" y="5930" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-23" value="Type" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="5970" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-24" value="key" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="5970" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-25" value="value" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="195" y="5970" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-26" value="Type" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="5970" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-27" value="key" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="495" y="5970" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-28" value="value" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="565" y="5970" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-33" value="ms" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="5970" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-34" value="expiretime_ms" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="5970" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

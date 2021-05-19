@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T09:13:52.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="-j7NxD6JDvRT6dOXsCd8" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-19T09:25:33.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="OwF25oY4XJw0GgMmCIVQ" version="14.6.13" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -691,6 +691,29 @@
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-71" value="增量" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2280" y="5990" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-72" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="5857" width="280" height="362.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-73" value="psync2" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="5870" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOtvOofxNjyBKURaPAgJ-74" target="NOtvOofxNjyBKURaPAgJ-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2530" y="5978" />
+              <mxPoint x="2530" y="5893" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-74" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;master_replid&lt;/div&gt;&lt;div&gt;master_replid2&lt;/div&gt;&lt;div&gt;master_repl_offset&lt;/div&gt;&lt;div&gt;second_repl_offset&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="5940" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-77" value="支持网络故障" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="6160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-78" value="支持主从切换" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="6149" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T09:25:33.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="OwF25oY4XJw0GgMmCIVQ" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-19T09:38:45.048Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="gAdWWarwCMlvlOtcqdxW" version="14.6.13" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -706,8 +706,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOtvOofxNjyBKURaPAgJ-74" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;master_replid&lt;/div&gt;&lt;div&gt;master_replid2&lt;/div&gt;&lt;div&gt;master_repl_offset&lt;/div&gt;&lt;div&gt;second_repl_offset&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2570" y="5940" width="140" height="75" as="geometry" />
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-74" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;master和slave都会保存两套复制信息&lt;/div&gt;&lt;div&gt;两套中找到任意一套都可以进行增量&lt;/div&gt;&lt;div&gt;master_replid&lt;/div&gt;&lt;div&gt;master_replid2&lt;/div&gt;&lt;div&gt;master_repl_offset&lt;/div&gt;&lt;div&gt;second_repl_offset&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="5945" width="200" height="115" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-77" value="支持网络故障" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2240" y="6160" width="160" height="40" as="geometry" />

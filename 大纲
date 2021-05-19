@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T08:39:16.669Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="onZil867IHyMDvjgYPNL" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-19T08:43:19.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="LXeVERDiWt-xLTjnP7lR" version="14.6.13" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -650,7 +650,7 @@
         <mxCell id="NOtvOofxNjyBKURaPAgJ-57" value="aof&amp;nbsp; appendsync&amp;nbsp; &amp;nbsp; {&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;always&lt;/span&gt;&lt;span&gt;}{&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;everysec&lt;/span&gt;&lt;span&gt;}{&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;no&lt;/span&gt;&lt;span&gt;}&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="360" y="6110" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NOtvOofxNjyBKURaPAgJ-58" value="aof 重写&amp;nbsp; &amp;nbsp;依靠内存世界状态快照+aof重写缓冲区" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-58" value="aof 重写&amp;nbsp; &amp;nbsp;依靠内存【世界状态快照】+【aof重写缓冲区】" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="360" y="6140" width="360" height="30" as="geometry" />
         </mxCell>
       </root>

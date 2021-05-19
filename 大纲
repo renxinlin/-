@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T02:50:21.004Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="174j52qeRJIwM_yvVt9R" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-19T02:50:50.262Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="pq5rleqt6OOkULgZ07Ov" version="14.6.13" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -516,8 +516,8 @@
         <mxCell id="NOtvOofxNjyBKURaPAgJ-5" value="负载算法以及缓存淘汰算法" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="350" y="7880" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NOtvOofxNjyBKURaPAgJ-6" value="&lt;h1 class=&quot;title-article&quot; id=&quot;articleContentId&quot; style=&quot;box-sizing: border-box ; outline: 0px ; margin: 0px ; padding: 0px ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;simsun&amp;#34; ; font-size: 28px ; overflow-wrap: break-word ; color: rgb(34 , 34 , 38) ; word-break: break-all ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="68" y="7980" width="100" height="50" as="geometry" />
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-7" value="LFU&lt;br&gt;LRU&lt;br&gt;ARC&lt;br&gt;FIFO&lt;br&gt;MRU" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="7710" width="240" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

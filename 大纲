@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T07:01:25.516Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="OzNHOuAhQEVj1QU2CUr3" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T07:28:17.394Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="kqvbFHk6XHqQnYIgzVRX" version="14.6.13" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
-    <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="329" dy="1322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -793,6 +793,27 @@
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-113" value="线程池" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1370" y="435" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-114" value="注册中心:协议&amp;nbsp;&lt;span style=&quot;color: rgb(18 , 18 , 18) ; font-family: , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , sans-serif ; font-size: medium ; background-color: rgb(255 , 255 , 255)&quot;&gt;Zookeeper&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#121212&quot; size=&quot;3&quot;&gt;Multicast Redis&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="3720" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-116" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="3760" width="410" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-117" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Protocol连接协议&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="3760" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-118" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;application一般指定应用名&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="3720" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-119" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;actives&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span&gt;方法级别最大并发调用数默认0不限制&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;connections io数 (dubbo时服用netty长连接 为1）&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="3760" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-120" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;accepts 可接受的连接数 默认0不限制&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;iothreads&amp;nbsp; 默认&lt;/span&gt;&lt;span&gt;&amp;nbsp;cpu个数+1&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;threads 业务线程池大小&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;executes 方法级别最大并行数量&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;tps 指定时间（默认60s）最大qps&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="3810" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-121" value="消费" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="3810" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

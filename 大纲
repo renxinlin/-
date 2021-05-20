@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T07:28:17.394Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="kqvbFHk6XHqQnYIgzVRX" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T07:28:26.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="loAF7qkkfpB1Q5D2rd-8" version="14.6.13" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="329" dy="1322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -812,7 +812,7 @@
         <mxCell id="NOtvOofxNjyBKURaPAgJ-120" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;accepts 可接受的连接数 默认0不限制&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;iothreads&amp;nbsp; 默认&lt;/span&gt;&lt;span&gt;&amp;nbsp;cpu个数+1&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;threads 业务线程池大小&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;executes 方法级别最大并行数量&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;tps 指定时间（默认60s）最大qps&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1760" y="3810" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOtvOofxNjyBKURaPAgJ-121" value="消费" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-121" value="提供者" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1760" y="3810" width="40" height="30" as="geometry" />
         </mxCell>
       </root>

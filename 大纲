@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T07:28:47.420Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="21HzcjDVZ5YQnI772iwq" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T07:58:41.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="y7mps3w-WCwBzd-L1MrP" version="14.6.13" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
-    <mxGraphModel dx="329" dy="1322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -768,7 +768,7 @@
           <mxGeometry x="740" y="3890" width="850" height="170" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-103" value="&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="3720" width="850" height="170" as="geometry" />
+          <mxGeometry x="1660" y="3720" width="850" height="360" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-105" value="常用配置详解" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1660" y="3670" width="100" height="50" as="geometry" />
@@ -803,7 +803,7 @@
         <mxCell id="NOtvOofxNjyBKURaPAgJ-117" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Protocol连接协议&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1660" y="3760" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NOtvOofxNjyBKURaPAgJ-118" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;application一般指定应用名&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-118" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Application一般指定应用名&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2070" y="3720" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-119" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;actives&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span&gt;方法级别最大并发调用数默认0不限制&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;connections io数 (dubbo时使用netty长连接 为1）&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -814,6 +814,30 @@
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-121" value="提供者" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1760" y="3810" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-122" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Provider&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2079.92" y="4000" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-123" value="&lt;font face=&quot;helvetica&quot;&gt;consumer&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="3905" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-124" value="&lt;font face=&quot;helvetica&quot;&gt;[AbstractInterfaceConfig]&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2079.92" y="3825" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-128" value="version&lt;br&gt;group&lt;br&gt;delay&lt;br&gt;export&lt;br&gt;weight&lt;br&gt;tag&lt;br&gt;filter&lt;br&gt;scope[local remote]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="3825" width="130" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-129" value="version&lt;br&gt;group&lt;br&gt;delay&lt;br&gt;export&lt;br&gt;tag&lt;br&gt;filter&lt;br&gt;scope[local remote]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="3825" width="130" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-130" value="AbstractServiceConfig" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="3825" width="130" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-131" value="&lt;div&gt;&amp;nbsp;&lt;span&gt;					&lt;/span&gt;AbstractConfig&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;AbstractMethodConfig&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span&gt;					&lt;/span&gt;AbstractInterfaceConfig&lt;/div&gt;&lt;div&gt;&amp;nbsp;AbstractServiceConfig&lt;span&gt;			&lt;/span&gt;AbstractReferenceConfig&lt;/div&gt;&lt;div&gt;&amp;nbsp;ProviderConfig&lt;span&gt;					&lt;/span&gt;ConsumerConfig&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="3930" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NOtvOofxNjyBKURaPAgJ-132" value="最主要的配置类关系" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="3915" width="270" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

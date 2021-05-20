@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T09:27:04.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="d1_Ra6jLXU4Ns8V_OBPf" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T09:28:27.440Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="g41H0DVJO8WykC6UJH9s" version="14.6.13" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -849,16 +849,25 @@
           <mxGeometry x="60" y="3350" width="660" height="40" as="geometry" />
         </mxCell>
         <mxCell id="olisSvyxNOOyomExSsDE-1" value="源端口" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1200" width="50" height="10" as="geometry" />
+          <mxGeometry x="80" y="1190" width="50" height="10" as="geometry" />
         </mxCell>
         <mxCell id="olisSvyxNOOyomExSsDE-2" value="目标端口" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="129.84" y="1200" width="70.16" height="10" as="geometry" />
+          <mxGeometry x="129.84" y="1190" width="70.16" height="10" as="geometry" />
         </mxCell>
         <mxCell id="olisSvyxNOOyomExSsDE-5" value="保留位" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="79.92" y="1210" width="50" height="10" as="geometry" />
+          <mxGeometry x="79.92" y="1222" width="50" height="10" as="geometry" />
         </mxCell>
         <mxCell id="olisSvyxNOOyomExSsDE-6" value="SYN ACK等" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="129.76" y="1210" width="70.16" height="10" as="geometry" />
+          <mxGeometry x="129.76" y="1222" width="70.16" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="olisSvyxNOOyomExSsDE-7" value="窗口大小" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1222" width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="olisSvyxNOOyomExSsDE-12" value="32syn" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1200" width="120" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="olisSvyxNOOyomExSsDE-13" value="32ack" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1210" width="120" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

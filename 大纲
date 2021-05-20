@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T08:14:43.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="x3LdSGu2VKrYrSvweH83" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T08:16:41.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Gfqf2_0tWKgN48gqE6cO" version="14.6.13" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -768,7 +768,7 @@
           <mxGeometry x="740" y="3890" width="850" height="170" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-103" value="&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="3720" width="980" height="360" as="geometry" />
+          <mxGeometry x="1660" y="3720" width="980" height="410" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-105" value="常用配置详解" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1660" y="3670" width="100" height="50" as="geometry" />
@@ -816,10 +816,10 @@
           <mxGeometry x="1760" y="3810" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-128" value="version&lt;br&gt;group&lt;br&gt;delay&lt;br&gt;export&lt;br&gt;weight&lt;br&gt;tag&lt;br&gt;filter&lt;br&gt;scope[local remote]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2250" y="3825" width="130" height="215" as="geometry" />
+          <mxGeometry x="1980" y="3915" width="130" height="215" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-130" value="AbstractServiceConfig" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2250" y="3825" width="130" height="15" as="geometry" />
+          <mxGeometry x="1980" y="3915" width="130" height="15" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-131" value="&lt;div&gt;&amp;nbsp;&lt;span&gt;					&lt;/span&gt;AbstractConfig&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;AbstractMethodConfig&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span&gt;					&lt;/span&gt;AbstractInterfaceConfig&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 9pt ; color: rgb(102 , 14 , 122) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;filter&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt ; color: rgb(102 , 14 , 122) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;listener scope&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;layer&lt;/span&gt;&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;AbstractServiceConfig&lt;span&gt;			&lt;/span&gt;AbstractReferenceConfig&lt;/div&gt;&lt;div&gt;&amp;nbsp;ProviderConfig&lt;span&gt;					&lt;/span&gt;ConsumerConfig&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1660" y="3930" width="320" height="150" as="geometry" />
@@ -828,16 +828,16 @@
           <mxGeometry x="1660" y="3915" width="270" height="15" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-133" value="check&lt;br&gt;init&lt;br&gt;generic【泛化】&lt;br&gt;injvm&lt;br&gt;lazy&lt;br&gt;reconnect&lt;br&gt;version&lt;br&gt;group" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2380" y="3825" width="130" height="215" as="geometry" />
+          <mxGeometry x="2110" y="3915" width="130" height="215" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-134" value="AbstractReferenceConfig" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2380" y="3825" width="130" height="15" as="geometry" />
+          <mxGeometry x="2110" y="3915" width="130" height="15" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-135" value="timeout&lt;br&gt;retries&lt;br&gt;actives&lt;br&gt;loadbalance&lt;br&gt;async&lt;br&gt;mock&lt;br&gt;validation" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="3825" width="130" height="215" as="geometry" />
+          <mxGeometry x="2240" y="3915" width="130" height="215" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-136" value="AbstractMethodConfig" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="3825" width="130" height="15" as="geometry" />
+          <mxGeometry x="2240" y="3915" width="130" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

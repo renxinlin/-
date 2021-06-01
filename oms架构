@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T03:52:19.830Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="a6P-EXtupmatjrU9rBDu" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-01T06:53:34.354Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Xo3hXR3ydzR6l5_Ea66l" version="14.7.1" type="github">
   <diagram id="W5s5dUcaU3cnPIYGHkfs" name="Page-1">
-    <mxGraphModel dx="678" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1505" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,6 +9,9 @@
         </mxCell>
         <mxCell id="DN9uwJMLL7vNGbwFsLt9-3" value="&lt;span style=&quot;text-align: left&quot;&gt;oms_order_refund&lt;br&gt;售后单&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DN9uwJMLL7vNGbwFsLt9-4" value="&lt;span style=&quot;text-align: left&quot;&gt;oms_order_refund_log&lt;br&gt;售后单log&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="320" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

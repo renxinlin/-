@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-05T03:49:38.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="kD9Q6POdVYe8QqrBBmZl" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-05T03:52:52.492Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="pXWvrQcmATeAeIdxG15w" version="14.7.3" type="github">
   <diagram id="JOkU1jt_71sr7iDu2OnW" name="Page-1">
     <mxGraphModel dx="3837" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -347,6 +347,33 @@
         </mxCell>
         <mxCell id="qf_qe_r6MbpNrF8Im7jd-115" value="财务明细" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="-910" y="980" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-116" value="审核资料信息" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-720" y="554" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qf_qe_r6MbpNrF8Im7jd-117" target="qf_qe_r6MbpNrF8Im7jd-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-117" value="支付配置" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-720" y="600" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-118" value="奖励配置" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-720" y="640" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-120" value="店铺日志" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-720" y="690" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-121" value="店铺信息" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-720" y="730" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-122" value="邀请码" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-720" y="780" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-123" value="邀请日志" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-720" y="830" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-124" value="邀请奖励" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-720" y="870" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

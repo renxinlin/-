@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-06-05T02:49:36.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="xB98iPBZpfcmsoSqiIrp" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-05T02:55:16.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="CLURCetBc-WL_fpFGwNW" version="14.7.3" type="github">
   <diagram id="JOkU1jt_71sr7iDu2OnW" name="Page-1">
     <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-37" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="130" width="770" height="370" as="geometry" />
+        </mxCell>
         <mxCell id="qf_qe_r6MbpNrF8Im7jd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qf_qe_r6MbpNrF8Im7jd-4" target="qf_qe_r6MbpNrF8Im7jd-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -62,6 +65,50 @@
         </mxCell>
         <mxCell id="qf_qe_r6MbpNrF8Im7jd-23" value="获取支付信息配置" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="90" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-24" value="获取支付信息配置" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="450" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-25" value="event bus" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="520" width="770" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qf_qe_r6MbpNrF8Im7jd-27" target="qf_qe_r6MbpNrF8Im7jd-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-27" value="渠道" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-570" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qf_qe_r6MbpNrF8Im7jd-28" target="qf_qe_r6MbpNrF8Im7jd-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-28" value="视频号渠道" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-570" y="370" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qf_qe_r6MbpNrF8Im7jd-29" target="qf_qe_r6MbpNrF8Im7jd-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-29" value="代言人" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-453" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qf_qe_r6MbpNrF8Im7jd-31" target="qf_qe_r6MbpNrF8Im7jd-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-341" y="385" />
+              <mxPoint x="-341" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-31" value="代言人" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-453" y="370" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qf_qe_r6MbpNrF8Im7jd-33" target="qf_qe_r6MbpNrF8Im7jd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-33" value="普通用户" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="330" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qf_qe_r6MbpNrF8Im7jd-38" value="开店限界上下文" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="130" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

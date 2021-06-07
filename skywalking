@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T17:38:41.132Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="A-JN4UeGnNKuHF_iFnAa" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-07T17:43:41.692Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="xEAzS_jvRuwc6wRjZt3W" version="14.7.3" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,10 +20,10 @@
           <mxGeometry x="640" y="140" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vGlDoaQdWtSFvrubDje3-6" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="30" y="250" width="990" height="350" as="geometry" />
+          <mxGeometry x="30" y="250" width="990" height="200" as="geometry" />
         </mxCell>
         <mxCell id="vGlDoaQdWtSFvrubDje3-7" value="SkyWalkingAgent&lt;br&gt;.premain" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="30" y="250" width="110" height="350" as="geometry" />
+          <mxGeometry x="30" y="250" width="110" height="200" as="geometry" />
         </mxCell>
         <mxCell id="vGlDoaQdWtSFvrubDje3-8" value="SnifferConfigInitializer.initialize(agentArgs)&lt;br&gt;将agent.config加载到Config类中" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="140" y="250" width="320" height="40" as="geometry" />
@@ -54,6 +54,21 @@
         </mxCell>
         <mxCell id="vGlDoaQdWtSFvrubDje3-18" value="todo" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="780" y="290" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vGlDoaQdWtSFvrubDje3-19" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="530" width="860" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vGlDoaQdWtSFvrubDje3-20" value="SkyWalkingAgent&lt;br&gt;Transformer.transform" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="530" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vGlDoaQdWtSFvrubDje3-21" value="pluginFinder.find找到所有增强插件" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="530" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vGlDoaQdWtSFvrubDje3-22" value="循环进行&lt;br&gt;AbstractClassEnhancePluginDefine.define" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="570" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vGlDoaQdWtSFvrubDje3-23" value="&lt;div&gt;&amp;nbsp;agentBuilder&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .type(pluginFinder.buildMatch())&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .transform(new Transformer(pluginFinder))&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .with(AgentBuilder.RedefinitionStrategy.RETRANSFORMATION)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .with(new Listener())//&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .installOn(instrumentation);&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="890" y="530" width="470" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

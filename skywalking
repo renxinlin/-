@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T17:32:47.275Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="FUpMi7qrjQ3BL_vZdJVE" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-07T17:38:41.132Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="A-JN4UeGnNKuHF_iFnAa" version="14.7.3" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="640" y="140" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vGlDoaQdWtSFvrubDje3-6" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="30" y="250" width="1370" height="350" as="geometry" />
+          <mxGeometry x="30" y="250" width="990" height="350" as="geometry" />
         </mxCell>
         <mxCell id="vGlDoaQdWtSFvrubDje3-7" value="SkyWalkingAgent&lt;br&gt;.premain" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="30" y="250" width="110" height="350" as="geometry" />
@@ -39,6 +39,21 @@
         </mxCell>
         <mxCell id="vGlDoaQdWtSFvrubDje3-13" value="PluginFinder包含&lt;br&gt;nameMatchDefine signatureMatchDefine bootstrapClassMatchDefine" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-300" y="400" width="190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vGlDoaQdWtSFvrubDje3-14" value="保留debug文件" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="330" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vGlDoaQdWtSFvrubDje3-15" value="创建agentBuilder并且忽略&lt;br&gt;相关目录" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="330" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vGlDoaQdWtSFvrubDje3-16" value="根据&lt;br&gt;pluginFinder.buildMatch()进行&lt;br&gt;transform(new Transformer(pluginFinder))" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="370" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vGlDoaQdWtSFvrubDje3-17" value="基于spi org.apache.skywalking.apm.agent.core.boot.BootService&lt;br&gt;启动所有组件" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="410" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vGlDoaQdWtSFvrubDje3-18" value="todo" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="780" y="290" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

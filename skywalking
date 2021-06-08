@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T07:36:18.743Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="3jE1Y13a7tviHqUh_547" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T07:39:18.217Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="KoksY6hRz22pz3tVrdhS" version="14.7.6" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="2642" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-19" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="580" width="380" height="190" as="geometry" />
+        </mxCell>
         <mxCell id="vGlDoaQdWtSFvrubDje3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vGlDoaQdWtSFvrubDje3-1" target="vGlDoaQdWtSFvrubDje3-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -102,11 +105,54 @@
         <mxCell id="NCMDMBW2Go9EFFT79XWE-12" value="&lt;div&gt;&lt;span&gt;						&lt;/span&gt;AbstractClassEnhancePluginDefine（define 包含对见证者class的处理）&lt;/div&gt;&lt;div&gt;&lt;span&gt;						&lt;/span&gt;ClassEnhancePluginDefine 【增强静态和实例方法通用逻辑】&lt;/div&gt;&lt;div&gt;ClassStaticMethodsEnhancePluginDefine&amp;nbsp; ClassInstanceMethodsEnhancePluginDefine&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span&gt;						&lt;/span&gt;Instrumentation 【enhanceClass 】&lt;/div&gt;&lt;div&gt;&amp;nbsp; 拦截方法 拦截器类名 覆盖参数【ConstructorInterceptPoint&amp;nbsp; InstanceMethodsInterceptPoint[String interceptor]&amp;nbsp; StaticMethodsInterceptPoint】&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;（InstanceConstructorInterceptor InstanceMethodsAroundInterceptor StaticMethodsAroundInterceptor）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-1120" y="260" width="750" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-13" value="TraceContext&lt;br&gt;TraceSegment&lt;br&gt;AbstractTracingSpan" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="650" width="100" height="50" as="geometry" />
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCMDMBW2Go9EFFT79XWE-13" target="NCMDMBW2Go9EFFT79XWE-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1070" y="675" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-14" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-17" value="inject" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NCMDMBW2Go9EFFT79XWE-16">
+          <mxGeometry x="0.0596" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NCMDMBW2Go9EFFT79XWE-13" target="NCMDMBW2Go9EFFT79XWE-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-23" value="continued" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NCMDMBW2Go9EFFT79XWE-21">
+          <mxGeometry x="0.0971" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-13" value="TraceContext&lt;br&gt;TraceSegment&lt;br&gt;AbstractTracingSpan" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="650" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCMDMBW2Go9EFFT79XWE-14" target="NCMDMBW2Go9EFFT79XWE-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-990" y="609" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-18" value="extract" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NCMDMBW2Go9EFFT79XWE-15">
+          <mxGeometry x="-0.3639" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-14" value="ContextCarrier" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="-1100" y="600" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.447;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NCMDMBW2Go9EFFT79XWE-20" target="NCMDMBW2Go9EFFT79XWE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-24" value="capture" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NCMDMBW2Go9EFFT79XWE-22">
+          <mxGeometry x="-0.0479" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-20" value="ContextSnapshot" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="690" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

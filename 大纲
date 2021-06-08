@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T09:44:17.901Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="lrOIgUWb-UE9E-JsLfOl" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T09:56:30.206Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="q2L75z0VBXgQHA3gj7Vk" version="14.7.6" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -874,6 +874,45 @@
         </mxCell>
         <mxCell id="Fr_V_HNqJVASRADlPKM3-3" value="&lt;a href=&quot;https://www.cnblogs.com/semi-sub/p/13548479.html&quot;&gt;三级缓存&lt;/a&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="500.91999999999996" y="2600" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fr_V_HNqJVASRADlPKM3-7" target="Fr_V_HNqJVASRADlPKM3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-7" value="earlysingletonObjects" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1152" y="2320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fr_V_HNqJVASRADlPKM3-8" target="Fr_V_HNqJVASRADlPKM3-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-8" value="singletonFactorys" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1152" y="2400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-9" value="singletonObjects" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1151.59" y="2250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fr_V_HNqJVASRADlPKM3-10" target="Fr_V_HNqJVASRADlPKM3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-15" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fr_V_HNqJVASRADlPKM3-10" target="Fr_V_HNqJVASRADlPKM3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-10" value="Aop" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="2320" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-12" value="保存的是半成品bean" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="2280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-13" value="保存的是半成品proxy" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="2355" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fr_V_HNqJVASRADlPKM3-16" target="Fr_V_HNqJVASRADlPKM3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-16" value="存放beanfactory" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="2430" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-18" value="如果被代理&lt;br&gt;创建代理bean&lt;br&gt;否则创建bean" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="2430" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T09:56:30.206Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="q2L75z0VBXgQHA3gj7Vk" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T10:02:57.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="8YlJL0LnvMdjM751qD2F" version="14.7.6" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -913,6 +913,9 @@
         </mxCell>
         <mxCell id="Fr_V_HNqJVASRADlPKM3-18" value="如果被代理&lt;br&gt;创建代理bean&lt;br&gt;否则创建bean" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1420" y="2430" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-20" value="&lt;div&gt;1REQUIRED(TransactionDefinition.PROPAGATION_REQUIRED)&lt;/div&gt;&lt;div&gt;支持当前事务，如果没有事务会创建一个新的事务&lt;/div&gt;&lt;div&gt;2SUPPORTS(TransactionDefinition.PROPAGATION_SUPPORTS)&lt;/div&gt;&lt;div&gt;支持当前事务，如果没有事务的话以非事务方式执行&lt;/div&gt;&lt;div&gt;3MANDATORY(TransactionDefinition.PROPAGATION_MANDATORY)&lt;/div&gt;&lt;div&gt;支持当前事务，如果没有事务抛出异常&lt;/div&gt;&lt;div&gt;4REQUIRES_NEW(TransactionDefinition.PROPAGATION_REQUIRES_NEW)&lt;/div&gt;&lt;div&gt;创建一个新的事务并挂起当前事务&lt;/div&gt;&lt;div&gt;5NOT_SUPPORTED(TransactionDefinition.PROPAGATION_NOT_SUPPORTED)&lt;/div&gt;&lt;div&gt;以非事务方式执行，如果当前存在事务则将当前事务挂起&lt;/div&gt;&lt;div&gt;6NEVER(TransactionDefinition.PROPAGATION_NEVER)&lt;/div&gt;&lt;div&gt;以非事务方式进行，如果存在事务则抛出异常&lt;/div&gt;&lt;div&gt;7NESTED(TransactionDefinition.PROPAGATION_NESTED)&lt;/div&gt;&lt;div&gt;如果当前存在事务，则在嵌套事务内执行。如果当前没有事务，则进行与PROPAGATION_REQUIRED类似的操作&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="2250" width="730" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

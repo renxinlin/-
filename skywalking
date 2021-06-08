@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T06:52:25.918Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="tokt-0DNI7hYL47y1hVu" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T07:35:13.886Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="qmipY2y_JGZbJFHxJNcP" version="14.7.6" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
-    <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2840" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,6 +98,9 @@
         </mxCell>
         <mxCell id="NCMDMBW2Go9EFFT79XWE-9" value="PluginResourcesResolver指定classLoader&lt;br&gt;classLoader包含添加两个插件路径&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;plugins&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;activations&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="860" y="350" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-12" value="&lt;div&gt;&lt;span&gt;						&lt;/span&gt;AbstractClassEnhancePluginDefine（define 包含对见证者class的处理）&lt;/div&gt;&lt;div&gt;&lt;span&gt;						&lt;/span&gt;ClassEnhancePluginDefine 【增强静态和实例方法通用逻辑】&lt;/div&gt;&lt;div&gt;ClassStaticMethodsEnhancePluginDefine&amp;nbsp; ClassInstanceMethodsEnhancePluginDefine&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span&gt;						&lt;/span&gt;Instrumentation 【enhanceClass 】&lt;/div&gt;&lt;div&gt;&amp;nbsp; 拦截方法 拦截器类名 覆盖参数【ConstructorInterceptPoint&amp;nbsp; InstanceMethodsInterceptPoint[String interceptor]&amp;nbsp; StaticMethodsInterceptPoint】&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;（InstanceConstructorInterceptor InstanceMethodsAroundInterceptor StaticMethodsAroundInterceptor）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="260" width="750" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

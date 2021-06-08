@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T09:38:38.304Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="3WOxuwICExEKd6zme5c5" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T09:44:17.901Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="lrOIgUWb-UE9E-JsLfOl" version="14.7.6" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -871,6 +871,9 @@
         </mxCell>
         <mxCell id="Fr_V_HNqJVASRADlPKM3-2" value="若常量池中不存在等值的字符串，&lt;br&gt;JVM就会在常量池中创建一个等值的字符串&lt;br&gt;，然后返回该字符串的引用" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="60" y="910" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-3" value="&lt;a href=&quot;https://www.cnblogs.com/semi-sub/p/13548479.html&quot;&gt;三级缓存&lt;/a&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500.91999999999996" y="2600" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

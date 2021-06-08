@@ -1,77 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T17:44:58.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="qkAg6TVQ9w5XZvmmrW3s" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T06:52:25.918Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="tokt-0DNI7hYL47y1hVu" version="14.7.6" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vGlDoaQdWtSFvrubDje3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vGlDoaQdWtSFvrubDje3-1" target="vGlDoaQdWtSFvrubDje3-2">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vGlDoaQdWtSFvrubDje3-1" target="vGlDoaQdWtSFvrubDje3-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-1" value="apm-agent" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-1" value="apm-agent" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="380" y="140" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vGlDoaQdWtSFvrubDje3-2" target="vGlDoaQdWtSFvrubDje3-3">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vGlDoaQdWtSFvrubDje3-2" target="vGlDoaQdWtSFvrubDje3-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-2" value="oap-server" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-2" value="oap-server" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="510" y="140" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-3" value="apm-webapp" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-3" value="apm-webapp" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="640" y="140" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-6" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="30" y="250" width="990" height="200" as="geometry" />
+        <mxCell id="vGlDoaQdWtSFvrubDje3-6" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="30" y="250" width="1210" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-7" value="SkyWalkingAgent&lt;br&gt;.premain" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-7" value="SkyWalkingAgent&lt;br&gt;.premain" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="30" y="250" width="110" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-8" value="SnifferConfigInitializer.initialize(agentArgs)&lt;br&gt;将agent.config加载到Config类中" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-8" value="SnifferConfigInitializer.initialize(agentArgs)&lt;br&gt;将agent.config加载到Config类中" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="140" y="250" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-10" value="&lt;div&gt;Config包含7类配置&lt;/div&gt;&lt;div&gt;Agent&lt;/div&gt;&lt;div&gt;Buffer&lt;/div&gt;&lt;div&gt;Collector&lt;/div&gt;&lt;div&gt;Dictionary&lt;/div&gt;&lt;div&gt;Jvm&lt;/div&gt;&lt;div&gt;Logging&lt;/div&gt;&lt;div&gt;Plugin&lt;/div&gt;" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-10" value="&lt;div&gt;Config包含7类配置&lt;/div&gt;&lt;div&gt;Agent&lt;/div&gt;&lt;div&gt;Buffer&lt;/div&gt;&lt;div&gt;Collector&lt;/div&gt;&lt;div&gt;Dictionary&lt;/div&gt;&lt;div&gt;Jvm&lt;/div&gt;&lt;div&gt;Logging&lt;/div&gt;&lt;div&gt;Plugin&lt;/div&gt;" style="shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-290" y="230" width="190" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-11" value="new PluginFinder(new PluginBootstrap().loadPlugins())&lt;br&gt;将插件" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-11" value="new PluginFinder(new PluginBootstrap().loadPlugins())&lt;br&gt;将插件" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="140" y="290" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-12" value="new PluginFinder(new PluginBootstrap().loadPlugins())&lt;br&gt;将bootstrap 以及普通插件分三类加入finder" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vGlDoaQdWtSFvrubDje3-12" target="vGlDoaQdWtSFvrubDje3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-10" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;loadPlugins&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NCMDMBW2Go9EFFT79XWE-7">
+          <mxGeometry x="-0.05" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGlDoaQdWtSFvrubDje3-12" value="new PluginFinder(new PluginBootstrap().loadPlugins())&lt;br&gt;将bootstrap 以及普通插件分三类加入finder" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="460" y="290" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-13" value="PluginFinder包含&lt;br&gt;nameMatchDefine signatureMatchDefine bootstrapClassMatchDefine" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-13" value="PluginFinder包含&lt;br&gt;nameMatchDefine signatureMatchDefine bootstrapClassMatchDefine" style="shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-300" y="400" width="190" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-14" value="保留debug文件" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="140" y="330" width="320" height="40" as="geometry" />
+        <mxCell id="vGlDoaQdWtSFvrubDje3-14" value="保留debug文件" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="140" y="330" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-15" value="创建agentBuilder并且忽略&lt;br&gt;相关目录" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="460" y="330" width="320" height="40" as="geometry" />
+        <mxCell id="vGlDoaQdWtSFvrubDje3-15" value="创建agentBuilder并且忽略&lt;br&gt;相关目录" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="330" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-16" value="根据&lt;br&gt;pluginFinder.buildMatch()进行&lt;br&gt;transform(new Transformer(pluginFinder))" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-16" value="根据&lt;br&gt;pluginFinder.buildMatch()进行&lt;br&gt;transform(new Transformer(pluginFinder))" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="140" y="370" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-17" value="基于spi org.apache.skywalking.apm.agent.core.boot.BootService&lt;br&gt;启动所有组件" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-17" value="基于spi org.apache.skywalking.apm.agent.core.boot.BootService&lt;br&gt;启动所有组件" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="140" y="410" width="380" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-18" value="todo" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="780" y="290" width="320" height="40" as="geometry" />
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.529;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vGlDoaQdWtSFvrubDje3-18" target="NCMDMBW2Go9EFFT79XWE-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-19" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-18" value="PluginResourcesResolver指定classLoader&lt;br&gt;classLoader包含添加两个插件路径&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;plugins&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204)&quot;&gt;&lt;font color=&quot;#008000&quot; face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;&lt;b&gt;activations&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#008000&quot; face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;&lt;b&gt;找到所有的&lt;/b&gt;&lt;/span&gt;&lt;b&gt;skywalking-plugin.def&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="860" y="290" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vGlDoaQdWtSFvrubDje3-19" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="30" y="530" width="860" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-20" value="SkyWalkingAgent&lt;br&gt;Transformer.transform" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-20" value="SkyWalkingAgent&lt;br&gt;Transformer.transform" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="30" y="530" width="120" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-21" value="pluginFinder.find找到所有增强插件" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-21" value="pluginFinder.find找到所有增强插件" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="150" y="530" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-22" value="循环进行&lt;br&gt;AbstractClassEnhancePluginDefine.define" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="150" y="570" width="320" height="40" as="geometry" />
+        <mxCell id="vGlDoaQdWtSFvrubDje3-22" value="循环进行&lt;br&gt;AbstractClassEnhancePluginDefine.define" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="150" y="570" width="320" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-23" value="&lt;div&gt;&amp;nbsp;agentBuilder&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .type(pluginFinder.buildMatch())&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .transform(new Transformer(pluginFinder))&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .with(AgentBuilder.RedefinitionStrategy.RETRANSFORMATION)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .with(new Listener())//&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .installOn(instrumentation);&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-23" value="&lt;div&gt;&amp;nbsp;agentBuilder&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .type(pluginFinder.buildMatch())&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .transform(new Transformer(pluginFinder))&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .with(AgentBuilder.RedefinitionStrategy.RETRANSFORMATION)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .with(new Listener())//&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .installOn(instrumentation);&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="890" y="530" width="470" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-24" value="根据classLoader获取TypePool&lt;br&gt;进行见证者witness机制处理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-24" value="根据classLoader获取TypePool&lt;br&gt;进行见证者witness机制处理" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="470" y="570" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-1" value="enhanceClass处理静态方法增强&lt;br&gt;区分是否覆盖参数" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="470" y="630" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-2" value="通过enhance增强" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="570" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-4" value="enhanceInstance&lt;br&gt;处理 构造方法 实例方法区分是否覆盖参数" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="630" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-5" value="&lt;b&gt;&lt;u&gt;activations&lt;/u&gt;&lt;/b&gt;&amp;nbsp; bootstrap-plugins&amp;nbsp; config&amp;nbsp; logs&amp;nbsp; optional-plugins&amp;nbsp; &lt;u&gt;&lt;b&gt;plugins&lt;/b&gt;&lt;/u&gt;&amp;nbsp; skywalking-agent.jar" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="590" width="660" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-9" value="PluginResourcesResolver指定classLoader&lt;br&gt;classLoader包含添加两个插件路径&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;plugins&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;activations&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="860" y="350" width="340" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T09:21:47.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="frHUiQUFsbhCO4-0-h5T" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T09:25:36.476Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="loeLsBuU8Esufz4LTZjo" version="14.7.6" type="github">
   <diagram id="b4GUXvvdeVa2JAsPFk4v" name="Page-1">
     <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -106,6 +106,9 @@
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="rBWQr4Jvj3Xru57f1bQe-33" target="rBWQr4Jvj3Xru57f1bQe-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Aqui7MIS-MQQbunu1tM8-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="rBWQr4Jvj3Xru57f1bQe-33" target="Aqui7MIS-MQQbunu1tM8-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-33" value="lifeCycleMatch" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="410" y="300" width="100" height="50" as="geometry" />
         </mxCell>
@@ -114,6 +117,9 @@
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-35" value="current忽略" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="530" y="370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Aqui7MIS-MQQbunu1tM8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rBWQr4Jvj3Xru57f1bQe-36" target="Aqui7MIS-MQQbunu1tM8-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-36" value="next exe" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="530" y="450" width="100" height="50" as="geometry" />
@@ -133,7 +139,7 @@
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-44" value="StatusChain" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="650" y="640" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rBWQr4Jvj3Xru57f1bQe-45" value="DoIt" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="rBWQr4Jvj3Xru57f1bQe-45" value="Msg" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="780" y="640" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rBWQr4Jvj3Xru57f1bQe-46" edge="1">
@@ -222,6 +228,15 @@
         </mxCell>
         <mxCell id="Aqui7MIS-MQQbunu1tM8-29" value="biz" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="200" y="205" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aqui7MIS-MQQbunu1tM8-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Aqui7MIS-MQQbunu1tM8-30" target="Aqui7MIS-MQQbunu1tM8-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aqui7MIS-MQQbunu1tM8-30" value="Self策略" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="517.5" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Aqui7MIS-MQQbunu1tM8-31" value="推进生命周期" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="680" y="517.5" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

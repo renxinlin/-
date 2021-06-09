@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T09:25:36.476Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="loeLsBuU8Esufz4LTZjo" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T09:26:43.709Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="qc572Hn7rj6SvfLmVafa" version="14.7.6" type="github">
   <diagram id="b4GUXvvdeVa2JAsPFk4v" name="Page-1">
     <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-47" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="510" y="620" width="430" height="85" as="geometry" />
+          <mxGeometry x="935" y="650" width="430" height="85" as="geometry" />
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-1" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="240" y="180" width="800" height="250" as="geometry" />
@@ -125,44 +125,44 @@
           <mxGeometry x="530" y="450" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-41" value="补偿池" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="390" y="620" width="100" height="50" as="geometry" />
+          <mxGeometry x="815" y="650" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="rBWQr4Jvj3Xru57f1bQe-42" target="rBWQr4Jvj3Xru57f1bQe-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-42" value="补偿操作器" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="390" y="710" width="100" height="50" as="geometry" />
+          <mxGeometry x="815" y="740" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-43" value="bizProcess" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="530" y="640" width="100" height="50" as="geometry" />
+          <mxGeometry x="955" y="670" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-44" value="StatusChain" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="650" y="640" width="100" height="50" as="geometry" />
+          <mxGeometry x="1075" y="670" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-45" value="Msg" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="780" y="640" width="100" height="50" as="geometry" />
+          <mxGeometry x="1205" y="670" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rBWQr4Jvj3Xru57f1bQe-46" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="790" as="targetPoint" />
+            <mxPoint x="985" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-46" value="获取补偿池" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="510" y="710" width="100" height="50" as="geometry" />
+          <mxGeometry x="935" y="740" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="rBWQr4Jvj3Xru57f1bQe-51" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="840" as="sourcePoint" />
+            <mxPoint x="985" y="870" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rBWQr4Jvj3Xru57f1bQe-51" value="OK" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="510" y="870" width="100" height="50" as="geometry" />
+          <mxGeometry x="935" y="900" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Aqui7MIS-MQQbunu1tM8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aqui7MIS-MQQbunu1tM8-1" target="Aqui7MIS-MQQbunu1tM8-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aqui7MIS-MQQbunu1tM8-1" value="ok" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="530" y="790" width="60" height="50" as="geometry" />
+          <mxGeometry x="955" y="820" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Aqui7MIS-MQQbunu1tM8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aqui7MIS-MQQbunu1tM8-2" target="Aqui7MIS-MQQbunu1tM8-3">
           <mxGeometry relative="1" as="geometry" />
@@ -171,7 +171,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Aqui7MIS-MQQbunu1tM8-2" value="shouldBack" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="370" y="790" width="60" height="50" as="geometry" />
+          <mxGeometry x="795" y="820" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Aqui7MIS-MQQbunu1tM8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aqui7MIS-MQQbunu1tM8-3" target="rBWQr4Jvj3Xru57f1bQe-41">
           <mxGeometry relative="1" as="geometry" />
@@ -182,13 +182,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Aqui7MIS-MQQbunu1tM8-3" value="等候补偿池延迟" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="170" y="620" width="100" height="50" as="geometry" />
+          <mxGeometry x="510" y="650" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Aqui7MIS-MQQbunu1tM8-11" value="人工处理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="350" y="870" width="100" height="50" as="geometry" />
+          <mxGeometry x="775" y="900" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Aqui7MIS-MQQbunu1tM8-14" value="RunnableTask" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="500" y="610" width="90" height="20" as="geometry" />
+          <mxGeometry x="925" y="640" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Aqui7MIS-MQQbunu1tM8-15" value="每一条消息的生命周期" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1080" y="80" width="160" height="50" as="geometry" />
@@ -236,7 +236,18 @@
           <mxGeometry x="530" y="517.5" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Aqui7MIS-MQQbunu1tM8-31" value="推进生命周期" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="680" y="517.5" width="100" height="50" as="geometry" />
+          <mxGeometry x="690" y="470" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Aqui7MIS-MQQbunu1tM8-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.68;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aqui7MIS-MQQbunu1tM8-39" target="Aqui7MIS-MQQbunu1tM8-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="630" />
+              <mxPoint x="578" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aqui7MIS-MQQbunu1tM8-39" value="操作失败" style="triangle;whiteSpace=wrap;html=1;dashed=0;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="690" y="555" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

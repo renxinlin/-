@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T07:42:00.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="iLZBu374xZTVdbI21rmJ" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T08:32:07.062Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="_0qbJzmeh8mxYBxckWOQ" version="14.7.6" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
-    <mxGraphModel dx="1645" dy="1509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1645" dy="1548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -224,10 +224,10 @@
           <mxGeometry x="600" y="2419" width="100" height="81" as="geometry" />
         </mxCell>
         <mxCell id="LpDhEHnJ-QotpTMBIZnT-29" value="切面" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="70" y="2500" width="80" height="20" as="geometry" />
+          <mxGeometry x="69.92" y="2540" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LpDhEHnJ-QotpTMBIZnT-30" value="切入点" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="70" y="2530" width="80" height="20" as="geometry" />
+          <mxGeometry x="149.92000000000002" y="2540" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LpDhEHnJ-QotpTMBIZnT-31" value="通知&amp;nbsp; 前置 后置 异常&amp;nbsp; 环绕&amp;nbsp; 最终" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="70" y="2560" width="180" height="20" as="geometry" />
@@ -923,11 +923,11 @@
         <mxCell id="L4h5W1ZEjagOKfXx_Sn9-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2381" y="2250" width="219" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="L4h5W1ZEjagOKfXx_Sn9-2" value="javax.servlet.ServletContainerInitializer『SPI』&lt;br&gt;org.springframework.web.SpringServletContainerInitializer&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
-          <mxGeometry x="60" y="2390" width="320" height="70" as="geometry" />
+        <mxCell id="L4h5W1ZEjagOKfXx_Sn9-2" value="javax.servlet.ServletContainerInitializer『SPI』&lt;br&gt;org.springframework.web.SpringServletContainerInitializer&lt;br&gt;@HandlesTypes(WebApplicationInitializer.class)&lt;br&gt;WebApplicationInitializer可以看做web.xml&amp;nbsp;&lt;br&gt;WebApplicationInitializer.onStartup(ServletContext sc)&lt;br&gt;sc是tomcat容器内部组件，可以注册servlet，filter，listener" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2390" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="L4h5W1ZEjagOKfXx_Sn9-3" value="@FunctionalInterface" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
-          <mxGeometry x="60" y="2460" width="320" height="30" as="geometry" />
+          <mxGeometry x="59.92" y="2480" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T10:15:53.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="B6TbzCPYsAQnUt8so1Uo" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T07:42:00.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="iLZBu374xZTVdbI21rmJ" version="14.7.6" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
-    <mxGraphModel dx="1186" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1645" dy="1509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,7 +71,7 @@
           <mxGeometry x="60" y="2270" width="660" height="350" as="geometry" />
         </mxCell>
         <mxCell id="BftDJLEFvDGJXyfkDrpu-23" value="spring&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="350" y="2410" width="100" height="50" as="geometry" />
+          <mxGeometry x="-49.99999999999994" y="2270" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BftDJLEFvDGJXyfkDrpu-24" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="60" y="2630" width="660" height="350" as="geometry" />
@@ -869,56 +869,65 @@
         <mxCell id="olisSvyxNOOyomExSsDE-13" value="32ack" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="80" y="1210" width="120" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-2" value="若常量池中不存在等值的字符串，&lt;br&gt;JVM就会在常量池中创建一个等值的字符串&lt;br&gt;，然后返回该字符串的引用" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-2" value="若常量池中不存在等值的字符串，&lt;br&gt;JVM就会在常量池中创建一个等值的字符串&lt;br&gt;，然后返回该字符串的引用" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="60" y="910" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-3" value="&lt;a href=&quot;https://www.cnblogs.com/semi-sub/p/13548479.html&quot;&gt;三级缓存&lt;/a&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-3" value="&lt;a href=&quot;https://www.cnblogs.com/semi-sub/p/13548479.html&quot;&gt;三级缓存&lt;/a&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="500.91999999999996" y="2600" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fr_V_HNqJVASRADlPKM3-7" target="Fr_V_HNqJVASRADlPKM3-10">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Fr_V_HNqJVASRADlPKM3-7" target="Fr_V_HNqJVASRADlPKM3-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-7" value="earlysingletonObjects" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-7" value="earlysingletonObjects" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1152" y="2320" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fr_V_HNqJVASRADlPKM3-8" target="Fr_V_HNqJVASRADlPKM3-16">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="Fr_V_HNqJVASRADlPKM3-8" target="Fr_V_HNqJVASRADlPKM3-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-8" value="singletonFactorys" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-8" value="singletonFactorys" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1152" y="2400" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-9" value="singletonObjects" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-9" value="singletonObjects" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1151.59" y="2250" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fr_V_HNqJVASRADlPKM3-10" target="Fr_V_HNqJVASRADlPKM3-12">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="Fr_V_HNqJVASRADlPKM3-10" target="Fr_V_HNqJVASRADlPKM3-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-15" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fr_V_HNqJVASRADlPKM3-10" target="Fr_V_HNqJVASRADlPKM3-13">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-15" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Fr_V_HNqJVASRADlPKM3-10" target="Fr_V_HNqJVASRADlPKM3-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-10" value="Aop" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-10" value="Aop" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" parent="1" vertex="1">
           <mxGeometry x="1300" y="2320" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-12" value="保存的是半成品bean" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-12" value="保存的是半成品bean" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1420" y="2280" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-13" value="保存的是半成品proxy" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-13" value="保存的是半成品proxy" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1420" y="2355" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fr_V_HNqJVASRADlPKM3-16" target="Fr_V_HNqJVASRADlPKM3-18">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Fr_V_HNqJVASRADlPKM3-16" target="Fr_V_HNqJVASRADlPKM3-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-16" value="存放beanfactory" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-16" value="存放beanfactory" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1300" y="2430" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-18" value="如果被代理&lt;br&gt;创建代理bean&lt;br&gt;否则创建bean" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-18" value="如果被代理&lt;br&gt;创建代理bean&lt;br&gt;否则创建bean" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1420" y="2430" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-20" value="&lt;div&gt;1REQUIRED(TransactionDefinition.PROPAGATION_REQUIRED)&lt;/div&gt;&lt;div&gt;支持当前事务，如果没有事务会创建一个新的事务&lt;/div&gt;&lt;div&gt;2SUPPORTS(TransactionDefinition.PROPAGATION_SUPPORTS)&lt;/div&gt;&lt;div&gt;支持当前事务，如果没有事务的话以非事务方式执行&lt;/div&gt;&lt;div&gt;3MANDATORY(TransactionDefinition.PROPAGATION_MANDATORY)&lt;/div&gt;&lt;div&gt;支持当前事务，如果没有事务抛出异常&lt;/div&gt;&lt;div&gt;4REQUIRES_NEW(TransactionDefinition.PROPAGATION_REQUIRES_NEW)&lt;/div&gt;&lt;div&gt;创建一个新的事务并挂起当前事务&lt;/div&gt;&lt;div&gt;5NOT_SUPPORTED(TransactionDefinition.PROPAGATION_NOT_SUPPORTED)&lt;/div&gt;&lt;div&gt;以非事务方式执行，如果当前存在事务则将当前事务挂起&lt;/div&gt;&lt;div&gt;6NEVER(TransactionDefinition.PROPAGATION_NEVER)&lt;/div&gt;&lt;div&gt;以非事务方式进行，如果存在事务则抛出异常&lt;/div&gt;&lt;div&gt;7NESTED(TransactionDefinition.PROPAGATION_NESTED)&lt;/div&gt;&lt;div&gt;如果当前存在事务，则在嵌套事务内执行。如果当前没有事务，则进行与PROPAGATION_REQUIRED类似的操作&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-20" value="&lt;div&gt;1REQUIRED(TransactionDefinition.PROPAGATION_REQUIRED)&lt;/div&gt;&lt;div&gt;支持当前事务，如果没有事务会创建一个新的事务&lt;/div&gt;&lt;div&gt;2SUPPORTS(TransactionDefinition.PROPAGATION_SUPPORTS)&lt;/div&gt;&lt;div&gt;支持当前事务，如果没有事务的话以非事务方式执行&lt;/div&gt;&lt;div&gt;3MANDATORY(TransactionDefinition.PROPAGATION_MANDATORY)&lt;/div&gt;&lt;div&gt;支持当前事务，如果没有事务抛出异常&lt;/div&gt;&lt;div&gt;4REQUIRES_NEW(TransactionDefinition.PROPAGATION_REQUIRES_NEW)&lt;/div&gt;&lt;div&gt;创建一个新的事务并挂起当前事务&lt;/div&gt;&lt;div&gt;5NOT_SUPPORTED(TransactionDefinition.PROPAGATION_NOT_SUPPORTED)&lt;/div&gt;&lt;div&gt;以非事务方式执行，如果当前存在事务则将当前事务挂起&lt;/div&gt;&lt;div&gt;6NEVER(TransactionDefinition.PROPAGATION_NEVER)&lt;/div&gt;&lt;div&gt;以非事务方式进行，如果存在事务则抛出异常&lt;/div&gt;&lt;div&gt;7NESTED(TransactionDefinition.PROPAGATION_NESTED)&lt;/div&gt;&lt;div&gt;如果当前存在事务，则在嵌套事务内执行。如果当前没有事务，则进行与PROPAGATION_REQUIRED类似的操作&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="1630" y="2250" width="730" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="Fr_V_HNqJVASRADlPKM3-21" value="BeanDefinitionRegistryPostProcessor&lt;br&gt;BeanFactoryPostProcessor&lt;br&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;ImportBeanDefinitionRegistrar&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="59.92" y="2338" width="250.08" height="50" as="geometry" />
+        <mxCell id="Fr_V_HNqJVASRADlPKM3-21" value="BeanDefinitionRegistryPostProcessor&lt;br&gt;BeanFactoryPostProcessor&lt;br&gt;ImportBeanDefinitionRegistrar" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="59.92" y="2320" width="320.08" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="L4h5W1ZEjagOKfXx_Sn9-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2381" y="2250" width="219" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="L4h5W1ZEjagOKfXx_Sn9-2" value="javax.servlet.ServletContainerInitializer『SPI』&lt;br&gt;org.springframework.web.SpringServletContainerInitializer&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2390" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="L4h5W1ZEjagOKfXx_Sn9-3" value="@FunctionalInterface" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2460" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

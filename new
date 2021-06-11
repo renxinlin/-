@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T05:46:23.389Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="eufwPhBj-sWGABsYUGCD" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-11T05:48:42.075Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="gx82VFPC-8rwFb-AAYBp" version="14.7.7" type="github">
   <diagram id="fWguHHXLPM4cARsUs6CC" name="Page-1">
     <mxGraphModel dx="1186" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,19 +28,19 @@
         <mxCell id="7WTAkqrG9j9qxOQiMrTy-9" value="业务: 广告管理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="50" y="430" width="330" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7WTAkqrG9j9qxOQiMrTy-10" value="卖家资产管理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7WTAkqrG9j9qxOQiMrTy-10" value="店铺资产管理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="590" width="310" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7WTAkqrG9j9qxOQiMrTy-11" value="卖家权限管理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7WTAkqrG9j9qxOQiMrTy-11" value="店铺权限管理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="430" y="590" width="304" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7WTAkqrG9j9qxOQiMrTy-12" value="子账号" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7WTAkqrG9j9qxOQiMrTy-12" value="店铺子账号" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="660" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7WTAkqrG9j9qxOQiMrTy-13" value="卖家存储中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7WTAkqrG9j9qxOQiMrTy-13" value="店铺存储中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="190" y="660" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7WTAkqrG9j9qxOQiMrTy-14" value="渠道" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7WTAkqrG9j9qxOQiMrTy-14" value="店铺渠道" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="300" y="660" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7WTAkqrG9j9qxOQiMrTy-15" value="子账号数量" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -52,13 +52,13 @@
         <mxCell id="7WTAkqrG9j9qxOQiMrTy-17" value="店铺生命周期" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="650" y="660" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7WTAkqrG9j9qxOQiMrTy-18" value="卖家" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7WTAkqrG9j9qxOQiMrTy-18" value="店铺粉丝" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="720" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7WTAkqrG9j9qxOQiMrTy-19" value="业务: 规则控制中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="440" y="430" width="330" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7WTAkqrG9j9qxOQiMrTy-20" value="卖家规则" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7WTAkqrG9j9qxOQiMrTy-20" value="卖家" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="770" y="585" width="304" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7WTAkqrG9j9qxOQiMrTy-21" value="规则模板" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -66,6 +66,12 @@
         </mxCell>
         <mxCell id="7WTAkqrG9j9qxOQiMrTy-22" value="卖家渠道信息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="190" y="720" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7WTAkqrG9j9qxOQiMrTy-23" value="卖家渠道信息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="720" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7WTAkqrG9j9qxOQiMrTy-24" value="开通业务&lt;br&gt;【业务生命周期】" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="720" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

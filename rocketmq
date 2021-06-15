@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T06:58:59.255Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="B6B-Vahq1k_DbjwncEry" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T07:04:01.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="snJOeXnBVda0n-6EiZmY" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2222" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -950,6 +950,9 @@
         <mxCell id="4mtMAl2bffsb2Cea9Tca-70" value="cleanCommitLogService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1908.75" y="4240" width="171.25" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-71" target="4mtMAl2bffsb2Cea9Tca-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-71" value="cleanConsumeQueueService&lt;br&gt;100ms" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1908.75" y="4300" width="171.25" height="40" as="geometry" />
         </mxCell>
@@ -961,6 +964,9 @@
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-73" value="MappedFileQueue.deleteExpiredFileByTime&lt;br&gt;删除所有过期文件 并且文件之间保留100ms间隔" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2352.5" y="4240" width="267.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-76" value="同时删除indexFile" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2099.38" y="4300" width="171.25" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

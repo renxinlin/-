@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T08:11:38.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="1Y-YWnlkTp6kRPRum8cn" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T08:23:54.675Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="F8LCdK2lRwEaKnFxAdf9" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2222" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-85" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="216" y="4430" width="187" height="330" as="geometry" />
+        </mxCell>
         <mxCell id="xi-lC8qzqfooSBcnfqZU-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xi-lC8qzqfooSBcnfqZU-3" target="xi-lC8qzqfooSBcnfqZU-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -772,10 +775,10 @@
           <mxGeometry x="403" y="4150" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-4" value="producer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="293" y="4150" width="100" height="50" as="geometry" />
+          <mxGeometry x="303" y="4150" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-5" value="consumer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="293" y="4380" width="100" height="50" as="geometry" />
+          <mxGeometry x="303" y="4380" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-6" value="MQClientFactory-&amp;gt;MQClientInstance" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="403" y="4270" width="200" height="50" as="geometry" />
@@ -972,19 +975,19 @@
           <mxGeometry x="1230" y="4370" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-79" value="监听topic变更&lt;br&gt;触发rebalance和&lt;br&gt;生产者publishInfo变更" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="403" y="4590" width="147" height="50" as="geometry" />
+          <mxGeometry x="216" y="4580" width="147" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-80" value="消息消费服务并启动" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="403" y="4540" width="147" height="50" as="geometry" />
+          <mxGeometry x="216" y="4530" width="147" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-81" value="rebalance线程调用 doRebalance" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="398" y="4690" width="177" height="50" as="geometry" />
+          <mxGeometry x="216" y="4710" width="177" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-83" value="offsetStore加载消费进度" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="403" y="4490" width="147" height="50" as="geometry" />
+          <mxGeometry x="216" y="4480" width="147" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-84" value="订阅主题和重试主题" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="403" y="4440" width="147" height="50" as="geometry" />
+          <mxGeometry x="216" y="4430" width="147" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

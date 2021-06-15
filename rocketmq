@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T04:36:46.585Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="f8tGC-iCeyrBskmrXKw7" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T06:08:25.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="NcStBqtFaytcsr0Msv96" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2222" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -927,7 +927,7 @@
           <mxGeometry x="1270" y="5720" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-63" value="过期删除" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="4240" width="100" height="50" as="geometry" />
+          <mxGeometry x="1800" y="4240" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-65" value="定时消息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1270" y="4200" width="100" height="50" as="geometry" />
@@ -943,6 +943,12 @@
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-69" value="&lt;h3 style=&quot;box-sizing: border-box ; outline: 0px ; margin: 8px 0px 16px ; padding: 0px ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;simsun&amp;#34; ; font-size: 22px ; color: rgb(79 , 79 , 79) ; line-height: 30px ; overflow-wrap: break-word ; background-color: rgb(255 , 255 , 255)&quot;&gt;broker busy,优化点&lt;/h3&gt;" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1500" y="4560" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-70" value="cleanCommitLogService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1908.75" y="4240" width="171.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-71" value="cleanConsumeQueueService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1908.75" y="4300" width="171.25" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

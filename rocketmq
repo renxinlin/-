@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T06:51:59.964Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="77IjtVRRzSDao_wmTHqU" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T06:58:59.255Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="B6B-Vahq1k_DbjwncEry" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2222" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -944,14 +944,23 @@
         <mxCell id="4mtMAl2bffsb2Cea9Tca-69" value="&lt;h3 style=&quot;box-sizing: border-box ; outline: 0px ; margin: 8px 0px 16px ; padding: 0px ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;simsun&amp;#34; ; font-size: 22px ; color: rgb(79 , 79 , 79) ; line-height: 30px ; overflow-wrap: break-word ; background-color: rgb(255 , 255 , 255)&quot;&gt;broker busy,优化点&lt;/h3&gt;" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1500" y="4560" width="220" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-70" target="4mtMAl2bffsb2Cea9Tca-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-70" value="cleanCommitLogService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1908.75" y="4240" width="171.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-71" value="cleanConsumeQueueService&lt;br&gt;100ms" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1908.75" y="4300" width="171.25" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-72" target="4mtMAl2bffsb2Cea9Tca-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-72" value="每天凌晨4点&amp;nbsp; 手工删除次数 磁盘空间75%" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2095" y="4240" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-73" value="MappedFileQueue.deleteExpiredFileByTime&lt;br&gt;删除所有过期文件 并且文件之间保留100ms间隔" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2352.5" y="4240" width="267.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T07:05:55.158Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="YbDF1iVIY3LM4arglLAg" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T08:11:38.974Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="1Y-YWnlkTp6kRPRum8cn" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2222" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -769,16 +769,16 @@
           <mxGeometry x="1241" y="4020" width="229" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-3" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="700" y="3980" width="200" height="280" as="geometry" />
+          <mxGeometry x="403" y="4150" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-4" value="producer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="590" y="3980" width="100" height="50" as="geometry" />
+          <mxGeometry x="293" y="4150" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-5" value="consumer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="590" y="4210" width="100" height="50" as="geometry" />
+          <mxGeometry x="293" y="4380" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-6" value="MQClientFactory-&amp;gt;MQClientInstance" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="700" y="4100" width="200" height="50" as="geometry" />
+          <mxGeometry x="403" y="4270" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-9" value="commitLog.putMessage&lt;br&gt;到达文件末尾则新建文件" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1230" y="4470" width="130" height="50" as="geometry" />
@@ -967,6 +967,24 @@
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-76" value="同时删除indexFile" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2099.38" y="4300" width="171.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-78" value="%RETRY%+consumegroup" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="4370" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-79" value="监听topic变更&lt;br&gt;触发rebalance和&lt;br&gt;生产者publishInfo变更" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="403" y="4590" width="147" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-80" value="消息消费服务并启动" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="403" y="4540" width="147" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-81" value="rebalance线程调用 doRebalance" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="398" y="4690" width="177" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-83" value="offsetStore加载消费进度" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="403" y="4490" width="147" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-84" value="订阅主题和重试主题" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="403" y="4440" width="147" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

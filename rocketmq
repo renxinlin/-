@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T03:08:36.513Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="x_-W4rv6BV7FMYojGQe-" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T03:23:16.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="lJKoZwnMl0f_282r_O1o" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="1815" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -783,13 +783,13 @@
         <mxCell id="4mtMAl2bffsb2Cea9Tca-9" value="commitLog.putMessage" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1230" y="4470" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-10" value="mapperByteBuffer.force&lt;br&gt;&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="4520" width="130" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-12" value="DefaultMessageStore&lt;br&gt;appendToCommitLog" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1100" y="4470" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-13" value="commitLog.putMessage" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-13" target="4mtMAl2bffsb2Cea9Tca-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-13" value="putMessageLock.lock()" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1360" y="4470" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-14" target="4mtMAl2bffsb2Cea9Tca-15">
@@ -800,6 +800,39 @@
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-15" value="&lt;div&gt;CommitLogDispatcherBuildConsumeQueue【offset size tagshash】&lt;/div&gt;&lt;div&gt;CommitLogDispatcherBuildIndex&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1695" y="4470" width="335" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-18" target="4mtMAl2bffsb2Cea9Tca-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-26" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4mtMAl2bffsb2Cea9Tca-23">
+          <mxGeometry x="-0.2678" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1272" y="4610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-25" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4mtMAl2bffsb2Cea9Tca-24">
+          <mxGeometry x="-0.1348" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-18" value="开启堆外内存&lt;br&gt;读写分离" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1326" y="4550" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-20" value="byteBuffer.write" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1226" y="4610" width="124" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-22" value="mappedByteBuffer.write" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="4610" width="124" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-27" value="byteBuffer.write" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1226" y="4690" width="124" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-28" value="byteBuffer.write" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="4690" width="124" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T03:25:06.542Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="ocsXgI-ViO_rOwo7Gq4X" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T03:42:20.196Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Cli6jQSAVPa6zHhoP077" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="1815" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -828,12 +828,6 @@
         <mxCell id="4mtMAl2bffsb2Cea9Tca-22" value="mappedByteBuffer.write" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1350" y="4610" width="124" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-27" value="byteBuffer.write" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1226" y="4690" width="124" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-28" value="byteBuffer.write" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="4690" width="124" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-2" target="4mtMAl2bffsb2Cea9Tca-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -841,6 +835,36 @@
           <mxGeometry x="-0.3043" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-31" value="刷盘&lt;br&gt;FlushCommitLogService&lt;br&gt;500ms" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4870" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-32" value="mappedFileQueue.commit[4页]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="4680" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-33" value="提交[异步+堆外内存模式]&lt;br&gt;CommitRealTimeService&lt;br&gt;200ms" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="4680" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-34" value="mappedFile.commit[4页]&lt;br&gt;mappedFile.isAbleToCommit" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="4730" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-35" value="fileChannel.write(堆外内存.slice)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="4780" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-36" value="mappedFileQueue.flush(4页)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="4870" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-37" value="hold&lt;br&gt;锁" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="4760" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-38" value="release&lt;br&gt;锁" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="4760" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-39" value="fileChannel.force(false);&lt;br&gt;or&amp;nbsp;mappedByteBuffer.force();" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="4950" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-40" value="GroupCommitService&lt;br&gt;mappedFileQueue.flush();&lt;br&gt;通过CompletableFuture机制" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="890" y="4680" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T03:42:20.196Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Cli6jQSAVPa6zHhoP077" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T03:43:10.445Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="l7CLOJX-OLYng1oiqF8T" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="1815" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -769,16 +769,16 @@
           <mxGeometry x="1241" y="4020" width="229" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-3" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="970" y="4020" width="200" height="280" as="geometry" />
+          <mxGeometry x="700" y="3980" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-4" value="producer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="860" y="4020" width="100" height="50" as="geometry" />
+          <mxGeometry x="590" y="3980" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-5" value="consumer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="860" y="4250" width="100" height="50" as="geometry" />
+          <mxGeometry x="590" y="4210" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-6" value="MQClientFactory-&amp;gt;MQClientInstance" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="970" y="4140" width="200" height="50" as="geometry" />
+          <mxGeometry x="700" y="4100" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-9" value="commitLog.putMessage&lt;br&gt;到达文件末尾则新建文件" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1230" y="4470" width="130" height="50" as="geometry" />

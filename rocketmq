@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T09:44:21.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="xdHZjwqYSa4E-GGURuTU" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T09:51:43.378Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="t26CmweTeb8jhc3Amjhu" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="1815" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1392" dy="262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -909,8 +909,8 @@
         <mxCell id="4mtMAl2bffsb2Cea9Tca-40" value="GroupCommitService&lt;br&gt;mappedFileQueue.flush();&lt;br&gt;通过CompletableFuture机制&lt;br&gt;跨文件则需要两次刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="890" y="4680" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-42" value="故障恢复" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="4170" width="100" height="50" as="geometry" />
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-42" value="故障恢复&lt;br&gt;&lt;div&gt;正常恢复 倒数第三个文件&lt;/div&gt;&lt;div&gt;异常恢复: lastMappedFile&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="4170" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-43" value="&lt;div&gt;&amp;nbsp;https://www.jianshu.com/p/6ef2f03c0ff6&lt;/div&gt;&lt;div&gt;关于毛刺现象的解释: https://www.dazhuanlan.com/2019/11/05/5dc0f35b9a621/&lt;/div&gt;&lt;div&gt;&amp;nbsp;TransientStorePool 相当于在内存层面做了读写分离，写走内存磁盘，读走pagecache，同时最大程度消除了page cache的锁竞争，降低了毛刺。&lt;/div&gt;&lt;div&gt;它还使用了锁机制，避免直接内存被交换到swap分区。&lt;/div&gt;" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="5020" width="1220" height="140" as="geometry" />
@@ -1099,7 +1099,7 @@
         <mxCell id="4mtMAl2bffsb2Cea9Tca-136" value="消费失败重发&lt;br&gt;发送失败兜底5秒后重试" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="350" y="5510" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-137" value="删除ProcessQueue 中相关消息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-137" value="删除ProcessQueue 中相关消息&lt;br&gt;更新offsetStore消费进度" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="350" y="5550" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-138" value="顺序" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T06:59:28.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="aVot2WGlG5o2k7k_Cvba" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T07:41:16.958Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="xnSFWTKSHgGOGOxsubLe" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="2521" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3199" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1094,6 +1094,9 @@
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-113" value="根据PullRequest获取对应的&lt;br&gt;DefaultMQPushConsumerImpl&lt;br&gt;执行pullMessage" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="582" y="4920" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-118" value="关于rocketmq是推还是拉的意见: 并无太大实际意义&lt;br&gt;[api层面: (pull或者push)consumer 请求层面:pullRequest拉模式&amp;nbsp; 通信层面 双向通道 长轮询机制 既有推也有拉]" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="5050" width="480" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

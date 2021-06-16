@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T06:28:08.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="NxjhaFLi8BUkNgDS4ahs" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T06:34:16.768Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="ZpQbNPftzwi8X5RM20dA" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2222" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1024,23 +1024,35 @@
         <mxCell id="4mtMAl2bffsb2Cea9Tca-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-95" target="4mtMAl2bffsb2Cea9Tca-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="927" y="4550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="734" y="4540" />
+              <mxPoint x="927" y="4540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-95" value="DefaultMQPushConsumerImpl&lt;br&gt;.rebalanceImpl.doRebalance" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="634" y="4480" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-97" target="4mtMAl2bffsb2Cea9Tca-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-97" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-97" value="rebalanceByTopic" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="634" y="4550" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-98" target="4mtMAl2bffsb2Cea9Tca-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-98" value="DefaultMQPushConsumerImpl&lt;br&gt;.rebalanceImpl" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="634" y="4620" width="200" height="50" as="geometry" />
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-98" value="获取所有的消费者组的client&lt;br&gt;和所有的messageQueue&lt;br&gt;根据分配策略分配每个client应该消费哪些messageQueue" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="4620" width="304" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-101" value="DefaultMQPushConsumerImpl&lt;br&gt;.rebalanceImpl" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="638.5" y="4690" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-103" value="truncateMessageQueueNotMyTopic" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="850" y="4550" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

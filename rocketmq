@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T06:41:40.888Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="UJafO17V-ydj4Q7SVka5" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T06:48:33.653Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="-CGr20AUdfBjfORVowP1" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2222" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -791,6 +791,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-6" target="4mtMAl2bffsb2Cea9Tca-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-109" value="start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4mtMAl2bffsb2Cea9Tca-107">
+          <mxGeometry x="0.2661" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-6" value="MQClientFactory-&amp;gt;MQClientInstance" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="403" y="4270" width="200" height="50" as="geometry" />
         </mxCell>
@@ -1048,6 +1056,9 @@
         <mxCell id="4mtMAl2bffsb2Cea9Tca-98" value="获取所有的消费者组的client&lt;br&gt;和所有的messageQueue&lt;br&gt;根据分配策略分配每个client应该消费哪些messageQueue" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="530" y="4620" width="304" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-101" target="4mtMAl2bffsb2Cea9Tca-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-101" value="根据应该消费的messageQueue构建&lt;br&gt;pullRequestList&lt;br&gt;dispatchPullRequest(pullRequestList)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="582" y="4720" width="200" height="50" as="geometry" />
         </mxCell>
@@ -1057,8 +1068,17 @@
         <mxCell id="4mtMAl2bffsb2Cea9Tca-105" value="processQueueTable" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="96" y="4800" width="144" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-106" value="放入PullMessageService的&lt;br&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;pullRequestQueue队列&lt;/span&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-106" value="PullMessageService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="580" y="4850" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-110" target="4mtMAl2bffsb2Cea9Tca-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-110" value="放入PullMessageService的&lt;br&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold&quot;&gt;pullRequestQueue队列&lt;/span&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="4790" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-113" value="根据PullRequest获取对应的&lt;br&gt;DefaultMQPushConsumerImpl&lt;br&gt;执行pullMessage" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="582" y="4920" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

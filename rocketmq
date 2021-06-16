@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T09:23:17.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="d7ygS3cj1zaqfNL8d1PD" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T09:23:33.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="kRsOlW_tX5qtXZ8zfi_i" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -914,60 +914,6 @@
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-43" value="&lt;div&gt;&amp;nbsp;https://www.jianshu.com/p/6ef2f03c0ff6&lt;/div&gt;&lt;div&gt;关于毛刺现象的解释: https://www.dazhuanlan.com/2019/11/05/5dc0f35b9a621/&lt;/div&gt;&lt;div&gt;&amp;nbsp;TransientStorePool 相当于在内存层面做了读写分离，写走内存磁盘，读走pagecache，同时最大程度消除了page cache的锁竞争，降低了毛刺。&lt;/div&gt;&lt;div&gt;它还使用了锁机制，避免直接内存被交换到swap分区。&lt;/div&gt;" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="5020" width="1220" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-44" target="4mtMAl2bffsb2Cea9Tca-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-44" value="数仓数据提取" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="857" y="5520" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-45" target="4mtMAl2bffsb2Cea9Tca-44">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-45" value="" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="877" y="5390" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-47" target="4mtMAl2bffsb2Cea9Tca-52">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-47" target="4mtMAl2bffsb2Cea9Tca-57">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-47" value="shopcenter数据过滤" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="857" y="5720" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-49" target="4mtMAl2bffsb2Cea9Tca-47">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-49" target="4mtMAl2bffsb2Cea9Tca-56">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-49" value="ec-shop_db&lt;br&gt;数据存储" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="877" y="5600" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-52" target="4mtMAl2bffsb2Cea9Tca-54">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-52" value="messagecenter&lt;br&gt;消息发送" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="877" y="5810" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-54" value="结束" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="877" y="5910" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-56" value="user_id表" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="5590" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-57" target="4mtMAl2bffsb2Cea9Tca-58">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-57" value="1小时一次user_id表数据轮询" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="5720" width="190" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-58" target="4mtMAl2bffsb2Cea9Tca-52">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-58" value="过滤表过滤:(过滤表不存在或者最近一次发送时间超过14天)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="5720" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-63" value="过期删除" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1800" y="4240" width="100" height="100" as="geometry" />

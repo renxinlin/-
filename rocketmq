@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T08:12:14.235Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="-z0Djm1RTM_bpPVLwTuI" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-16T09:05:05.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="kXcdJKKlAXxA_8JJpV5X" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="3199" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1645" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1110,6 +1110,12 @@
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-118" value="关于rocketmq是推还是拉的意见: 并无太大实际意义&lt;br&gt;[api层面: (pull或者push)consumer 请求层面:pullRequest拉模式&amp;nbsp; 通信层面 双向通道 长轮询机制 既有推也有拉]" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="5050" width="480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-121" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="5180" width="380" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-122" value="拉取消费重试兜底&lt;br&gt;逻辑" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="5140" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

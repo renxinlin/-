@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T02:56:59.316Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="ROG3kk1ny7ncynSetQEo" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T02:57:42.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="_etQR8ky8vM84RnRVDXp" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2521" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1178,6 +1178,9 @@
         <mxCell id="4mtMAl2bffsb2Cea9Tca-163" value="规则1:未上传&lt;br&gt;规则2:当前时间戳-上次上传时间&amp;gt;=14day" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="5730" width="310" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-164" target="4mtMAl2bffsb2Cea9Tca-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-164" value="发送3种通知" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1385" y="5840" width="100" height="50" as="geometry" />
         </mxCell>
@@ -1231,6 +1234,9 @@
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-192" value="插入未上传" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2335" y="5640" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-193" value="删除未上传用户集" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="5990" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

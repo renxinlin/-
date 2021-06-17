@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T10:45:50.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="x2ZLXzYLrJGmmiISRSby" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T02:50:35.420Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="ZGXVAUPyvQD_RBL71PSA" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="1815" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1122,6 +1122,61 @@
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-146" value="长轮询事producer发送消息&lt;br&gt;reputMessageService&lt;br&gt;会触发&lt;br&gt;PullRequestHoldService#notifyMessageArriving" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="910" y="5171" width="260" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-147" value="未上传用户集" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="5530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-148" target="4mtMAl2bffsb2Cea9Tca-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-148" value="规则元信息&lt;br&gt;最后上传时间&lt;br&gt;是否上传" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="5530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-149" value="资料上传消息" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="5530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-150" target="4mtMAl2bffsb2Cea9Tca-152">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="5675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-150" value="8点扫描" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="5640" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-156" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-152" target="4mtMAl2bffsb2Cea9Tca-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-152" target="4mtMAl2bffsb2Cea9Tca-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-160" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4mtMAl2bffsb2Cea9Tca-159">
+          <mxGeometry x="-0.5111" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-152" value="存在" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="5650" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-153" value="经营执照" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="5530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-155" target="4mtMAl2bffsb2Cea9Tca-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-155" value="通过规则" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="5740" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-158" target="4mtMAl2bffsb2Cea9Tca-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-158" value="初始化规则元信息&lt;br&gt;（mark,status）" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="5660" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-163" value="规则1:未上传&lt;br&gt;规则2:当前时间戳-上次上传时间&amp;gt;=14day" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="5730" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-164" value="发送3种通知" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="5840" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

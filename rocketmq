@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T02:50:35.420Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="ZGXVAUPyvQD_RBL71PSA" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T02:52:43.117Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="MC0PP0FeKssbkhhi3elQ" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2013" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1133,7 +1133,7 @@
           <mxGeometry x="1395" y="5530" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-149" value="资料上传消息" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="1654" y="5530" width="80" height="80" as="geometry" />
+          <mxGeometry x="1710" y="5530" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-150" target="4mtMAl2bffsb2Cea9Tca-152">
           <mxGeometry relative="1" as="geometry">
@@ -1157,6 +1157,9 @@
         <mxCell id="4mtMAl2bffsb2Cea9Tca-152" value="存在" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
           <mxGeometry x="1405" y="5650" width="60" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.389;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-153" target="4mtMAl2bffsb2Cea9Tca-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-153" value="经营执照" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="1525" y="5530" width="80" height="80" as="geometry" />
         </mxCell>
@@ -1177,6 +1180,18 @@
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-164" value="发送3种通知" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1385" y="5840" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-172" value="规则元信息&lt;br&gt;最后上传时间&lt;br&gt;是否上传" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1837.5" y="5530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-173" target="4mtMAl2bffsb2Cea9Tca-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-173" value="开始" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="5650" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-175" value="元信息是否存在" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1833.75" y="5640" width="92.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

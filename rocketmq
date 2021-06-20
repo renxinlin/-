@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-20T06:10:13.897Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="R2ezN2HwGkScQClk19pn" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-20T06:12:06.013Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="idDt2OJ93oXrrkqxDQ4R" version="14.7.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="1645" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1268,10 +1268,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-207" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="734" y="6090" width="116" height="100" as="geometry" />
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-207" value="TransactionalMessageService().prepareMessage(msgInner)&lt;br&gt;puthalfMessage(修改topic为事务topic)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="734" y="6090" width="356" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="4mtMAl2bffsb2Cea9Tca-208" value="producer.send" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="4mtMAl2bffsb2Cea9Tca-208" value="broker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="734" y="6040" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4mtMAl2bffsb2Cea9Tca-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4mtMAl2bffsb2Cea9Tca-210" target="4mtMAl2bffsb2Cea9Tca-211">

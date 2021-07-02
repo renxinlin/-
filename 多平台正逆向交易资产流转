@@ -1,9 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-07-02T03:19:57.720Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="14nB2WTt6wHoUbDqqpLX" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-02T03:28:03.574Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="_58KtJrFeTIsHb_RMM-u" version="14.8.0" type="github">
   <diagram id="sO0WvA3gfcUErS81WLH1" name="Page-1">
     <mxGraphModel dx="1186" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-110" value="异步" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LeGrowvnRCpmK2wf-ttq-109" target="LeGrowvnRCpmK2wf-ttq-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1730" y="640" />
+              <mxPoint x="1440" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-109" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="519" width="100" height="91" as="geometry" />
+        </mxCell>
         <mxCell id="LeGrowvnRCpmK2wf-ttq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LeGrowvnRCpmK2wf-ttq-33" target="LeGrowvnRCpmK2wf-ttq-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -220,6 +231,71 @@
         </mxCell>
         <mxCell id="LeGrowvnRCpmK2wf-ttq-86" value="手续费++" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1030" y="770" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-88" value="支付机构" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="519" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-89" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="990" y="330" width="251" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-90" value="抖音财务" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="961" y="305" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-91" value="抖音账户" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1021" y="355" width="59" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-92" value="魔筷账户" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="355" width="59" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LeGrowvnRCpmK2wf-ttq-94" target="LeGrowvnRCpmK2wf-ttq-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-100" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;提现&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LeGrowvnRCpmK2wf-ttq-98">
+          <mxGeometry x="-0.32" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-94" value="供应商" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="534" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LeGrowvnRCpmK2wf-ttq-97" target="LeGrowvnRCpmK2wf-ttq-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-101" value="结算&lt;br&gt;（千分之一手续费）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LeGrowvnRCpmK2wf-ttq-99">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-97" value="魔筷" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="534" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LeGrowvnRCpmK2wf-ttq-102" target="LeGrowvnRCpmK2wf-ttq-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-106" value="+" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LeGrowvnRCpmK2wf-ttq-104">
+          <mxGeometry x="-0.1141" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-102" value="魔筷" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LeGrowvnRCpmK2wf-ttq-103" target="LeGrowvnRCpmK2wf-ttq-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-107" value="-" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LeGrowvnRCpmK2wf-ttq-105">
+          <mxGeometry x="0.3145" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-103" value="供应商" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="577" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-111" value="魔筷" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="519" width="80" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-112" value="抖音" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="519" width="80" height="14" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

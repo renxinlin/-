@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-02T02:46:20.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="0W-rfobjxDvSBIYtgkZh" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-02T02:48:22.766Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="SPV2G02d8DpibkOGn1ya" version="14.8.0" type="github">
   <diagram id="sO0WvA3gfcUErS81WLH1" name="Page-1">
     <mxGraphModel dx="1186" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
         <mxCell id="LeGrowvnRCpmK2wf-ttq-7" value="第三方市场价" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="850" y="190" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LeGrowvnRCpmK2wf-ttq-9" value="售价" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-9" value="售价[to c]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="700" y="190" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LeGrowvnRCpmK2wf-ttq-10" value="建议售价" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -62,7 +62,7 @@
         <mxCell id="LeGrowvnRCpmK2wf-ttq-11" value="品牌商" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="570" y="70" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LeGrowvnRCpmK2wf-ttq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LeGrowvnRCpmK2wf-ttq-15" target="LeGrowvnRCpmK2wf-ttq-9">
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LeGrowvnRCpmK2wf-ttq-15" target="LeGrowvnRCpmK2wf-ttq-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LeGrowvnRCpmK2wf-ttq-15" value="魔筷" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
@@ -182,6 +182,9 @@
         </mxCell>
         <mxCell id="LeGrowvnRCpmK2wf-ttq-68" value="-" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
           <mxGeometry x="731" y="745" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-70" value="&lt;b&gt;抖音赚点&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="620" width="70" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

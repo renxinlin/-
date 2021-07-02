@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-02T03:17:37.504Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="63p9ATJxEdBmfieFdFrO" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-02T03:19:20.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="1Hy4Z2P_okJubszXsVT4" version="14.8.0" type="github">
   <diagram id="sO0WvA3gfcUErS81WLH1" name="Page-1">
     <mxGraphModel dx="1186" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,6 +150,14 @@
         <mxCell id="LeGrowvnRCpmK2wf-ttq-56" value="-" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
           <mxGeometry x="731" y="585" width="20" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LeGrowvnRCpmK2wf-ttq-58" target="LeGrowvnRCpmK2wf-ttq-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-81" value="清算" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LeGrowvnRCpmK2wf-ttq-80">
+          <mxGeometry x="-0.2676" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="LeGrowvnRCpmK2wf-ttq-58" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="420" y="694" width="510" height="116" as="geometry" />
         </mxCell>
@@ -191,6 +199,24 @@
         </mxCell>
         <mxCell id="LeGrowvnRCpmK2wf-ttq-77" value="对账完的流水才能结算&lt;br&gt;还是对账和结算没关系&lt;br&gt;对账有哪些&lt;br&gt;总资产和流水需要对账吗&lt;br&gt;流水与外部流水需要对账" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="110" y="750" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-78" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1001" y="694" width="510" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-79" value="魔筷&lt;br&gt;账户" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="970" y="670" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-82" value="魔筷平台账户" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="720" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-83" value="供应商账户" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="720" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-84" value="供应商账户" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="720" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LeGrowvnRCpmK2wf-ttq-85" value="供应商账户" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="720" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

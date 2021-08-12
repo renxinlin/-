@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T09:21:00.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="7iBPksB-8XO3uD0nW_Z1" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-12T15:48:37.928Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="mKMFgyS9m6twOBNM52pN" version="14.9.4" type="github">
   <diagram id="3bnvLBL12hOkV_Q4vxIS" name="Page-1">
     <mxGraphModel dx="1395" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -338,6 +338,9 @@
         </mxCell>
         <mxCell id="7-qlpRoNfQb6XONue9oG-136" value="消息监听网关" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="130" y="420" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-qlpRoNfQb6XONue9oG-137" value="幂等与补偿中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="420" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

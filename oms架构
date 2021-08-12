@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T08:36:24.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="xVG6zaIF2XmRxeEuQSaC" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-12T08:37:02.382Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="z821FdYxhAlJV1pFJlkW" version="14.9.4" type="github">
   <diagram id="3bnvLBL12hOkV_Q4vxIS" name="Page-1">
     <mxGraphModel dx="1395" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,11 +136,16 @@
         <mxCell id="7-qlpRoNfQb6XONue9oG-42" value="动态网关注册" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="125.5" y="295" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-qlpRoNfQb6XONue9oG-45" target="7-qlpRoNfQb6XONue9oG-41">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="7-qlpRoNfQb6XONue9oG-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-qlpRoNfQb6XONue9oG-45" target="7-qlpRoNfQb6XONue9oG-56">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-qlpRoNfQb6XONue9oG-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7-qlpRoNfQb6XONue9oG-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="7-qlpRoNfQb6XONue9oG-45" value="分发配置中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="277.5" y="295" width="130" height="30" as="geometry" />

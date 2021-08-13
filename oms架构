@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-13T01:40:42.992Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="N1z3yLKdJMvTifaLlgwm" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-13T01:42:12.517Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="abENzYZ-ED2-ZsYF1Cqy" version="14.9.4" type="github">
   <diagram id="3bnvLBL12hOkV_Q4vxIS" name="Page-1">
     <mxGraphModel dx="1395" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -327,7 +327,7 @@
         <mxCell id="7-qlpRoNfQb6XONue9oG-135" value="前台" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="80" y="411" width="30" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-136" value="业务处理中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7-qlpRoNfQb6XONue9oG-136" value="规则映射中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="110" y="435" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7-qlpRoNfQb6XONue9oG-138" value="自定义处理扩展点" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -345,40 +345,40 @@
         <mxCell id="7-qlpRoNfQb6XONue9oG-142" value="监控告警平台" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="890" y="485" width="385" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-143" value="店铺&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7-qlpRoNfQb6XONue9oG-143" value="oms店铺&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="132.5" y="570" width="67.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-144" value="商品&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7-qlpRoNfQb6XONue9oG-144" value="oms商品&lt;span&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="212.5" y="570" width="67.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-145" value="交易" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7-qlpRoNfQb6XONue9oG-145" value="oms交易" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="292.5" y="570" width="67.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-146" value="售后" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7-qlpRoNfQb6XONue9oG-146" value="oms售后" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="370" y="570" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-147" value="店铺&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7-qlpRoNfQb6XONue9oG-147" value="oms店铺&lt;span&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="541.25" y="570.5" width="67.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-148" value="商品&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7-qlpRoNfQb6XONue9oG-148" value="oms商品&lt;span&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="621.25" y="570.5" width="67.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-149" value="交易" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7-qlpRoNfQb6XONue9oG-149" value="oms交易" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="701.25" y="570.5" width="67.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-150" value="售后" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7-qlpRoNfQb6XONue9oG-150" value="oms售后" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="778.75" y="570.5" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-151" value="店铺&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7-qlpRoNfQb6XONue9oG-151" value="oms店铺&lt;span&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="950" y="569.5" width="67.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-152" value="商品&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7-qlpRoNfQb6XONue9oG-152" value="oms商品&lt;span&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1030" y="569.5" width="67.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-155" value="商品&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7-qlpRoNfQb6XONue9oG-155" value="oms商品&lt;span&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1115" y="569.5" width="67.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-156" value="商品&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="7-qlpRoNfQb6XONue9oG-156" value="oms商品&lt;span&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1200" y="569.5" width="67.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7-qlpRoNfQb6XONue9oG-158" value="魔筷中台" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">

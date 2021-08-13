@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T15:48:37.928Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="mKMFgyS9m6twOBNM52pN" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-13T01:32:18.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="RgIxy0X0ph1qih_H9pmX" version="14.9.4" type="github">
   <diagram id="3bnvLBL12hOkV_Q4vxIS" name="Page-1">
     <mxGraphModel dx="1395" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -336,11 +336,14 @@
         <mxCell id="7-qlpRoNfQb6XONue9oG-135" value="前台" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="80" y="411" width="30" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-136" value="消息监听网关" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="130" y="420" width="80" height="40" as="geometry" />
+        <mxCell id="7-qlpRoNfQb6XONue9oG-136" value="规则映射中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="430" width="970" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7-qlpRoNfQb6XONue9oG-137" value="幂等与补偿中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="420" width="130" height="30" as="geometry" />
+        <mxCell id="7-qlpRoNfQb6XONue9oG-137" value="幂等与补偿控制" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="435" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-qlpRoNfQb6XONue9oG-138" value="自定义处理扩展点" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="480" width="970" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

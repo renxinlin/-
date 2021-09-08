@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T02:39:01.777Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="C9TCXjtMMHiFGt3vgLix" version="15.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T02:43:12.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="oAvZc_LxR_YlvQCbHHSa" version="15.0.2" type="github">
   <diagram id="3bnvLBL12hOkV_Q4vxIS" name="Page-1">
     <mxGraphModel dx="2327" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -594,9 +594,9 @@
           <mxGeometry x="1255.62" y="1630" width="111" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-128" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-536.25" y="1790" width="426.25" height="250" as="geometry" />
+          <mxGeometry x="-536.25" y="1790" width="426.25" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="EIqOV4szCGtrFQqe0bvV-129" value="消息分发中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-129" value="消息通信层" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-535.75" y="1790" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-130" value="mq" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -617,18 +617,6 @@
         <mxCell id="EIqOV4szCGtrFQqe0bvV-135" value="协议中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-526.63" y="1860" width="408.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EIqOV4szCGtrFQqe0bvV-136" value="日志中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-527.38" y="1920" width="408.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EIqOV4szCGtrFQqe0bvV-137" value="错误任务池" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-529.13" y="1960" width="111" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="EIqOV4szCGtrFQqe0bvV-138" value="调度中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-383.1300000000001" y="1960" width="111" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="EIqOV4szCGtrFQqe0bvV-139" value="监控中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-230.6300000000001" y="1960" width="111" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-140" value="快手" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="165.5" y="659" width="248.5" height="21" as="geometry" />
         </mxCell>
@@ -637,6 +625,39 @@
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-142" value="视频号" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="992" y="659" width="248.5" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-157" value="mock运行平台" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="1800" width="355" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-158" value="消息Ack/sync标号缓冲池" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="1850" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-159" value="协议序列号池" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1850" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-160" value="task逆向池" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="1900" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-161" value="task触发池" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1900" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-162" value="运行池势态感知中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="1950" width="355" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-163" value="消息可靠性层" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-537.5" y="1940" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-164" value="数据包标志号" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-534" y="1990" width="114" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-165" value="序列号" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-419" y="1990" width="59" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-166" value="前置序列号集" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="1990" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-167" value="数据包" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-283.13" y="1990" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

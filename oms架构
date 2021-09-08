@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T02:22:28.462Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="F2T6szxoCiS3zmatuPJn" version="15.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T02:23:34.387Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="hBrt4kivkayKeydwMFHl" version="15.0.2" type="github">
   <diagram id="3bnvLBL12hOkV_Q4vxIS" name="Page-1">
     <mxGraphModel dx="1063" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -348,10 +348,10 @@
           <mxGeometry x="410" y="1330" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7-qlpRoNfQb6XONue9oG-120" value="sub-tag" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
-          <mxGeometry x="17.5" y="1380" width="30" height="30" as="geometry" />
+          <mxGeometry x="17.5" y="1371" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7-qlpRoNfQb6XONue9oG-121" value="sub-tag" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
-          <mxGeometry x="62.5" y="1380" width="30" height="30" as="geometry" />
+          <mxGeometry x="62.5" y="1371" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7-qlpRoNfQb6XONue9oG-122" value="消息分发配置中心" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="20.5" y="1100" width="100" height="50" as="geometry" />
@@ -553,6 +553,9 @@
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-76" value="基础设施:实时分类决策树" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="516.38" y="1640" width="345" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-79" value="消息解析中心,[归一打标]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1401" width="430" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T02:49:40.892Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="hsFglWLzUOOfjP7mct3X" version="15.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T02:53:16.576Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="bUNuOiMeEgn7RgzV4JBt" version="15.0.2" type="github">
   <diagram id="3bnvLBL12hOkV_Q4vxIS" name="Page-1">
     <mxGraphModel dx="2327" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -594,28 +594,25 @@
           <mxGeometry x="1255.62" y="1630" width="111" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-128" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-536.25" y="1790" width="496.25" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="EIqOV4szCGtrFQqe0bvV-129" value="消息通信层" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-535.75" y="1790" width="100" height="50" as="geometry" />
+          <mxGeometry x="1430.25" y="1460" width="496.25" height="360" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-130" value="mq" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-526.63" y="1890" width="83.5" height="30" as="geometry" />
+          <mxGeometry x="1431.5" y="1560" width="98.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-131" value="dubbo" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-447.3800000000001" y="1890" width="83.5" height="30" as="geometry" />
+          <mxGeometry x="1530.25" y="1560" width="95.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-132" value="http" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-363.01" y="1890" width="83.5" height="30" as="geometry" />
+          <mxGeometry x="1626" y="1560" width="104" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-133" value="mq" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-283.76" y="1890" width="80.63" height="30" as="geometry" />
+          <mxGeometry x="1730" y="1560" width="99.56" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EIqOV4szCGtrFQqe0bvV-134" value="mq" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-203.1300000000001" y="1890" width="85" height="30" as="geometry" />
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-134" value="thrift" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="1560" width="97" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-135" value="协议中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-526.63" y="1860" width="408.5" height="30" as="geometry" />
+          <mxGeometry x="1430" y="1530" width="497" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-140" value="快手" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="165.5" y="659" width="248.5" height="21" as="geometry" />
@@ -627,55 +624,58 @@
           <mxGeometry x="992" y="659" width="248.5" height="21" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-157" value="时级监察机器人" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-535" y="2100" width="155" height="20" as="geometry" />
+          <mxGeometry x="1431.5" y="1770" width="155" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-160" value="回文镜像系统" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-536.25" y="2020" width="216.25" height="40" as="geometry" />
+          <mxGeometry x="1430.25" y="1690" width="216.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-162" value="运行池势态感知中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-535" y="2060" width="425" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="EIqOV4szCGtrFQqe0bvV-163" value="消息可靠性层" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-536.5" y="1940" width="100" height="50" as="geometry" />
+          <mxGeometry x="1431.5" y="1730" width="425" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-164" value="数据包标志号" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-535" y="1990" width="114" height="30" as="geometry" />
+          <mxGeometry x="1431.5" y="1660" width="114" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-165" value="序列号" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="1990" width="59" height="30" as="geometry" />
+          <mxGeometry x="1546.5" y="1660" width="59" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-166" value="前置序列号递增集" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="1990" width="120" height="30" as="geometry" />
+          <mxGeometry x="1606.5" y="1660" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-167" value="数据包" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="1990" width="80" height="30" as="geometry" />
+          <mxGeometry x="1716.5" y="1660" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-168" value="扩展点" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="1990" width="60" height="30" as="geometry" />
+          <mxGeometry x="1796.5" y="1660" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-169" value="协议序列日志池" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="2020" width="210" height="40" as="geometry" />
+          <mxGeometry x="1646.5" y="1690" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-170" value="秒级监察机器人" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="2100" width="131" height="20" as="geometry" />
+          <mxGeometry x="1586.5" y="1770" width="131" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-171" value="分级监察机器人" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="2100" width="140" height="20" as="geometry" />
+          <mxGeometry x="1716.5" y="1770" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-177" value="报表中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-535.75" y="2120" width="155" height="20" as="geometry" />
+          <mxGeometry x="1430.75" y="1790" width="155" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-178" value="告警中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-380.75" y="2120" width="131" height="20" as="geometry" />
+          <mxGeometry x="1585.75" y="1790" width="131" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-179" value="自动化mock" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-250.75" y="2120" width="140" height="20" as="geometry" />
+          <mxGeometry x="1715.75" y="1790" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-180" value="mock中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-98.25" y="1990" width="58.25" height="150" as="geometry" />
+          <mxGeometry x="1868.25" y="1660" width="58.25" height="150" as="geometry" />
         </mxCell>
         <mxCell id="EIqOV4szCGtrFQqe0bvV-182" value="人工mock" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-98.25" y="1990" width="58.25" height="20" as="geometry" />
+          <mxGeometry x="1868.25" y="1660" width="58.25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-186" value="消息通信层" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1429.87" y="1460" width="496.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EIqOV4szCGtrFQqe0bvV-187" value="消息可靠性传输层" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1431.5" y="1590" width="496.25" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

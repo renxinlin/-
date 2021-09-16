@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T17:43:39.626Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="NGz-tg17MZT_a-6fqDu9" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-16T17:51:13.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="BoezHMMOjtnTX4F9TdFn" version="15.1.4" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2458" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,8 +119,8 @@
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-7" value="&lt;div style=&quot;text-align: center&quot;&gt;master thread&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;main loop&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;suspend loop&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;background loop : undo log回收&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;suspend loop&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;通过innodb_io_capacity提高insert buffer 和脏页刷写效率&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-30" y="1040" width="460" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-9" value="insert buffer" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="330" y="440" width="90" height="30" as="geometry" />
+        <mxCell id="NqoMU0TFs5LQwd06Yvz8-9" value="double write&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="410" y="520" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-11" value="innodb" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-940" y="740" width="100" height="50" as="geometry" />
@@ -391,8 +391,14 @@
         <mxCell id="bdLtJFZp3pYihbEtorNE-1" value="&lt;div&gt;innodb 通过mvcc多版本并发控制来实现不同的事务隔离级别&lt;/div&gt;&lt;div&gt;插入缓冲: 高性能&amp;nbsp;&lt;/div&gt;&lt;div&gt;二次写: 保障高可用&lt;/div&gt;&lt;div&gt;间隙锁：避免幻读&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-840" y="740" width="350" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bdLtJFZp3pYihbEtorNE-2" value="&lt;div&gt;innodb 关键特性 insertbuffer&lt;/div&gt;&lt;div&gt;double write&lt;/div&gt;&lt;div&gt;自适应hash 刷新邻接页&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="690" width="350" height="50" as="geometry" />
+        <mxCell id="bdLtJFZp3pYihbEtorNE-2" value="&lt;div&gt;innodb 关键特性 insertbuffer[非聚集索引的离散读问题]changebuffer支持dml写放大问题的解决&lt;/div&gt;&lt;div&gt;double write&lt;/div&gt;&lt;div&gt;自适应hash 刷新邻接页&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="680" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdLtJFZp3pYihbEtorNE-4" value="被读取或者insertbuffer不够会被merge到数据页" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-443" y="680" width="263" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bdLtJFZp3pYihbEtorNE-5" value="flush 脏页时先执行&lt;br&gt;double write&lt;br&gt;为副本" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

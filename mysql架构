@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T17:39:51.185Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="n6bfOb5muAGyYjFToL8r" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-16T17:43:39.626Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="NGz-tg17MZT_a-6fqDu9" version="15.1.4" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2458" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -390,6 +390,9 @@
         </mxCell>
         <mxCell id="bdLtJFZp3pYihbEtorNE-1" value="&lt;div&gt;innodb 通过mvcc多版本并发控制来实现不同的事务隔离级别&lt;/div&gt;&lt;div&gt;插入缓冲: 高性能&amp;nbsp;&lt;/div&gt;&lt;div&gt;二次写: 保障高可用&lt;/div&gt;&lt;div&gt;间隙锁：避免幻读&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-840" y="740" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bdLtJFZp3pYihbEtorNE-2" value="&lt;div&gt;innodb 关键特性 insertbuffer&lt;/div&gt;&lt;div&gt;double write&lt;/div&gt;&lt;div&gt;自适应hash 刷新邻接页&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="690" width="350" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

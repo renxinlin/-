@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T03:39:21.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="OiMy6pMiEf774iTqbQ5h" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-17T03:40:37.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="mOVQ7HWEMP8yfG--PEc2" version="15.1.4" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2458" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -481,10 +481,10 @@
         <mxCell id="bdLtJFZp3pYihbEtorNE-35" value="page" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-600" y="3150" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="bdLtJFZp3pYihbEtorNE-36" value="data page" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="bdLtJFZp3pYihbEtorNE-36" value="infimum record(n_owned[1])&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-600" y="3330" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bdLtJFZp3pYihbEtorNE-37" value="data page" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="bdLtJFZp3pYihbEtorNE-37" value="supremum record(n_owned[1,8])&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-600" y="3590" width="440" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bdLtJFZp3pYihbEtorNE-38" value="slot Dircetory" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">

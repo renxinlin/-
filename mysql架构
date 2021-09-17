@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T06:48:54.400Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="VVTXSh-PD5y5ScZVFHPR" version="15.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-17T06:50:40.426Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="4iE6E5Al4efhcqH1eV_U" version="15.1.4" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="3597" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -684,17 +684,23 @@
         <mxCell id="bdLtJFZp3pYihbEtorNE-115" value="next-key锁" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-1330" y="3780" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bdLtJFZp3pYihbEtorNE-116" value="原子性" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="bdLtJFZp3pYihbEtorNE-116" value="一致性" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-1625" y="3980" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bdLtJFZp3pYihbEtorNE-117" value="隔离性" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-1325" y="3980" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bdLtJFZp3pYihbEtorNE-118" value="一致性" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="bdLtJFZp3pYihbEtorNE-118" value="原子性" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-1525" y="3980" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bdLtJFZp3pYihbEtorNE-119" value="持久性" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-1425" y="3980" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bdLtJFZp3pYihbEtorNE-121" value="undo" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1625" y="4030" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bdLtJFZp3pYihbEtorNE-122" value="redo" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1525" y="4030" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

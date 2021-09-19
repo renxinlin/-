@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-19T06:40:29.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="hl9UbUa_FpaP6lvwPyaX" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-19T09:30:04.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="9xDxixJ09nj4z_ouuaQ0" version="15.2.9" type="github">
   <diagram id="hMvWAp2LzvJM06Xpqsub" name="Page-1">
-    <mxGraphModel dx="1372" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1395" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -273,9 +273,6 @@
         </mxCell>
         <mxCell id="rpM_hC6Ac0DENALM1l_D-97" value="shutdownnow不会获取锁而是直接尝试&lt;br&gt;中断所有线程同时返回所有队列中的任务&lt;br&gt;注意: 只有响应中断的线程才会shutdown&lt;br&gt;无法响应的还是需要等线程执行完毕&lt;br&gt;但是队列中的任务不会再被执行" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="50" y="830" width="220" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="VOPW7WNGw4yamVNLGKj9-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="570" y="860" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

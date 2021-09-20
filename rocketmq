@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-20T06:39:19.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="dwlMVePJUshhtU4AHrUn" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-20T07:29:18.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="QNyY1e9fv58Ku0eQ9xMn" version="15.2.9" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2225" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -500,11 +500,8 @@
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-17" value="处理消息" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2050" y="1870" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_YNBMqEFQMXRZf3hjl2X-18" value="处理死信队列" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="1870" width="120" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-19" value="处理死信队列" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2310" y="1870" width="120" height="20" as="geometry" />
+          <mxGeometry x="2181" y="1870" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_YNBMqEFQMXRZf3hjl2X-21" target="_YNBMqEFQMXRZf3hjl2X-40" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -516,7 +513,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-21" value="处理事务消息|普通消息" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2440" y="1870" width="120" height="20" as="geometry" />
+          <mxGeometry x="2311" y="1870" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-39" value="核心处理层" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFF66;" parent="1" vertex="1">
           <mxGeometry x="1845" y="1910" width="715" height="10" as="geometry" />
@@ -580,7 +577,7 @@
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-63" value="appendMessagesInner" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2050" y="2080" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_YNBMqEFQMXRZf3hjl2X-64" value="&lt;b&gt;根据TransientStorePoolEnable交给&lt;br&gt;AppendMessageCallback追写到&lt;br&gt;writeBuffer堆外内存或者mappedByteBuffer内核态内存&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-64" value="&lt;b&gt;根据TransientStorePoolEnable(临时存储池)交给&lt;br&gt;AppendMessageCallback追写到&lt;br&gt;writeBuffer堆外内存或者mappedByteBuffer内核态内存&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2050" y="2110" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-66" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;为什么写到堆外内存而不是直接写到&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;mmap的内存&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;主要是因为mmap内存在内核态&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;堆外内存在用户态&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1堆内存到内核态需要序列化转堆外内存&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2需要线程上下文切换从用户态到内核态&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3直接mmap导致加锁，页污染&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4 直接内存在提交的时候是批量提交&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;完成读写分离，解决写放大&lt;/span&gt;&lt;/div&gt;" style="shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">

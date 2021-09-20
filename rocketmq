@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-20T08:54:07.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="vIpyGi83bOsZ7r0-JyyK" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-20T08:54:28.929Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="vU50q5ERTyrvdvvgx4b3" version="15.2.9" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2225" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1250,8 +1250,8 @@
         <mxCell id="kEtby0EkfdHlSZEwB_9A-13" value="mQClientFactory.start();启动再平衡线程 启动pullMessage线程 启动各类调度（路由 心跳,offset持久化等）" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="3164" y="2205" width="596" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-14" value="消费失败需要重发&lt;br&gt;重发先调用底层remote client发送&lt;br&gt;如果失败&amp;nbsp; 调用 消费者内部的defaultMQProducer发送" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2770" y="1650" width="360" height="40" as="geometry" />
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-14" value="消费失败需要重发&lt;br&gt;重发先调用底层remote client发送&lt;br&gt;如果失败&amp;nbsp; 调用 消费者内部的defaultMQProducer（&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;CLIENT_INNER_PRODUCER&lt;/span&gt;&lt;span&gt;）发送&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2770" y="1650" width="460" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

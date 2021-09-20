@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-27T11:46:27.957Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="7axWI9d2g91evnmqo3W7" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-20T06:39:19.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="dwlMVePJUshhtU4AHrUn" version="15.2.9" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="2222" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2225" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -341,7 +341,7 @@
         <mxCell id="xi-lC8qzqfooSBcnfqZU-48" value="发送失败延迟30秒" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1890" y="1510" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xi-lC8qzqfooSBcnfqZU-49" value="发送成功也可能延迟;根据发送时间换隔离时间，发送时间在100ms内部延迟" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="xi-lC8qzqfooSBcnfqZU-49" value="发送成功也可能延迟;根据发送时间换隔离时间，发送时间在100ms内不延迟" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1890" y="1530" width="480" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xi-lC8qzqfooSBcnfqZU-50" value="获取brokerAddr地址" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">

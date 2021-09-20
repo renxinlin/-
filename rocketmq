@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-20T08:22:38.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="ol-iQznJRFZ0HADrMtQN" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-20T08:33:42.171Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="_F3M9jkx216I2v8ZET4X" version="15.2.9" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
     <mxGraphModel dx="2824" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1246,6 +1246,9 @@
         </mxCell>
         <mxCell id="kEtby0EkfdHlSZEwB_9A-12" value="启动在平衡工作线程" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="2815" y="2300" width="337" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-13" value="mQClientFactory.start();启动再平衡线程 启动pullMessage线程 启动各类调度（路由 心跳,offset持久化等）" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3164" y="2205" width="596" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

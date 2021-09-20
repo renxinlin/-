@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-20T07:39:03.590Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="czblpb6ynjho5P6NOh7D" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-20T07:43:07.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="j3T3R2SSut9ukfi_1g91" version="15.2.9" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="1493" dy="263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2225" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -618,9 +618,6 @@
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-80" value="GroupCommitService&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1700" y="2853" width="140" height="77" as="geometry" />
-        </mxCell>
-        <mxCell id="_YNBMqEFQMXRZf3hjl2X-81" value="子线程每10毫秒执行刷盘" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1847.5" y="2853" width="312.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-82" value="如果刷盘大于当前请求期望刷盘位置 直接设置请求完毕唤醒put线程" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1847.5" y="2880" width="392.5" height="20" as="geometry" />

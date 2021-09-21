@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T08:42:48.732Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="xCeKCc34EJkdI4dzJJD9" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T16:15:20.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="rv68-Ml0QPdrlw_Y-lJl" version="15.2.9" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
-    <mxGraphModel dx="5607" dy="1833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3049" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-19" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-19" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-1150" y="580" width="390" height="180" as="geometry" />
         </mxCell>
         <mxCell id="vGlDoaQdWtSFvrubDje3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vGlDoaQdWtSFvrubDje3-1" target="vGlDoaQdWtSFvrubDje3-2" edge="1">
@@ -37,15 +37,15 @@
         <mxCell id="vGlDoaQdWtSFvrubDje3-11" value="new PluginFinder(new PluginBootstrap().loadPlugins())&lt;br&gt;将插件" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="140" y="290" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vGlDoaQdWtSFvrubDje3-12" target="vGlDoaQdWtSFvrubDje3-18">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vGlDoaQdWtSFvrubDje3-12" target="vGlDoaQdWtSFvrubDje3-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-10" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;loadPlugins&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NCMDMBW2Go9EFFT79XWE-7">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-10" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;loadPlugins&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NCMDMBW2Go9EFFT79XWE-7" vertex="1" connectable="0">
           <mxGeometry x="-0.05" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vGlDoaQdWtSFvrubDje3-12" value="new PluginFinder(new PluginBootstrap().loadPlugins())&lt;br&gt;将bootstrap 以及普通插件分三类加入finder" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="vGlDoaQdWtSFvrubDje3-12" value="new PluginFinder(new PluginBootstrap().loadPlugins())&lt;br&gt;将bootstrap 以及普通插件分三类【名称 其他 bootstarp】加入finder" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="460" y="290" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vGlDoaQdWtSFvrubDje3-13" value="PluginFinder包含&lt;br&gt;nameMatchDefine signatureMatchDefine bootstrapClassMatchDefine" style="shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -63,7 +63,7 @@
         <mxCell id="vGlDoaQdWtSFvrubDje3-17" value="基于spi org.apache.skywalking.apm.agent.core.boot.BootService&lt;br&gt;启动所有组件" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="140" y="410" width="380" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.529;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vGlDoaQdWtSFvrubDje3-18" target="NCMDMBW2Go9EFFT79XWE-9">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.529;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vGlDoaQdWtSFvrubDje3-18" target="NCMDMBW2Go9EFFT79XWE-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vGlDoaQdWtSFvrubDje3-18" value="PluginResourcesResolver指定classLoader&lt;br&gt;classLoader包含添加两个插件路径&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;plugins&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204)&quot;&gt;&lt;font color=&quot;#008000&quot; face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;&lt;b&gt;activations&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#008000&quot; face=&quot;menlo&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;&lt;b&gt;找到所有的&lt;/b&gt;&lt;/span&gt;&lt;b&gt;skywalking-plugin.def&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
@@ -87,74 +87,74 @@
         <mxCell id="vGlDoaQdWtSFvrubDje3-24" value="根据classLoader获取TypePool&lt;br&gt;进行见证者witness机制处理" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="470" y="570" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-1" value="enhanceClass处理静态方法增强&lt;br&gt;区分是否覆盖参数" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-1" value="enhanceClass处理静态方法增强&lt;br&gt;区分是否覆盖参数" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="470" y="630" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-2" value="通过enhance增强" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-2" value="通过enhance增强" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="630" y="570" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-4" value="enhanceInstance&lt;br&gt;处理 构造方法 实例方法区分是否覆盖参数" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-4" value="enhanceInstance&lt;br&gt;处理 构造方法 实例方法区分是否覆盖参数" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="670" y="630" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-5" value="&lt;b&gt;&lt;u&gt;activations&lt;/u&gt;&lt;/b&gt;&amp;nbsp; bootstrap-plugins&amp;nbsp; config&amp;nbsp; logs&amp;nbsp; optional-plugins&amp;nbsp; &lt;u&gt;&lt;b&gt;plugins&lt;/b&gt;&lt;/u&gt;&amp;nbsp; skywalking-agent.jar" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-5" value="&lt;b&gt;&lt;u&gt;activations&lt;/u&gt;&lt;/b&gt;&amp;nbsp; bootstrap-plugins&amp;nbsp; config&amp;nbsp; logs&amp;nbsp; optional-plugins&amp;nbsp; &lt;u&gt;&lt;b&gt;plugins&lt;/b&gt;&lt;/u&gt;&amp;nbsp; skywalking-agent.jar" style="shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-610" y="590" width="660" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-9" value="PluginResourcesResolver指定classLoader&lt;br&gt;classLoader包含添加两个插件路径&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;plugins&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;activations&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-9" value="PluginResourcesResolver指定classLoader&lt;br&gt;classLoader包含添加两个插件路径&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;plugins&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;activations&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="860" y="350" width="340" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-12" value="&lt;div&gt;&lt;span&gt;						&lt;/span&gt;AbstractClassEnhancePluginDefine（define 包含对见证者class的处理）&lt;/div&gt;&lt;div&gt;&lt;span&gt;						&lt;/span&gt;ClassEnhancePluginDefine 【增强静态和实例方法通用逻辑】&lt;/div&gt;&lt;div&gt;ClassStaticMethodsEnhancePluginDefine&amp;nbsp; ClassInstanceMethodsEnhancePluginDefine&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span&gt;						&lt;/span&gt;Instrumentation 【enhanceClass 】&lt;/div&gt;&lt;div&gt;&amp;nbsp; 拦截方法 拦截器类名 覆盖参数【ConstructorInterceptPoint&amp;nbsp; InstanceMethodsInterceptPoint[String interceptor]&amp;nbsp; StaticMethodsInterceptPoint】&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;（InstanceConstructorInterceptor InstanceMethodsAroundInterceptor StaticMethodsAroundInterceptor）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-12" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;AbstractClassEnhancePluginDefine（define 包含对见证者class的处理）&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;span&gt;      &lt;/span&gt;ClassEnhancePluginDefine 【增强静态和实例方法通用逻辑】&lt;/div&gt;&lt;div&gt;ClassStaticMethodsEnhancePluginDefine&amp;nbsp; ClassInstanceMethodsEnhancePluginDefine&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span&gt;      &lt;/span&gt;Instrumentation 【enhanceClass 】&lt;/div&gt;&lt;div&gt;&amp;nbsp; 拦截方法 拦截器类名 覆盖参数【ConstructorInterceptPoint&amp;nbsp; InstanceMethodsInterceptPoint[String interceptor]&amp;nbsp; StaticMethodsInterceptPoint】&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;（InstanceConstructorInterceptor InstanceMethodsAroundInterceptor StaticMethodsAroundInterceptor）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-1120" y="260" width="750" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCMDMBW2Go9EFFT79XWE-13" target="NCMDMBW2Go9EFFT79XWE-14">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="NCMDMBW2Go9EFFT79XWE-13" target="NCMDMBW2Go9EFFT79XWE-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-1070" y="675" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-17" value="inject" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NCMDMBW2Go9EFFT79XWE-16">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-17" value="inject" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NCMDMBW2Go9EFFT79XWE-16" vertex="1" connectable="0">
           <mxGeometry x="0.0596" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NCMDMBW2Go9EFFT79XWE-13" target="NCMDMBW2Go9EFFT79XWE-20">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NCMDMBW2Go9EFFT79XWE-13" target="NCMDMBW2Go9EFFT79XWE-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-23" value="continued" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NCMDMBW2Go9EFFT79XWE-21">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-23" value="continued" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NCMDMBW2Go9EFFT79XWE-21" vertex="1" connectable="0">
           <mxGeometry x="0.0971" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-13" value="TraceContext&lt;br&gt;TraceSegment&lt;br&gt;AbstractTracingSpan" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-13" value="TraceContext&lt;br&gt;TraceSegment&lt;br&gt;AbstractTracingSpan" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-990" y="650" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCMDMBW2Go9EFFT79XWE-14" target="NCMDMBW2Go9EFFT79XWE-13">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="NCMDMBW2Go9EFFT79XWE-14" target="NCMDMBW2Go9EFFT79XWE-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-990" y="609" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-18" value="extract" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NCMDMBW2Go9EFFT79XWE-15">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-18" value="extract" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NCMDMBW2Go9EFFT79XWE-15" vertex="1" connectable="0">
           <mxGeometry x="-0.3639" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-14" value="ContextCarrier" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-14" value="ContextCarrier" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="-1100" y="600" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.447;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NCMDMBW2Go9EFFT79XWE-20" target="NCMDMBW2Go9EFFT79XWE-13">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.447;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NCMDMBW2Go9EFFT79XWE-20" target="NCMDMBW2Go9EFFT79XWE-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-24" value="capture" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NCMDMBW2Go9EFFT79XWE-22">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-24" value="capture" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NCMDMBW2Go9EFFT79XWE-22" vertex="1" connectable="0">
           <mxGeometry x="-0.0479" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-20" value="ContextSnapshot" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-20" value="ContextSnapshot" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="-840" y="690" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NCMDMBW2Go9EFFT79XWE-25" value="contextManager" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="NCMDMBW2Go9EFFT79XWE-25" value="contextManager" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-1150" y="580" width="100" height="10" as="geometry" />
         </mxCell>
       </root>

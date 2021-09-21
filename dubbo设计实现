@@ -1,157 +1,157 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T12:13:01.260Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="iMpCYGkGGyHt3TJSEnUo" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T14:04:43.298Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="6GHYCcDgp1JISuYFFmeS" version="15.2.9" type="github">
   <diagram id="gIrsFCwzMcZvRo0B5mz3" name="Page-1">
-    <mxGraphModel dx="1694" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="565" dy="247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-47">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="940" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-47" target="X3NoxhT_wYPO6H0ZtNDK-46">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-47" target="X3NoxhT_wYPO6H0ZtNDK-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-47" value="ProtocolFilterWrapper" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-47" value="ProtocolFilterWrapper" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="875" y="260" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-1" target="X3NoxhT_wYPO6H0ZtNDK-32">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-1" target="X3NoxhT_wYPO6H0ZtNDK-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-1" value="proxyFactory" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-1" value="proxyFactory" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="760" y="300" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-2" target="X3NoxhT_wYPO6H0ZtNDK-1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-2" target="X3NoxhT_wYPO6H0ZtNDK-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-2" target="X3NoxhT_wYPO6H0ZtNDK-25">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-2" target="X3NoxhT_wYPO6H0ZtNDK-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-31" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;romote&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X3NoxhT_wYPO6H0ZtNDK-29">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-31" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;romote&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X3NoxhT_wYPO6H0ZtNDK-29" vertex="1" connectable="0">
           <mxGeometry x="-0.1091" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-2" value="local/romote" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-2" value="local/romote" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="630" y="300" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-3" value="interface" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-3" value="interface" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="100" y="310" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-7" value="spring schema" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-7" value="spring schema" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="190" y="300" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-8" target="X3NoxhT_wYPO6H0ZtNDK-10">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-8" target="X3NoxhT_wYPO6H0ZtNDK-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-8" value="dubbo:service" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-8" value="dubbo:service" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="190" y="330" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-10" target="X3NoxhT_wYPO6H0ZtNDK-13">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-10" target="X3NoxhT_wYPO6H0ZtNDK-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-10" value="&lt;div&gt;spring.handlers&lt;/div&gt;&lt;div&gt;spring.schemas&lt;/div&gt;&lt;div&gt;dubbo.xsd&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-10" value="&lt;div&gt;spring.handlers&lt;/div&gt;&lt;div&gt;spring.schemas&lt;/div&gt;&lt;div&gt;dubbo.xsd&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="190" y="390" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.285;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-13" target="X3NoxhT_wYPO6H0ZtNDK-15">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.285;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-13" target="X3NoxhT_wYPO6H0ZtNDK-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-13" value="DubboNamespaceHandler" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-13" value="DubboNamespaceHandler" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="560" y="470" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-15" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(128 , 128 , 0)&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;public void &lt;/span&gt;init() {&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;application&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ApplicationConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;module&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ModuleConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;registry&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(RegistryConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;monitor&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(MonitorConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;provider&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ProviderConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;consumer&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ConsumerConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;protocol&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ProtocolConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;service&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ServiceBean.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;reference&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ReferenceBean.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;false&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;annotation&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;AnnotationBeanDefinitionParser());&lt;br&gt;}&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-15" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(128 , 128 , 0)&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;public void &lt;/span&gt;init() {&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;application&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ApplicationConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;module&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ModuleConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;registry&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(RegistryConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;monitor&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(MonitorConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;provider&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ProviderConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;consumer&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ConsumerConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;protocol&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ProtocolConfig.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;service&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ServiceBean.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;true&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;reference&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;DubboBeanDefinitionParser(ReferenceBean.&lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;false&lt;/span&gt;));&lt;br&gt;    registerBeanDefinitionParser(&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold&quot;&gt;&quot;annotation&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;new &lt;/span&gt;AnnotationBeanDefinitionParser());&lt;br&gt;}&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="60" y="520" width="830" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-18" target="X3NoxhT_wYPO6H0ZtNDK-24">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=15;entryPerimeter=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-18" target="X3NoxhT_wYPO6H0ZtNDK-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-18" value="&lt;pre style=&quot;font-size: 9pt ; text-align: left ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;ServiceBean&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-18" value="&lt;pre style=&quot;font-size: 9pt ; text-align: left ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;ServiceBean&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="350" y="310" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-7" target="X3NoxhT_wYPO6H0ZtNDK-18">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-7" target="X3NoxhT_wYPO6H0ZtNDK-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.875;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-24" target="X3NoxhT_wYPO6H0ZtNDK-2">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.875;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-24" target="X3NoxhT_wYPO6H0ZtNDK-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-38" value="doExportUrlsFor1Protocol" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X3NoxhT_wYPO6H0ZtNDK-27">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-38" value="doExportUrlsFor1Protocol" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X3NoxhT_wYPO6H0ZtNDK-27" vertex="1" connectable="0">
           <mxGeometry x="-0.5294" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-24" value="serviceConfig" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-24" value="serviceConfig" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="360" y="240" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-25" target="X3NoxhT_wYPO6H0ZtNDK-30">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-25" target="X3NoxhT_wYPO6H0ZtNDK-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-25" value="proxyFactory" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-25" value="proxyFactory" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="760" y="360" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-30" target="X3NoxhT_wYPO6H0ZtNDK-35">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-30" target="X3NoxhT_wYPO6H0ZtNDK-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-30">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="940" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-42" value="openServer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X3NoxhT_wYPO6H0ZtNDK-39">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-42" value="openServer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X3NoxhT_wYPO6H0ZtNDK-39" vertex="1" connectable="0">
           <mxGeometry x="-0.4667" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-30" value="dubboProtocol" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-30" value="dubboProtocol" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="900" y="360" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.825;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-32" target="X3NoxhT_wYPO6H0ZtNDK-35">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.825;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-32" target="X3NoxhT_wYPO6H0ZtNDK-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-32" value="InJvmProtocol" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-32" value="InJvmProtocol" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="900" y="300" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-35" target="X3NoxhT_wYPO6H0ZtNDK-50">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-35" target="X3NoxhT_wYPO6H0ZtNDK-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-35" value="exportor" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-35" value="exportor" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="1040" y="330" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-41" target="X3NoxhT_wYPO6H0ZtNDK-43">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-41" target="X3NoxhT_wYPO6H0ZtNDK-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-41" value="Exchange.bind" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-41" value="Exchange.bind" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="900" y="420" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-43" value="Transporters.bind" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-43" value="Transporters.bind" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="900" y="470" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-45" value="NettyTransporters" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-45" value="NettyTransporters" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="900" y="530" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=-15;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-46" target="X3NoxhT_wYPO6H0ZtNDK-54">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=-15;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="X3NoxhT_wYPO6H0ZtNDK-46" target="X3NoxhT_wYPO6H0ZtNDK-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-57" value="provider" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X3NoxhT_wYPO6H0ZtNDK-55">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-57" value="provider" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="X3NoxhT_wYPO6H0ZtNDK-55" vertex="1" connectable="0">
           <mxGeometry x="-0.4429" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-46" value="Register" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-46" value="Register" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="900" y="150" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-49" value="8个filter创建" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-49" value="8个filter创建" style="shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="220" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-50" value="exportorMap" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-50" value="exportorMap" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="1180" y="330" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-54" value="zk" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-54" value="zk" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="1190" y="70" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-59" value="提供者架构" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-59" value="提供者架构" style="shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="160" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-60" value="消费者架构" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X3NoxhT_wYPO6H0ZtNDK-60" value="消费者架构" style="shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="860" width="120" height="120" as="geometry" />
         </mxCell>
       </root>

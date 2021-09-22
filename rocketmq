@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-20T09:13:14.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="c3yLD0htcH2A7WNFUF03" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-22T12:02:09.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="yX_1Jnc7JO2Y94OabVHr" version="15.2.9" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="1626" dy="315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -338,7 +338,7 @@
         <mxCell id="xi-lC8qzqfooSBcnfqZU-47" value="sendWhichQueue下标自增取模" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2130" y="1450" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xi-lC8qzqfooSBcnfqZU-48" value="发送失败延迟30秒" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="xi-lC8qzqfooSBcnfqZU-48" value="发送失败30秒不在发送相同机器" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1890" y="1510" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xi-lC8qzqfooSBcnfqZU-49" value="发送成功也可能延迟;根据发送时间换隔离时间，发送时间在100ms内不延迟" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
@@ -1211,55 +1211,55 @@
         <mxCell id="4mtMAl2bffsb2Cea9Tca-233" value="4.3.0后不支持filterclass" style="shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="135" y="5570" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-1" value="DefaultMQPushConsumerImpl者" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-1" value="DefaultMQPushConsumerImpl者" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2610" y="2070" width="200" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-2" value="checkconfig检查配置" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-2" value="checkconfig检查配置" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2814" y="2070" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-3" value="本地构建订阅新信息主题+重试主题" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-3" value="本地构建订阅新信息主题+重试主题" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2974" y="2070" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-4" value="集群模式下修改consumer名为pid" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-4" value="集群模式下修改consumer名为pid" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="3164" y="2070" width="186" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-5" value="为rebalanceImpl设置负载均衡策略为平均策略和通信" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-5" value="为rebalanceImpl设置负载均衡策略为平均策略和通信" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2814" y="2110" width="326" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-6" value="远程加载消费进度" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-6" value="远程加载消费进度" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="3140" y="2110" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-7" value="构建并发消费还是顺序消费，并且启动消费线程" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-7" value="构建并发消费还是顺序消费，并且启动消费线程" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2815" y="2155" width="337" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-8" value="向远程注册消费者" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-8" value="向远程注册消费者" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2815" y="2205" width="337" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#66FF66;" edge="1" parent="1" source="kEtby0EkfdHlSZEwB_9A-9" target="xi-lC8qzqfooSBcnfqZU-43">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#66FF66;" parent="1" source="kEtby0EkfdHlSZEwB_9A-9" target="xi-lC8qzqfooSBcnfqZU-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-9" value="更新订阅信息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-9" value="更新订阅信息" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2815" y="2260" width="337" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-11" value="发送心跳信息到broker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-11" value="发送心跳信息到broker" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="3190" y="2260" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-12" value="立即进行在平衡工作" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-12" value="立即进行在平衡工作" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2815" y="2300" width="337" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-13" value="mQClientFactory.start();启动再平衡线程 启动pullMessage线程 启动各类调度（路由 心跳,offset持久化等）" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-13" value="mQClientFactory.start();启动再平衡线程 启动pullMessage线程 启动各类调度（路由 心跳,offset持久化等）" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="3164" y="2205" width="596" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-14" value="消费失败需要重发&lt;br&gt;重发先调用底层remote client发送&lt;br&gt;如果失败&amp;nbsp; 调用 消费者内部的defaultMQProducer（&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;CLIENT_INNER_PRODUCER&lt;/span&gt;&lt;span&gt;）发送&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-14" value="消费失败需要重发&lt;br&gt;重发先调用底层remote client发送&lt;br&gt;如果失败&amp;nbsp; 调用 消费者内部的defaultMQProducer（&lt;span style=&quot;color: rgb(0 , 128 , 0) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;CLIENT_INNER_PRODUCER&lt;/span&gt;&lt;span&gt;）发送&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2770" y="1650" width="460" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-15" value="abort文件" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-15" value="abort文件" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="3400" y="1680" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-16" value="倒数第三个consume文件开始恢复" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-16" value="倒数第三个consume文件开始恢复" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="3562" y="1680" width="208" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kEtby0EkfdHlSZEwB_9A-17" value="找到正常的commitLog开始恢复" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="kEtby0EkfdHlSZEwB_9A-17" value="找到正常的commitLog开始恢复" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="3770" y="1680" width="160" height="40" as="geometry" />
         </mxCell>
       </root>

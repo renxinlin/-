@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T10:54:55.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="-i0_1budnWailhnyu7tc" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T11:08:08.085Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="7hvOcPPsejdgyfwMF6Sc" version="15.5.7" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="2013" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1025,6 +1025,60 @@
         </mxCell>
         <mxCell id="wgT-akApHuBEXuxg3MZV-39" value="记录非收集区域的跨代引用的gcroot对象" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1360" y="690" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-40" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="476" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-41" target="wgT-akApHuBEXuxg3MZV-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-41" value="剩余空间足够" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="490" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-43" target="wgT-akApHuBEXuxg3MZV-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-43" target="wgT-akApHuBEXuxg3MZV-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-55" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wgT-akApHuBEXuxg3MZV-54">
+          <mxGeometry x="-0.2848" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-43" value="不够" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="556" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-44" target="wgT-akApHuBEXuxg3MZV-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-56" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-44" target="wgT-akApHuBEXuxg3MZV-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-44" value="allow &lt;br&gt;空间担保" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="620" width="60" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-45" target="wgT-akApHuBEXuxg3MZV-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1720" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-45" value="历次进入老年代&lt;br&gt;对象大小的平均值大于剩余空间n" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1675" y="665" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-46" value="minor gc" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1879.92" y="556" width="60" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-47" value="fullgc" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1879.92" y="617" width="60" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-48" target="wgT-akApHuBEXuxg3MZV-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-48" value="minor-gc" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="490" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

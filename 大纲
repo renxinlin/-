@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T11:19:15.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="HrBfD05HXZMEFPYHBs-k" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T11:27:06.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="9vVjJzNyhpNlg4YBpxMb" version="15.5.7" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="2013" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1080,8 +1080,32 @@
         <mxCell id="wgT-akApHuBEXuxg3MZV-48" value="minor-gc" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="1700" y="490" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-58" value="类加载的时机" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-58" value="类加载的时机1 new 或者get/set类的常量2反射 3 类加载子类得加载父类&lt;br&gt;4 main所在的类 5 interface实现了default对应的实现类初始化则接口需要被初始化&lt;br&gt;6 动态语言解析的相关方法句柄对应的类" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="730" y="740" width="620" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-59" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="740" width="620" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-60" value="加载" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1363.96" y="750" width="106.04" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-61" value="验证" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1481.98" y="750" width="106.04" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-62" value="准备" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="750" width="106.04" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-63" value="解析" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1719.92" y="750" width="106.04" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-64" value="初始化" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1363.96" y="790" width="106.04" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-65" value="使用" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1483.88" y="790" width="106.04" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-66" value="卸载" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1601.9" y="790" width="106.04" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

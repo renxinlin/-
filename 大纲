@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T11:38:31.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="EJ1zfzHclKQeDQ0l56qL" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T11:50:13.854Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ugejw8TndkYitx3_DWH9" version="15.5.7" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="2013" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1109,6 +1109,9 @@
         </mxCell>
         <mxCell id="wgT-akApHuBEXuxg3MZV-68" value="双亲委派被破坏&lt;br&gt;osgi动态部署&lt;br&gt;spi/逆向调用&lt;br&gt;loadclass被覆盖" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="620" y="680" width="100.92" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-69" value="静态解析&lt;br&gt;静态方法唯一&lt;br&gt;确定版本&lt;br&gt;动态分派 重写&lt;br&gt;静态分派 重载" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="516.5" y="680" width="100.92" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

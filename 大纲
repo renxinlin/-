@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T09:56:18.552Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="lMop4CsyktKXeButGH1V" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T10:54:55.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="-i0_1budnWailhnyu7tc" version="15.5.7" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="2013" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -971,6 +971,60 @@
         </mxCell>
         <mxCell id="wgT-akApHuBEXuxg3MZV-12" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1280.0000000000002" y="557.5" width="40.08" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-15" value="方法区回收: 废弃的常量&amp;nbsp; 不在使用的类型[无任何实例]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="710" width="620" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-16" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="476" width="310" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-17" value="初&lt;br&gt;始&lt;br&gt;标&lt;br&gt;记" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="480" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-18" value="并&lt;br&gt;发&lt;br&gt;标&lt;br&gt;记" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="480" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-19" value="重&lt;br&gt;新&lt;br&gt;标&lt;br&gt;记" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="480" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-20" value="并&lt;br&gt;发&lt;br&gt;标&lt;br&gt;记" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="480" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-21" value="引用:&lt;br&gt;句柄池&lt;br&gt;直接引用" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="490" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-22" value="所有线程处于&lt;br&gt;安全点&lt;br&gt;和安全区域" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="560" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-23" value="gcroot枚举" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="560" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-25" value="oopmap" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="586" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-26" value="记录栈上哪些位置是引用" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="561" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-33" value="java栈" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="586" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-34" value="安全点" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="614" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-35" value="主动" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="614" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-36" value="抢占" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="614" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-37" value="安全区域[线程直接挂起]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="640" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-38" value="记忆集" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="665" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wgT-akApHuBEXuxg3MZV-39" value="记录非收集区域的跨代引用的gcroot对象" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="690" width="280" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

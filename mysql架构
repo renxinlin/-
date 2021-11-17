@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T06:48:07.568Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="KfpmlABK3FODEevWnd6L" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-17T06:48:28.258Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="nwEhtVRsOZsBw395xt3N" version="15.5.7" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="3049" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -554,7 +554,7 @@
         <mxCell id="bdLtJFZp3pYihbEtorNE-59" value="slot[n]" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-480" y="3640" width="35" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bdLtJFZp3pYihbEtorNE-61" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;其本身是一个稀疏矩阵&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;当记录插入或删除&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;需要对槽分裂或者&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;平衡操作&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;用户记录槽大小4-8&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;最后一个未填满不考虑&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="bdLtJFZp3pYihbEtorNE-61" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;目录槽其本身是一个稀疏矩阵&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;当记录插入或删除&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;需要对槽分裂或者&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;平衡操作&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;用户记录槽大小4-8&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;最后一个未填满不考虑&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-280" y="3630" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="bdLtJFZp3pYihbEtorNE-62" value="假设slot0管理4条slot1管理3条&lt;br&gt;我怀疑userrecord4&lt;br&gt;到userrecord5没有指针&lt;br&gt;不过没证明" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">

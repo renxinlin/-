@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T10:47:15.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="VLgXwI7Ih7DRcx55J7ys" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T12:53:56.338Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="cfpgl940uozLbG4Kvlii" version="15.5.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="2472" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3049" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -470,6 +470,48 @@
         </mxCell>
         <mxCell id="EEGMg-CsAs7H-cZEdePV-15" value="?" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=left;" vertex="1" parent="1">
           <mxGeometry x="-827" y="1950" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-16" target="EEGMg-CsAs7H-cZEdePV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-16" value="getdefault" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1340" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-18" target="EEGMg-CsAs7H-cZEdePV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-18" value="getAdaptiveExtension&lt;br&gt;方法上&lt;br&gt;类上" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-463" y="1340" width="143" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-19" target="EEGMg-CsAs7H-cZEdePV-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-19" value="getExtension(String name)" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-463" y="1440" width="143" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-20" target="EEGMg-CsAs7H-cZEdePV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-20" value="getActivateExtension" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-633" y="1340" width="143" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-24" value="getExtension(String name)" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-463" y="1540" width="143" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-26" value="&lt;div&gt;&lt;span&gt;ExtensionLoader&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;(所有的扩展点都有一个@SPi注解,其values表示默认实现除此之外,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;该spi仅仅起标记这是一个扩展点的作用)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-633" y="1219" width="523" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-27" value="&lt;div&gt;&lt;span&gt;ExtensionLoader&lt;/span&gt;&lt;/div&gt;&lt;div&gt;protocol&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-633" y="1280" width="123" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-28" value="&lt;div&gt;&lt;span&gt;ExtensionLoader&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Container&lt;/pre&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-453" y="1280" width="123" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-29" value="&lt;div&gt;&lt;span&gt;ExtensionLoader&lt;/span&gt;&lt;/div&gt;&lt;div&gt;LoadBalance&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-233" y="1280" width="123" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-31" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveInstance默认的&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedActivates激活的对象&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveInstance自适应的对象&lt;span&gt;	&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-633" y="1600" width="523" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

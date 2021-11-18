@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T12:53:56.338Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="cfpgl940uozLbG4Kvlii" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T12:54:30.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="073uG-2tRNLLMm_A67jr" version="15.5.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3049" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -480,7 +480,7 @@
         <mxCell id="EEGMg-CsAs7H-cZEdePV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-18" target="EEGMg-CsAs7H-cZEdePV-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-18" value="getAdaptiveExtension&lt;br&gt;方法上&lt;br&gt;类上" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-18" value="getAdaptiveExtension&lt;br&gt;方法上[代理类+url]&lt;br&gt;类上[没啥大区别]" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="-463" y="1340" width="143" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EEGMg-CsAs7H-cZEdePV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-19" target="EEGMg-CsAs7H-cZEdePV-24">

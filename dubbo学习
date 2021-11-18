@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T08:32:28.996Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="uh1W2oFKuv7ENHKu9UjW" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T08:32:44.593Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="nNANxx3HHN7e5mexkfhw" version="15.5.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3631" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -447,7 +447,7 @@
         <mxCell id="qZOsWsMKKbia-9YeHdc9-3" value="&lt;span style=&quot;font-size: 10px&quot;&gt;retires&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="40" y="2398" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-1" value="&lt;div&gt;&amp;nbsp;AbstractConfig&lt;/div&gt;&lt;div&gt;&amp;nbsp;ApplicationConfig【应用名配置】&lt;/div&gt;&lt;div&gt;&amp;nbsp;RegistryConfig 【注册中心配置】&lt;/div&gt;&lt;div&gt;&amp;nbsp;ProtocolConfig【注册中心配置】&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;ConsumerConfig[消费者全局配置]&lt;/div&gt;&lt;div&gt;&amp;nbsp;ProviderConfig[提供者全局配置]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;ServiceConfig&lt;span&gt;	&lt;/span&gt; 【核心】&lt;/div&gt;&lt;div&gt;&amp;nbsp;ReferenceConfig 【核心】&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;有消息&amp;nbsp; [消费者&amp;gt;提供者](方法级别&amp;gt; 接口级别 &amp;gt; 全局级别)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-1" value="&lt;div&gt;&amp;nbsp;AbstractConfig&lt;/div&gt;&lt;div&gt;&amp;nbsp;ApplicationConfig【应用名配置】&lt;/div&gt;&lt;div&gt;&amp;nbsp;RegistryConfig 【注册中心配置】&lt;/div&gt;&lt;div&gt;&amp;nbsp;ProtocolConfig【注册中心配置】&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;ConsumerConfig[消费者全局配置]&lt;/div&gt;&lt;div&gt;&amp;nbsp;ProviderConfig[提供者全局配置]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;ServiceConfig&lt;span&gt;	&lt;/span&gt; 【核心】&lt;/div&gt;&lt;div&gt;&amp;nbsp;ReferenceConfig 【核心】&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;消息&amp;nbsp; [消费者&amp;gt;提供者](方法级别&amp;gt; 接口级别 &amp;gt; 全局级别)&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="-1450" y="1994" width="370" height="190" as="geometry" />
         </mxCell>
       </root>

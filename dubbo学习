@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T09:50:03.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="KoajnmmiEm5iJNT97Mrx" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T10:12:59.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="AWPbkEe10PLNpgFJ4tuW" version="15.5.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="3631" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2472" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -456,13 +456,8 @@
         <mxCell id="EEGMg-CsAs7H-cZEdePV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-3" target="p4-F5EnrrteNVVbMthXz-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-5" value="然后初始化service,consumer等元素" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EEGMg-CsAs7H-cZEdePV-4">
-          <mxGeometry x="-0.0573" y="4" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-3" value="&lt;div&gt;DubboBeanDefinitionParser加载 ServiceBean,ProtocolConfig,ConsumerConfig等等 dubbo.xsd设置的所有元素&lt;br&gt;&lt;/div&gt;&lt;div&gt;并构建成RootBeanDefinition&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;等待applicationcontext 在refresh时候调用listener&lt;/div&gt;&lt;div&gt;DubboBootstrapApplicationListener-&amp;gt;DubboBootstrap.start&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-983" y="1850" width="693" height="50" as="geometry" />
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-3" value="&lt;div&gt;DubboBeanDefinitionParser加载 ServiceBean,ProtocolConfig,ConsumerConfig等等 dubbo.xsd设置的所有元素&lt;br&gt;&lt;/div&gt;&lt;div&gt;并构建成RootBeanDefinition&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;等待applicationcontext 在refresh时候调用listener&lt;/div&gt;&lt;div&gt;DubboBootstrapApplicationListener-&amp;gt;DubboBootstrap.start&amp;nbsp;&lt;/div&gt;&lt;div&gt;DubboBootstrap在start 调用configmanager 获取所有的servicebean进行service的暴露&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-983" y="1850" width="693" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

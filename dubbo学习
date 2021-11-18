@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-18T10:12:59.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="AWPbkEe10PLNpgFJ4tuW" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T10:47:15.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="VLgXwI7Ih7DRcx55J7ys" version="15.5.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="2472" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -458,6 +458,18 @@
         </mxCell>
         <mxCell id="EEGMg-CsAs7H-cZEdePV-3" value="&lt;div&gt;DubboBeanDefinitionParser加载 ServiceBean,ProtocolConfig,ConsumerConfig等等 dubbo.xsd设置的所有元素&lt;br&gt;&lt;/div&gt;&lt;div&gt;并构建成RootBeanDefinition&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;等待applicationcontext 在refresh时候调用listener&lt;/div&gt;&lt;div&gt;DubboBootstrapApplicationListener-&amp;gt;DubboBootstrap.start&amp;nbsp;&lt;/div&gt;&lt;div&gt;DubboBootstrap在start 调用configmanager 获取所有的servicebean进行service的暴露&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="-983" y="1850" width="693" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-6" value="export" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="1950" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-12" value="invoke" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="1950" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-14" value="refer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="1950" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-15" value="?" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="1950" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

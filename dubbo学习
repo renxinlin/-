@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T07:42:08.725Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="1Vd-wep6iVoeNE_DKF9r" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T07:43:35.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="S5wD87Qx885-SyUl6QQD" version="15.5.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="3667" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3631" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,27 +53,27 @@
           <mxGeometry x="50" y="1090" width="640" height="100" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-1" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="30" y="1290" width="1100" height="390" as="geometry" />
+          <mxGeometry x="30" y="1240" width="1100" height="390" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-2" value="dubbo spi机制&lt;br&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;ExtensionLoader.&lt;span style=&quot;font-style: italic&quot;&gt;getExtensionLoader&lt;/span&gt;(Protocol.&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;class&lt;/span&gt;).getAdaptiveExtension()&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="30" y="1260" width="620" height="49" as="geometry" />
+          <mxGeometry x="30" y="1210" width="620" height="49" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-4" target="p4-F5EnrrteNVVbMthXz-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-4" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;ExtensionLoader&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1340" width="150" height="50" as="geometry" />
+          <mxGeometry x="40" y="1290" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-47" target="p4-F5EnrrteNVVbMthXz-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="1405" as="targetPoint" />
+            <mxPoint x="610" y="1355" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-5" target="p4-F5EnrrteNVVbMthXz-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="750" y="1340" />
-              <mxPoint x="750" y="1295" />
+              <mxPoint x="750" y="1290" />
+              <mxPoint x="750" y="1245" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -91,19 +91,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-5" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;ExtensionLoader Instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="250" y="1340" width="180" height="50" as="geometry" />
+          <mxGeometry x="250" y="1290" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-7" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;name instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="920" y="1400" width="180" height="50" as="geometry" />
+          <mxGeometry x="920" y="1350" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-8" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;font-size: 9pt&quot;&gt;Adaptive&lt;/span&gt; instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="290" y="1500" width="180" height="50" as="geometry" />
+          <mxGeometry x="290" y="1450" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.55;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-9" target="p4-F5EnrrteNVVbMthXz-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-9" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Activate&lt;/span&gt; instance&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="890" y="1270" width="180" height="50" as="geometry" />
+          <mxGeometry x="890" y="1220" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-13" target="p4-F5EnrrteNVVbMthXz-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -112,13 +112,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-13" value="EXTENSION_LOADERS&lt;br&gt;缓存" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="85" y="1420" width="60" height="50" as="geometry" />
+          <mxGeometry x="85" y="1370" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-15" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;创建ExtensionLoader对象&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1500" width="150" height="50" as="geometry" />
+          <mxGeometry x="40" y="1450" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-20" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;构造方法传入type&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;objectFactory用于ioc注入&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1570" width="150" height="50" as="geometry" />
+          <mxGeometry x="40" y="1520" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-29" target="p4-F5EnrrteNVVbMthXz-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -127,7 +127,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-29" value="&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;cachedInstances&lt;br&gt;&lt;/span&gt;holder 缓存" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="570" y="1400" width="80" height="50" as="geometry" />
+          <mxGeometry x="570" y="1350" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-31" target="p4-F5EnrrteNVVbMthXz-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -136,38 +136,38 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-31" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;spi &lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="670" y="1450" width="180" height="50" as="geometry" />
+          <mxGeometry x="670" y="1400" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-35" target="p4-F5EnrrteNVVbMthXz-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-35" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;指定name的class新建newinstance&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;根据objectfactory ioc&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;根据spi时缓存的aop类进行aop实例化&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="930" y="1480" width="220" height="80" as="geometry" />
+          <mxGeometry x="930" y="1430" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-38" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204)&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;1缓存命中直接返回 所有spi的class&lt;br&gt;解析spi注解缓存默认加载class名到cachedDefaultName&lt;br&gt;扫描META-INF/services/ META-INF/dubbo等路径&lt;br&gt;resource变url&lt;br&gt; url变class-&amp;gt; Class.forName(line, true, classLoader)&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;最后根据class处理下aop和&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Adaptive类注解处理下和类注解&lt;/span&gt;&lt;span style=&quot;color: rgb(128 , 128 , 0) ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Activate&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedDefaultName&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveClass&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedWrapperClasses&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedActivates&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="537" y="1600" width="380" height="130" as="geometry" />
+        <mxCell id="p4-F5EnrrteNVVbMthXz-38" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204)&quot;&gt;&lt;font face=&quot;menlo&quot;&gt;1缓存命中直接返回 所有spi的class&lt;br&gt;解析spi注解缓存默认加载class名到cachedDefaultName&lt;br&gt;扫描META-INF/services/ META-INF/dubbo等路径&lt;br&gt;resource变url&lt;br&gt; url变class-&amp;gt; Class.forName(line, true, classLoader)&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;最后根据class处理下aop和&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Adaptive类注解处理下和类注解&lt;/span&gt;&lt;span style=&quot;color: rgb(128 , 128 , 0) ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Activate&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedDefaultName&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveClass&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedWrapperClasses&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedActivates&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="537" y="1550" width="380" height="130" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.425;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-40" target="p4-F5EnrrteNVVbMthXz-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="524" y="1355" />
+              <mxPoint x="524" y="1305" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-40" value="&lt;pre style=&quot;font-size: 9pt ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;遍历&lt;/pre&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bpre%20style%3D%26quot%3Bfont-size%3A%209pt%20%3B%20background-color%3A%20rgb(199%20%2C%20237%20%2C%20204)%20%3B%20font-family%3A%20%26amp%3B%2334%3Bmenlo%26amp%3B%2334%3B%26quot%3B%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-family%3A%20%26amp%3B%2334%3Bmenlo%26amp%3B%2334%3B%20%3B%20font-size%3A%209pt%26quot%3B%26gt%3BActivate%26lt%3B%2Fspan%26gt%3B%20instance%26lt%3B%2Fpre%26gt%3B%22%20style%3D%22html%3D1%3Bdashed%3D0%3Bwhitespace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22890%22%20y%3D%221270%22%20width%3D%22180%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&amp;nbsp;cachedActivates&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="890" y="1330" width="180" height="50" as="geometry" />
+          <mxGeometry x="890" y="1280" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-47" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;getExtension&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
-          <mxGeometry x="490" y="1360" width="80" height="30" as="geometry" />
+          <mxGeometry x="490" y="1310" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="p4-F5EnrrteNVVbMthXz-5" target="p4-F5EnrrteNVVbMthXz-47" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="1365" as="sourcePoint" />
-            <mxPoint x="610" y="1400" as="targetPoint" />
+            <mxPoint x="430" y="1315" as="sourcePoint" />
+            <mxPoint x="610" y="1350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-52" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveInstance缓存获取&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;根据&lt;/span&gt;cachedDefaultName进行动态编译&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;创建对象&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;ioc&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;默认javassist编译器&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;备注:ClassUtils.&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; font-style: italic&quot;&gt;getClassLoader&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;(ExtensionLoader.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;);&lt;/span&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="250" y="1580" width="180" height="250" as="geometry" />
+        <mxCell id="p4-F5EnrrteNVVbMthXz-52" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveInstance缓存获取&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;根据&lt;/span&gt;cachedDefaultName进行动态编译&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;创建对象&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;ioc&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;默认javassist编译器&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;备注:ClassUtils.&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; font-style: italic&quot;&gt;getClassLoader&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;(ExtensionLoader.&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt ; color: rgb(0 , 0 , 128) ; font-weight: bold&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;);&lt;/span&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="255" y="1510" width="180" height="270" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-53" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="20" y="2000" width="860" height="470" as="geometry" />
@@ -519,31 +519,31 @@
         <mxCell id="EEGMg-CsAs7H-cZEdePV-33" value="Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; RegistryProtocol &lt;br&gt;=&amp;gt; Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; DubboProtocol" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
           <mxGeometry x="1850" y="2070" width="601" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-34" target="EEGMg-CsAs7H-cZEdePV-39">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-43" target="EEGMg-CsAs7H-cZEdePV-48">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1240" y="1710" as="targetPoint" />
+            <mxPoint x="610" y="1830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-34" value="zookeeper" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-1360" y="1680" width="60" height="60" as="geometry" />
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-43" value="zookeeper" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1800" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.456;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-35" target="EEGMg-CsAs7H-cZEdePV-34">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.456;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-45" target="EEGMg-CsAs7H-cZEdePV-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-35" value="registerService" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-1670" y="1760" width="100" height="50" as="geometry" />
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-45" value="registerService" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1880" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-36" value="RegistryDirectory&lt;br&gt;维护所有可调用的invoker" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-1300" y="1760" width="140" height="44" as="geometry" />
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-46" value="RegistryDirectory&lt;br&gt;维护所有可调用的invoker" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1880" width="140" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-39" target="EEGMg-CsAs7H-cZEdePV-36">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-48" target="EEGMg-CsAs7H-cZEdePV-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-39" value="NotifyListener" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-1260" y="1685" width="100" height="50" as="geometry" />
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-48" value="NotifyListener" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1805" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-41" value="&lt;div&gt;RegistryDirectory：注册中心服务，维护着所有可用的远程Invoker或者本地的Invoker。&amp;nbsp;&lt;/div&gt;&lt;div&gt;它的Invoker集合是从注册中心获取的， 它实现了NotifyListener接口实现了回调接口notify方法。&lt;/div&gt;&lt;div&gt;比如消费方要调用某远程服务，会向注册中心订阅这个服务的所有服务提供方，&lt;/div&gt;&lt;div&gt;订阅时和服务提供方数据有变动时回调消费方的NotifyListener服务的notify方法，&lt;/div&gt;&lt;div&gt;回调接口传入所有服务的提供方的url地址然后将urls转化为invokers, 也就是refer应用远程服务。&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-1670" y="1820" width="510" height="90" as="geometry" />
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-49" value="&lt;div&gt;RegistryDirectory：注册中心服务，维护着所有可用的远程Invoker或者本地的Invoker。&amp;nbsp;&lt;/div&gt;&lt;div&gt;它的Invoker集合是从注册中心获取的， 它实现了NotifyListener接口实现了回调接口notify方法。&lt;/div&gt;&lt;div&gt;比如消费方要调用某远程服务，会向注册中心订阅这个服务的所有服务提供方，&lt;/div&gt;&lt;div&gt;订阅时和服务提供方数据有变动时回调消费方的NotifyListener服务的notify方法，&lt;/div&gt;&lt;div&gt;回调接口传入所有服务的提供方的url地址然后将urls转化为invokers, 也就是refer应用远程服务。&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1940" width="510" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

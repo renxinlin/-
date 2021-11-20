@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-20T08:52:49.848Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="PC-KDufbNbNkqQRV91jC" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-20T08:59:37.572Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="bfu6_1fyr8Ir9eMsHbFY" version="15.5.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="4619" dy="2464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2840" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -560,6 +560,21 @@
         </mxCell>
         <mxCell id="EEGMg-CsAs7H-cZEdePV-55" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;exchange 信息交换层：&lt;/div&gt;&lt;div&gt;封装请求响应模式，同步转异步，&lt;/div&gt;&lt;div&gt;以 Request, Response 为中心，&lt;/div&gt;&lt;div&gt;扩展接口为 Exchanger, ExchangeChannel,&lt;/div&gt;&lt;div&gt;ExchangeClient, ExchangeServer。&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="640" y="2146" width="230" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-57" value="" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="3180" width="740" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-58" value="泛化引用" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="3210" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-59" value="本地存根&amp;nbsp; &amp;nbsp; 要求 消费者实现接口 实现含有该接口的构造方法:&amp;nbsp;&amp;nbsp;原理动态代理&lt;br&gt;配置消费者的stub为存根实现类全限定类名&lt;br&gt;比如&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34; ; text-align: left ; margin: 0px ; padding: 0px ; line-height: 1.5 ; color: rgb(255 , 0 , 0)&quot;&gt; stub&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34; ; text-align: left ; margin: 0px ; padding: 0px ; line-height: 1.5 ; color: rgb(0 , 0 , 255)&quot;&gt;=&quot;org.huxin.dubbo.test.UserServiceStub&quot;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="3280" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-60" value="回声测试: com.alibaba.dubbo.rpc.service.EchoService(所有消费者自动实现该接口)原理消费者动态代理&lt;br&gt;服务者filter" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-849.5" y="3360" width="616.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-61" value="优雅停机" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-849.5" y="3420" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T07:49:32.332Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="DValF0xkscFiry-Jhh87" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-20T06:18:58.075Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="DZK5wvZARRHyvSyAQKr2" version="15.5.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3049" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -260,13 +260,13 @@
           <mxGeometry x="990" y="1970" width="860" height="100" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-89" value="DubboBootstrap" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="2099" width="100" height="50" as="geometry" />
+          <mxGeometry x="1000" y="2080" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-90" value="ServiceConfig&lt;br&gt;ServiceBean&lt;br&gt;【ref为spring注入】" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="2159" width="100" height="50" as="geometry" />
+          <mxGeometry x="1000" y="2140" width="100" height="69" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-92" value="多注册中心循环暴露doExportUrlsFor1Protocol&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22ServiceConfig%22%20style%3D%22html%3D1%3Bdashed%3D0%3Bwhitespace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221000%22%20y%3D%222215%22%20width%3D%22100%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;doExportUrlsFor1Protocol&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#ba0000&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;doExportUrlsFor1Protocol&lt;/span&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1101" y="2159" width="280" height="25" as="geometry" />
+          <mxGeometry x="1101" y="2140" width="280" height="25" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-93" value="本地" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1201" y="2189" width="100" height="20" as="geometry" />
@@ -281,7 +281,7 @@
           <mxGeometry x="1100" y="2189" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-106" value="Exporter&amp;lt;?&amp;gt; exporter = PROTOCOL.export(PROXY_FACTORY.getInvoker(ref, (Class) interfaceClass, local));" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1101" y="2283.75" width="610" height="24" as="geometry" />
+          <mxGeometry x="1101" y="2165" width="610" height="24" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-107" value="DelegateProviderMetaDataInvoker" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1101" y="2307.75" width="230" height="20" as="geometry" />

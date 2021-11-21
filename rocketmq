@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-20T16:47:03.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="O8a8ISqehqXZjOkLC25l" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-21T13:07:25.309Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="lsEZQLEPdz3Pbd9zrTPv" version="15.5.7" type="github">
   <diagram id="jVRZf2C6SAXkT08q0dlN" name="Page-1">
-    <mxGraphModel dx="2013" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4780" dy="1727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -259,7 +259,7 @@
         <mxCell id="xi-lC8qzqfooSBcnfqZU-24" value="发送消息" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1780" y="1250" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xi-lC8qzqfooSBcnfqZU-25" value="sendDefaultImpl" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="xi-lC8qzqfooSBcnfqZU-25" value="sendDefaultImpl&lt;br&gt;&lt;b&gt;(sync)负责业务重试&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1780" y="1350" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xi-lC8qzqfooSBcnfqZU-26" value="tryToFindTopicPublishInfo" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
@@ -268,11 +268,11 @@
         <mxCell id="xi-lC8qzqfooSBcnfqZU-27" value="selectOneMessageQueue" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2050" y="1350" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xi-lC8qzqfooSBcnfqZU-28" value="sendKernelImpl" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1890" y="1370" width="160" height="20" as="geometry" />
+        <mxCell id="xi-lC8qzqfooSBcnfqZU-28" value="sendKernelImpl(async)&lt;b&gt;负责通信重试&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1890" y="1370" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xi-lC8qzqfooSBcnfqZU-29" value="updateFaultItem" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2050" y="1370" width="160" height="20" as="geometry" />
+          <mxGeometry x="2087" y="1370" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xi-lC8qzqfooSBcnfqZU-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xi-lC8qzqfooSBcnfqZU-30" target="xi-lC8qzqfooSBcnfqZU-27" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -283,7 +283,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xi-lC8qzqfooSBcnfqZU-30" value="sync模式则重试" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="2210" y="1370" width="160" height="20" as="geometry" />
+          <mxGeometry x="2230" y="1370" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xi-lC8qzqfooSBcnfqZU-33" value="获取路由信息" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1780" y="1390" width="110" height="40" as="geometry" />
@@ -655,7 +655,7 @@
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-95" value="CommitLog" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1690" y="3170" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_YNBMqEFQMXRZf3hjl2X-96" value="FlushRealTimeService&lt;br&gt;刷盘间隔500ms&lt;br&gt;刷盘页为4" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-96" value="FlushRealTimeService&lt;br&gt;刷盘间隔500ms&lt;br&gt;刷盘页为4&lt;br&gt;到达间隔必须刷盘" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1690" y="3273" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-97" value="根据是否开启堆外内存唤醒FlushRealTimeService或者CommitRealTimeService&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%AD%90%E7%BA%BF%E7%A8%8B%E6%AF%8F10%E6%AF%AB%E7%A7%92%E6%89%A7%E8%A1%8C%E5%88%B7%E7%9B%98%22%20style%3D%22html%3D1%3Bdashed%3D0%3Bwhitespace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221847.5%22%20y%3D%222853%22%20width%3D%22312.5%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;FlushRealTimeService&lt;/span&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
@@ -676,7 +676,7 @@
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-102" value="同同步刷盘" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1841" y="3350" width="640" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_YNBMqEFQMXRZf3hjl2X-103" value="CommitRealTimeService&lt;br&gt;提交间隔200&lt;br&gt;提交页为4" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="_YNBMqEFQMXRZf3hjl2X-103" value="CommitRealTimeService&lt;br&gt;提交间隔200&lt;br&gt;提交页为4&lt;br&gt;到达间隔必须提交" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1690" y="3200" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_YNBMqEFQMXRZf3hjl2X-104" value="mappedFileQueue.commit" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
@@ -1261,6 +1261,12 @@
         </mxCell>
         <mxCell id="kEtby0EkfdHlSZEwB_9A-17" value="找到正常的commitLog开始恢复" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="3770" y="1680" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uUKqX2BL3O6UBlsxbl_I-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="2044" width="690" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="uUKqX2BL3O6UBlsxbl_I-2" value="reputmessageService 1毫秒刷新index和consumequeue文件&amp;nbsp; &amp;nbsp;FlushConsumeQueueService 1秒落盘&lt;br&gt;indexService-indexFile每次构建则异步直接刷新" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="1970" width="540" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

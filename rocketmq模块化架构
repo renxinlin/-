@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T09:42:43.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="_W7s4jDx-8A0tvGmkOOt" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-24T09:44:50.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="d_I-25F8uCcpS5RaFf_9" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
-    <mxGraphModel dx="1186" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="220" y="450" width="540" height="320" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-3" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="220" y="-50" width="540" height="190" as="geometry" />
+          <mxGeometry x="220" y="-130" width="540" height="270" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-4" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="240" y="-40" width="100" height="170" as="geometry" />
@@ -21,6 +21,30 @@
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-6" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="360" y="-40" width="100" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-7" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="140" width="310" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-8" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="990" y="160" width="310" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-9" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="480" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-10" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="460" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-11" value="nameserver" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-12" value="routeinfoManager" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-13" value="namesrvconfig" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-14" value="nettyconfig" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="30" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

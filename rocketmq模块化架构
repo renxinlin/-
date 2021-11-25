@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T16:36:41.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="16qzX18U92I8dAEJn-eU" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T16:38:13.565Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="-OX216rDk6ARu8_jRDHI" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2222" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-66" value="pullMessageService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="620" y="480" width="140" height="30" as="geometry" />
+          <mxGeometry x="510" y="480" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-71" value="普通消息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-70" y="480" width="60" height="30" as="geometry" />
@@ -486,11 +486,23 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-189" value="更新processQueueTable" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1550" y="435" width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="r9P3kUow48pfhCPYGJET-190" target="r9P3kUow48pfhCPYGJET-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-190" value="新增则dispatchPullRequest" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1550" y="490" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-193" value="PullAPIWrapper" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1000" y="570" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="r9P3kUow48pfhCPYGJET-199" target="r9P3kUow48pfhCPYGJET-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-199" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="490" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-202" value="pullRequestQueue" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="640" y="480" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

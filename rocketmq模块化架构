@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T09:14:19.254Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Sf1vdoThmVyfhV6fZubM" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T09:30:58.400Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="mgCkS_9p1nssUTo16P-F" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2521" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,23 +123,73 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="r9P3kUow48pfhCPYGJET-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="270" />
+              <mxPoint x="160" y="560" />
+              <mxPoint x="380" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-70" value="sendHeartBeat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r9P3kUow48pfhCPYGJET-69">
+          <mxGeometry x="-0.856" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-54" value="defaultMQProducerImpl" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-200" y="240" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-57" value="producerTable" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-57" value="producerTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="220" y="240" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-58" value="mqclientinstance" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="220" y="160" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-59" value="brokerAddrTable" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-59" value="brokerAddrTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="620" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.519;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r9P3kUow48pfhCPYGJET-63" target="r9P3kUow48pfhCPYGJET-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-68" value="注册生产者和消费者与连接通道关系到broker" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r9P3kUow48pfhCPYGJET-67">
+          <mxGeometry x="0.0644" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-63" value="MQClientAPIImpl" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="430" y="510" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-64" value="consumerTable" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-64" value="consumerTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="420" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-65" value="rebalanceService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="510" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-66" value="pullMessageService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="390" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-71" value="普通消息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-72" value="延时消息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-73" value="事务消息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-74" value="oneway" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="450" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-75" value="同步" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="450" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-76" value="异步" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="450" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-79" value="topicPublishInfoTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="270" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

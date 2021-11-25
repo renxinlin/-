@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T16:11:03.002Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="DuzNKLdwpR5IB9tiOtzv" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T16:16:30.653Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="5uWq1o4mx5_vvF5KNWoe" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2222" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="-200" y="160" width="310" height="290" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-8" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="940" y="160" width="310" height="410" as="geometry" />
+          <mxGeometry x="870" y="160" width="620" height="410" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-13" value="namesrvconfig" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="310" y="-10" width="100" height="30" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry x="-200" y="160" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-31" value="消费者" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="940" y="160" width="60" height="30" as="geometry" />
+          <mxGeometry x="870" y="160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-32" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="220" y="160" width="540" height="110" as="geometry" />
@@ -77,13 +77,13 @@
           <mxGeometry x="-200" y="450" width="310" height="410" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-34" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="160" width="310" height="410" as="geometry" />
+          <mxGeometry x="1490" y="160" width="310" height="410" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-35" value="消息发送" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-200" y="450" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-36" value="rebalanceimpl" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="160" width="90" height="30" as="geometry" />
+          <mxGeometry x="1490" y="160" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-37" value="broker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="220" y="600" width="100" height="30" as="geometry" />
@@ -107,10 +107,10 @@
           <mxGeometry x="940" y="570" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-45" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="160" width="310" height="410" as="geometry" />
+          <mxGeometry x="2000" y="160" width="310" height="410" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-47" value="消息拉取" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="160" width="60" height="30" as="geometry" />
+          <mxGeometry x="2000" y="160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-48" value="namesrv" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="220" y="-130" width="60" height="30" as="geometry" />
@@ -189,7 +189,7 @@
             <Array as="points">
               <mxPoint x="810" y="412" />
               <mxPoint x="810" y="140" />
-              <mxPoint x="1571" y="140" />
+              <mxPoint x="1691" y="140" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -432,6 +432,27 @@
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-160" value="producerTable|consumerTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="-630" y="800" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-168" value="defaultMQPushConsumer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="930" y="160" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-169" value="DefaultMQPushConsumerImpl" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="870" y="230" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-170" value="consumeMessageService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="230" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-171" value="PullAPIWrapper" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="160" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-173" value="offsetStore" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="260" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-174" value="messageListenerInner" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="290" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-175" value="offsetTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="260" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

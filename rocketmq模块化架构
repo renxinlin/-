@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T13:59:29.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="6l3Fiq0zq8Bo0OxqfQ8y" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T14:04:24.119Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="paVLRpfqgsXdYZW0r6yg" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="1815" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -161,6 +161,9 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-63" value="MQClientAPIImpl" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="430" y="510" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r9P3kUow48pfhCPYGJET-64" target="r9P3kUow48pfhCPYGJET-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-64" value="consumerTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="410" y="240" width="140" height="30" as="geometry" />
         </mxCell>
@@ -239,15 +242,6 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-95" value="topicPublishInfoTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="-760" y="600" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-96" value="producerTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="-760" y="650" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-97" value="brokerAddrTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="-470" y="650" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-98" value="consumerTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="-615" y="650" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-99" value="更新" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-760" y="620" width="100" height="30" as="geometry" />
         </mxCell>
@@ -262,15 +256,6 @@
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-103" value="默认topic进行发现" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-760" y="740" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-106" value="producerTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="-760" y="800" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-107" value="brokerAddrTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="-470" y="800" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-108" value="consumerTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="-615" y="800" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-109" value="更新" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-760" y="770" width="100" height="30" as="geometry" />
@@ -385,6 +370,24 @@
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-151" value="namesrv静态服务器地址: 返回格式ip:port;ip:port;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="220" y="-210" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-155" value="topicRouteTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="650" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-156" value="brokerAddrTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="650" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-157" value="producerTable|consumerTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="650" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-158" value="topicRouteTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="800" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-159" value="brokerAddrTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="800" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-160" value="producerTable|consumerTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="800" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

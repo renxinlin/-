@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T17:09:39.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="lJZNJtgvwkdjrr6-TP_E" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T17:10:40.368Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="eakcVvxhsN3lH2JhdXNu" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2804" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -604,6 +604,9 @@
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-239" value="mmap" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="348" y="1519" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-240" value="nameserver之间是无状态,producer对nameserver调用失败,指针++,跳转下个nameserver" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-100" width="540" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

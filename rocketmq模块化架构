@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T13:49:49.196Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="hCgO-y_CZd49DERKC3l5" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T13:52:11.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="nw8NZvLuj_TxF60aktWZ" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="1815" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -353,17 +353,17 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-139" value="start" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="220" y="270" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-140" value="fetchNameServerAddr" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="640" y="290" width="120" height="20" as="geometry" />
+        <mxCell id="r9P3kUow48pfhCPYGJET-140" value="静态服务器地址fetchNameServerAddr" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="480" y="290" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-141" value="startScheduledTask" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="640" y="310" width="120" height="20" as="geometry" />
+        <mxCell id="r9P3kUow48pfhCPYGJET-141" value="updateTopicRouteInfoFromNameServer根据&lt;br&gt;producer和consumer表的topic更新topicRouteTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-142" value="sendHeartbeatToAllBrokerWithLock&lt;br&gt;&amp;nbsp;因为broker������变化所以通信通道元信息也要不断维护" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="480" y="330" width="280" height="30" as="geometry" />
+          <mxGeometry x="480" y="340" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-143" value="persistAllConsumerOffset" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="610" y="360" width="150" height="20" as="geometry" />
+          <mxGeometry x="480" y="370" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r9P3kUow48pfhCPYGJET-144" target="r9P3kUow48pfhCPYGJET-64">
           <mxGeometry relative="1" as="geometry" />
@@ -383,7 +383,7 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-150" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="220" y="-210" width="540" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-151" value="namesrv静态服务器地址" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-151" value="namesrv静态服务器地址: 返回格式ip:port;ip:port;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="220" y="-210" width="540" height="30" as="geometry" />
         </mxCell>
       </root>

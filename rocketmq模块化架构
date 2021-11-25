@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T17:02:22.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="T0mP8NZHSVhLB8WBCi7V" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T17:04:43.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="jHrB6rWWGrb12_xiwJ91" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="1645" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -560,7 +560,7 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-222" value="分页处理ConsumeRequest的processQueue,按message offset顺序构建分页消费" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1270" y="980" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-223" value="重新消费" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-223" value="重新消费之最大失败次数后上报重试队列" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1270" y="1030" width="450" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-224" value="上报重试队列" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T09:43:25.506Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="xXxLj1u_wj1rBRqMGwA9" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T09:48:38.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="6Zb7fg3S4iny8W9Ok1Ub" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2521" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -203,7 +203,7 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-83" value="负载均衡" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry y="560" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-84" value="同步容错机制(重试" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-84" value="容错机制-同步重试" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-100" y="590" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-85" value="&amp;nbsp;处理错误表" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">

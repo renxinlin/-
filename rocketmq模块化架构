@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T16:25:33.549Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="el_KoTOspNI1r8l16R_2" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T16:36:41.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="16qzX18U92I8dAEJn-eU" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2222" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="r9P3kUow48pfhCPYGJET-196" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="160" width="380" height="410" as="geometry" />
+        </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="220" y="160" width="540" height="380" as="geometry" />
         </mxCell>
@@ -76,9 +79,6 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-33" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-200" y="450" width="310" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-34" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="160" width="310" height="410" as="geometry" />
-        </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-35" value="消息发送" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-200" y="450" width="60" height="30" as="geometry" />
         </mxCell>
@@ -105,12 +105,6 @@
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-44" value="消息拉取" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="940" y="570" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-45" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="160" width="310" height="410" as="geometry" />
-        </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-47" value="消息拉取" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-48" value="namesrv" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="220" y="-130" width="60" height="30" as="geometry" />
@@ -174,27 +168,25 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1200" y="30" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="810" y="495" />
+              <mxPoint x="810" y="455" />
               <mxPoint x="810" y="140" />
-              <mxPoint x="1307" y="140" />
+              <mxPoint x="1547" y="140" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-65" value="rebalanceService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="620" y="480" width="140" height="30" as="geometry" />
+          <mxGeometry x="620" y="440" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.616;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r9P3kUow48pfhCPYGJET-66" target="r9P3kUow48pfhCPYGJET-45">
+        <mxCell id="r9P3kUow48pfhCPYGJET-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="r9P3kUow48pfhCPYGJET-66" target="r9P3kUow48pfhCPYGJET-44">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1240" y="60" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="810" y="412" />
-              <mxPoint x="810" y="140" />
-              <mxPoint x="1691" y="140" />
+              <mxPoint x="800" y="502" />
+              <mxPoint x="800" y="592" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-66" value="pullMessageService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="620" y="390" width="140" height="30" as="geometry" />
+          <mxGeometry x="620" y="480" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-71" value="普通消息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-70" y="480" width="60" height="30" as="geometry" />
@@ -464,9 +456,6 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-170" value="consumeMessageService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1040" y="230" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-171" value="PullAPIWrapper" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="160" width="180" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-173" value="offsetStore" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1040" y="260" width="180" height="30" as="geometry" />
         </mxCell>
@@ -490,6 +479,18 @@
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-187" value="遍历topic&lt;br&gt;在平衡" style="html=1;dashed=0;whitespace=wrap;fillColor=#66FF66;" vertex="1" parent="1">
           <mxGeometry x="1490" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-188" value="拉取cid,mqSet,进行负载分配" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="380" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-189" value="更新processQueueTable" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="435" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-190" value="新增则dispatchPullRequest" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="490" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-193" value="PullAPIWrapper" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="570" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

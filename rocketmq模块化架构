@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T17:16:42.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="O6656t7Gq2rdmFlYv_Hf" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T02:49:10.099Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="GIOUSnfB6FRbDcZk15y9" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
-    <mxGraphModel dx="4216" dy="2649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2824" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -248,7 +248,7 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-92" value="注意最底层的通信层还有一个rpchook" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-200" y="830" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-93" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-93" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="-760" y="560" width="430" height="330" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-94" value="topic服务发现" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
@@ -284,7 +284,7 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-112" value="rebalanceImpl.topicSubscribeInfoTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="-570" y="860" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-113" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-113" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="-760" y="910" width="430" height="140" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-114" value="负载均衡" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
@@ -317,7 +317,7 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-123" value="sendLatencyFaultEnable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-570" y="930" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-127" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-127" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="-330" y="910" width="430" height="140" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-128" value="&amp;nbsp;处理错误表" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
@@ -569,8 +569,8 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-226" value="消费进度" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1270" y="1090" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-227" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="450" y="740" width="310" height="120" as="geometry" />
+        <mxCell id="r9P3kUow48pfhCPYGJET-227" value="DefaultMessageStore" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="220" y="630" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-228" value="消息拉取长轮询" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="450" y="740" width="130" height="30" as="geometry" />
@@ -623,11 +623,14 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-245" value="注册中心" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFB366;" vertex="1" parent="1">
           <mxGeometry x="-640" y="-110" width="540" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-248" value="额外模块" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-248" value="组件内部" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="-640" y="90" width="540" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-249" value="broker" style="html=1;dashed=0;whitespace=wrap;fillColor=#A9C4EB;" vertex="1" parent="1">
           <mxGeometry x="-640" y="-165" width="540" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-251" value="DefaultMessageStore" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="490" y="630" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T08:11:51.587Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="AgrMPogrN2VgfMN2W-Ju" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T08:12:34.331Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Xn06IkcKuVYAZmL9Amqm" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2472" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -979,7 +979,7 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-396" value="messageArrivingListener.arriving" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="1450" y="1710" width="540" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-398" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="r9P3kUow48pfhCPYGJET-397">
+        <mxCell id="r9P3kUow48pfhCPYGJET-398" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="r9P3kUow48pfhCPYGJET-397" target="r9P3kUow48pfhCPYGJET-323">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2000" y="1340" as="targetPoint" />
             <Array as="points">
@@ -1021,8 +1021,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-417" value="executeRequestWhenWakeup" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r9P3kUow48pfhCPYGJET-412">
+          <mxGeometry x="0.0258" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-405" value="pullRequestTable&lt;br&gt;&amp;lt;topic@queueId&lt;br&gt;,ManyPullRequest&amp;gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="1850" y="1303" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-416" value="PullMessageProcessor" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1290" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

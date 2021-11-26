@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T06:37:36.167Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="0HXkQBi3AIxLd_7vxRbL" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T06:39:17.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="h0qqrfc7x2Y_A5pSr-r8" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
-    <mxGraphModel dx="2225" dy="1664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5487" dy="2819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="220" y="-130" width="540" height="270" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-2" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#A9C4EB;" vertex="1" parent="1">
-          <mxGeometry x="220" y="600" width="540" height="580" as="geometry" />
+          <mxGeometry x="220" y="600" width="540" height="480" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-4" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="310" y="-40" width="100" height="150" as="geometry" />
@@ -568,22 +568,19 @@
           <mxGeometry x="220" y="670" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-231" value="消息reput构建" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1110" width="130" height="30" as="geometry" />
+          <mxGeometry x="480" y="1050" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-232" value="文件正常异常恢复" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="610" y="1150" width="130" height="30" as="geometry" />
+          <mxGeometry x="600" y="1050" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-233" value="文件删除" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="230" y="1120" width="130" height="30" as="geometry" />
+          <mxGeometry x="700" y="1050" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-234" value="同步刷盘" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1150" width="130" height="30" as="geometry" />
+          <mxGeometry x="220" y="1050" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-235" value="异步刷盘" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1150" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-236" value="堆外内存池" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1150" width="130" height="30" as="geometry" />
+          <mxGeometry x="350" y="1050" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-237" value="文件管理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="220" y="1489" width="100" height="30" as="geometry" />
@@ -679,7 +676,7 @@
           <mxGeometry x="220" y="1000" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-282" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="1265" width="680" height="385" as="geometry" />
+          <mxGeometry x="-650" y="1265" width="680" height="455" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-283" value="DefaultMessageStore" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-650" y="1265" width="130" height="30" as="geometry" />

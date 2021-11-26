@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T07:24:22.416Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="YLGTDCXAMY88Tx0imemb" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T07:26:29.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="VKG3JIo0UJE4yhlhEFMa" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
-    <mxGraphModel dx="1791" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7817" dy="3644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -780,16 +780,16 @@
           <mxGeometry x="760" y="1500" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-323" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#A9C4EB;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="1180" width="540" height="320" as="geometry" />
+          <mxGeometry x="1450" y="1180" width="540" height="320" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-324" value="消息拉取处理器长轮询" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="1180" width="140" height="30" as="geometry" />
+          <mxGeometry x="1450" y="1180" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-325" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#A9C4EB;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="1500" width="540" height="320" as="geometry" />
+          <mxGeometry x="1450" y="1500" width="540" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-326" value="消息构建" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="1500" width="100" height="30" as="geometry" />
+        <mxCell id="r9P3kUow48pfhCPYGJET-326" value="消息队列和索引构建" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1500" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-329" value="commitlog.putMessage" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="760" y="1210" width="250" height="30" as="geometry" />

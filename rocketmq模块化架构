@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T06:24:16.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="wjBKJQe_yVPYC8XcuXoP" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T06:26:31.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Zkv-fcLM6SF5UkIZ66h3" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2225" dy="1664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -753,7 +753,7 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-312" value="10秒调度cleanCommitLogService和cleanConsumeQueueService" style="html=1;dashed=0;whitespace=wrap;fillColor=#9AC7BF;" vertex="1" parent="1">
           <mxGeometry x="-460" y="1625" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-313" value="1毫秒自旋根据commitlog构建consumequeue和indexservice" style="html=1;dashed=0;whitespace=wrap;fillColor=#B9E0A5;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-313" value="1毫秒自旋通过commitlog构建consumequeue,indexservice以及messageArrivingListener通知" style="html=1;dashed=0;whitespace=wrap;fillColor=#B9E0A5;" vertex="1" parent="1">
           <mxGeometry x="-460" y="1505" width="490" height="30" as="geometry" />
         </mxCell>
       </root>

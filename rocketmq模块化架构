@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T06:50:57.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="51IiQV6yktenOvGBDLGc" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T06:51:05.245Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="1VP52YlTQOOqL-8tOmNu" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2824" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -721,7 +721,7 @@
           <mxGeometry x="-650" y="1475" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-298" value="1秒自旋consumequeue刷盘线程" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-460" y="1325" width="190" height="30" as="geometry" />
+          <mxGeometry x="-460" y="1325" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-299" value="延时队列consumequeue推送至普通consumequeue调度" style="html=1;dashed=0;whitespace=wrap;fillColor=#97D077;" vertex="1" parent="1">
           <mxGeometry x="-460" y="1535" width="490" height="30" as="geometry" />

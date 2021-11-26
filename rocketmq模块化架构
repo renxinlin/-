@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T08:06:48.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="EUWMcu7Av9XX6I_ZcBpy" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T08:07:52.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="BWBNV7Rl95Xjb2WKz3o-" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
-    <mxGraphModel dx="2472" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6419" dy="3149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -506,6 +506,16 @@
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-209" value="构建PullCallback" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1000" y="720" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-407" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r9P3kUow48pfhCPYGJET-210" target="r9P3kUow48pfhCPYGJET-324">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="775" />
+              <mxPoint x="840" y="1170" />
+              <mxPoint x="1450" y="1170" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-210" value="pullAPIWrapper异步拉取" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1000" y="760" width="180" height="30" as="geometry" />

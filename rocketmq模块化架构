@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T06:59:47.693Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="tay9Rp4xncgtx3FQcX5_" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T07:02:15.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="ehZGgLi93AJmmiZ8A-jF" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2824" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -776,6 +776,13 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-321" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#A9C4EB;" vertex="1" parent="1">
           <mxGeometry x="760" y="1500" width="540" height="320" as="geometry" />
         </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-342" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="r9P3kUow48pfhCPYGJET-322" target="r9P3kUow48pfhCPYGJET-341">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="835" y="1485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-322" value="消息刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="760" y="1500" width="100" height="30" as="geometry" />
         </mxCell>
@@ -828,6 +835,9 @@
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-338" value="写入" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="930" y="1397" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-341" value="主从同步" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1480" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

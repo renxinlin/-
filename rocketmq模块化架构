@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T02:49:19.246Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="S0khHaTeH1YYHHH_FeWr" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T02:56:53.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="wIsO2A21YfBUG4Izad8e" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2824" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -570,22 +570,22 @@
           <mxGeometry x="1270" y="1090" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-227" value="DefaultMessageStore" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="220" y="630" width="270" height="40" as="geometry" />
+          <mxGeometry x="220" y="870" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-228" value="消息拉取长轮询" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="450" y="740" width="130" height="30" as="geometry" />
+          <mxGeometry x="625" y="740" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-230" value="消息存储" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="220" y="745" width="130" height="30" as="geometry" />
+          <mxGeometry x="218" y="730" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-231" value="消息reput构建" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="220" y="830" width="130" height="30" as="geometry" />
+          <mxGeometry x="360" y="1110" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-232" value="文件正常异常恢复" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="220" y="950" width="130" height="30" as="geometry" />
+          <mxGeometry x="280" y="1060" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-233" value="文件删除" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="220" y="980" width="130" height="30" as="geometry" />
+          <mxGeometry x="230" y="1120" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-234" value="同步刷盘" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="220" y="1150" width="130" height="30" as="geometry" />
@@ -627,7 +627,10 @@
           <mxGeometry x="-640" y="-165" width="540" height="55" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-251" value="DefaultMessageStore" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="490" y="630" width="270" height="40" as="geometry" />
+          <mxGeometry x="490" y="870" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-252" value="DefaultMessageStore" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="220" y="930" width="540" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

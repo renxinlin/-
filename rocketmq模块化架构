@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T08:08:10.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="2LSfC5YkQtZQfMH2MpqX" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T08:08:58.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="KORXBTEnShLUpujVjt4Y" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2472" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -981,6 +981,16 @@
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-401" value="notify&lt;br&gt;Message&lt;br&gt;Arriving" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r9P3kUow48pfhCPYGJET-398">
           <mxGeometry x="-0.8855" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-410" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r9P3kUow48pfhCPYGJET-398">
+          <mxGeometry x="-0.2034" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-411" value="topic&lt;br&gt;queueId&lt;br&gt;logicOffset&lt;br&gt;tagsCode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r9P3kUow48pfhCPYGJET-398">
+          <mxGeometry x="-0.2078" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>

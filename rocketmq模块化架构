@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T07:05:25.749Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="LbmRWnnS0b_rUoNBlXtu" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T07:05:47.041Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="0P0NdTX0sHp5nqsrhkaU" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2824" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -857,7 +857,7 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-346" value="堆外内存" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="1010" y="1560" width="55" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-347" value="GroupCommitService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-347" value="&lt;span style=&quot;color: rgb(0 , 0 , 255) ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;10毫秒自旋&lt;/span&gt;GroupCommitService" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="800" y="1645" width="186.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-348" value="消息刷盘" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">

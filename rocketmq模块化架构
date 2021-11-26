@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T07:36:15.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="5gYyf4V3WMAloDiary31" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T07:40:33.332Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="CarX-JHsYiWXml5YqTSu" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2225" dy="1664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -940,6 +940,21 @@
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-390" value="IndexService.buildIndex" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1760" y="1590" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-391" value="msgkey,msgid" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1620" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-392" value="indexfile.putkey" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1650" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-393" value="mappedByteBuffer.put" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1680" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-394" value="ConsumeQueue.putMessagePositionInfo构建cq" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1590" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-395" value="storeCheckpoint.setLogicsMsgTimestamp保持点持久化" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1620" width="310" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T08:44:41.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="hfMW7qL1A1kbl2QqZETM" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T08:45:18.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="dWLasl8Ipe_C_F2ViUOj" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="1973" dy="1664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1116,6 +1116,9 @@
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-451" value="服务端允许挂起并且客户端也允许挂起 才有轮询机制长轮询15秒3次,短轮询一次" style="shape=cloud;whiteSpace=wrap;html=1;shadow=1;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="1950" y="1220" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-453" value="没有挂起则不必谈&lt;br&gt;长短轮询" style="html=1;dashed=0;whitespace=wrap;shadow=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="1180" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

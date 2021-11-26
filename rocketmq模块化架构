@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T03:48:27.051Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="IdNSIhVGyv3pv37xHOE1" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T03:49:28.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="OSqg_7HwljVN4ab5T3PO" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2824" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -682,7 +682,7 @@
           <mxGeometry x="220" y="1000" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-282" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="1265" width="800" height="455" as="geometry" />
+          <mxGeometry x="-650" y="1265" width="680" height="455" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-283" value="DefaultMessageStore" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-650" y="1265" width="130" height="30" as="geometry" />
@@ -695,9 +695,6 @@
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-286" value="consumeQueueTable&lt;br&gt;&amp;lt;topic,consumeQueue&amp;gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="-130" y="1265" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-287" value="transientStorePool" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="25" y="1265" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-288" value="flushConsumeQueueService" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-650" y="1325" width="190" height="30" as="geometry" />

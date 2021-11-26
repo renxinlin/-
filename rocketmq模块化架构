@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T06:31:17.346Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="vvYuVFvxG8n-at7LtODG" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T06:33:34.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="3d_pX8l4ErRoOdfa1HxB" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2225" dy="1664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -729,10 +729,10 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-299" value="延时队列consumequeue推送至普通consumequeue调度" style="html=1;dashed=0;whitespace=wrap;fillColor=#97D077;" vertex="1" parent="1">
           <mxGeometry x="-460" y="1535" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-300" value="index和consumequeue过期文件删除服务" style="html=1;dashed=0;whitespace=wrap;fillColor=#9AC7BF;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-300" value="index和consumequeue过期文件删除服务【bycommitlog删除】" style="html=1;dashed=0;whitespace=wrap;fillColor=#9AC7BF;" vertex="1" parent="1">
           <mxGeometry x="-460" y="1565" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-301" value="commitlog过期删除服务" style="html=1;dashed=0;whitespace=wrap;fillColor=#9AC7BF;" vertex="1" parent="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-301" value="commitlog过期删除服务[手动 4点72小时以及磁盘空间剩余量]" style="html=1;dashed=0;whitespace=wrap;fillColor=#9AC7BF;" vertex="1" parent="1">
           <mxGeometry x="-460" y="1595" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-302" value="scheduledExecutorService" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">

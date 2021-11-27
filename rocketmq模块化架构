@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-27T06:10:22.589Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="RNFmxUoBaXmJr6-VHqN3" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-27T06:11:06.996Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="SLoZKPtTZcOVnI4MJVP_" version="15.8.3" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2737" dy="2089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,11 +150,16 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="410" y="240" />
-              <mxPoint x="410" y="200" />
-              <mxPoint x="-250" y="200" />
+              <mxPoint x="410" y="190" />
+              <mxPoint x="-250" y="190" />
               <mxPoint x="-250" y="310" />
               <mxPoint x="-130" y="310" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-458" value="监听变更通知上层" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r9P3kUow48pfhCPYGJET-455">
+          <mxGeometry x="0.0552" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-57" value="producerTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
@@ -389,6 +394,11 @@
               <mxPoint x="780" y="70" />
               <mxPoint x="1652" y="70" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9P3kUow48pfhCPYGJET-457" value="监听变更通知上层" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="r9P3kUow48pfhCPYGJET-456">
+          <mxGeometry x="0.1613" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-144" value="topicRouteTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">

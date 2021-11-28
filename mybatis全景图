@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-28T15:14:21.075Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="00kuNcqFexZ5vjrLhxRZ" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-28T15:14:56.429Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="F6s2IG8QFoEuPpOF4SEj" version="15.8.6" type="github">
   <diagram id="YaRdn3G8u-kH3JeOrM16" name="Page-1">
     <mxGraphModel dx="2521" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -226,8 +226,11 @@
         <mxCell id="WN_gmedZo_maV-bUts1f-78" value="mapperRegistry" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-340" y="400" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WN_gmedZo_maV-bUts1f-79" value="TODO启动加载流程" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="535" width="100" height="50" as="geometry" />
+        <mxCell id="WN_gmedZo_maV-bUts1f-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-79" target="WN_gmedZo_maV-bUts1f-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-79" value="TODO启动加载流程&lt;br&gt;怎么解析的xml以及注解构建的configuration" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="540" width="360" height="45" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-82" target="WN_gmedZo_maV-bUts1f-11">
           <mxGeometry relative="1" as="geometry" />
@@ -253,6 +256,9 @@
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-88" value="对象领域模型" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="-513" y="-60" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-89" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;strokeWidth=5;perimeter=ellipsePerimeter;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="525" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

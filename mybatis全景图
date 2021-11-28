@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-28T14:38:03.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="uJMynSzb3BxrsiuoPl3r" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-28T14:42:40.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="IxqhRVHjE86KuaSyV8mk" version="15.8.6" type="github">
   <diagram id="YaRdn3G8u-kH3JeOrM16" name="Page-1">
     <mxGraphModel dx="2521" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,11 +115,39 @@
         <mxCell id="WN_gmedZo_maV-bUts1f-33" value="configuration.getMappedStatement(statementid)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="760" y="170" width="320" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WN_gmedZo_maV-bUts1f-41" value="sqlsession.selectList&lt;br&gt;(mappedstatementid,参数映射map,分页rowbounds)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="WN_gmedZo_maV-bUts1f-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-41" target="WN_gmedZo_maV-bUts1f-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-50" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WN_gmedZo_maV-bUts1f-48">
+          <mxGeometry x="0.1" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-41" target="WN_gmedZo_maV-bUts1f-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-51" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WN_gmedZo_maV-bUts1f-49">
+          <mxGeometry x="0.3076" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-41" value="CacheExecutor.query" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1120" y="80" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-45" value="interceptorChain" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="550" y="640" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-46" value="createCacheKey&lt;br&gt;CacheKey&lt;br&gt;[mappedStementId+offset+limit+SQL+queryParams &lt;br&gt;+ environment]生成一个哈希码" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="240" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-47" value="BoundSql boundSql = ms.getBoundSql(parameterObject);&lt;br&gt;根据MapperMethod解析完成绑定sql的构建" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="150" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-52" value="TransactionalCacheManager" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="30" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-53" value="SimpleExecutor" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="30" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

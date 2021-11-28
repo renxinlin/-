@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-28T15:06:13.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="McytnvESn5QuFpCsNrKK" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-28T15:13:47.862Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="k59n8YoRU5W5N1MX10ID" version="15.8.6" type="github">
   <diagram id="YaRdn3G8u-kH3JeOrM16" name="Page-1">
     <mxGraphModel dx="2521" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry x="-200" y="340" width="780" height="120" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-2" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="340" width="780" height="100" as="geometry" />
+          <mxGeometry x="-340" y="340" width="920" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-3" value="sessionSqlFactory" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-200" y="440" width="780" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-4" value="Configuration" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="420" width="780" height="20" as="geometry" />
+          <mxGeometry x="-340" y="420" width="920" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-6" value="Environment" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-200" y="400" width="240" height="20" as="geometry" />
@@ -208,6 +208,45 @@
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-72" value="resultHandler处理{metaobject,metaclass等反射机制}" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1510" y="290" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-74" target="WN_gmedZo_maV-bUts1f-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-77" value="getMapper&lt;br&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;mapperRegistry,getmapper&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WN_gmedZo_maV-bUts1f-76">
+          <mxGeometry x="-0.1357" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-74" target="WN_gmedZo_maV-bUts1f-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-74" value="MapperFactoryBean.getObject" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-503" y="80" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-78" value="mapperRegistry" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="400" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-79" value="TODO启动加载流程" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="535" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-82" target="WN_gmedZo_maV-bUts1f-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-84" value="代理接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WN_gmedZo_maV-bUts1f-83">
+          <mxGeometry x="0.5695" y="-2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.436;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-82" target="WN_gmedZo_maV-bUts1f-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-86" value="代理InvocationHandler" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WN_gmedZo_maV-bUts1f-85">
+          <mxGeometry x="0.7031" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-82" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;strokeWidth=5;perimeter=ellipsePerimeter;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="300" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

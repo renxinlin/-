@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-28T14:09:12.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="7_t2Gw8p3YjyzSrONFcB" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-28T14:11:18.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="9fDmQEUbsc4SqNoobxg2" version="15.8.6" type="github">
   <diagram id="YaRdn3G8u-kH3JeOrM16" name="Page-1">
     <mxGraphModel dx="2521" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,29 +43,26 @@
         <mxCell id="WN_gmedZo_maV-bUts1f-14" value="parameterMap" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="520" y="490" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WN_gmedZo_maV-bUts1f-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-15" target="WN_gmedZo_maV-bUts1f-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-15" value="MapperProxy" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="80" width="100" height="50" as="geometry" />
+          <mxGeometry x="-50" y="80" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WN_gmedZo_maV-bUts1f-17" value="MapperMethod" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="100" y="80" width="230" height="50" as="geometry" />
+        <mxCell id="WN_gmedZo_maV-bUts1f-17" value="MapperMethod&lt;br&gt;methodCache" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="30" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-19" value="SqlCommand" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="100" y="30" width="100" height="50" as="geometry" />
+          <mxGeometry x="-50" y="-20" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-20" value="MethodSignature" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="230" y="30" width="100" height="50" as="geometry" />
+          <mxGeometry x="80" y="-20" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-21" value="name" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-20" width="40" height="50" as="geometry" />
+          <mxGeometry x="-50" y="-70" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-23" value="type" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="160" y="-20" width="40" height="50" as="geometry" />
+          <mxGeometry x="10" y="-70" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-24" value="params&lt;br&gt;处理@Param注解&lt;br&gt;或者默认#{0},#{1}" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="230" y="-20" width="100" height="50" as="geometry" />
+          <mxGeometry x="80" y="-70" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

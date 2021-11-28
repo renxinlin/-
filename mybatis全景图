@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-28T14:45:11.006Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="worUNNsNFYmMxJTNcnXz" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-28T15:01:08.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="YXaFjUMfHjxxuA3yTM9p" version="15.8.6" type="github">
   <diagram id="YaRdn3G8u-kH3JeOrM16" name="Page-1">
     <mxGraphModel dx="2521" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,7 +131,15 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WN_gmedZo_maV-bUts1f-41" value="CacheExecutor.query" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="WN_gmedZo_maV-bUts1f-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-41" target="WN_gmedZo_maV-bUts1f-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-59" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WN_gmedZo_maV-bUts1f-57">
+          <mxGeometry x="-0.1714" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-41" value="CacheExecutor.query&lt;br&gt;查询二级缓存&lt;br&gt;或查询数据库后赋值二级缓存暂存区" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1120" y="80" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-45" value="interceptorChain" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -154,6 +162,41 @@
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-55" value="TransactionalCache&lt;br&gt;entriesToAddOnCommit&lt;br&gt;暂存区" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="1120" y="-70" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-56" target="WN_gmedZo_maV-bUts1f-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-56" value="BaseExecutor&lt;br&gt;1先查询一级缓存localCache&lt;br&gt;2 查询数据库" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="80" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-58" target="WN_gmedZo_maV-bUts1f-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-67" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WN_gmedZo_maV-bUts1f-62">
+          <mxGeometry x="-0.081" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-58" target="WN_gmedZo_maV-bUts1f-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-58" value="SimpleExecutor[插件]&lt;br&gt;1通过ms获取StatementHandler&lt;br&gt;2 预编译Statement(获取连接,&amp;nbsp;parameterHandler赋值)&lt;br&gt;3 执行一级resultHandler处理返回&lt;br&gt;)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="160" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-61" target="WN_gmedZo_maV-bUts1f-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-61" value="构建StatementHandler[插件]&lt;br&gt;(resultSetHandler,parameterHandler)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="175" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-63" value="prepareStatement&lt;br&gt;1获取连接 设置事务级别以及是否自动提交" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="260" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-65" value="StatementHandler[插件]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="270" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-68" value="transaction&lt;br&gt;通过其获取连接&lt;br&gt;包含事务等级,自动提交性质,用来构建连接" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="30" width="260" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

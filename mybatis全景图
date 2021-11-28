@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-28T14:23:16.788Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="TNc2_DnuI8jFEz3WvXOD" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-28T14:24:11.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="RKE17HPx4HmBLHAgTVZM" version="15.8.6" type="github">
   <diagram id="YaRdn3G8u-kH3JeOrM16" name="Page-1">
     <mxGraphModel dx="2521" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,8 +95,8 @@
         <mxCell id="WN_gmedZo_maV-bUts1f-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-29" target="WN_gmedZo_maV-bUts1f-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WN_gmedZo_maV-bUts1f-29" value="sqlsession.select(mappedstatementid,参数映射map)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="760" y="80" width="300" height="50" as="geometry" />
+        <mxCell id="WN_gmedZo_maV-bUts1f-29" value="sqlsession.select(mappedstatementid,参数映射map,分页)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="80" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-31" value="configuration" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="180" y="-20" width="100" height="50" as="geometry" />
@@ -105,7 +105,7 @@
           <mxGeometry x="280" y="-20" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-33" value="MapperMethod" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="760" width="300" height="50" as="geometry" />
+          <mxGeometry x="760" width="320" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T03:22:34.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="scBd1rKJCMXzzRKfqeBg" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T03:24:14.670Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="_ecZT7mJXRUJs9srRYS3" version="15.8.6" type="github">
   <diagram id="YaRdn3G8u-kH3JeOrM16" name="Page-1">
     <mxGraphModel dx="2521" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -252,7 +252,7 @@
           <mxGeometry x="-513" y="-60" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-91" value="mybatis-spring 不做处理，参考github上我的该篇全文翻译" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="630" width="360" height="45" as="geometry" />
+          <mxGeometry x="-400" y="1040" width="360" height="45" as="geometry" />
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-92" target="WN_gmedZo_maV-bUts1f-93">
           <mxGeometry relative="1" as="geometry" />
@@ -336,6 +336,16 @@
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-118" target="WN_gmedZo_maV-bUts1f-120">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WN_gmedZo_maV-bUts1f-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WN_gmedZo_maV-bUts1f-118" target="WN_gmedZo_maV-bUts1f-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-620" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-660" y="865" />
+              <mxPoint x="-660" y="60" />
+              <mxPoint x="-165" y="60" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="WN_gmedZo_maV-bUts1f-118" value="Map&amp;lt;Class&amp;lt;?&amp;gt;, MapperProxyFactory&amp;lt;?&amp;gt;&amp;gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="635" y="850" width="240" height="30" as="geometry" />

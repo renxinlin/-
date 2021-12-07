@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T08:14:18.021Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="ALRkC8A3QG1yow1SgQ8z" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-07T08:28:06.565Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="m73MEGjv54V1YVCVro3X" version="15.8.9" type="github">
   <diagram id="361G1WdcJI_g146mmLET" name="Page-1">
-    <mxGraphModel dx="2472" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3348" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=6;fontColor=#000000;" edge="1" parent="1" source="YmFgxC7CbgJu43aSZ8D2-241" target="YmFgxC7CbgJu43aSZ8D2-232">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-241" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="115" width="494" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="eScqRXYTd_4qXoYJYPSU-1" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="210" y="380" width="130" height="110" as="geometry" />
         </mxCell>
@@ -59,31 +65,31 @@
           <mxGeometry x="-840" y="320" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-16" value="ByteBufAllocator" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="520" y="330" width="120" height="20" as="geometry" />
+          <mxGeometry x="630" y="115" width="344" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-17" value="heapbuffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="450" y="390" width="120" height="20" as="geometry" />
+          <mxGeometry x="630" y="135" width="164" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-18" value="directbuffer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="610" y="390" width="120" height="20" as="geometry" />
+          <mxGeometry x="804" y="135" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-19" value="PooledByteBufAllocator" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="414" y="490" width="170" height="20" as="geometry" />
+          <mxGeometry x="630" y="175" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-21" value="AbstractByteBufAllocator" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="520" y="440" width="150" height="20" as="geometry" />
+          <mxGeometry x="630" y="155" width="344" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-22" value="UnpooledByteBufAllocator" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="620" y="489" width="170" height="20" as="geometry" />
+          <mxGeometry x="800" y="175" width="174" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-23" value="ByteBufUtil" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="640" y="330" width="140" height="20" as="geometry" />
+          <mxGeometry x="974" y="115" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-24" value="io.netty.allocator.type" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="780" y="330" width="140" height="20" as="geometry" />
+          <mxGeometry x="974" y="135" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-25" value="除去安卓外默认都是pooled" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="920" y="330" width="140" height="20" as="geometry" />
+          <mxGeometry x="974" y="155" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YmFgxC7CbgJu43aSZ8D2-26" target="YmFgxC7CbgJu43aSZ8D2-27">
           <mxGeometry relative="1" as="geometry" />

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T08:08:06.102Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="72HaCLT2_V1P5kDNnoxu" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-07T08:08:58.162Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="z5HK6LPY3yEtGnsDIIL6" version="15.8.9" type="github">
   <diagram id="361G1WdcJI_g146mmLET" name="Page-1">
     <mxGraphModel dx="2642" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -546,6 +546,26 @@
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-226" value="直接申请非池化&lt;br&gt;内存" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1400" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-229" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Georgia;fontSize=6;fontColor=#000000;" edge="1" parent="1" source="YmFgxC7CbgJu43aSZ8D2-228" target="YmFgxC7CbgJu43aSZ8D2-226">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=6;fontColor=#000000;" edge="1" parent="1" source="YmFgxC7CbgJu43aSZ8D2-228" target="YmFgxC7CbgJu43aSZ8D2-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-231" value="小于" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;fontFamily=Georgia;fontColor=#000000;" vertex="1" connectable="0" parent="YmFgxC7CbgJu43aSZ8D2-230">
+          <mxGeometry x="-0.4167" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-228" value="chunk&lt;br&gt;size" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;labelBackgroundColor=#FFFFFF;fontFamily=Georgia;fontSize=6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1289" y="140" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=6;fontColor=#000000;" edge="1" parent="1" source="YmFgxC7CbgJu43aSZ8D2-232" target="YmFgxC7CbgJu43aSZ8D2-228">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-232" value="申请" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=#FFFFFF;fontFamily=Georgia;fontSize=6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="150" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

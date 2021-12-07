@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T08:02:55.164Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="LmWJmcaLZM-D6-wZc-HR" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-07T08:04:57.093Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Sqg0Lv8DtKftlYBSG1DD" version="15.8.9" type="github">
   <diagram id="361G1WdcJI_g146mmLET" name="Page-1">
-    <mxGraphModel dx="3049" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2472" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -540,6 +540,9 @@
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-222" value="&lt;font style=&quot;font-size: 6px&quot; face=&quot;Georgia&quot; color=&quot;#ff0000&quot;&gt;2048个page&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=6;" vertex="1" parent="1">
           <mxGeometry x="1200" y="558" width="100" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-223" value="&lt;span style=&quot;font-size: 6px&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;q000内存利用率不足被回收&lt;/font&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FF0000;fontFamily=Georgia;fontSize=6;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="375" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

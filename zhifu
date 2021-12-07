@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T08:39:09.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="uaTCqidZWm_0sLFZukOb" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-07T08:39:58.141Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="7C5BsTs5REbuB7KmPoI-" version="15.8.9" type="github">
   <diagram id="361G1WdcJI_g146mmLET" name="Page-1">
     <mxGraphModel dx="3348" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -685,6 +685,18 @@
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-292" value="Cumulator" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontFamily=Georgia;fontSize=6;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="380" y="517" width="210" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-293" value="reactor线程模型" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontFamily=Georgia;fontSize=6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-464" y="553" width="164" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-294" value="阻塞非阻塞多路复用" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontFamily=Georgia;fontSize=6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-464" y="603" width="164" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-295" value="操作系统零拷贝" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontFamily=Georgia;fontSize=6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-464" y="651.5" width="164" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-296" value="netty零拷贝" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontFamily=Georgia;fontSize=6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-464" y="700" width="164" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

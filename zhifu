@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T07:07:53.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="R7hxodmcUToxX0XWvGn6" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-07T07:08:15.953Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="w1X_VxkPaF8IOxuwzQiN" version="15.8.9" type="github">
   <diagram id="361G1WdcJI_g146mmLET" name="Page-1">
     <mxGraphModel dx="3049" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YmFgxC7CbgJu43aSZ8D2-48" value="100 _&amp;nbsp; 100_100&lt;br&gt;前三位表示事件&lt;br&gt;中三位表示状态&lt;br&gt;后三位表示是否完结" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-48" value="100 _&amp;nbsp; 100_100....n 维度参数&lt;br&gt;前三位表示事件&lt;br&gt;中三位表示状态&lt;br&gt;后三位表示是否完结" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1040" y="940" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-53" value="所有数据按bit位进行归一化" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">

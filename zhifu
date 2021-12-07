@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T08:38:19.310Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="5nxcCBGS-081p7TsalU5" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-07T08:39:09.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="uaTCqidZWm_0sLFZukOb" version="15.8.9" type="github">
   <diagram id="361G1WdcJI_g146mmLET" name="Page-1">
-    <mxGraphModel dx="2840" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3348" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -679,6 +679,12 @@
         </mxCell>
         <mxCell id="YmFgxC7CbgJu43aSZ8D2-288" value="java.nio.Serversocket" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontFamily=Georgia;fontSize=6;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-240" y="350" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-291" value="bytetomessagedecoder黏包管理" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontFamily=Georgia;fontSize=6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="538" width="210" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="YmFgxC7CbgJu43aSZ8D2-292" value="Cumulator" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontFamily=Georgia;fontSize=6;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="517" width="210" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

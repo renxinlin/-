@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T08:33:22.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="votNPstPN3e4dim48m33" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T09:30:29.538Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Ek37Aenc7OUI6TC-9Ll2" version="15.8.9" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3348" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -583,7 +583,7 @@
           <mxGeometry x="550" y="3900" width="320" height="440" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-3" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="870" y="3900" width="360" height="440" as="geometry" />
+          <mxGeometry x="1190" y="3900" width="360" height="440" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-4" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="150" y="3770" width="1080" height="130" as="geometry" />
@@ -607,7 +607,7 @@
           <mxGeometry x="150" y="3900" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-12" value="dubbo协议" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="870" y="3900" width="100" height="20" as="geometry" />
+          <mxGeometry x="1190" y="3900" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-13" value="register协议" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="550" y="3900" width="100" height="20" as="geometry" />
@@ -625,7 +625,7 @@
           <mxGeometry x="550" y="3920" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-19" value="dubboProtocol" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="870" y="3920" width="360" height="20" as="geometry" />
+          <mxGeometry x="1190" y="3920" width="360" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-25" value="serviceBean" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="330" y="3920" width="90" height="50" as="geometry" />
@@ -733,6 +733,15 @@
               <mxPoint x="130" y="4330" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-75" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="870" y="3900" width="320" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-76" value="ZookeeperRegistry" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="870" y="3920" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-77" value="注册中心" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="870" y="3900" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

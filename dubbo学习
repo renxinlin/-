@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T07:35:21.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="BvDyQUph1u6SrhpNMJNi" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T07:50:50.918Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="L-6iax4JawrD0rb8JsJk" version="15.8.9" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3348" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -603,7 +603,7 @@
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-10" value="结合spring启动" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-150" y="3770" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-11" value="dubbo服务端" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-11" value="dubbo接口层" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="150" y="3900" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-12" value="dubbo协议" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -622,7 +622,7 @@
           <mxGeometry x="150" y="3920" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-18" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="510" y="3920" width="360" height="50" as="geometry" />
+          <mxGeometry x="510" y="3950" width="360" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-19" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="870" y="3920" width="360" height="50" as="geometry" />
@@ -662,6 +662,24 @@
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-37" value="本地存根" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="240" y="4030" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-38" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="4180" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-39" value="动态代理" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="4180" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-43" value="ProxyFactory.getInvoker" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="4200" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-47" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="4072" width="360" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-48" value="export" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="290" y="4072" width="80" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-50" value="根据所有的协议向zk注册" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="155" y="4072" width="135" height="13" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

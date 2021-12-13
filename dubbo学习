@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T10:27:00.755Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="CRXMDh3C8YkcQHLurmEQ" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T10:27:36.779Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="U8v5We8qVtouwflqeoel" version="15.8.9" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3348" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -759,6 +759,9 @@
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-82" value="dubboProtocol构建的DubboExporter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1280" y="3940" width="270" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="Y1Z4q-ez67rLUadRh-D2-83" target="Y1Z4q-ez67rLUadRh-D2-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-83" value="第一次时openServer构建server加入servermap" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1190" y="4062" width="360" height="30" as="geometry" />
         </mxCell>
@@ -777,22 +780,22 @@
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-90" value="ExchangeHandlerAdapter&lt;br&gt;rpc调用时的上层业务处理handler" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1311.5" y="4001" width="238.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-91" value="createServer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-91" value="createServer" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="1190" y="4140" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-92" value="Exchangers.bind(url, requestHandler)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-92" value="Exchangers.bind(url, requestHandler)" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="1191" y="4160" width="219" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-93" value="new HeaderExchangeServer(Transporters.bind(url, &lt;br&gt;new DecodeHandler(new HeaderExchangeHandler(&lt;font color=&quot;#ff0000&quot;&gt;handler&lt;/font&gt;))));" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-93" value="new HeaderExchangeServer(Transporters.bind(url, &lt;br&gt;new DecodeHandler(new HeaderExchangeHandler(&lt;font color=&quot;#ff0000&quot;&gt;handler&lt;/font&gt;))));" style="html=1;dashed=0;whitespace=wrap;shadow=1;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="1190" y="4180" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-94" value="new HeaderExchangeServer(Transporters.bind(url, &lt;br&gt;new DecodeHandler(new HeaderExchangeHandler(handler))));" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-94" value="new HeaderExchangeServer(Transporters.bind(url, &lt;br&gt;new DecodeHandler(new HeaderExchangeHandler(handler))));" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="1190" y="4220" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-95" value="new NettyServer(url, handler)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-95" value="new NettyServer(url, handler)" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="1191" y="4260" width="360" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-96" value="nettyServer封装了netty信息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-96" value="nettyServer封装了netty信息" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="1191" y="4285" width="360" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-97" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;ExchangeHandlerAdapter&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;fontColor=#FF0000;fillColor=#66FF66;" vertex="1" parent="1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T10:30:07.779Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Y6TuvDYrwTzuBh-J65uF" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T10:31:02.782Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="QOCxh0uikmzM5AFXDD9s" version="15.8.9" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3348" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -595,7 +595,7 @@
           <mxGeometry x="490" y="4370" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-8" value="spi-defaultname&amp;nbsp;Adaptive(name 等价ur key)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="150" y="3762" width="250" height="20" as="geometry" />
+          <mxGeometry x="151" y="3760" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="Y1Z4q-ez67rLUadRh-D2-9" target="Y1Z4q-ez67rLUadRh-D2-47">
           <mxGeometry relative="1" as="geometry" />
@@ -606,10 +606,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-9" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="3770" width="300" height="120" as="geometry" />
+          <mxGeometry x="-150" y="3760" width="300" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-10" value="结合spring启动" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="3770" width="100" height="20" as="geometry" />
+          <mxGeometry x="-150" y="3760" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-11" value="dubbo接口层" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="150" y="3900" width="100" height="20" as="geometry" />
@@ -808,6 +808,9 @@
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-97" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;ExchangeHandlerAdapter&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;fontColor=#FF0000;fillColor=#66FF66;" vertex="1" parent="1">
           <mxGeometry x="1410" y="4160" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-101" value="本文不介绍spring" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="3760" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

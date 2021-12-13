@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-20T09:07:58.868Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="08jCJ-Sen9zSqPwXETkT" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T02:41:15.571Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="BcSh7svxKO4jfBcVIKD2" version="15.8.9" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="2840" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3631" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -447,134 +447,146 @@
         <mxCell id="qZOsWsMKKbia-9YeHdc9-3" value="&lt;span style=&quot;font-size: 10px&quot;&gt;retires&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="40" y="2398" width="105" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-1" value="&lt;div&gt;&amp;nbsp;AbstractConfig&lt;/div&gt;&lt;div&gt;&amp;nbsp;ApplicationConfig【应用名配置】&lt;/div&gt;&lt;div&gt;&amp;nbsp;RegistryConfig 【注册中心配置】&lt;/div&gt;&lt;div&gt;&amp;nbsp;ProtocolConfig【dubbo还是rest etc...协议配置】&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;ConsumerConfig[消费者全局配置]&lt;/div&gt;&lt;div&gt;&amp;nbsp;ProviderConfig[提供者全局配置]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;ServiceConfig&lt;span&gt;	&lt;/span&gt; 【核心】&lt;/div&gt;&lt;div&gt;&amp;nbsp;ReferenceConfig 【核心】&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;消息&amp;nbsp; [消费者&amp;gt;提供者](方法级别&amp;gt; 接口级别 &amp;gt; 全局级别)&lt;/div&gt;&lt;div&gt;&amp;nbsp;启动参数变量 &amp;gt; XML 配置 &amp;gt; properties 文件配置&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-1" value="&lt;div&gt;&amp;nbsp;AbstractConfig&lt;/div&gt;&lt;div&gt;&amp;nbsp;ApplicationConfig【应用名配置】&lt;/div&gt;&lt;div&gt;&amp;nbsp;RegistryConfig 【注册中心配置】&lt;/div&gt;&lt;div&gt;&amp;nbsp;ProtocolConfig【dubbo还是rest etc...协议配置】&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;ConsumerConfig[消费者全局配置]&lt;/div&gt;&lt;div&gt;&amp;nbsp;ProviderConfig[提供者全局配置]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;ServiceConfig&lt;span&gt; &lt;/span&gt; 【核心】&lt;/div&gt;&lt;div&gt;&amp;nbsp;ReferenceConfig 【核心】&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;消息&amp;nbsp; [消费者&amp;gt;提供者](方法级别&amp;gt; 接口级别 &amp;gt; 全局级别)&lt;/div&gt;&lt;div&gt;&amp;nbsp;启动参数变量 &amp;gt; XML 配置 &amp;gt; properties 文件配置&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="-1450" y="2000" width="370" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;dubbo在spring中的启动流程&lt;/div&gt;&lt;div&gt;&lt;span&gt;															&lt;/span&gt;[dubbo.xsd,spring.handlers,spring.schemas]&lt;/div&gt;&lt;div&gt;ApplicationContext&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;-&amp;gt;XmlBeanDefinitionReader.registerBeanDefinitions&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;-&amp;gt;DefaultBeanDefinitionDocumentReader.registerBeanDefinitions-&amp;gt;doRegisterBeanDefinitions-&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;-&amp;gt;parseBeanDefinitions(root, this.delegate);&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;-&amp;gt;BeanDefinitionParserDelegate.parseCustomElement&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/span&gt;-&amp;gt; 获取spring.handlers,创建DubboNamespaceHandler并调用init方法初始化DubboBeanDefinitionParser]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;dubbo在spring中的启动流程&lt;/div&gt;&lt;div&gt;&lt;span&gt;               &lt;/span&gt;[dubbo.xsd,spring.handlers,spring.schemas]&lt;/div&gt;&lt;div&gt;ApplicationContext&lt;/div&gt;&lt;div&gt;&lt;span&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;-&amp;gt;XmlBeanDefinitionReader.registerBeanDefinitions&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;-&amp;gt;DefaultBeanDefinitionDocumentReader.registerBeanDefinitions-&amp;gt;doRegisterBeanDefinitions-&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;-&amp;gt;parseBeanDefinitions(root, this.delegate);&lt;/div&gt;&lt;div&gt;&lt;span&gt;   &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;-&amp;gt;BeanDefinitionParserDelegate.parseCustomElement&lt;/div&gt;&lt;div&gt;&lt;span&gt;    &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;/span&gt;-&amp;gt; 获取spring.handlers,创建DubboNamespaceHandler并调用init方法初始化DubboBeanDefinitionParser]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="-980" y="1700" width="690" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-3" target="p4-F5EnrrteNVVbMthXz-85">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EEGMg-CsAs7H-cZEdePV-3" target="p4-F5EnrrteNVVbMthXz-85" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-3" value="&lt;div&gt;DubboBeanDefinitionParser加载 ServiceBean,ProtocolConfig,ConsumerConfig等等 dubbo.xsd设置的所有元素&lt;br&gt;&lt;/div&gt;&lt;div&gt;并构建成RootBeanDefinition&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;等待applicationcontext 在refresh时候调用listener&lt;/div&gt;&lt;div&gt;DubboBootstrapApplicationListener-&amp;gt;DubboBootstrap.start&amp;nbsp;&lt;/div&gt;&lt;div&gt;DubboBootstrap在start 调用configmanager 获取所有的servicebean进行service的暴露&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-3" value="&lt;div&gt;DubboBeanDefinitionParser加载 ServiceBean,ProtocolConfig,ConsumerConfig等等 dubbo.xsd设置的所有元素&lt;br&gt;&lt;/div&gt;&lt;div&gt;并构建成RootBeanDefinition&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;等待applicationcontext 在refresh时候调用listener&lt;/div&gt;&lt;div&gt;DubboBootstrapApplicationListener-&amp;gt;DubboBootstrap.start&amp;nbsp;&lt;/div&gt;&lt;div&gt;DubboBootstrap在start 调用configmanager 获取所有的servicebean进行service的暴露&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="-983" y="1850" width="693" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-6" value="export" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-6" value="export" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=left;" parent="1" vertex="1">
           <mxGeometry x="-980" y="1950" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-12" value="invoke" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-12" value="invoke" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=left;" parent="1" vertex="1">
           <mxGeometry x="-930" y="1950" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-14" value="refer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-14" value="refer" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=left;" parent="1" vertex="1">
           <mxGeometry x="-880" y="1950" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-15" value="?" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-15" value="?" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=left;" parent="1" vertex="1">
           <mxGeometry x="-827" y="1950" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-16" target="EEGMg-CsAs7H-cZEdePV-19">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EEGMg-CsAs7H-cZEdePV-16" target="EEGMg-CsAs7H-cZEdePV-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-16" value="getdefault" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-16" value="getdefault" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="-290" y="1340" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-18" target="EEGMg-CsAs7H-cZEdePV-19">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EEGMg-CsAs7H-cZEdePV-18" target="EEGMg-CsAs7H-cZEdePV-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-18" value="getAdaptiveExtension&lt;br&gt;方法上[代理类+url]&lt;br&gt;类上[没啥大区别]" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-18" value="getAdaptiveExtension&lt;br&gt;方法上[代理类+url]&lt;br&gt;类上[没啥大区别]" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="-463" y="1340" width="143" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-19" target="EEGMg-CsAs7H-cZEdePV-24">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EEGMg-CsAs7H-cZEdePV-19" target="EEGMg-CsAs7H-cZEdePV-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-19" value="getExtension(String name)" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-19" value="getExtension(String name)" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="-463" y="1440" width="143" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-20" target="EEGMg-CsAs7H-cZEdePV-19">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EEGMg-CsAs7H-cZEdePV-20" target="EEGMg-CsAs7H-cZEdePV-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-20" value="getActivateExtension" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-20" value="getActivateExtension" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="-633" y="1340" width="143" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-24" value="getExtension(String name)" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-24" value="getExtension(String name)" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="-463" y="1540" width="143" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-26" value="&lt;div&gt;&lt;span&gt;ExtensionLoader&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;(所有的扩展点都有一个@SPi注解,其values表示默认实现除此之外,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;该spi仅仅起标记这是一个扩展点的作用)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-26" value="&lt;div&gt;&lt;span&gt;ExtensionLoader&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;(所有的扩展点都有一个@SPi注解,其values表示默认实现除此之外,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;该spi仅仅起标记这是一个扩展点的作用)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="-633" y="1219" width="523" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-27" value="&lt;div&gt;&lt;span&gt;ExtensionLoader&lt;/span&gt;&lt;/div&gt;&lt;div&gt;protocol&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-27" value="&lt;div&gt;&lt;span&gt;ExtensionLoader&lt;/span&gt;&lt;/div&gt;&lt;div&gt;protocol&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="-633" y="1280" width="123" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-28" value="&lt;div&gt;&lt;span&gt;ExtensionLoader&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Container&lt;/pre&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-28" value="&lt;div&gt;&lt;span&gt;ExtensionLoader&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Container&lt;/pre&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="-453" y="1280" width="123" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-29" value="&lt;div&gt;&lt;span&gt;ExtensionLoader&lt;/span&gt;&lt;/div&gt;&lt;div&gt;LoadBalance&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-29" value="&lt;div&gt;&lt;span&gt;ExtensionLoader&lt;/span&gt;&lt;/div&gt;&lt;div&gt;LoadBalance&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="-233" y="1280" width="123" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-31" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveInstance默认的&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedActivates激活的对象&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveInstance自适应的对象&lt;span&gt;	&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-31" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveInstance默认的&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedActivates激活的对象&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;cachedAdaptiveInstance自适应的对象&lt;span&gt; &lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="-633" y="1600" width="523" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-32" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; @Adaptive({&quot;key1&quot;, &quot;key2&quot;})&lt;/div&gt;&lt;div&gt;&lt;div&gt;优先URL中key1的value对应的spi类名&lt;/div&gt;&lt;div&gt;&lt;div&gt;次之URL中key2的value对应的spi类名&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; @Adaptive&lt;/div&gt;&lt;div&gt;没有value则val=类名的驼峰分割【.】&lt;/div&gt;&lt;div&gt;比如SimpleExt为simple.ext比如&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Protocol对应protocol&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;StringUtils.&lt;span style=&quot;font-style: italic&quot;&gt;camelToSplitName&lt;/span&gt;(&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;type&lt;/span&gt;.getSimpleName(), &lt;span style=&quot;color: #008000 ; font-weight: bold&quot;&gt;&quot;.&quot;&lt;/span&gt;);&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-32" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; @Adaptive({&quot;key1&quot;, &quot;key2&quot;})&lt;/div&gt;&lt;div&gt;&lt;div&gt;优先URL中key1的value对应的spi类名&lt;/div&gt;&lt;div&gt;&lt;div&gt;次之URL中key2的value对应的spi类名&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; @Adaptive&lt;/div&gt;&lt;div&gt;没有value则val=类名的驼峰分割【.】&lt;/div&gt;&lt;div&gt;比如SimpleExt为simple.ext比如&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Protocol对应protocol&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;StringUtils.&lt;span style=&quot;font-style: italic&quot;&gt;camelToSplitName&lt;/span&gt;(&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;type&lt;/span&gt;.getSimpleName(), &lt;span style=&quot;color: #008000 ; font-weight: bold&quot;&gt;&quot;.&quot;&lt;/span&gt;);&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="-910" y="1460" width="410" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-33" value="Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; RegistryProtocol &lt;br&gt;=&amp;gt; Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; DubboProtocol" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-33" value="Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; RegistryProtocol &lt;br&gt;=&amp;gt; Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; DubboProtocol" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="1850" y="2070" width="601" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-43" target="EEGMg-CsAs7H-cZEdePV-48">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EEGMg-CsAs7H-cZEdePV-43" target="EEGMg-CsAs7H-cZEdePV-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="1790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-43" value="zookeeper" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-43" value="zookeeper" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;align=center;" parent="1" vertex="1">
           <mxGeometry x="840" y="1760" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-45" target="EEGMg-CsAs7H-cZEdePV-43">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EEGMg-CsAs7H-cZEdePV-45" target="EEGMg-CsAs7H-cZEdePV-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-45" value="registerService" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-45" value="registerService" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="930" y="1865" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-46" value="RegistryDirectory&lt;br&gt;维护所有可调用的invoker" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-46" value="RegistryDirectory&lt;br&gt;维护所有可调用的invoker" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="300" y="1815" width="140" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-48" target="EEGMg-CsAs7H-cZEdePV-46">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EEGMg-CsAs7H-cZEdePV-48" target="EEGMg-CsAs7H-cZEdePV-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-48" value="NotifyListener" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-48" value="NotifyListener" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="630" y="1765" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.953;entryY=-0.062;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.008;exitY=0.64;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EEGMg-CsAs7H-cZEdePV-46" target="p4-F5EnrrteNVVbMthXz-85">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.953;entryY=-0.062;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.008;exitY=0.64;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EEGMg-CsAs7H-cZEdePV-46" target="p4-F5EnrrteNVVbMthXz-85" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="1870" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-51" value="消费者维护一个注册表&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EEGMg-CsAs7H-cZEdePV-50">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-51" value="消费者维护一个注册表&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EEGMg-CsAs7H-cZEdePV-50" vertex="1" connectable="0">
           <mxGeometry x="0.2327" y="-9" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-49" value="&lt;div&gt;RegistryDirectory：注册中心服务，维护着所有可用的远程Invoker或者本地的Invoker。&amp;nbsp;&lt;/div&gt;&lt;div&gt;它的Invoker集合是从注册中心获取的， 它实现了NotifyListener接口实现了回调接口notify方法。&lt;/div&gt;&lt;div&gt;比如消费方要调用某远程服务，会向注册中心订阅这个服务的所有服务提供方，&lt;/div&gt;&lt;div&gt;订阅时和服务提供方数据有变动时回调消费方的NotifyListener服务的notify方法，&lt;/div&gt;&lt;div&gt;回调接口传入所有服务的提供方的url地址然后将urls转化为invokers, 也就是refer应用远程服务。&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-49" value="&lt;div&gt;RegistryDirectory：注册中心服务，维护着所有可用的远程Invoker或者本地的Invoker。&amp;nbsp;&lt;/div&gt;&lt;div&gt;它的Invoker集合是从注册中心获取的， 它实现了NotifyListener接口实现了回调接口notify方法。&lt;/div&gt;&lt;div&gt;比如消费方要调用某远程服务，会向注册中心订阅这个服务的所有服务提供方，&lt;/div&gt;&lt;div&gt;订阅时和服务提供方数据有变动时回调消费方的NotifyListener服务的notify方法，&lt;/div&gt;&lt;div&gt;回调接口传入所有服务的提供方的url地址然后将urls转化为invokers, 也就是refer应用远程服务。&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="-140" y="1880" width="510" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-54" value="先创建invoker 动态代理原接口和实现" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-54" value="先创建invoker 动态代理原接口和实现" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1381" y="2140" width="280" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-55" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;exchange 信息交换层：&lt;/div&gt;&lt;div&gt;封装请求响应模式，同步转异步，&lt;/div&gt;&lt;div&gt;以 Request, Response 为中心，&lt;/div&gt;&lt;div&gt;扩展接口为 Exchanger, ExchangeChannel,&lt;/div&gt;&lt;div&gt;ExchangeClient, ExchangeServer。&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-55" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;exchange 信息交换层：&lt;/div&gt;&lt;div&gt;封装请求响应模式，同步转异步，&lt;/div&gt;&lt;div&gt;以 Request, Response 为中心，&lt;/div&gt;&lt;div&gt;扩展接口为 Exchanger, ExchangeChannel,&lt;/div&gt;&lt;div&gt;ExchangeClient, ExchangeServer。&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="640" y="2146" width="230" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-57" value="" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-57" value="" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="-870" y="3180" width="740" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-58" value="泛化引用服务端不需要做改动 消费端配置generic&lt;br&gt;&amp;lt;dubbo:reference id=&quot;easyCommonService&quot; interface=&quot;org.bazinga.service.EasyCommonService&quot; generic=&quot;true&quot;/&amp;gt;&lt;br&gt;&lt;div&gt;GenericService easyCommonService = (GenericService) context.getBean(&quot;easyCommonService&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Object result = easyCommonService.$invoke(&quot;helloService&quot;, new String[] { &quot;java.lang.String&quot; }, new Object[] { &quot;hello&quot; });&lt;/div&gt;&lt;div&gt;&lt;b&gt;原理: 1&lt;span&gt;. 服务消费者 GenericImplFilter&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2 服务提供者 GenericFilter&lt;/b&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-58" value="泛化引用服务端不需要做改动 消费端配置generic&lt;br&gt;&amp;lt;dubbo:reference id=&quot;easyCommonService&quot; interface=&quot;org.bazinga.service.EasyCommonService&quot; generic=&quot;true&quot;/&amp;gt;&lt;br&gt;&lt;div&gt;GenericService easyCommonService = (GenericService) context.getBean(&quot;easyCommonService&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Object result = easyCommonService.$invoke(&quot;helloService&quot;, new String[] { &quot;java.lang.String&quot; }, new Object[] { &quot;hello&quot; });&lt;/div&gt;&lt;div&gt;&lt;b&gt;原理: 1&lt;span&gt;. 服务消费者 GenericImplFilter&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2 服务提供者 GenericFilter&lt;/b&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="-850" y="3190" width="710" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-59" value="本地存根&amp;nbsp; &amp;nbsp; 要求 消费者实现接口 实现含有该接口的构造方法:&amp;nbsp;&amp;nbsp;&lt;b&gt;原理动态代理&lt;/b&gt;&lt;br&gt;配置消费者的stub为存根实现类全限定类名&lt;br&gt;比如&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34; ; margin: 0px ; padding: 0px ; line-height: 1.5 ; color: rgb(255 , 0 , 0)&quot;&gt; stub&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34; ; margin: 0px ; padding: 0px ; line-height: 1.5 ; color: rgb(0 , 0 , 255)&quot;&gt;=&quot;org.huxin.dubbo.test.UserServiceStub&quot;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-59" value="本地存根&amp;nbsp; &amp;nbsp; 要求 消费者实现接口 实现含有该接口的构造方法:&amp;nbsp;&amp;nbsp;&lt;b&gt;原理动态代理&lt;/b&gt;&lt;br&gt;配置消费者的stub为存根实现类全限定类名&lt;br&gt;比如&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34; ; margin: 0px ; padding: 0px ; line-height: 1.5 ; color: rgb(255 , 0 , 0)&quot;&gt; stub&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;courier new&amp;#34; ; margin: 0px ; padding: 0px ; line-height: 1.5 ; color: rgb(0 , 0 , 255)&quot;&gt;=&quot;org.huxin.dubbo.test.UserServiceStub&quot;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="-850" y="3280" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-60" value="回声测试: com.alibaba.dubbo.rpc.service.EchoService(所有消费者自动实现该接口)&lt;br&gt;&lt;b&gt;原理消费者动态代理 ,服务者filter&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-60" value="回声测试: com.alibaba.dubbo.rpc.service.EchoService(所有消费者自动实现该接口)&lt;br&gt;&lt;b&gt;原理消费者动态代理 ,服务者filter&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="-849.5" y="3360" width="616.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EEGMg-CsAs7H-cZEdePV-61" value="优雅停机" style="html=1;dashed=0;whitespace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="EEGMg-CsAs7H-cZEdePV-61" value="优雅停机" style="html=1;dashed=0;whitespace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="-849.5" y="3420" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="3900" width="360" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-2" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="510" y="3900" width="360" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-3" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="870" y="3900" width="360" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-4" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="3770" width="1080" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

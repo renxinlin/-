@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T10:33:28.811Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="NYoXV1AeiMcrtL7Oe18q" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T10:38:57.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="B_jt7adMhGC-ragSrk8z" version="15.8.9" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3348" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -818,8 +818,40 @@
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-104" value="获取自适应(zk)注册中心" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="640" y="3940" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-106" value="createServer" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-106" value="getRegistry" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="550" y="4050" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-107" value="register" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="550" y="4070" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-108" value="registry.subscribe" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="550" y="4090" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.86;exitY=-0.093;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;exitPerimeter=0;" edge="1" parent="1" source="Y1Z4q-ez67rLUadRh-D2-110" target="Y1Z4q-ez67rLUadRh-D2-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="845" y="3990" />
+              <mxPoint x="895" y="3990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-110" value="registryFactory.createRegistry" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="690" y="4050" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-112" value="FailbackRegistry" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="870" y="4101.5" width="139" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-113" value="AbstractRegistry" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="870" y="4180" width="109" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-115" value="registered" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="870" y="4200" width="89" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-117" value="subscribed" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="870" y="4220" width="89" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-118" value="notified" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="870" y="4240" width="89" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

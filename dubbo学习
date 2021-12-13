@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T13:45:44.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="ea4-NP9Yh5oRZVezfPOX" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T13:50:35.909Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="JclOEZo-Z8beH43Kdkbn" version="15.8.9" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="2840" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -369,7 +369,7 @@
         <mxCell id="p4-F5EnrrteNVVbMthXz-140" value="&lt;ul style=&quot;margin: 0px 20px ; padding: 0px ; border: 0px ; outline: 0px ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; vertical-align: baseline ; line-height: 1.6em ; color: rgb(51 , 51 , 51) ; text-align: left ; background-color: rgb(245 , 245 , 213)&quot;&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-weight: inherit ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; RegistryProtocol&lt;/strong&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-weight: inherit ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;=&amp;gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-weight: inherit ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;&lt;strong style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-style: inherit ; font-family: inherit ; vertical-align: baseline&quot;&gt;Protocol$Adaptive =&amp;gt; ProtocolFilterWrapper =&amp;gt; ProtocolListenerWrapper =&amp;gt; DubboProtocol&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-970" y="2600" width="740" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="p4-F5EnrrteNVVbMthXz-141" value="registered属性处理" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="p4-F5EnrrteNVVbMthXz-141" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;registered属性处理&lt;/blockquote&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-639" y="2236.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="p4-F5EnrrteNVVbMthXz-142" value="合并Invokerinvoker = cluster.join(directory)" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
@@ -920,6 +920,15 @@
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-149" value="创建RegistryDirectory" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-860" y="2236" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-151" value="routerChain" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-869" y="2360" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-152" value="invokers" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-761" y="2360" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-153" value="urlInvokerMap" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-651" y="2360" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T10:22:26.802Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="-Sk4fY07m1O7zl1rvf4l" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T10:25:56.598Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="XG0rP8VT2t3lUXFjbd97" version="15.8.9" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3348" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -776,6 +776,24 @@
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-90" value="ExchangeHandlerAdapter&lt;br&gt;rpc调用时的上层业务处理handler" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1311.5" y="4001" width="238.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-91" value="createServer" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="4140" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-92" value="Exchangers.bind(url, requestHandler)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="4160" width="219" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-93" value="new HeaderExchangeServer(Transporters.bind(url, &lt;br&gt;new DecodeHandler(new HeaderExchangeHandler(handler))));" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="4180" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-94" value="new HeaderExchangeServer(Transporters.bind(url, &lt;br&gt;new DecodeHandler(new HeaderExchangeHandler(handler))));" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="4220" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-95" value="new NettyServer(url, handler)" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="4260" width="360" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-96" value="nettyServer封装了netty信息" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="4285" width="360" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T08:19:10.425Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="xjTLZWllde35Q4h8GHy6" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T08:20:06.894Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="rL06hyxRfpjJMLyULM90" version="15.8.9" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3348" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -678,11 +678,11 @@
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-57" value="构建url参数" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="331" y="4077" width="79" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=74.898;exitDy=4.102;exitPerimeter=0;entryX=-0.007;entryY=0.817;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Y1Z4q-ez67rLUadRh-D2-62" target="Y1Z4q-ez67rLUadRh-D2-2">
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=74.898;exitDy=23.898;exitPerimeter=0;entryX=-0.007;entryY=0.817;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Y1Z4q-ez67rLUadRh-D2-62" target="Y1Z4q-ez67rLUadRh-D2-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-62" value="本地暴露&lt;br&gt;远程暴露" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="425.5" y="4077" width="79" height="28" as="geometry" />
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-62" value="远程暴露&lt;br&gt;本地暴露" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="425.5" y="4105" width="79" height="28" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-64" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="550" y="4250" width="320" height="90" as="geometry" />
@@ -698,6 +698,15 @@
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y1Z4q-ez67rLUadRh-D2-13" target="Y1Z4q-ez67rLUadRh-D2-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Y1Z4q-ez67rLUadRh-D2-55" target="Y1Z4q-ez67rLUadRh-D2-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="4116" />
+              <mxPoint x="130" y="4116" />
+              <mxPoint x="130" y="4330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

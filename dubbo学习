@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T10:42:03.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="UmctwX7MKOADSMSrlIpm" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T10:45:44.525Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="xWnEOPslpE4W4HIe3Gtq" version="15.8.9" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3348" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -824,6 +824,9 @@
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-107" value="register" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="550" y="4070" width="140" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="Y1Z4q-ez67rLUadRh-D2-108" target="Y1Z4q-ez67rLUadRh-D2-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-108" value="registry.subscribe" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="550" y="4090" width="140" height="20" as="geometry" />
         </mxCell>
@@ -867,6 +870,12 @@
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-123" value="所有接口对应zk监听与NotifyListener映射" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="959" y="4042" width="231" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-124" value="向zk服务层写provider信息" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="690" y="4070" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-127" value="用OverrideListener构建zklistenens向zk订阅&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;configurators信息&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="550" y="4113.5" width="230" height="46.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

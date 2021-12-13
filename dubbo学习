@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T10:21:52.775Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="PZh1cgqdiJVLk3Gva8E2" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T10:22:26.802Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="-Sk4fY07m1O7zl1rvf4l" version="15.8.9" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3348" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -771,16 +771,10 @@
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-86" value="构建dubboInvoker加入exporterMap" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1190" y="4032" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-87" value="ExchangeHandlerAdapter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="4092" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-88" value="ExchangeHandlerAdapter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1191" y="4140" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-89" value="requestHandler" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="1190" y="4001" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-90" value="rpc调用时的上层业务处理handler" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-90" value="ExchangeHandlerAdapter&lt;br&gt;rpc调用时的上层业务处理handler" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1311.5" y="4001" width="238.5" height="30" as="geometry" />
         </mxCell>
       </root>

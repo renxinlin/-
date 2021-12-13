@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T08:20:06.894Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="rL06hyxRfpjJMLyULM90" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T08:23:50.819Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="xvD8gqIneJGPlIsccDo7" version="15.8.9" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3348" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -609,7 +609,7 @@
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-12" value="dubbo协议" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="870" y="3900" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-13" value="dubbo协议" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-13" value="register协议" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="550" y="3900" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-15" value="spring容器启动refresh" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -680,6 +680,14 @@
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=74.898;exitDy=23.898;exitPerimeter=0;entryX=-0.007;entryY=0.817;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Y1Z4q-ez67rLUadRh-D2-62" target="Y1Z4q-ez67rLUadRh-D2-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=74.898;exitDy=4.102;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y1Z4q-ez67rLUadRh-D2-62" target="Y1Z4q-ez67rLUadRh-D2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1Z4q-ez67rLUadRh-D2-72" value="多&lt;br&gt;注&lt;br&gt;册&lt;br&gt;中&lt;br&gt;心&lt;br&gt;循&lt;br&gt;环&lt;br&gt;暴&lt;br&gt;露" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y1Z4q-ez67rLUadRh-D2-71">
+          <mxGeometry x="0.1656" y="5" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-62" value="远程暴露&lt;br&gt;本地暴露" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="425.5" y="4105" width="79" height="28" as="geometry" />

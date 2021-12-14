@@ -1,21 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T11:50:13.854Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ugejw8TndkYitx3_DWH9" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-14T09:38:16.706Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="thINIXVQ8ANXJRNcrsGp" version="15.8.9" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
-    <mxGraphModel dx="2013" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1392" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wgT-akApHuBEXuxg3MZV-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-1" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="730" y="470" width="610" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-3" target="wgT-akApHuBEXuxg3MZV-7">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="wgT-akApHuBEXuxg3MZV-3" target="wgT-akApHuBEXuxg3MZV-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-11" value="remove&amp;nbsp; finalizer&lt;br&gt;first mark" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wgT-akApHuBEXuxg3MZV-10">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-11" value="remove&amp;nbsp; finalizer&lt;br&gt;first mark" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wgT-akApHuBEXuxg3MZV-10" vertex="1" connectable="0">
           <mxGeometry x="-0.2364" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-3" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-3" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="868.39" y="490" width="261.61" height="160" as="geometry" />
         </mxCell>
         <mxCell id="NOtvOofxNjyBKURaPAgJ-59" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
@@ -940,178 +940,190 @@
         <mxCell id="L4h5W1ZEjagOKfXx_Sn9-3" value="@FunctionalInterface" style="html=1;dashed=0;whitespace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="59.92" y="2480" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-2" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-2" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="923.96" y="540" width="136.04" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-4" value="Object" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-4" value="Object" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="938.96" y="550" width="106.04" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-5" value="&lt;span style=&quot;font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Finalizer&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-5" value="&lt;span style=&quot;font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Finalizer&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" parent="1" vertex="1">
           <mxGeometry x="949.19" y="590" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-6" value="&lt;span style=&quot;font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Finalizer.unfinalized池&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-6" value="&lt;span style=&quot;font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Finalizer.unfinalized池&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" parent="1" vertex="1">
           <mxGeometry x="949.19" y="660" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-7" target="wgT-akApHuBEXuxg3MZV-8">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wgT-akApHuBEXuxg3MZV-7" target="wgT-akApHuBEXuxg3MZV-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-7" value="F_QUEUE" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-7" value="F_QUEUE" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1150" y="490" width="70" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-8" target="wgT-akApHuBEXuxg3MZV-12">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wgT-akApHuBEXuxg3MZV-8" target="wgT-akApHuBEXuxg3MZV-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-14" value="dicede real gc&lt;br&gt;second mark" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wgT-akApHuBEXuxg3MZV-13">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-14" value="dicede real gc&lt;br&gt;second mark" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wgT-akApHuBEXuxg3MZV-13" vertex="1" connectable="0">
           <mxGeometry x="-0.2471" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-8" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-8" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1280.0000000000002" y="490" width="40.08" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-12" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-12" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1280.0000000000002" y="557.5" width="40.08" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-15" value="方法区回收: 废弃的常量&amp;nbsp; 不在使用的类型[无任何实例][classloader被回收][对应的Class对象无任何引用,防反射]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-15" value="方法区回收: 废弃的常量&amp;nbsp; 不在使用的类型[无任何实例][classloader被回收][对应的Class对象无任何引用,防反射]" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="730" y="710" width="620" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-16" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-16" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1350" y="476" width="310" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-17" value="初&lt;br&gt;始&lt;br&gt;标&lt;br&gt;记" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-17" value="初&lt;br&gt;始&lt;br&gt;标&lt;br&gt;记" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1360" y="480" width="20" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-18" value="并&lt;br&gt;发&lt;br&gt;标&lt;br&gt;记" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-18" value="并&lt;br&gt;发&lt;br&gt;标&lt;br&gt;记" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1380" y="480" width="20" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-19" value="重&lt;br&gt;新&lt;br&gt;标&lt;br&gt;记" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-19" value="重&lt;br&gt;新&lt;br&gt;标&lt;br&gt;记" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1400" y="480" width="20" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-20" value="并&lt;br&gt;发&lt;br&gt;标&lt;br&gt;记" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-20" value="并&lt;br&gt;发&lt;br&gt;标&lt;br&gt;记" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1420" y="480" width="20" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-21" value="引用:&lt;br&gt;句柄池&lt;br&gt;直接引用" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-21" value="引用:&lt;br&gt;句柄池&lt;br&gt;直接引用" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="730" y="490" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-22" value="所有线程处于&lt;br&gt;安全点&lt;br&gt;和安全区域" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-22" value="所有线程处于&lt;br&gt;安全点&lt;br&gt;和安全区域" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1360" y="560" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-23" value="gcroot枚举" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-23" value="gcroot枚举" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1360" y="560" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-25" value="oopmap" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-25" value="oopmap" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1470" y="586" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-26" value="记录栈上哪些位置是引用" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-26" value="记录栈上哪些位置是引用" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1470" y="561" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-33" value="java栈" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-33" value="java栈" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1540" y="586" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-34" value="安全点" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-34" value="安全点" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1470" y="614" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-35" value="主动" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-35" value="主动" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1540" y="614" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-36" value="抢占" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-36" value="抢占" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1600" y="614" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-37" value="安全区域[线程直接挂起]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-37" value="安全区域[线程直接挂起]" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1470" y="640" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-38" value="记忆集" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-38" value="记忆集" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1360" y="665" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-39" value="记录非收集区域的跨代引用的gcroot对象" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-39" value="记录非收集区域的跨代引用的gcroot对象" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1360" y="690" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-40" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-40" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1670" y="476" width="300" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-41" target="wgT-akApHuBEXuxg3MZV-43">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="wgT-akApHuBEXuxg3MZV-41" target="wgT-akApHuBEXuxg3MZV-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-41" value="剩余空间足够" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-41" value="剩余空间足够" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1780" y="490" width="70" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-43" target="wgT-akApHuBEXuxg3MZV-44">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wgT-akApHuBEXuxg3MZV-43" target="wgT-akApHuBEXuxg3MZV-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-43" target="wgT-akApHuBEXuxg3MZV-46">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="wgT-akApHuBEXuxg3MZV-43" target="wgT-akApHuBEXuxg3MZV-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-55" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wgT-akApHuBEXuxg3MZV-54">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-55" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wgT-akApHuBEXuxg3MZV-54" vertex="1" connectable="0">
           <mxGeometry x="-0.2848" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-43" value="不够" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-43" value="不够" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" parent="1" vertex="1">
           <mxGeometry x="1785" y="556" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-44" target="wgT-akApHuBEXuxg3MZV-45">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wgT-akApHuBEXuxg3MZV-44" target="wgT-akApHuBEXuxg3MZV-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-56" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-44" target="wgT-akApHuBEXuxg3MZV-47">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-56" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="wgT-akApHuBEXuxg3MZV-44" target="wgT-akApHuBEXuxg3MZV-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-44" value="allow &lt;br&gt;空间担保" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-44" value="allow &lt;br&gt;空间担保" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1785" y="620" width="60" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-45" target="wgT-akApHuBEXuxg3MZV-48">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="wgT-akApHuBEXuxg3MZV-45" target="wgT-akApHuBEXuxg3MZV-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1720" y="690" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-45" value="历次进入老年代&lt;br&gt;对象大小的平均值大于剩余空间n" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-45" value="历次进入老年代&lt;br&gt;对象大小的平均值大于剩余空间n" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" parent="1" vertex="1">
           <mxGeometry x="1675" y="665" width="290" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-46" value="minor gc" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-46" value="minor gc" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1879.92" y="556" width="60" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-47" value="fullgc" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-47" value="fullgc" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1879.92" y="617" width="60" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgT-akApHuBEXuxg3MZV-48" target="wgT-akApHuBEXuxg3MZV-41">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wgT-akApHuBEXuxg3MZV-48" target="wgT-akApHuBEXuxg3MZV-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-48" value="minor-gc" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-48" value="minor-gc" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
           <mxGeometry x="1700" y="490" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-58" value="类加载的时机1 new 或者get/set类的常量2反射 3 类加载子类得加载父类&lt;br&gt;4 main所在的类 5 interface实现了default对应的实现类初始化则接口需要被初始化&lt;br&gt;6 动态语言解析的相关方法句柄对应的类" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-58" value="类加载的时机1 new 或者get/set类的常量2反射 3 类加载子类得加载父类&lt;br&gt;4 main所在的类 5 interface实现了default对应的实现类初始化则接口需要被初始化&lt;br&gt;6 动态语言解析的相关方法句柄对应的类" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="730" y="740" width="620" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-59" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-59" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1350" y="740" width="620" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-60" value="加载" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-60" value="加载" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1363.96" y="750" width="106.04" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-61" value="验证" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-61" value="验证" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1481.98" y="750" width="106.04" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-62" value="准备" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-62" value="准备" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1600" y="750" width="106.04" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-63" value="解析" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-63" value="解析" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1719.92" y="750" width="106.04" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-64" value="初始化" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-64" value="初始化" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1363.96" y="790" width="106.04" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-65" value="使用" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-65" value="使用" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1483.88" y="790" width="106.04" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-66" value="卸载" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-66" value="卸载" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1601.9" y="790" width="106.04" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-68" value="双亲委派被破坏&lt;br&gt;osgi动态部署&lt;br&gt;spi/逆向调用&lt;br&gt;loadclass被覆盖" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-68" value="双亲委派被破坏&lt;br&gt;osgi动态部署&lt;br&gt;spi/逆向调用&lt;br&gt;loadclass被覆盖" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="620" y="680" width="100.92" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="wgT-akApHuBEXuxg3MZV-69" value="静态解析&lt;br&gt;静态方法唯一&lt;br&gt;确定版本&lt;br&gt;动态分派 重写&lt;br&gt;静态分派 重载" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="wgT-akApHuBEXuxg3MZV-69" value="静态解析&lt;br&gt;静态方法唯一&lt;br&gt;确定版本&lt;br&gt;动态分派 重写&lt;br&gt;静态分派 重载" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="516.5" y="680" width="100.92" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aB7VfY66P8jb6JGylsyU-1" value="十大排序算法" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-480" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aB7VfY66P8jb6JGylsyU-2" value="2-3树和红黑树" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-423" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aB7VfY66P8jb6JGylsyU-3" value="堆排序与优先队列" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="579.92" y="-367" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aB7VfY66P8jb6JGylsyU-4" value="跳表" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="579.92" y="-310" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

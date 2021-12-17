@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T07:10:32.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="r8NJ6nRL8tKklrp3xdyO" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-17T07:12:11.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="HIjAmVCrcvrNr5h4YFvq" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2685" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1040,7 +1040,7 @@
         <mxCell id="jyHv7o-KOyr1QIPVZH88-112" value="插入缓冲区&lt;br&gt;[解决二级索引离散读入内存问题]&lt;br&gt;change buffer( insert update delete)" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="600" y="4650" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-113" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;MasterThread合并插入缓冲到索引Page&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#E6E6E6;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-113" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Merge Insert Buffer&lt;br&gt;&amp;nbsp;[辅助索引读入内存,&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&amp;nbsp;&lt;br&gt;InsertBufferBitmap可用空间不够&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;MasterThread合并插入缓冲到索引Page&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;]&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#E6E6E6;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="600" y="4700" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jyHv7o-KOyr1QIPVZH88-114" value="undopage" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T06:17:56.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9b5srdXc4TwULtx0mW2M" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-17T06:22:08.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="V62_9Iqw72rfXOI00A6R" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2685" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -983,7 +983,7 @@
         <mxCell id="jyHv7o-KOyr1QIPVZH88-82" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;checkpoint[buffer 释放][redo log不可用刷新脏页]&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#E6E6E6;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="5" y="4700" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-85" value="write ahead log&lt;br&gt;提前写日志保障&lt;br&gt;acid的持久性" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-85" value="write ahead log&lt;br&gt;提前写redo日志保障&lt;br&gt;acid的持久性" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="500" y="4570" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jyHv7o-KOyr1QIPVZH88-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;" edge="1" parent="1" source="jyHv7o-KOyr1QIPVZH88-87" target="jyHv7o-KOyr1QIPVZH88-85">

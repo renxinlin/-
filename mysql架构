@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T06:52:14.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="RBxHqy-O_VSeTlcK7CyX" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-17T07:10:32.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="r8NJ6nRL8tKklrp3xdyO" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2685" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1037,7 +1037,7 @@
         <mxCell id="jyHv7o-KOyr1QIPVZH88-111" value="" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="246" y="4760" width="59" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-112" value="插入缓冲区[解决二级索引离散读写问题]&lt;br&gt;change buffer( insert update delete)" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-112" value="插入缓冲区&lt;br&gt;[解决二级索引离散读入内存问题]&lt;br&gt;change buffer( insert update delete)" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="600" y="4650" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jyHv7o-KOyr1QIPVZH88-113" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;MasterThread合并插入缓冲到索引Page&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#E6E6E6;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
@@ -1066,6 +1066,51 @@
         </mxCell>
         <mxCell id="jyHv7o-KOyr1QIPVZH88-121" value="自适应hash 索引" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="415" y="4940" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-124" value="marker兼容老版本insertbuffer" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="913.5" y="4930" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-126" value="offset 偏移量" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1073.5" y="4930" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-127" value="space表空间唯一id" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="810" y="4930" width="103.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-135" value="marker兼容老版本insertbuffer" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="700" y="5000" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-136" value="offset 偏移量" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="860" y="5000" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-137" value="space表空间唯一id" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="596.5" y="5000" width="103.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-138" value="marker兼容老版本insertbuffer" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1103.5" y="5000" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-139" value="offset 偏移量" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1263.5" y="5000" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-140" value="space表空间唯一id" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="5000" width="103.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-141" value="marker兼容老版本insertbuffer" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="543.5" y="5070" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-142" value="offset 偏移量" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="703.5" y="5070" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-143" value="space表空间唯一id" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="5070" width="103.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-144" value="metadata&lt;br&gt;b+树排序" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="803.5" y="5070" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-145" value="" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="903.5" y="5070" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-147" value="InsertBufferBitmap&lt;br&gt;记录辅助索引页剩余可用空间" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="4600" width="210" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

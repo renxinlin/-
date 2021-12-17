@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T08:59:12.325Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="H9fD8K5hLwl9Vh0Fl4Bb" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-17T09:02:27.096Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="PO2zTINRch0T9LzRSpl1" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
-    <mxGraphModel dx="3479" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2784" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1044,7 +1044,7 @@
           <mxGeometry x="810" y="4700" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jyHv7o-KOyr1QIPVZH88-116" value="课外话:Innodb刷盘存在很多硬编码&lt;br&gt;但ssd或者RAID阵列磁盘都有更好的性能&lt;br&gt;innodb_io_capacity可以跳转增大" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="4700" width="240" height="100" as="geometry" />
+          <mxGeometry x="1390" y="4700" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jyHv7o-KOyr1QIPVZH88-117" value="插入缓冲" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="15" y="4940" width="100" height="50" as="geometry" />
@@ -1070,39 +1070,6 @@
         <mxCell id="jyHv7o-KOyr1QIPVZH88-127" value="space表空间唯一id" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="810" y="4930" width="103.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-135" value="marker兼容老版本insertbuffer" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="700" y="5000" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-136" value="offset 偏移量" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="860" y="5000" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-137" value="space表空间唯一id" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="596.5" y="5000" width="103.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-138" value="marker兼容老版本insertbuffer" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="1103.5" y="5000" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-139" value="offset 偏移量" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="1263.5" y="5000" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-140" value="space表空间唯一id" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="5000" width="103.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-141" value="marker兼容老版本insertbuffer" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="543.5" y="5070" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-142" value="offset 偏移量" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="703.5" y="5070" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-143" value="space表空间唯一id" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="440" y="5070" width="103.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-144" value="metadata&lt;br&gt;b+树排序" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="803.5" y="5070" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-145" value="" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="903.5" y="5070" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="jyHv7o-KOyr1QIPVZH88-147" value="InsertBufferBitmap&lt;br&gt;记录辅助索引页剩余可用空间" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="600" y="4600" width="210" height="50" as="geometry" />
         </mxCell>
@@ -1117,6 +1084,33 @@
         </mxCell>
         <mxCell id="jyHv7o-KOyr1QIPVZH88-152" value="redo log 页与页之间是物理的方式,页内是逻辑的方式" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-890" y="2999" width="550" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-153" value="undopage" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="4650" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-154" value="" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="810" y="4960" width="364" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-155" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="977" y="4970" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-156" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="930" y="5005" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-157" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="5005" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-158" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="900" y="5035" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-159" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="960" y="5035" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-160" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="5035" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-161" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="5035" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

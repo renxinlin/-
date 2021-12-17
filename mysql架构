@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T06:00:53.748Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="YZRBzWB7LIEUTYQ1RGEP" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-17T06:04:53.309Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="-8oFOTlODKH_DGxD_b9C" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2685" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -999,10 +999,22 @@
           <mxGeometry x="533.5" y="4427" width="33" height="33" as="geometry" />
         </mxCell>
         <mxCell id="jyHv7o-KOyr1QIPVZH88-91" value="基于checkpoint的数据库恢复" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="4700" width="180" height="30" as="geometry" />
+          <mxGeometry x="-330" y="4700" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jyHv7o-KOyr1QIPVZH88-92" value="cycle&lt;br&gt;using" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="370" y="4655" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-93" value="checkpoint-lsn&lt;br&gt;1" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="4830" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-94" value="redo-log-lsn&lt;br&gt;3" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="4730" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-95" value="page-lsn&lt;br&gt;2" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="4780" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-96" value="disk page-lsn&lt;br&gt;1" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="4880" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

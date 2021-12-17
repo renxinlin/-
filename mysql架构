@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T09:59:33.626Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="kqogv3_61-Mg_4Din9e5" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-17T10:00:31.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="tbM-WKjOpBuJXCGGrnWf" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2784" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1043,8 +1043,8 @@
         <mxCell id="jyHv7o-KOyr1QIPVZH88-115" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;purge-thread&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#E6E6E6;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="810" y="4700" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-116" value="课外话:Innodb刷盘存在很多硬编码&lt;br&gt;但ssd或者RAID阵列磁盘都有更好的性能&lt;br&gt;innodb_io_capacity可以跳转增大&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;innodb 会刷新邻接页(同一个区的页)&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="4700" width="240" height="150" as="geometry" />
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-116" value="课外话:Innodb刷盘存在很多硬编码&lt;br&gt;但ssd或者RAID阵列磁盘都有更好的性能&lt;br&gt;innodb_io_capacity可以跳转增大&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;innodb 会刷新邻接页(同一个区的页)&lt;br&gt;其可以利用aio底层可以合并多个io到一个io的优势&lt;br&gt;但ssd其实已经可以不需要这样的特性" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="4700" width="300" height="150" as="geometry" />
         </mxCell>
         <mxCell id="jyHv7o-KOyr1QIPVZH88-117" value="插入缓冲" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="15" y="4940" width="100" height="50" as="geometry" />

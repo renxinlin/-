@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T08:39:03.734Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="RfEEF63DOM7Gq5CvWOpT" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T08:54:45.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="L0svoiZuDvkACx3LfiMh" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
-    <mxGraphModel dx="2902" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3348" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1300,6 +1300,9 @@
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-79" value="barracuda" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="187" y="3610" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ndsi5uG6wIygwF2uYZpl-86" value="聚簇索引&lt;br&gt;索引和数据在一起&lt;br&gt;数据按顺序聚簇在一起&lt;br&gt;&lt;br&gt;辅助索引&lt;br&gt;叶子数据离散" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="4700" width="300" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

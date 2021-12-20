@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T02:54:15.324Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="1_ZtKzuImNBBbXka2ywD" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T02:54:48.513Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="P5rUDISZzBOBte3bckNU" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="3137" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1166,8 +1166,8 @@
         <mxCell id="jyHv7o-KOyr1QIPVZH88-184" value="double writebuffer" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="305" y="4680" width="95" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="54PARUuKnxDjs6wnGCGU-1" value="binlog&lt;br&gt;row:记录行模式&lt;br&gt;statement: 记录逻辑语句模式&lt;br&gt;mixed:" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
-          <mxGeometry x="25" y="5180" width="185" height="70" as="geometry" />
+        <mxCell id="54PARUuKnxDjs6wnGCGU-1" value="binlog&lt;br&gt;row:记录行模式,记录行的前后更改,更占用空间&lt;br&gt;statement: 记录逻辑语句模式&lt;br&gt;mixed:" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="25" y="5180" width="255" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-2" value="&lt;div&gt;物理逻辑日志页不是完全幂等的，这取决于重做日志类型。&lt;/div&gt;&lt;div&gt;&lt;span&gt;对于MLOG_PAGE_REORGANIZE类型的重做日志其是幂等的，对于INSERT产生的日志其不是幂等的&lt;/span&gt;&lt;/div&gt;&lt;div&gt;因为INSERT重做日志记录的不是插入的记录，而是待插入记录的前一条记录的位置，&lt;/div&gt;&lt;div&gt;以及与该记录的二进制diff信息（这样做是为了进行压缩，从而使得重做日志更小）&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="-890" y="3049" width="550" height="71" as="geometry" />

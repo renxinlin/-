@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T08:12:51.585Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="UcSQ7uy3GiLDX1W3v_JG" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T08:25:02.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="qjUXfAtmdZnHAAy93CEW" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2902" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -490,8 +490,8 @@
         <mxCell id="bdLtJFZp3pYihbEtorNE-34" value="尾部" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-600" y="3730" width="440" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bdLtJFZp3pYihbEtorNE-35" value="page" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-600" y="3150" width="50" height="130" as="geometry" />
+        <mxCell id="bdLtJFZp3pYihbEtorNE-35" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-600" y="3190" width="50" height="140" as="geometry" />
         </mxCell>
         <mxCell id="bdLtJFZp3pYihbEtorNE-36" value="infimum record(n_owned[1])&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-600" y="3330" width="440" height="40" as="geometry" />
@@ -1234,6 +1234,12 @@
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-67" value="file header&lt;br&gt;[页类型][LSN][上一页][下一页][在独立表空间中逻辑页号码][表空间id]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-550" y="3230" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ndsi5uG6wIygwF2uYZpl-68" value="page" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="3190" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ndsi5uG6wIygwF2uYZpl-69" value="页之间" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="3230" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

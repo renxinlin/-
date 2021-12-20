@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T07:39:30.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="wwNor221LWi5gUCypTN2" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T07:44:35.035Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="y4nNBaFAJP1iG_EIX45k" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="3479" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1231,9 +1231,6 @@
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-33" value="新建表空间默认96kb&lt;br&gt;之后申请32个碎片页&lt;br&gt;之后申请一个区" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="214" y="5075" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ndsi5uG6wIygwF2uYZpl-34" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-95.25" y="3370" width="465.25" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-36" value="逆序变长字段长度列表" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-110" y="3370" width="130" height="60" as="geometry" />
         </mxCell>
@@ -1242,9 +1239,6 @@
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-38" value="记录头" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="133" y="3370" width="115.25" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ndsi5uG6wIygwF2uYZpl-39" value="列数据" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="248.25" y="3370" width="121.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-40" value="是否删除" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="133" y="3430" width="115" height="30" as="geometry" />
@@ -1255,17 +1249,14 @@
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-43" value="next_record" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="133" y="3490" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ndsi5uG6wIygwF2uYZpl-44" value="事务id列" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="370" y="3370" width="121.75" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-45" value="回滚指针列" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="491.75" y="3370" width="121.75" height="60" as="geometry" />
+          <mxGeometry x="492.5" y="3370" width="121.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-46" value="6字节row_id&lt;br&gt;if lost primary key" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="610.87" y="3370" width="121.75" height="60" as="geometry" />
+          <mxGeometry x="248.25" y="3370" width="121.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-47" value="注意null 不占用任何空间&lt;br&gt;但null会影响索引的构建和空间" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="792" y="3370" width="238" height="60" as="geometry" />
+          <mxGeometry x="857.75" y="3370" width="238" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-48" value="varchar" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-45" y="3250" width="100" height="50" as="geometry" />
@@ -1299,6 +1290,15 @@
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-56" value="3,3,1" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-130" y="3300" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ndsi5uG6wIygwF2uYZpl-59" value="列数据" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="614.25" y="3370" width="121.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ndsi5uG6wIygwF2uYZpl-60" value="事务id列" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="736" y="3370" width="121.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ndsi5uG6wIygwF2uYZpl-61" value="transactionid列" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="370" y="3370" width="121.75" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

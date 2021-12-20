@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T07:54:43.539Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ccAgMA1uq4kGN5VMlxrw" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T07:59:34.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="FJIgso3gBkUwAv_G3wwf" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="2972" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1231,6 +1231,9 @@
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-65" value="varchar不超过65535是指所有列的大小总和&lt;br&gt;如果一个65530是可以的.&lt;br&gt;两个20000也可以，但不可以三个22000" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1690" y="4700" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ndsi5uG6wIygwF2uYZpl-66" value="char在latin1" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="4700" width="300" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

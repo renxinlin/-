@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T09:35:58.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="rRAiCT8r5MBYABiwmFT8" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T09:37:55.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_YS8yXeoSsmyJDH1Tta0" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
-    <mxGraphModel dx="2902" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2972" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,13 +14,7 @@
           <mxGeometry x="5.25" y="4390" width="300" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-31" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-930" y="1374" width="670" height="436" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-42" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-920" y="1610" width="410" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-35" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-920" y="1510" width="410" height="50" as="geometry" />
+          <mxGeometry x="-1250" y="1310" width="670" height="436" as="geometry" />
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-10" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-940" y="790" width="610" height="330" as="geometry" />
@@ -183,126 +177,6 @@
         </mxCell>
         <mxCell id="NqoMU0TFs5LQwd06Yvz8-30" value="刷新邻接页:&lt;br&gt;脏页所在区的全部&lt;br&gt;脏页一起刷新&lt;br&gt;innodb_flush_neighbors" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-330" y="930" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-32" value="undo log" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-920" y="1510" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-33" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-920" y="1560" width="410" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-34" value="insertbuffer" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-920" y="1610" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-36" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-920" y="1670" width="410" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-37" value="index page buffer" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-920" y="1670" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-38" value="undo page buffer" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-720" y="1670" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-39" value="page buffer" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-820" y="1670" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-40" value="redo log&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-920" y="1560" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-43" value="double write buffer&lt;br&gt;2mb" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="1760" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-44" value="check point&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-930" y="1810" width="670" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-45" value="free list" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-920" y="1734" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-46" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-920" y="1770" width="195" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-47" value="lru 热" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-920" y="1770" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-48" value="lru 冷" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-790" y="1770" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-49" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-930" y="1840" width="670" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-50" value="[sql ]io thread" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-260" y="1374" width="100" height="136" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-51" value="master thread" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-260" y="1510" width="100" height="136" as="geometry" />
-        </mxCell>
-        <mxCell id="0clBNGTt6pL-PGiLgN9e-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NqoMU0TFs5LQwd06Yvz8-52" target="NqoMU0TFs5LQwd06Yvz8-31" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-52" value="purge thread&lt;br&gt;回收 undo" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-260" y="1646" width="100" height="136" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-54" value="flush list" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-790" y="1734" width="70" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-55" value="insertbuffer" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-820" y="1610" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-56" value="insertbuffer" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-720" y="1610" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-57" value="(dirty)&lt;br&gt;page &lt;br&gt;clean thread&lt;br&gt;脏页刷盘线程" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="1510" width="100" height="136" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-58" value="数据字典" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="1374" width="100" height="136" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-59" value="自适应hash索引" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="1510" width="100" height="136" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-60" value="锁信息" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-460" y="1374" width="100" height="136" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-61" value="sharp&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-927" y="1840" width="337" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-63" value="fuzzy" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-597" y="1840" width="337" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-64" value="ib_logfile1" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-570" y="1900" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-65" value="group" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-470" y="1900" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-66" value="ib_logfile0" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-670" y="1900" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NqoMU0TFs5LQwd06Yvz8-67" target="NqoMU0TFs5LQwd06Yvz8-72" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-67" value="redo log&amp;nbsp;&lt;br&gt;lsn" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-805" y="1560" width="35" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-68" value="master线程进行合并" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="1610" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-69" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-680" y="1510" width="170" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-71" value="history list&lt;br&gt;链接undo log" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-920" y="1460" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NqoMU0TFs5LQwd06Yvz8-72" target="NqoMU0TFs5LQwd06Yvz8-73" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-72" value="redo log&amp;nbsp;&lt;br&gt;lsn" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-740" y="1560" width="35" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-73" value="redo log&amp;nbsp;&lt;br&gt;lsn" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-680" y="1560" width="35" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqoMU0TFs5LQwd06Yvz8-77" value="redolog 512字节顺序写[]&lt;br&gt;double write buffer 顺序写[]&lt;br&gt;page buffer 自尊防止页分裂" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;" parent="1" vertex="1">
-          <mxGeometry x="-125" y="1710" width="390" height="250" as="geometry" />
         </mxCell>
         <mxCell id="iWfqJVXLi0JGIq3UmRwa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iWfqJVXLi0JGIq3UmRwa-1" target="iWfqJVXLi0JGIq3UmRwa-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -970,7 +844,7 @@
         <mxCell id="jyHv7o-KOyr1QIPVZH88-112" value="插入缓冲区&lt;br&gt;[解决二级索引离散读入内存问题]&lt;br&gt;change buffer( insert update delete)" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="600" y="4650" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jyHv7o-KOyr1QIPVZH88-114" value="undopage&lt;br&gt;存在于共享表空间undo segment" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="jyHv7o-KOyr1QIPVZH88-114" value="undopage&lt;br&gt;存在于共享表空间undo segment&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="810" y="4650" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jyHv7o-KOyr1QIPVZH88-115" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;purge-thread&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#E6E6E6;fontSize=6;fillColor=#FFFFFF;" parent="1" vertex="1">

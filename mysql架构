@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T07:34:29.289Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="2ATfpCp8mkHowVAvOHx4" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T07:34:55.361Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="z6tJ9lgbtx_hIeoE3P-G" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="3479" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1260,6 +1260,9 @@
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-45" value="回滚指针列" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="491.75" y="3370" width="121.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ndsi5uG6wIygwF2uYZpl-46" value="6字节row_id&lt;br&gt;if lost primary key" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="610.87" y="3370" width="121.75" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

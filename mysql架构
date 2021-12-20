@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T01:57:51.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="FnDh2Q55FfCFlRw3UUG6" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T02:26:21.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="wsDUAqUFmAwxIU0UcfEl" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="3235" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1168,6 +1168,9 @@
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-2" value="&lt;div&gt;物理逻辑日志页不是完全幂等的，这取决于重做日志类型。&lt;/div&gt;&lt;div&gt;&lt;span&gt;对于MLOG_PAGE_REORGANIZE类型的重做日志其是幂等的，对于INSERT产生的日志其不是幂等的&lt;/span&gt;&lt;/div&gt;&lt;div&gt;因为INSERT重做日志记录的不是插入的记录，而是待插入记录的前一条记录的位置，&lt;/div&gt;&lt;div&gt;以及与该记录的二进制diff信息（这样做是为了进行压缩，从而使得重做日志更小）&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="-890" y="3049" width="550" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="Ndsi5uG6wIygwF2uYZpl-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1 将数据从double write buffer写到真正的segment中的时候, 系统会自动合并连接空间刷新的方式,每次可以刷新多个pages;&lt;/div&gt;&lt;div&gt;2 如果页大小是16k,那么就有128个页(1M)需要写,但是128个页写入到共享表空间是1次IO完成,也就是说doublewrite写开销是1次IO&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="305.25" y="4850" width="714.75" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T08:02:48.935Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="7azTDtQe8DUiUyFJbGYk" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T08:11:22.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="bvRi0tJWIgxoQT6rjGTq" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
-    <mxGraphModel dx="3810" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2902" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -484,14 +484,14 @@
         <mxCell id="bdLtJFZp3pYihbEtorNE-32" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-600" y="3280" width="440" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="bdLtJFZp3pYihbEtorNE-33" value="头部&amp;nbsp; &amp;nbsp;LSN" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="bdLtJFZp3pYihbEtorNE-33" value="page header&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-600" y="3280" width="440" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bdLtJFZp3pYihbEtorNE-34" value="尾部" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-600" y="3730" width="440" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bdLtJFZp3pYihbEtorNE-35" value="page" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-600" y="3150" width="130" height="130" as="geometry" />
+          <mxGeometry x="-600" y="3150" width="50" height="130" as="geometry" />
         </mxCell>
         <mxCell id="bdLtJFZp3pYihbEtorNE-36" value="infimum record(n_owned[1])&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-600" y="3330" width="440" height="40" as="geometry" />
@@ -1231,6 +1231,9 @@
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-66" value="char在latin1单字节下指的是定长存储&lt;br&gt;在gbk等多字节下其实类似变长存储&lt;br&gt;其后面的长度表示字符长度而非实际存储长度&lt;br&gt;同时为到达设立的char(n)时,仍然使用占位符" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fontSize=6;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1990" y="4700" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ndsi5uG6wIygwF2uYZpl-67" value="file header&lt;br&gt;[页类型][LSN][上一页][下一页][在独立表空间中逻辑页号码][表空间id]" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="3230" width="390" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

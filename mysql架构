@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T08:55:18.048Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="DnbrfeTyQF22yRUYaBWM" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T08:55:51.846Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="q8jnK7ddZVWr-3ixKbvH" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="3137" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1268,10 +1268,10 @@
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ndsi5uG6wIygwF2uYZpl-175" target="Ndsi5uG6wIygwF2uYZpl-176">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ndsi5uG6wIygwF2uYZpl-175" value="BizC" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="Ndsi5uG6wIygwF2uYZpl-175" value="BizC 缓存淘汰" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="750.75" y="5590" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ndsi5uG6wIygwF2uYZpl-176" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="Ndsi5uG6wIygwF2uYZpl-176" value="LRU,LFU等" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="753.25" y="5650" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ndsi5uG6wIygwF2uYZpl-178" target="Ndsi5uG6wIygwF2uYZpl-179">

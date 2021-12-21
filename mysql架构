@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T09:01:08.625Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="56207Aajq2rAU2F4GnaE" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T09:01:45.785Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="8k0mPS1LXbuTvsgXKsYQ" version="15.9.6" type="github">
   <diagram id="-BZnZq8MJj-p_ouFiwCH" name="Page-1">
     <mxGraphModel dx="3631" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1303,6 +1303,9 @@
         </mxCell>
         <mxCell id="Ndsi5uG6wIygwF2uYZpl-217" value="缓存命中率" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1113" y="6030" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ndsi5uG6wIygwF2uYZpl-218" value="interface层 一个接口配置完成注入" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="240" y="5440" width="930" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T06:54:42.108Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="y1AyNozxLYb_7fOg_OWF" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T06:59:55.546Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="76XjFUDt5vvh1sfl6tby" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="1825" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -348,8 +348,14 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-133" value="ConfigurationClassPostProcessor" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
           <mxGeometry x="1500" y="1740" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-139" value="完成@Import @ImportSelector&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-139" value="完成@Configuration&lt;br&gt;@Import @ImportSelector&lt;br&gt;&amp;nbsp;@ComponentScan 和@Component解析BD" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="1500" y="1790" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-140" value="postProcessBeanFactory" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1840" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-141" value="processConfigBeanDefinitions" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1890" width="260" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

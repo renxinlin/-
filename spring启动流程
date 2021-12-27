@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T08:00:35.146Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="tHkydfBs7iemcspoGVgJ" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T08:12:59.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="kfp-OZeArnC5bMM_rx0m" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
-    <mxGraphModel dx="3953" dy="1727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -414,7 +414,7 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.004;entryY=0.092;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-159" target="sGz5Sw3j3BVGw5Fbq_vJ-160">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-163" value="28解析注解" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sGz5Sw3j3BVGw5Fbq_vJ-162">
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-163" value="28构建扫描器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sGz5Sw3j3BVGw5Fbq_vJ-162">
           <mxGeometry x="0.1472" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -431,8 +431,22 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-164" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
           <mxGeometry x="2540" y="1740" width="260" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-165" value="ComponentScanAnnotationParser" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-165" value="ClassPathBeanDefinitionScanner" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="2540" y="1740" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-166" target="sGz5Sw3j3BVGw5Fbq_vJ-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-168" value="29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sGz5Sw3j3BVGw5Fbq_vJ-167">
+          <mxGeometry x="-0.1849" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-166" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;构建&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255 , 102 , 102)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;ClassPathBeanDefinitionScanner&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;根据@ComponentScan注解属性值设置&lt;/div&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;scanner特性&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1 bean名称生成器&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2scope&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3 in/excludeFilter&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4懒加载&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5基础扫描包&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;等等&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="1810" width="260" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-169" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="1810" width="260" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

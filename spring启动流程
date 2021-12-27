@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T07:31:11.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="jrzq5MaR9v4ohs_HZ4HN" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T07:54:13.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="g_3SZs8X8qHeXCyQ0-OB" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="1581" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -385,7 +385,7 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-147" value="为import和componenscan类型bean&lt;br&gt;设置beanNameGenerator" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
           <mxGeometry x="1500" y="1950" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-148" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-148" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
           <mxGeometry x="2370" y="1740" width="260" height="330" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-149" value="ConfigurationClassParser" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
@@ -402,8 +402,14 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-150" value="实例化扫描解析器&lt;br&gt;ConfigurationClassParser" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="1910" y="1900" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-151" value="实例化扫描解析器&lt;br&gt;ConfigurationClassParser" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-151" value="parse" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="2370" y="1810" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-156" value="processConfigurationClass" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="1885" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-157" value="doProcessConfigurationClass&lt;br&gt;核心解析SpringBootApplication启动类" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="1960" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

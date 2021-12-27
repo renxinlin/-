@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T10:37:35.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="MdICk-o5xrIgVY2sIocy" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T10:43:06.917Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="TiGtnnDaEl_FACPDBw61" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="1395" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -566,6 +566,9 @@
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-202" value="&lt;div style=&quot;text-align: left&quot;&gt;解析importResource&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;通过environment处理占位符&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;添加解析的资源&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="910.0000000000001" y="2080" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-205" value="@import&lt;br&gt;selector&lt;br&gt;register&lt;br&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;processDeferredImportSelectors&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="414" y="2160" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

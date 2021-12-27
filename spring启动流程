@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T07:57:51.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Qhg65stQssG5HpCJF0Mv" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T08:00:35.146Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="tHkydfBs7iemcspoGVgJ" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
-    <mxGraphModel dx="1581" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3953" dy="1727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,16 +343,16 @@
           <mxGeometry x="910" y="1850" width="260" height="230" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-132" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="1740" width="260" height="330" as="geometry" />
+          <mxGeometry x="1250" y="1740" width="260" height="330" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-133" value="ConfigurationClassPostProcessor" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="1740" width="260" height="50" as="geometry" />
+          <mxGeometry x="1250" y="1740" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-139" value="完成@Configuration&lt;br&gt;@Import @ImportSelector&lt;br&gt;&amp;nbsp;@ComponentScan 和@Component解析BD" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="1790" width="260" height="50" as="geometry" />
+          <mxGeometry x="1250" y="1790" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-140" value="postProcessBeanFactory" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="1840" width="260" height="50" as="geometry" />
+          <mxGeometry x="1250" y="1840" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-141" target="sGz5Sw3j3BVGw5Fbq_vJ-144">
           <mxGeometry relative="1" as="geometry" />
@@ -363,13 +363,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-141" value="processConfigBeanDefinitions" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="1890" width="260" height="50" as="geometry" />
+          <mxGeometry x="1250" y="1890" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-142" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
-          <mxGeometry x="1910" y="1740" width="260" height="330" as="geometry" />
+          <mxGeometry x="1580" y="1740" width="260" height="330" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-143" value="ConfigurationClassUtils" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="1910" y="1740" width="260" height="60" as="geometry" />
+          <mxGeometry x="1580" y="1740" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-144" target="sGz5Sw3j3BVGw5Fbq_vJ-150">
           <mxGeometry relative="1" as="geometry" />
@@ -380,16 +380,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-144" value="checkConfigurationClassCandidate&lt;br&gt;获取相关注解的BD&lt;br&gt;检测是否需要加入候选者&lt;br&gt;加入时设置full或者lite特性" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="1910" y="1820" width="260" height="60" as="geometry" />
+          <mxGeometry x="1580" y="1820" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-147" value="为import和componenscan类型bean&lt;br&gt;设置beanNameGenerator" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="1950" width="260" height="50" as="geometry" />
+          <mxGeometry x="1250" y="1950" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-148" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
-          <mxGeometry x="2370" y="1740" width="260" height="400" as="geometry" />
+          <mxGeometry x="1899.93" y="1740" width="260" height="400" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-149" value="ConfigurationClassParser" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="2370" y="1740" width="260" height="60" as="geometry" />
+          <mxGeometry x="1899.93" y="1740" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-150" target="sGz5Sw3j3BVGw5Fbq_vJ-151">
           <mxGeometry relative="1" as="geometry" />
@@ -400,19 +400,39 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-150" value="实例化扫描解析器&lt;br&gt;ConfigurationClassParser" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="1910" y="1900" width="260" height="60" as="geometry" />
+          <mxGeometry x="1580" y="1900" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-151" value="parse" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="2370" y="1810" width="260" height="60" as="geometry" />
+          <mxGeometry x="1899.93" y="1810" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-156" value="processConfigurationClass" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="2370" y="1885" width="260" height="60" as="geometry" />
+          <mxGeometry x="1899.93" y="1885" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-157" value="doProcessConfigurationClass&lt;br&gt;核心解析SpringBootApplication启动类" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="2370" y="1960" width="260" height="60" as="geometry" />
+          <mxGeometry x="1899.93" y="1960" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.004;entryY=0.092;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-159" target="sGz5Sw3j3BVGw5Fbq_vJ-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-163" value="28解析注解" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sGz5Sw3j3BVGw5Fbq_vJ-162">
+          <mxGeometry x="0.1472" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-159" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1 解析成员内部类&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2 解析PropertySources&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3 解析ComponentScans&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4 解析import&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5 解析importResource&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;6 解析@Bean methods&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;7 处理接口&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="2370" y="2040" width="260" height="100" as="geometry" />
+          <mxGeometry x="1899.93" y="2040" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-160" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="1740" width="260" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-161" value="ComponentScanAnnotationParser" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="1740" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-164" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="1740" width="260" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-165" value="ComponentScanAnnotationParser" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="1740" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

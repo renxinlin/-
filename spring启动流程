@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T04:01:49.278Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="cBaBk2d3MK12vcVrB_uN" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T05:37:28.634Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="vpxIKvd2AOtXGuPePjw_" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="1825" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-28" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="140" y="300" width="680" height="530" as="geometry" />
+          <mxGeometry x="140" y="300" width="680" height="510" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-20" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="140" y="140" width="680" height="150" as="geometry" />
@@ -91,6 +91,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-39" target="sGz5Sw3j3BVGw5Fbq_vJ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-54" value="7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sGz5Sw3j3BVGw5Fbq_vJ-53">
+          <mxGeometry x="-0.1108" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-39" value="initPropertySources" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="140" y="570" width="340" height="40" as="geometry" />
         </mxCell>
@@ -114,8 +122,38 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-48" value="initPropertySources" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="1210" y="574" width="250" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-52" target="sGz5Sw3j3BVGw5Fbq_vJ-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-52" value="validateRequiredProperties" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
           <mxGeometry x="140" y="660" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-55" value="加载15个listener" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="140" y="770" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-57" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="850" width="680" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-58" value="obtainFreshBeanFactory" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="140" y="850" width="680" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-59" value="refreshBeanFactory,设置刷新标记 设置spring.application.name" style="html=1;dashed=0;whitespace=wrap;fillColor=#F8CECC;" vertex="1" parent="1">
+          <mxGeometry x="140" y="930" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-60" value="getBeanFactory" style="html=1;dashed=0;whitespace=wrap;fillColor=#F8CECC;" vertex="1" parent="1">
+          <mxGeometry x="140" y="990" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-61" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1090" width="680" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-62" value="prepareBeanFactory" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1090" width="680" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-63" value="refreshBeanFactory,设置刷新标记 设置spring.application.name" style="html=1;dashed=0;whitespace=wrap;fillColor=#F8CECC;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1170" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-64" value="getBeanFactory" style="html=1;dashed=0;whitespace=wrap;fillColor=#F8CECC;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1230" width="340" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

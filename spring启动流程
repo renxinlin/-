@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-27T07:20:58.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="i0kVX__famkWwKXQCBhG" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T07:22:39.177Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ySsgDWG1NBb0PGpuy-1n" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="1825" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -359,6 +359,12 @@
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-142" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="1910" y="1740" width="260" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-143" value="ConfigurationClassUtils" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="1740" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-144" value="checkConfigurationClassCandidate&lt;br&gt;获取相关注解的BD&lt;br&gt;检测是否需要加入候选者&lt;br&gt;加入时设置full或者lite特性" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="1820" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

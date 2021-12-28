@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T08:09:19.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="shFp8tqB93PNYDwxpd7J" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T08:09:43.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="G8bOiwpyqmv9mzV9633a" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="1977" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -587,9 +587,6 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-202" value="&lt;div style=&quot;text-align: left&quot;&gt;37 构建ConfigurationClassBeanDefinitionReader&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="1250" y="2070" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-205" value="&lt;br&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;deferredImportSelectorHandler&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=#FFFFFF;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="80" y="3120" width="1110" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-295" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-206" target="sGz5Sw3j3BVGw5Fbq_vJ-216">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -816,6 +813,9 @@
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-296" value="其次,不同的applicationcontext加载BeanDefinition的位置各不相同&lt;br&gt;xml一般位于obtainFreshBeanFactory&lt;br&gt;纯注解一般采用手动加载&lt;br&gt;而本图采用web启动调用BDRPP加载" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="141" y="1800" width="679" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-297" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 12px ; font-weight: 700 ; background-color: rgb(199 , 237 , 204)&quot;&gt;deferredImportSelectorHandler&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=24;fontColor=#000000;fillColor=#B9E0A5;" vertex="1" parent="1">
+          <mxGeometry x="524" y="3090" width="286" height="286" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

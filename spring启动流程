@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T06:51:01.462Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="W3HgnVwFo0nRw9nnGu6a" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T06:51:28.287Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="nInzJCqWn_eAwsckf0-5" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
-    <mxGraphModel dx="1825" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2636" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -726,7 +726,7 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-257" value="&lt;div style=&quot;text-align: left&quot;&gt;parseBeanDefinitions&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">
           <mxGeometry x="1540" y="2620" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-258" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#E5CCFF;shadow=1;" vertex="1" parent="1">
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-258" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#99FF99;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1872" y="2329.5" width="260" height="220.5" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-259" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;/div&gt;&lt;span style=&quot;text-align: left&quot;&gt;BeanDefinitionParserDelegate&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">
@@ -756,7 +756,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-261" value="&lt;div style=&quot;text-align: left&quot;&gt;定制元素&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-261" value="&lt;div style=&quot;text-align: left&quot;&gt;定制元素&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99FF99;" vertex="1" parent="1">
           <mxGeometry x="1660" y="2650" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-262" value="&lt;div style=&quot;text-align: left&quot;&gt;parseCustomElement&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">
@@ -768,7 +768,7 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-264" value="&lt;div style=&quot;text-align: left&quot;&gt;获取spring.schemes配置的hander&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;调用hander.init&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">
           <mxGeometry x="1872" y="2510" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-266" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#E5CCFF;shadow=1;" vertex="1" parent="1">
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-266" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#99FF99;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="2172" y="2329.5" width="260" height="220.5" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-267" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;/div&gt;&lt;span style=&quot;text-align: left&quot;&gt;BeanDefinitionParserDelegate&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">

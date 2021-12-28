@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T08:09:43.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="G8bOiwpyqmv9mzV9633a" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T08:11:59.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="CLa6oGiL22cGf81OeJoO" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
-    <mxGraphModel dx="1977" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2804" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -637,6 +637,9 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-221" value="&amp;nbsp;onRefresh" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
           <mxGeometry x="140" y="2190" width="259" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.186;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-222" target="sGz5Sw3j3BVGw5Fbq_vJ-300">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-222" value="createWebServer" style="html=1;dashed=0;whitespace=wrap;fillColor=#D5E8D4;" vertex="1" parent="1">
           <mxGeometry x="140" y="2250" width="260" height="50" as="geometry" />
         </mxCell>
@@ -647,7 +650,7 @@
           <mxGeometry x="660" y="2250" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-226" value="finishBeanFactoryInitialization" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
-          <mxGeometry x="141" y="2320" width="259" height="50" as="geometry" />
+          <mxGeometry x="140" y="2380" width="680" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-228" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="140" y="860" width="30" height="30" as="geometry" />
@@ -661,8 +664,11 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-231" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="141" y="1920" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-232" target="sGz5Sw3j3BVGw5Fbq_vJ-303">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-232" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;labelBackgroundColor=#FFFFFF;fillColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="140" y="2338" width="30" height="30" as="geometry" />
+          <mxGeometry x="141" y="2391.5" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-236" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#E5CCFF;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="2200" width="260" height="560" as="geometry" />
@@ -816,6 +822,15 @@
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-297" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 12px ; font-weight: 700 ; background-color: rgb(199 , 237 , 204)&quot;&gt;deferredImportSelectorHandler&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=24;fontColor=#000000;fillColor=#B9E0A5;" vertex="1" parent="1">
           <mxGeometry x="524" y="3090" width="286" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-300" target="sGz5Sw3j3BVGw5Fbq_vJ-226">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-300" value="registerListeners [和广播器配合完成发布订阅功能]" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="140" y="2320" width="680" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-303" value="over" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=24;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="2345" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

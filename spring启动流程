@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T15:11:06.634Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="1FE-1wHrDDts6uhBuiC4" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T15:11:33.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="NTNlJ8TccbGchPvkJmY9" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
-    <mxGraphModel dx="1739" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -981,6 +981,9 @@
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-361" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;initializeBean&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="580" y="2882" width="130.5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-362" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 153)&quot;&gt;工厂bean处理&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="147" y="2460" width="400" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

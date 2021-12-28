@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T06:42:55.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="r778GH03xeccFdbQ70sk" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T06:43:31.889Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="uCpFxNooj6b-Q8zJK34z" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="1825" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -727,10 +727,10 @@
           <mxGeometry x="1540" y="2620" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-258" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#E5CCFF;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="1850" y="2329.5" width="260" height="220.5" as="geometry" />
+          <mxGeometry x="1872" y="2329.5" width="260" height="220.5" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-259" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;/div&gt;&lt;span style=&quot;text-align: left&quot;&gt;BeanDefinitionParserDelegate&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">
-          <mxGeometry x="1850" y="2329.5" width="260" height="92" as="geometry" />
+          <mxGeometry x="1872" y="2329.5" width="260" height="92" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-260" value="&lt;div style=&quot;text-align: left&quot;&gt;parseDefaultElement&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">
           <mxGeometry x="1540" y="2650" width="120" height="30" as="geometry" />
@@ -738,12 +738,12 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-263" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-261" target="sGz5Sw3j3BVGw5Fbq_vJ-262">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1840" y="2665" />
-              <mxPoint x="1840" y="2460" />
+              <mxPoint x="1860" y="2665" />
+              <mxPoint x="1860" y="2460" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-275" value="41定制标签解析" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="sGz5Sw3j3BVGw5Fbq_vJ-263">
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-275" value="41定制标签解析&lt;br&gt;比如dubbo的xml形式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="sGz5Sw3j3BVGw5Fbq_vJ-263">
           <mxGeometry x="-0.2088" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -752,25 +752,25 @@
           <mxGeometry x="1660" y="2650" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-262" value="&lt;div style=&quot;text-align: left&quot;&gt;parseCustomElement&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">
-          <mxGeometry x="1850" y="2440" width="260" height="40" as="geometry" />
+          <mxGeometry x="1872" y="2440" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-270" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-264" target="sGz5Sw3j3BVGw5Fbq_vJ-268">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-264" value="&lt;div style=&quot;text-align: left&quot;&gt;获取spring.schemes配置的hander&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;调用hander.init&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">
-          <mxGeometry x="1850" y="2510" width="260" height="40" as="geometry" />
+          <mxGeometry x="1872" y="2510" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-266" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#E5CCFF;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="2329.5" width="260" height="220.5" as="geometry" />
+          <mxGeometry x="2172" y="2329.5" width="260" height="220.5" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-267" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;/div&gt;&lt;span style=&quot;text-align: left&quot;&gt;BeanDefinitionParserDelegate&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="2329.5" width="260" height="92" as="geometry" />
+          <mxGeometry x="2172" y="2329.5" width="260" height="92" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-268" value="&lt;div style=&quot;text-align: left&quot;&gt;hander.parse&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;findParserForElement查找自身注册的&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;BeanDefinitionParser&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="2440" width="260" height="40" as="geometry" />
+          <mxGeometry x="2172" y="2440" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-269" value="&lt;div style=&quot;text-align: left&quot;&gt;parser.parse完成bd注册&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="2510" width="260" height="40" as="geometry" />
+          <mxGeometry x="2172" y="2510" width="260" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

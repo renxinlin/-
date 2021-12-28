@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T08:08:38.578Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="WyzJTSuZORCFQ4fuOK_i" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T08:09:19.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="shFp8tqB93PNYDwxpd7J" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="1977" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -811,7 +811,7 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-293" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#00C2AB;" vertex="1" parent="1">
           <mxGeometry x="140" y="2460" width="680" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-294" value="DefaultListableBeanFactory" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-294" value="DefaultListableBeanFactory[单例创建 包含三级缓存 循环依赖 生命周期 aop]" style="html=1;dashed=0;whitespace=wrap;fillColor=#B9E0A5;" vertex="1" parent="1">
           <mxGeometry x="140" y="2460" width="680" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-296" value="其次,不同的applicationcontext加载BeanDefinition的位置各不相同&lt;br&gt;xml一般位于obtainFreshBeanFactory&lt;br&gt;纯注解一般采用手动加载&lt;br&gt;而本图采用web启动调用BDRPP加载" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">

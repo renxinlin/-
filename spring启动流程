@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T17:31:22.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="MPWFDLYkRMWlC39WIf0u" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T17:32:58.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9EDlJdslNhCD_LAUDrZd" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="2075" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1053,7 +1053,7 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-383" value="" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="850" y="3030" width="870" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-384" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;AbstractAutowireCapableBeanFactory.&lt;/span&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;populateBean&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-384" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;AbstractAutowireCapableBeanFactory.&lt;/span&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;populateBean注入&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="851" y="3000" width="869" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-402" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=6;fontColor=#FF9999;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-385" target="sGz5Sw3j3BVGw5Fbq_vJ-386">
@@ -1150,7 +1150,7 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-415" value="" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="1720" y="3030" width="440" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-416" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;AbstractAutowireCapableBeanFactory.&lt;/span&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;initializeBean&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-416" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;AbstractAutowireCapableBeanFactory.&lt;/span&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;initializeBean（BPP增强）&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="1721" y="3000" width="439" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-418" value="&lt;span style=&quot;font-size: 6px&quot;&gt;invokeAwareMethods aware注入&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">

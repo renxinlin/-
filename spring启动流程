@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T16:46:13.478Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="D_f3KPiqlHgY-BFth2nB" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T17:03:59.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="YWdedSBEYgWdlENcy5nq" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="1957" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-364" value="" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="136" y="3030" width="689" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-382" value="" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="666" y="3030" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-381" value="" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="430" y="3030" width="220" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-285" value="" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;fillColor=#9AC7BF;" vertex="1" parent="1">
           <mxGeometry x="880" y="2320" width="2580" height="582" as="geometry" />
         </mxCell>
@@ -973,6 +982,15 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-357" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;docreateBean&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="580" y="2672" width="210.5" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-370" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=6;fontColor=#000000;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-358" target="sGz5Sw3j3BVGw5Fbq_vJ-363">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="2825" />
+              <mxPoint x="560" y="2970" />
+              <mxPoint x="481" y="2970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-358" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;createBeanInstance&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="580" y="2806" width="130.5" height="38" as="geometry" />
         </mxCell>
@@ -985,26 +1003,52 @@
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-362" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 153)&quot;&gt;工厂bean处理&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCC99;" vertex="1" parent="1">
           <mxGeometry x="147" y="2460" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-363" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;createBeanInstance&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
-          <mxGeometry x="141" y="3080" width="689" height="30" as="geometry" />
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-363" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;createBeanInstance[4种创建方式]&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="137" y="3000" width="689" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-364" value="" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
-          <mxGeometry x="140" y="3110" width="689" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-365" value="&lt;span style=&quot;font-size: 6px ; background-color: rgb(255 , 204 , 204)&quot;&gt;obtainFromSupplier&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FF9999;" vertex="1" parent="1">
-          <mxGeometry x="141" y="3110" width="269" height="30" as="geometry" />
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-365" value="&lt;span style=&quot;font-size: 6px ; background-color: rgb(255 , 204 , 204)&quot;&gt;obtainFromSupplier&amp;nbsp;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="137" y="3030" width="269" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-366" value="&lt;span style=&quot;font-size: 6px&quot;&gt;BeanPostProcessor&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;SmartInstantiationAwareBeanPostProcessor&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;InstantiationAwareBeanPostProcessor&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;MergedBeanDefinitionPostProcessor&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;DestructionAwareBeanPostProcessor&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFCCCC;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="30" y="3340" width="480" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-367" value="&lt;span style=&quot;font-size: 6px ; background-color: rgb(255 , 153 , 153)&quot;&gt;instantiateUsingFactoryMethod&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FF9999;" vertex="1" parent="1">
-          <mxGeometry x="141" y="3160" width="269" height="30" as="geometry" />
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-367" value="&lt;span style=&quot;font-size: 6px ; background-color: rgb(255 , 153 , 153)&quot;&gt;instantiateUsingFactoryMethod&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="137" y="3080" width="269" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-368" value="&lt;span style=&quot;font-size: 6px ; background-color: rgb(255 , 153 , 153)&quot;&gt;autowireConstructor&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FF9999;" vertex="1" parent="1">
-          <mxGeometry x="140" y="3210" width="269" height="30" as="geometry" />
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-368" value="&lt;span style=&quot;font-size: 6px ; background-color: rgb(255 , 153 , 153)&quot;&gt;autowireConstructor&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="136" y="3130" width="269" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-373" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;fontColor=#000000;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-369" target="sGz5Sw3j3BVGw5Fbq_vJ-372">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="3205" />
+              <mxPoint x="420" y="3095" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-369" value="&lt;span style=&quot;font-size: 6px ; background-color: rgb(255 , 153 , 153)&quot;&gt;instantiateBean&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FF9999;" vertex="1" parent="1">
-          <mxGeometry x="141" y="3270" width="269" height="30" as="geometry" />
+          <mxGeometry x="137" y="3190" width="269" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-371" value="&lt;span style=&quot;font-size: 6px ; background-color: rgb(255 , 153 , 153)&quot;&gt;CglibSubclassingInstantiationStrategy&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;注意如果有override必须采用cglib去实例化&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="430" y="3030" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-378" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;fontColor=#000000;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-372" target="sGz5Sw3j3BVGw5Fbq_vJ-376">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-372" value="&lt;span style=&quot;font-size: 6px ; background-color: rgb(255 , 153 , 153)&quot;&gt;instantiate获取无参构造&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FF9999;strokeColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="430.47" y="3080" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-374" value="&lt;span style=&quot;font-size: 6px ; background-color: rgb(255 , 153 , 153)&quot;&gt;BeanUtils&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="666" y="3030" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-380" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;fontColor=#FF9999;" edge="1" parent="1" source="sGz5Sw3j3BVGw5Fbq_vJ-376" target="sGz5Sw3j3BVGw5Fbq_vJ-379">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-376" value="&lt;span style=&quot;font-size: 6px ; background-color: rgb(255 , 153 , 153)&quot;&gt;instantiateClass实例化&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="667" y="3080" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-379" value="&lt;span style=&quot;background-color: rgb(255 , 153 , 153)&quot;&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;判断是不是&lt;/span&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;Kotlin实现,&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;不是调用构造方法&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 返回实例化bean&amp;nbsp;&lt;/span&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="667" y="3128" width="160" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

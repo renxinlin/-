@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T17:24:43.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="S4UeJr0tnBJ1Z_yRBvW9" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T17:27:59.703Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="OvgG9i3-6d_Sy86QuTdI" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
-    <mxGraphModel dx="2408" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2222" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1149,6 +1149,24 @@
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-414" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 153)&quot;&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;getSingleton移除三级缓存&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFFF33;" vertex="1" parent="1">
           <mxGeometry x="374.97" y="2730" width="173" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-415" value="" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="3030" width="440" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-416" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 204)&quot;&gt;AbstractAutowireCapableBeanFactory.&lt;/span&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;initializeBean&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1721" y="3000" width="439" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-418" value="&lt;span style=&quot;font-size: 6px&quot;&gt;invokeAwareMethods aware注入&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="3040" width="439" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-419" value="&lt;span style=&quot;font-size: 6px&quot;&gt;applyBeanPostProcessorsBeforeInitialization调用全部bpp前置初始化&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="3080" width="439" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-420" value="&lt;span style=&quot;font-size: 6px&quot;&gt;invokeInitMethods先调用InitializingBean.&lt;/span&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;afterPropertiesSet 后定义自定义init方法&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1721" y="3120" width="439" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-421" value="&lt;span style=&quot;font-size: 6px&quot;&gt;applyBeanPostProcessorsAfterInitialization完成bpp后置初始化&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1721" y="3170" width="439" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

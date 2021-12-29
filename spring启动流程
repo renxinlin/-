@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T17:28:11.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="hJBORaH9-3pwf8djjFxZ" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-29T17:31:22.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="MPWFDLYkRMWlC39WIf0u" version="16.0.3" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
-    <mxGraphModel dx="8734" dy="3453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2075" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -839,7 +839,7 @@
           <mxGeometry x="-20" y="2345" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-306" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;bean&lt;br&gt;实&lt;br&gt;例&lt;br&gt;化&lt;/b&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#00C2AB;" vertex="1" parent="1">
-          <mxGeometry x="30" y="2460" width="110" height="300" as="geometry" />
+          <mxGeometry x="30" y="2460" width="110" height="470" as="geometry" />
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-308" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="147" y="2490" width="173" height="430" as="geometry" />
@@ -1164,6 +1164,9 @@
         </mxCell>
         <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-421" value="&lt;span style=&quot;font-size: 6px&quot;&gt;applyBeanPostProcessorsAfterInitialization完成bpp后置初始化&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=#FFFFFF;fontSize=6;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="1721" y="3170" width="439" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sGz5Sw3j3BVGw5Fbq_vJ-425" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;bean&lt;br&gt;创建&lt;br&gt;注入&lt;br&gt;增强&lt;br&gt;三&lt;br&gt;部&lt;br&gt;曲&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="30" y="3000" width="106" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

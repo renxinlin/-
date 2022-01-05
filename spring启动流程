@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T06:25:40.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="SgdL-EqIV1J3BIiIQNtZ" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-05T06:26:27.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="l5920c5dvbT0A_SqgYOF" version="16.1.2" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="3479" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1354,7 +1354,7 @@
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MPMCm7Z8iXdCaP6ESF-H-38" target="MPMCm7Z8iXdCaP6ESF-H-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-38" value="DefaultSingletonBeanRegistry&lt;br&gt;getSingleton(beanName, true)" style="html=1;dashed=0;whitespace=wrap;fillColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-38" value="DefaultSingletonBeanRegistry&lt;br&gt;getSingleton(beanName, true)" style="html=1;dashed=0;whitespace=wrap;fillColor=#FF99FF;" vertex="1" parent="1">
           <mxGeometry x="-850" y="4500" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MPMCm7Z8iXdCaP6ESF-H-39" target="MPMCm7Z8iXdCaP6ESF-H-41">
@@ -1371,7 +1371,7 @@
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MPMCm7Z8iXdCaP6ESF-H-40" target="MPMCm7Z8iXdCaP6ESF-H-125">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-40" value="DefaultSingletonBeanRegistry&lt;br&gt;addSingleton" style="html=1;dashed=0;whitespace=wrap;fillColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-40" value="DefaultSingletonBeanRegistry&lt;br&gt;addSingleton" style="html=1;dashed=0;whitespace=wrap;fillColor=#FF99FF;" vertex="1" parent="1">
           <mxGeometry x="-850" y="4626" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MPMCm7Z8iXdCaP6ESF-H-41" target="MPMCm7Z8iXdCaP6ESF-H-42">
@@ -1412,7 +1412,7 @@
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MPMCm7Z8iXdCaP6ESF-H-53" target="MPMCm7Z8iXdCaP6ESF-H-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-53" value="DefaultSingletonBeanRegistry&lt;br&gt;addSingletonFactory" style="html=1;dashed=0;whitespace=wrap;fillColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-53" value="DefaultSingletonBeanRegistry&lt;br&gt;addSingletonFactory" style="html=1;dashed=0;whitespace=wrap;fillColor=#FF99FF;" vertex="1" parent="1">
           <mxGeometry x="-616" y="4500" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MPMCm7Z8iXdCaP6ESF-H-55" target="MPMCm7Z8iXdCaP6ESF-H-56">
@@ -1498,7 +1498,7 @@
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MPMCm7Z8iXdCaP6ESF-H-84" target="MPMCm7Z8iXdCaP6ESF-H-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-84" value="DefaultSingletonBeanRegistry&lt;br&gt;getSingleton(beanName, true)" style="html=1;dashed=0;whitespace=wrap;fillColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-84" value="DefaultSingletonBeanRegistry&lt;br&gt;getSingleton(beanName, true)" style="html=1;dashed=0;whitespace=wrap;fillColor=#FF99FF;" vertex="1" parent="1">
           <mxGeometry x="-142.02999999999997" y="4500" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MPMCm7Z8iXdCaP6ESF-H-86" target="MPMCm7Z8iXdCaP6ESF-H-87">
@@ -1544,7 +1544,7 @@
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MPMCm7Z8iXdCaP6ESF-H-91" target="MPMCm7Z8iXdCaP6ESF-H-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-91" value="DefaultSingletonBeanRegistry&lt;br&gt;addSingletonFactory" style="html=1;dashed=0;whitespace=wrap;fillColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-91" value="DefaultSingletonBeanRegistry&lt;br&gt;addSingletonFactory" style="html=1;dashed=0;whitespace=wrap;fillColor=#FF99FF;" vertex="1" parent="1">
           <mxGeometry x="91.97000000000003" y="4500" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MPMCm7Z8iXdCaP6ESF-H-92" target="MPMCm7Z8iXdCaP6ESF-H-93">
@@ -1600,7 +1600,7 @@
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-102" value="DefaultSingletonBeanRegistry&lt;br&gt;getSingleton" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFF33;" vertex="1" parent="1">
           <mxGeometry x="570.97" y="4440" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-103" value="DefaultSingletonBeanRegistry&lt;br&gt;getSingleton(beanName, true)" style="html=1;dashed=0;whitespace=wrap;fillColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-103" value="DefaultSingletonBeanRegistry&lt;br&gt;getSingleton(beanName, true)" style="html=1;dashed=0;whitespace=wrap;fillColor=#FF99FF;" vertex="1" parent="1">
           <mxGeometry x="570.97" y="4500" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-121" value="getSingleton(beanName, true)&lt;br&gt;先一级缓存,获取在二级&lt;br&gt;获取三级[并清除三级缓存添加二级缓存]" style="html=1;dashed=0;whitespace=wrap;fillColor=#33FFFF;" vertex="1" parent="1">

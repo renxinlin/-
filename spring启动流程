@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T06:10:13.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="LT0aRp3_1-StOcROS1Ln" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-05T06:10:58.214Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="gcprQORHyHWGZDBX-sDD" version="16.1.2" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="1546" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1438,6 +1438,12 @@
         </mxCell>
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-69" value="AbstractBeanFactory&lt;br&gt;getBean(String name)" style="html=1;dashed=0;whitespace=wrap;fillColor=#66FF66;" vertex="1" parent="1">
           <mxGeometry x="340" y="4320" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-70" value="Object A" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="-370.29" y="4300" width="210" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-72" value="Object B" style="html=1;dashed=0;whitespace=wrap;fillColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="340" y="4300" width="200" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T06:24:44.115Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="VOy-qpigaVozKK9scU4J" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-05T06:25:06.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Cw58KbqSpznJvuNH2THI" version="16.1.2" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
-    <mxGraphModel dx="3137" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3479" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1468,13 +1468,13 @@
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-72" value="Object B" style="html=1;dashed=0;whitespace=wrap;fillColor=#66FF66;" vertex="1" parent="1">
           <mxGeometry x="-140" y="4300" width="200" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-77" value="singletonFactories" style="html=1;dashed=0;whitespace=wrap;fillColor=#33FFFF;" vertex="1" parent="1">
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-77" value="singletonFactories&lt;br&gt;三级缓存" style="html=1;dashed=0;whitespace=wrap;fillColor=#33FFFF;" vertex="1" parent="1">
           <mxGeometry x="-832" y="4830" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-78" value="earlySingletonObjects" style="html=1;dashed=0;whitespace=wrap;fillColor=#33FFFF;" vertex="1" parent="1">
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-78" value="earlySingletonObjects&lt;br&gt;二级缓存" style="html=1;dashed=0;whitespace=wrap;fillColor=#33FFFF;" vertex="1" parent="1">
           <mxGeometry x="-534" y="4830" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-79" value="singletonObjects" style="html=1;dashed=0;whitespace=wrap;fillColor=#33FFFF;" vertex="1" parent="1">
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-79" value="singletonObjects&lt;br&gt;一级缓存" style="html=1;dashed=0;whitespace=wrap;fillColor=#33FFFF;" vertex="1" parent="1">
           <mxGeometry x="-232" y="4830" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-80" value="API" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#D4E1F5;" vertex="1" parent="1">

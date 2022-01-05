@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T06:25:06.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Cw58KbqSpznJvuNH2THI" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-05T06:25:40.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="SgdL-EqIV1J3BIiIQNtZ" version="16.1.2" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="3479" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1617,6 +1617,12 @@
         </mxCell>
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-125" value="over" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#FFFF33;" vertex="1" parent="1">
           <mxGeometry x="-760" y="4700" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-130" value="衔接层 完成DI" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-384.5" y="4300" width="225" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-131" value="衔接层 完成DI" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="320" y="4300" width="225" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

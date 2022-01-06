@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T06:44:48.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="XbAQrcSF6lDSxy8kOLdm" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-06T06:47:34.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="EgIj507ryLMqUSJmks03" version="16.1.2" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="3299" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1636,11 +1636,14 @@
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-137" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1600" y="3812" width="835.25" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-138" value="ConfigurationClassPostProcessor加载beandefinition" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="3812" width="330" height="40" as="geometry" />
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-142" value="InfrastructureAdvisorAutoProxyCreator" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="3812" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-139" value="processConfigurationClass(&lt;b&gt;sourceClass&lt;/b&gt;)" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="3890" width="250" height="50" as="geometry" />
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-143" value="AnnotationAwareAspectJAutoProxyCreator" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="3930" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-144" value="AspectJAwareAdvisorAutoProxyCreator" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="3870" width="250" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

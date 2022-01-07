@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T08:08:13.656Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="2-QOJ7JYEf6423ed6tAq" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T01:51:41.656Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="bDtO6vCdUwjyOCOiYueD" version="16.1.2" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="3052" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1712,8 +1712,17 @@
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-169" value="includePatterns" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="1928" y="4110" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-173" value="BeanFactory.beanPostProcessors" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="4330" width="230" height="50" as="geometry" />
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-173" value="postProcessBeforeInstantiation" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="4300" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-174" value="postProcessAfterInitialization" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="4370" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-175" value="postProcessAfterInitialization" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="4440" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-176" value="&lt;span style=&quot;font-size: 11px&quot;&gt;Wrap增强入口&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="4300" width="100" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

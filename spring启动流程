@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T03:22:47.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="mWjSYX0uo_j2kE_JBnqy" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T03:24:18.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="j1xcrztOJVa6H1WZsp80" version="16.1.2" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
     <mxGraphModel dx="2914" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1734,19 +1734,19 @@
             <mxPoint x="1840" y="4510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-181" value="&lt;span style=&quot;font-size: 6px&quot;&gt;wrapIfNecessary&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#FFFFCC;" vertex="1" parent="1">
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-181" value="&lt;span style=&quot;font-size: 6px&quot;&gt;wrapIfNecessary&lt;br&gt;正常aop流程&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="1918.25" y="4410" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=6;" edge="1" parent="1" source="MPMCm7Z8iXdCaP6ESF-H-182" target="MPMCm7Z8iXdCaP6ESF-H-193">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-182" value="&lt;span style=&quot;font-size: 6px&quot;&gt;getAdvicesAndAdvisorsForBean&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#FFFFCC;" vertex="1" parent="1">
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-182" value="&lt;span style=&quot;font-size: 6px&quot;&gt;getAdvicesAndAdvisorsForBean&lt;br&gt;根据classfilter 和切入点匹配获取顾问合集&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="1710" y="4510" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=6;" edge="1" parent="1" source="MPMCm7Z8iXdCaP6ESF-H-186" target="MPMCm7Z8iXdCaP6ESF-H-182">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-186" value="&lt;span style=&quot;font-size: 6px&quot;&gt;getCustomTargetSource&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#FFFFCC;" vertex="1" parent="1">
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-186" value="&lt;span style=&quot;font-size: 6px&quot;&gt;getCustomTargetSource&lt;br&gt;自定义&lt;/span&gt;TargetSource和&lt;br&gt;&lt;span style=&quot;font-size: 6px&quot;&gt;CustomTargetSourceCreator&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="1622" y="4415" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.447;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=6;" edge="1" parent="1" source="MPMCm7Z8iXdCaP6ESF-H-179" target="MPMCm7Z8iXdCaP6ESF-H-181">
@@ -1755,7 +1755,7 @@
         <mxCell id="MPMCm7Z8iXdCaP6ESF-H-179" value="&lt;span style=&quot;font-size: 6px&quot;&gt;getEarlyBeanReference&lt;br&gt;循环依赖加载bean&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="1820" y="4300" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-193" value="&lt;span style=&quot;font-size: 6px&quot;&gt;createProxy&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#FFFFCC;" vertex="1" parent="1">
+        <mxCell id="MPMCm7Z8iXdCaP6ESF-H-193" value="&lt;span style=&quot;font-size: 6px&quot;&gt;createProxy&lt;br&gt;创建代理类&lt;br&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="1990" y="4510" width="180" height="50" as="geometry" />
         </mxCell>
       </root>

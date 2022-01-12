@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T06:26:44.045Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="AfwcE8AQMFRDhqA-UsyV" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-12T17:46:31.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="HNIyr_wPFbmNKwz6MdXZ" version="16.1.2" type="github">
   <diagram id="R4xjxMmgd_5NWFpTh89l" name="Page-1">
-    <mxGraphModel dx="2784" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3137" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1863,28 +1863,94 @@
           <mxGeometry x="1540" y="5090" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GkJpreQR64xSv55Db82K-1" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="3380" width="930" height="380" as="geometry" />
+          <mxGeometry x="-370" y="3380" width="930" height="410" as="geometry" />
         </mxCell>
         <mxCell id="GkJpreQR64xSv55Db82K-2" value="&lt;div style=&quot;text-align: left&quot;&gt;AbstractAutowireCapableBeanFactory&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;构造函数的选择&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="-370" y="3380" width="243.97" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GkJpreQR64xSv55Db82K-3" target="GkJpreQR64xSv55Db82K-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GkJpreQR64xSv55Db82K-3" target="GkJpreQR64xSv55Db82K-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GkJpreQR64xSv55Db82K-3" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;determineConstructorsFromBeanPostProcessors&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="3450" width="280" height="40" as="geometry" />
+          <mxGeometry x="-370" y="3437" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GkJpreQR64xSv55Db82K-4" target="GkJpreQR64xSv55Db82K-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GkJpreQR64xSv55Db82K-4" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;beanClass.getDeclaredConstructors();&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;获取所有的构造方法作为原始的构造器集合&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="3507" width="280" height="40" as="geometry" />
+          <mxGeometry x="-370" y="3500" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GkJpreQR64xSv55Db82K-5" target="GkJpreQR64xSv55Db82K-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GkJpreQR64xSv55Db82K-5" target="GkJpreQR64xSv55Db82K-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="GkJpreQR64xSv55Db82K-5" target="GkJpreQR64xSv55Db82K-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GkJpreQR64xSv55Db82K-5" target="GkJpreQR64xSv55Db82K-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GkJpreQR64xSv55Db82K-5" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;@Authwired(required = true)存在多个报错&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="3560" width="280" height="40" as="geometry" />
+          <mxGeometry x="-370" y="3550" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GkJpreQR64xSv55Db82K-6" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;@Authwired(required = true)存在一个,返回&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="3620" width="280" height="40" as="geometry" />
+          <mxGeometry x="-370" y="3600" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GkJpreQR64xSv55Db82K-7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;@Authwired(required = false)存在多个&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;返回&lt;/span&gt;外加无参构造&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="3680" width="280" height="40" as="geometry" />
+          <mxGeometry x="-370" y="3650" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GkJpreQR64xSv55Db82K-8" value="&lt;div style=&quot;text-align: left&quot;&gt;没有注解,存在多个返回多个&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="3730" width="280" height="40" as="geometry" />
+        <mxCell id="GkJpreQR64xSv55Db82K-8" value="&lt;div style=&quot;text-align: left&quot;&gt;只有一个构造函数,返回该构造函数&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="3700" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-9" value="&lt;div style=&quot;text-align: left&quot;&gt;没有注解,返回no&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="3750" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GkJpreQR64xSv55Db82K-17" target="GkJpreQR64xSv55Db82K-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-17" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;autowireConstructor&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="3437" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GkJpreQR64xSv55Db82K-18" target="GkJpreQR64xSv55Db82K-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-18" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;一个构造函数,直接反射构建对象&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="3490" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GkJpreQR64xSv55Db82K-19" target="GkJpreQR64xSv55Db82K-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GkJpreQR64xSv55Db82K-19" target="GkJpreQR64xSv55Db82K-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-19" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;多个函数选择一个函数&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="3540" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-20" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;构建对象&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="3590" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GkJpreQR64xSv55Db82K-25" target="GkJpreQR64xSv55Db82K-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-25" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;排序:&amp;nbsp;&lt;/span&gt;public方法优先,第二排序规则:参数数量降序&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="290" y="3540" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GkJpreQR64xSv55Db82K-29" target="GkJpreQR64xSv55Db82K-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-29" value="&lt;div style=&quot;text-align: left&quot;&gt;设计一个算法,输入构造函数,输出一个数值&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="290" y="3590" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-30" value="&lt;div style=&quot;text-align: left&quot;&gt;选择数值最小的函数&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontFamily=Helvetica;fontSize=11;fontColor=#000000;strokeColor=#CCE5FF;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="290" y="3640" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkJpreQR64xSv55Db82K-33" value="算法简介:&lt;br&gt;差异值: 一种编辑距离算法,&lt;br&gt;表示字符匹配程度" style="shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="3380" width="230" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

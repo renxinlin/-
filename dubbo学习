@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T12:09:47.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="OdMx0RysGkAOJztBw5j-" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-15T12:10:20.837Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="oWo9SC6xLcbnrt42Q30V" version="16.2.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="2603" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1062,11 +1062,29 @@
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-1" value="构建InJvm URL" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="-233" y="3570" width="223" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.004;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-4" target="HX5Hyu7L4ohsdNc2mrn0-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="3425" />
+              <mxPoint x="820" y="3425" />
+              <mxPoint x="820" y="3370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-4" value="构建直连url加入urls" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="540" y="3445" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-5" value="基于注册中心url模式" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="540" y="3510" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="3370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="3585" />
+              <mxPoint x="820" y="3370" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-7" value="获取配置的注册中心url集合" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="540" y="3560" width="170" height="50" as="geometry" />

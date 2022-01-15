@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T13:53:17.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="AHIAR7lmzdTZ-uE0qxUx" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-15T13:54:18.863Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9ofk9fJ7cQTFGhyvc5eX" version="16.2.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="3479" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3631" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1014,6 +1014,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-53" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B5eNAsJ6ryl0pchvz1DF-6">
+          <mxGeometry x="-0.7493" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HX5Hyu7L4ohsdNc2mrn0-24" value="创建远程Invoker" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" parent="1" vertex="1">
           <mxGeometry x="325" y="3590" width="145" height="50" as="geometry" />
         </mxCell>
@@ -1056,19 +1061,17 @@
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-1" value="构建InJvm URL" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="-96" y="3570" width="223" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-4" target="B5eNAsJ6ryl0pchvz1DF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-4" value="构建直连url加入urls&lt;br&gt;[;分隔多个直连中心]" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="540" y="3445" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-5" value="ListenerInvokerWrapper&lt;br&gt;监听引用和销毁事件" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="1158" y="3270" width="201" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="B5eNAsJ6ryl0pchvz1DF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-7" target="HX5Hyu7L4ohsdNc2mrn0-53">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="720" y="3560" />
-              <mxPoint x="720" y="3345" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-7" target="B5eNAsJ6ryl0pchvz1DF-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-7" value="获取配置的注册中心url集合" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="540" y="3560" width="170" height="50" as="geometry" />
@@ -1078,14 +1081,6 @@
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-11" value="多url集合" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="610" y="3630" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="B5eNAsJ6ryl0pchvz1DF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-14" target="HX5Hyu7L4ohsdNc2mrn0-53">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="720" y="3420" />
-              <mxPoint x="720" y="3345" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-14" value="基于&lt;u&gt;url属性&lt;/u&gt;直连模式" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="540" y="3395" width="170" height="50" as="geometry" />

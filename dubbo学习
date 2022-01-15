@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T12:13:03.026Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="baky2ncGzR-GJ3TXjCaD" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-15T12:44:09.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="obGDukcsDKVQ9-bKlibM" version="16.2.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="2902" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2685" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -931,7 +931,7 @@
           <mxGeometry x="-651" y="2360" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HX5Hyu7L4ohsdNc2mrn0-1" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" parent="1" vertex="1">
-          <mxGeometry x="150" y="3300" width="360" height="440" as="geometry" />
+          <mxGeometry x="150" y="3300" width="560" height="440" as="geometry" />
         </mxCell>
         <mxCell id="HX5Hyu7L4ohsdNc2mrn0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="HX5Hyu7L4ohsdNc2mrn0-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1062,8 +1062,8 @@
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-4" value="构建直连url加入urls&lt;br&gt;[;分隔多个直连中心]" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="540" y="3445" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="B5eNAsJ6ryl0pchvz1DF-5" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="755" y="3470" width="170" height="50" as="geometry" />
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-5" value="ListenerInvokerWrapper&lt;br&gt;监听引用和销毁事件" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="755" y="3270" width="185" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-7" target="HX5Hyu7L4ohsdNc2mrn0-53">
           <mxGeometry relative="1" as="geometry">
@@ -1077,10 +1077,10 @@
           <mxGeometry x="540" y="3560" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-10" value="单url集合" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="755" y="3390" width="170" height="50" as="geometry" />
+          <mxGeometry x="510" y="3630" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-11" value="多url集合" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="945" y="3390" width="170" height="50" as="geometry" />
+          <mxGeometry x="610" y="3630" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-14" target="HX5Hyu7L4ohsdNc2mrn0-53">
           <mxGeometry relative="1" as="geometry">
@@ -1095,6 +1095,24 @@
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-16" value="基于注册中心url模式" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="540" y="3510" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-17" value="ProtocolFilterWrapper&lt;br&gt;构建过滤器链" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="940" y="3270" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-18" target="B5eNAsJ6ryl0pchvz1DF-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-18" value="获取注册中心" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="755" y="3390" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-19" target="B5eNAsJ6ryl0pchvz1DF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-19" value="记住集群,注册中心,接口,url&lt;br&gt;执行dorefer" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="959" y="3390" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-20" value="构建RegistryDirectory" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="755" y="3480" width="155" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

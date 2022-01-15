@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T13:52:23.214Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="CDVRScHXrq4wrH3nNyBF" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-15T13:53:17.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="AHIAR7lmzdTZ-uE0qxUx" version="16.2.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="3049" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3479" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -585,9 +585,6 @@
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-3" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" parent="1" vertex="1">
           <mxGeometry x="1190" y="3900" width="360" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-4" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="150" y="3760" width="1080" height="130" as="geometry" />
-        </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;" parent="1" source="Y1Z4q-ez67rLUadRh-D2-6" target="Y1Z4q-ez67rLUadRh-D2-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -602,9 +599,6 @@
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-7" value="zookeeper" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="490" y="4650" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Y1Z4q-ez67rLUadRh-D2-8" value="spi-defaultname&amp;nbsp;Adaptive(name 等价ur key)" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="151" y="3760" width="250" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#FF0000;" parent="1" source="Y1Z4q-ez67rLUadRh-D2-9" target="Y1Z4q-ez67rLUadRh-D2-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -614,10 +608,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-9" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="3760" width="300" height="130" as="geometry" />
+          <mxGeometry x="-160" y="3902" width="300" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-10" value="结合spring启动" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="3760" width="100" height="30" as="geometry" />
+          <mxGeometry x="-160" y="3902" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-11" value="ServiceBean&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="150" y="3900" width="100" height="20" as="geometry" />
@@ -629,10 +623,10 @@
           <mxGeometry x="550" y="3900" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-15" value="spring容器启动refresh" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="3790" width="300" height="30" as="geometry" />
+          <mxGeometry x="-160" y="3932" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-16" value="spring容器触发从而触发dubboNameSpaceHandler&lt;br&gt;export ,refer" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="3820" width="300" height="50" as="geometry" />
+          <mxGeometry x="-160" y="3962" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-17" value="" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="150" y="3920" width="360" height="50" as="geometry" />
@@ -818,7 +812,7 @@
           <mxGeometry x="1410" y="4160" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-101" value="本文不介绍spring" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-50" y="3760" width="100" height="30" as="geometry" />
+          <mxGeometry x="-60" y="3902" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Y1Z4q-ez67rLUadRh-D2-103" value="registryFactory" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" parent="1" vertex="1">
           <mxGeometry x="550" y="3940" width="90" height="30" as="geometry" />
@@ -1030,16 +1024,16 @@
           <mxGeometry x="755" y="3320" width="360" height="540" as="geometry" />
         </mxCell>
         <mxCell id="HX5Hyu7L4ohsdNc2mrn0-31" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" parent="1" vertex="1">
-          <mxGeometry x="-233" y="3510" width="360" height="230" as="geometry" />
+          <mxGeometry x="-110" y="3510" width="237" height="230" as="geometry" />
         </mxCell>
         <mxCell id="HX5Hyu7L4ohsdNc2mrn0-32" value="Protocol" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99FFFF;" parent="1" vertex="1">
-          <mxGeometry x="-233" y="3510" width="100" height="50" as="geometry" />
+          <mxGeometry x="27" y="3507" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HX5Hyu7L4ohsdNc2mrn0-35" value="AbstractProtocol.refer&lt;br&gt;异步转同步构建装饰者Invoker" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" parent="1" vertex="1">
-          <mxGeometry x="-233" y="3630" width="223" height="50" as="geometry" />
+          <mxGeometry x="-96" y="3630" width="223" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HX5Hyu7L4ohsdNc2mrn0-36" value="InjvmProtocol.protocolBindingRefer&lt;br&gt;构建InjvmInvoker并传入exporterMap" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" parent="1" vertex="1">
-          <mxGeometry x="-233" y="3690" width="223" height="50" as="geometry" />
+          <mxGeometry x="-96" y="3690" width="223" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HX5Hyu7L4ohsdNc2mrn0-38" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" parent="1" vertex="1">
           <mxGeometry x="540" y="3510" width="170" height="100" as="geometry" />
@@ -1060,7 +1054,7 @@
           <mxGeometry x="1158" y="3320" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-1" value="构建InJvm URL" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="-233" y="3570" width="223" height="50" as="geometry" />
+          <mxGeometry x="-96" y="3570" width="223" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-4" value="构建直连url加入urls&lt;br&gt;[;分隔多个直连中心]" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="540" y="3445" width="170" height="50" as="geometry" />

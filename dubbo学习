@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T08:28:38.477Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="-ASvKS3mCOYPNWldWj5H" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T09:09:20.653Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="lrrWAL84meipXhEVNoHv" version="16.2.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="3611" dy="1662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4175" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1290,6 +1290,14 @@
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-101" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="2820" y="3827.5" width="710" height="600" as="geometry" />
         </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-102" target="B5eNAsJ6ryl0pchvz1DF-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-138" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B5eNAsJ6ryl0pchvz1DF-137">
+          <mxGeometry x="-0.4133" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-102" value="InvokerInvocationHandler&lt;br&gt;适配动态代理" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="1980" y="3200" width="191" height="50" as="geometry" />
         </mxCell>
@@ -1305,38 +1313,77 @@
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-106" value="remote" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="1900" y="3827.5" width="80" height="600" as="geometry" />
         </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.402;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-108" target="B5eNAsJ6ryl0pchvz1DF-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-148" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B5eNAsJ6ryl0pchvz1DF-147">
+          <mxGeometry x="-0.1133" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-108" value="MockClusterInvoker&lt;br&gt;通过mock支撑容错与降级" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="1980" y="3280" width="191" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-109" target="B5eNAsJ6ryl0pchvz1DF-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-109" value="AbstractClusterInvoker&lt;br&gt;获取负载均衡" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="1980" y="3360" width="191" height="50" as="geometry" />
+          <mxGeometry x="2010" y="3360" width="161" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-110" target="B5eNAsJ6ryl0pchvz1DF-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-149" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B5eNAsJ6ryl0pchvz1DF-146">
+          <mxGeometry x="0.3585" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-110" value="ClusterInvokerImpl&lt;br&gt;容错策略" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="1980" y="3410" width="191" height="50" as="geometry" />
+          <mxGeometry x="2010" y="3410" width="161" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-111" target="B5eNAsJ6ryl0pchvz1DF-114">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2505" y="3420" />
+              <mxPoint x="2297" y="3420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-111" target="B5eNAsJ6ryl0pchvz1DF-115">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-111" value="LoadBalance&lt;br&gt;初始化负载均衡" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="2410" y="3360" width="191" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="B5eNAsJ6ryl0pchvz1DF-113" value="directory.list&lt;br&gt;Condition Script TagRouter" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-113" target="B5eNAsJ6ryl0pchvz1DF-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-113" value="directory.list&lt;br&gt;Condition Script TagRouter&lt;br&gt;路由" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="2200" y="3360" width="191" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-114" value="FailfastClusterInvoker&lt;br&gt;select选择[by&amp;nbsp; loadbanlance]" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="2202" y="3430" width="189" height="30" as="geometry" />
+          <mxGeometry x="2200" y="3430" width="191" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-115" value="FailoverClusterInvoker&lt;br&gt;select选择+重试" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="2412" y="3430" width="189" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B5eNAsJ6ryl0pchvz1DF-116" value="filter listener" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-116" target="B5eNAsJ6ryl0pchvz1DF-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-116" value="ListenerInvokerWrapper&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="1980" y="3490" width="191" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="B5eNAsJ6ryl0pchvz1DF-117" value="ListenerInvokerWrapper" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-117" target="B5eNAsJ6ryl0pchvz1DF-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-117" value="CallbackRegistrationInvoker&lt;br&gt;具有过滤功能" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="1980" y="3550" width="191" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-118" value="AsyncToSyncInvoker" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="1980" y="3620" width="191" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-119" value="AbstractInvoker" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="1980" y="3690" width="191" height="50" as="geometry" />
+          <mxGeometry x="1980" y="3700" width="191" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-120" value="DubboInvoker.doInvoke" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="1980" y="3750" width="191" height="50" as="geometry" />
@@ -1379,6 +1426,30 @@
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-135" value="处理RpcInvocation编码&lt;br&gt;处理Result编码" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="2180" y="4330" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-139" value="构建RpcInvocation&lt;br&gt;调用mockInvoker 完成服务调用" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2199.5" y="3200" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-141" value="force直接调用mock逻辑&lt;br&gt;fail: 先调用后mock" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2199.5" y="3280" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-143" value="调用具有容错功能的集群Invoker" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="3280" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-144" value="&lt;br&gt;集群&lt;br&gt;可执&lt;br&gt;行器&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="3360" width="30" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-155" value="CompletableFuture.get&lt;br&gt;完成异步转同步" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="3620" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-158" value="过滤器作用" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2199.5" y="3490" width="100.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-159" value="构建invocation参数" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2199.5" y="3700" width="260.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-160" value="调用client.指定超时时间和RpcInvocation&lt;br&gt;返回订阅了CompletableFuture的AsyncRpcResult" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="3750" width="260" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

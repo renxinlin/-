@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T09:18:33.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="2RRHkCMnpw4wH-O2pIIg" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T09:19:34.237Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="9lZ0CmgTZKZZlQ2_L0MX" version="16.2.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3876" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1494,13 +1494,13 @@
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-162" value="委托channel调用" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="2190" y="3827.5" width="189.5" height="112.5" as="geometry" />
         </mxCell>
-        <mxCell id="B5eNAsJ6ryl0pchvz1DF-163" value="构建Request" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-163" value="构建Request" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="2190" y="3955" width="189.5" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="B5eNAsJ6ryl0pchvz1DF-164" value="构建Request的DefaultFuture&lt;br&gt;将DefaultFuture放置DefaultFuture池" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-164" value="构建Request的DefaultFuture&lt;br&gt;将DefaultFuture放置DefaultFuture池" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="2390.5" y="3954.5" width="189.5" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="B5eNAsJ6ryl0pchvz1DF-167" value="进行异步通信&lt;br&gt;返回DefaultFuture" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-167" value="进行异步通信&lt;br&gt;返回DefaultFuture" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="2590" y="3954.5" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-168" value="构建NettyChannel&lt;br&gt;检测通道其可用性" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T17:52:09.573Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="XkYDW0XqaJDhoUVLARrx" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T07:58:18.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="7ZpNSqCH9d_VwC-9k6vD" version="16.2.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="3799" dy="1745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3611" dy="1662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1356,11 +1356,20 @@
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-125" value="NettyChannel&lt;br&gt;[持有nioSocketChannel,NettyClient]" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="1980" y="4101.5" width="191" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="B5eNAsJ6ryl0pchvz1DF-126" value="nettyClientHandler" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-126" value="DubboCountCodec" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="1980" y="4175" width="191" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="B5eNAsJ6ryl0pchvz1DF-127" value="InternalEncoder" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-127" value="ExchangeCodec&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="1980" y="4250" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-128" value="完成nioSocketChannel.writeAndFlush" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="4101.5" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-129" value="NettyClientHandler.write&lt;br&gt;完成handler.sent&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="2412" y="4101.5" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-130" value="DubboCodec" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="4330" width="191" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

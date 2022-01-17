@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T13:52:57.286Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="h6Mq-1SgLWjXOyoPtp7I" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T14:14:17.416Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_muQx-Nk8VRPg-gZRdEm" version="16.2.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="5446" dy="2464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3799" dy="1745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1718,6 +1718,71 @@
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-254" value="Feature.completeExceptionally" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="2699" y="3637" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-272" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-266" target="B5eNAsJ6ryl0pchvz1DF-269">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-276" value="1发送请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B5eNAsJ6ryl0pchvz1DF-272">
+          <mxGeometry x="-0.1246" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-266" value="消费者" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3730" y="3784.5" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-267" target="B5eNAsJ6ryl0pchvz1DF-279">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-281" value="4 response.id = request.id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B5eNAsJ6ryl0pchvz1DF-280">
+          <mxGeometry x="-0.478" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-267" value="提供者" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="4180" y="3782.5" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-268" value="Future池&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3921" y="3784.5" width="209" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-269" target="B5eNAsJ6ryl0pchvz1DF-268">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-278" value="2 构建future对象阻塞请求线程&lt;br&gt;future.id=request.id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B5eNAsJ6ryl0pchvz1DF-271">
+          <mxGeometry x="0.7089" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-269" target="B5eNAsJ6ryl0pchvz1DF-267">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3825" y="3960" />
+              <mxPoint x="4150" y="3960" />
+              <mxPoint x="4150" y="3808" />
+              <mxPoint x="4170" y="3808" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-277" value="3 远程请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B5eNAsJ6ryl0pchvz1DF-275">
+          <mxGeometry x="-0.4397" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-269" value="Request" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3730" y="3890" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-279" target="B5eNAsJ6ryl0pchvz1DF-282">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-284" value="5远程通信响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B5eNAsJ6ryl0pchvz1DF-283">
+          <mxGeometry x="-0.0722" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-279" value="构建Response" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="4180" y="3870" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-282" value="根据response.id查找&lt;br&gt;池中future.id = response.id的&lt;br&gt;Future,唤醒请求线程" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3730" y="3980" width="191" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T07:58:18.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="7ZpNSqCH9d_VwC-9k6vD" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T08:28:38.477Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="-ASvKS3mCOYPNWldWj5H" version="16.2.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3611" dy="1662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1370,6 +1370,15 @@
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-130" value="DubboCodec" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="1980" y="4330" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-131" value="处理Request编码&lt;br&gt;处理Response编码" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="4250" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-133" value="处理TelnetCodec编码" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2391" y="4250" width="191" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-135" value="处理RpcInvocation编码&lt;br&gt;处理Result编码" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="4330" width="191" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T13:59:42.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="cYaIpWCGKPSsl63j2UCN" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-19T14:53:53.864Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="EQqY1W9QXJcnevFNfN6E" version="16.2.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="4637" dy="2111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4306" dy="1966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1859,6 +1859,9 @@
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-303" value="HashedWheel&lt;br&gt;Bucket" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;shadow=1;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="4480" y="4642.5" width="70" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-406" value="当前tick&lt;br&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#99FFFF;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-305" target="B5eNAsJ6ryl0pchvz1DF-298">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-305" value="workerThread" style="html=1;dashed=0;whitespace=wrap;shadow=1;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="4615" y="4417.5" width="100" height="55" as="geometry" />
         </mxCell>
@@ -1995,6 +1998,20 @@
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-361" value="HashedWheelTimeout" style="html=1;dashed=0;whitespace=wrap;shadow=1;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="4120" y="4407.5" width="150" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-409" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#99FFFF;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-392" target="B5eNAsJ6ryl0pchvz1DF-301">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4880" y="4779.571428571429" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4775" y="4760" />
+              <mxPoint x="4835" y="4760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-410" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#99FFFF;" edge="1" parent="1" target="B5eNAsJ6ryl0pchvz1DF-350">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4580" y="4770" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-392" value="Queue&amp;lt;HashedWheelTimeout&amp;gt;" style="html=1;dashed=0;whitespace=wrap;shadow=1;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="4580" y="4730" width="195" height="50" as="geometry" />
         </mxCell>
@@ -2048,6 +2065,9 @@
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-404" value="" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;shadow=1;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="4648" y="4860" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-412" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#99FFFF;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-392" target="B5eNAsJ6ryl0pchvz1DF-392">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T15:02:40.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="DUMcbtyGAms2J6GL-3el" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-19T15:04:21.018Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="H_FPrClSdXOHOPDwIajX" version="16.2.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="4062" dy="1860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1942,6 +1942,20 @@
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-342" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-343" target="B5eNAsJ6ryl0pchvz1DF-345">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-422" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#99FFFF;fillColor=#99FFFF;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-343">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5440" y="4129" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4991" y="4129" />
+              <mxPoint x="5411" y="4129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-423" value="从双向链表移除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B5eNAsJ6ryl0pchvz1DF-422">
+          <mxGeometry x="0.2572" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-343" value="HashedWheelTimeout" style="html=1;dashed=0;whitespace=wrap;shadow=1;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="4921.5" y="4149" width="140" height="50" as="geometry" />
         </mxCell>
@@ -2070,11 +2084,17 @@
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-404" value="" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;shadow=1;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="4648" y="4860" width="60" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-421" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#99FFFF;fillColor=#99FFFF;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-417" target="B5eNAsJ6ryl0pchvz1DF-418">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-417" value="cancel" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;shadow=1;fillColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="4859" y="4870" width="60" height="80" as="geometry" />
+          <mxGeometry x="4627.5" y="3962" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-418" value="Queue&amp;lt;HashedWheelTimeout&amp;gt;&lt;br&gt;cancelledTimeouts" style="html=1;dashed=0;whitespace=wrap;shadow=1;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="4560" y="4099" width="195" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-420" value="HashedWheelTimeout" style="html=1;dashed=0;whitespace=wrap;shadow=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="4587.5" y="3920" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T09:13:51.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="8CMF_85oiTcIYjMzLdLP" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-20T09:30:33.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="VOhkLSB3I3uvKpc-4yFS" version="16.2.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
     <mxGraphModel dx="3729" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2259,8 +2259,36 @@
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-498" value="virtualInvokers" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FF99FF;" vertex="1" parent="1">
           <mxGeometry x="5410" y="5060" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="B5eNAsJ6ryl0pchvz1DF-499" value="蓝色和浅色表示两个Invoker,每个Invoker 构建160个虚拟节点到一致性hash表.&lt;br&gt;其中每4个节点的hash值共用一个逻辑地址(地址+下标),hash环的4个位置为该逻辑地址的md5后分成4部分在进行hash的结果&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;align=left;" vertex="1" parent="1">
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-499" value="蓝色和浅色表示两个Invoker,每个Invoker 构建160个虚拟节点到一致性hash表.&lt;br&gt;其中每4个节点的hash值共用一个逻辑地址(地址+下标)[address0,address39],该4个节点每个节点为该逻辑地址md5后分成4部分在进行hash的结果" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;align=left;" vertex="1" parent="1">
           <mxGeometry x="5410" y="5400" width="810" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-502" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#FFE6CC;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-500" target="B5eNAsJ6ryl0pchvz1DF-501">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-500" value="select" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="5410" y="4980" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-504" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;fillColor=#FFE6CC;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-501" target="B5eNAsJ6ryl0pchvz1DF-503">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-501" value="根据argumentIndex配置&lt;br&gt;获取参数的个数&lt;br&gt;转string" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="5560" y="4980" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-505" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#FFE6CC;" edge="1" parent="1" source="B5eNAsJ6ryl0pchvz1DF-503" target="B5eNAsJ6ryl0pchvz1DF-498">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5782" y="5050" />
+              <mxPoint x="5460" y="5050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-506" value="ceilingEntry获取一致性hash表上的节点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B5eNAsJ6ryl0pchvz1DF-505">
+          <mxGeometry x="0.267" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-503" value="进行相同的hash规则" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="5745" y="4980" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

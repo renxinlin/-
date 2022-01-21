@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T17:25:37.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="g9liQ0ncuP6GkWd6FsM1" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-21T07:13:06.173Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="91jcsCiUzwLTmhG5sB9I" version="16.2.7" type="github">
   <diagram id="dNgFGqmqXsyrC23ucFyy" name="Page-1">
-    <mxGraphModel dx="3729" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3667" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2394,6 +2394,9 @@
         </mxCell>
         <mxCell id="B5eNAsJ6ryl0pchvz1DF-552" value="依据地址和下标构建四个虚拟节点,128bit转4段hash" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="5560" y="5060" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B5eNAsJ6ryl0pchvz1DF-553" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="6500" y="5170" width="530" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

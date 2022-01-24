@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T07:11:12.708Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="03YU742ifnAEMUNiE2lO" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-24T17:08:09.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="MhlYjBhfcJfZMamPwUEU" version="16.2.7" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
-    <mxGraphModel dx="2075" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -353,7 +353,7 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-141" value="updateTopicRouteInfoFromNameServer根据&lt;br&gt;producer和consumer表的topic更新topicRouteTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#66FF66;" parent="1" vertex="1">
           <mxGeometry x="480" y="310" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-142" value="sendHeartbeatToAllBrokerWithLock&lt;br&gt;&amp;nbsp;因为broker������变化所以通信通道元信息也要不断维护" style="html=1;dashed=0;whitespace=wrap;fillColor=#66FF66;" parent="1" vertex="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-142" value="sendHeartbeatToAllBrokerWithLock&lt;br&gt;&amp;nbsp;因为broker变化所以通信通道元信息也要不断维护" style="html=1;dashed=0;whitespace=wrap;fillColor=#66FF66;" parent="1" vertex="1">
           <mxGeometry x="480" y="340" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-143" value="persistAllConsumerOffset" style="html=1;dashed=0;whitespace=wrap;fillColor=#66FF66;" parent="1" vertex="1">

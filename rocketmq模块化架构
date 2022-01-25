@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T15:49:23.856Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="qeZ4D8KxCWRgmh6DR2Lu" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-25T15:53:21.088Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Yklfxf2S_Vd5YrfiPtUL" version="16.2.7" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
-    <mxGraphModel dx="2013" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2310" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1189,7 +1189,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-25" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="2220" width="1010" height="600" as="geometry" />
+          <mxGeometry x="-330" y="2220" width="1010" height="440" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-26" target="GdMtMQtGJzXE8QDH4rNj-28">
           <mxGeometry relative="1" as="geometry" />
@@ -1217,7 +1217,7 @@
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-26" value="BrokerStartup.&lt;br&gt;createBrokerController&lt;br&gt;完成组件构建&lt;br&gt;组件初始化&lt;br&gt;组件关系注入" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="-520" y="2220" width="140" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-27" target="GdMtMQtGJzXE8QDH4rNj-25">
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-27" target="GdMtMQtGJzXE8QDH4rNj-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-92" value="4start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdMtMQtGJzXE8QDH4rNj-91">
@@ -1362,13 +1362,28 @@
           <mxGeometry x="-50" y="2437" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-27" value="BrokerStartup.&lt;br&gt;start&lt;br&gt;完成文件恢复" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
-          <mxGeometry x="-520" y="2540" width="140" height="280" as="geometry" />
+          <mxGeometry x="-520" y="2500" width="140" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-94" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="2500" width="360" height="60" as="geometry" />
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-94" value="启动messageStore" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="2500" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-95" value="load完成文件恢复" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6D0DE;" vertex="1" parent="1">
           <mxGeometry x="-330" y="2350" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-96" value="启动通信remotingServer" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2500" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-98" value="启动nameserver地址资源拉取brokerOuterAPI" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2500" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-99" value="启动pullrequesr挂起服务&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="2580" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-102" value="启动broker统计brokerStatsManager" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2580" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-103" value="启动nameserver注册任务" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2580" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

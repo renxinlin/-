@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T15:53:21.088Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Yklfxf2S_Vd5YrfiPtUL" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-25T15:53:43.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="O99QFa02-Ev96MB-1L-Y" version="16.2.7" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2310" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1173,19 +1173,16 @@
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-6" value="routeinfoManager" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFB366;" vertex="1" parent="1">
           <mxGeometry x="470" y="-10" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-22" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;startArrow=none;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-10">
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-22" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;startArrow=none;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="199.42" y="2039.9999999999998" as="sourcePoint" />
+            <mxPoint x="199.35833333333312" y="2320" as="sourcePoint" />
             <mxPoint x="198.95" y="2390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-10" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="195" y="2100" width="10" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-24" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" target="GdMtMQtGJzXE8QDH4rNj-10">
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-24" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="199.42000000000007" y="2040" as="sourcePoint" />
-            <mxPoint x="198.94999999999982" y="2390" as="targetPoint" />
+            <mxPoint x="199.62470588235283" y="2100.0000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-25" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
@@ -1367,7 +1364,7 @@
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-94" value="启动messageStore" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
           <mxGeometry x="-330" y="2500" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-95" value="load完成文件恢复" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6D0DE;" vertex="1" parent="1">
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-95" value="3load完成文件恢复" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6D0DE;" vertex="1" parent="1">
           <mxGeometry x="-330" y="2350" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-96" value="启动通信remotingServer" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">

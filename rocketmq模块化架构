@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T08:13:08.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="JVWUbK7li9vi9itRoCFK" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-26T08:18:46.369Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="U9RHCDzM7bkA04IG2Ru2" version="16.2.7" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="1858" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1426,6 +1426,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#7F00FF;fillColor=#0000FF;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-111" target="GdMtMQtGJzXE8QDH4rNj-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-152" value="持有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdMtMQtGJzXE8QDH4rNj-151">
+          <mxGeometry x="-0.099" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-111" value="DefaultMQProducerImpl" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6D0DE;" vertex="1" parent="1">
           <mxGeometry x="1080" y="2441.5" width="160" height="35" as="geometry" />
         </mxCell>
@@ -1471,15 +1479,24 @@
           <mxGeometry x="857.5" y="2520" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.688;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;fillColor=#0000FF;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-133" target="GdMtMQtGJzXE8QDH4rNj-134">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1211" y="2590" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-139" value="持有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdMtMQtGJzXE8QDH4rNj-136">
-          <mxGeometry x="0.2199" y="1" relative="1" as="geometry">
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-159" value="持有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdMtMQtGJzXE8QDH4rNj-136">
+          <mxGeometry x="0.5176" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#0000FF;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-133" target="GdMtMQtGJzXE8QDH4rNj-142">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-158" value="持有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdMtMQtGJzXE8QDH4rNj-150">
+          <mxGeometry x="-0.0335" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-133" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6D0DE;" vertex="1" parent="1">
           <mxGeometry x="1080" y="2520" width="400" height="70" as="geometry" />
@@ -1492,8 +1509,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-134" value="mQAdminImpl" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6D0DE;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="2620" width="160" height="20" as="geometry" />
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-134" value="mQAdminImpl&lt;br&gt;管理命令实现类" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="2620" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-140" value="pullMessageService" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="1080" y="2520" width="130" height="30" as="geometry" />
@@ -1501,14 +1518,33 @@
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-141" value="rebalanceService" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="1215" y="2520" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-142" value="MQClientAPIImpl" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6D0DE;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="2620" width="160" height="20" as="geometry" />
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-142" value="MQClientAPIImpl&lt;br&gt;broker与nameservrer交互" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="2620" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#0000FF;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-143" target="GdMtMQtGJzXE8QDH4rNj-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-143" value="ClientRemotingProcessor" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="1330" y="2500" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-153" value="持有一个内部生产者组CLIENT_INNER_PRODUCER" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="2570" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#7F00FF;fillColor=#0000FF;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-143" target="GdMtMQtGJzXE8QDH4rNj-142">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1510" y="2510" />
+              <mxPoint x="1510" y="2650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-156" value="&lt;br&gt;req-resp&lt;br&gt;消息处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdMtMQtGJzXE8QDH4rNj-155">
+          <mxGeometry x="0.0019" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-157" value="RequestCode一Processor一Executor" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="2660" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

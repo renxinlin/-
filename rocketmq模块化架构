@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T08:23:07.149Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Sg_m4QH6DVWOiE1qLJ-0" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-26T08:30:45.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="rHJDxRC5Dso0Z4zlOF_e" version="16.2.7" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="1858" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1543,6 +1543,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#7F00FF;fillColor=#0000FF;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-157" target="GdMtMQtGJzXE8QDH4rNj-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-168" value="addr调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdMtMQtGJzXE8QDH4rNj-167">
+          <mxGeometry x="-0.3348" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-157" value="RequestCode一Processor一Executor" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="1280" y="2660" width="200" height="30" as="geometry" />
         </mxCell>
@@ -1557,6 +1565,12 @@
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-163" value="topicPublishInfoTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="1360" y="2350" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-164" value="RemotingClient" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="2710" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-166" value="&amp;nbsp;channelTables&lt;br&gt;持有所有地址对应的通道" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="2740" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

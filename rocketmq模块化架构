@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-01-30T07:23:32.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="jGC199zII9m3nqUPLXmp" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-30T07:33:52.299Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="JuvA_OGLx9USLsLMcc4k" version="16.2.7" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
-    <mxGraphModel dx="2450" dy="1905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2699" dy="2018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-477" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="3910" width="880" height="600" as="geometry" />
+        </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-470" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="2120" y="4290" width="190" height="200" as="geometry" />
         </mxCell>
@@ -2322,7 +2325,7 @@
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-475" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#7F00FF;fillColor=#0000FF;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-436" target="GdMtMQtGJzXE8QDH4rNj-441">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-436" value="同步刷盘" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-436" value="同步刷盘【future等待】&lt;br&gt;putRequest" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="1620" y="4210" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-474" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.084;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#7F00FF;fillColor=#0000FF;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-439" target="GdMtMQtGJzXE8QDH4rNj-472">
@@ -2337,7 +2340,7 @@
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-440" value="异步刷盘" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="2120" y="4210" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-441" value="GroupCommitService" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-441" value="GroupCommitService.wakeup&lt;br&gt;flush" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="1620" y="4290" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-446" value="CommitRealTimeService&lt;br&gt;commit" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
@@ -2347,12 +2350,15 @@
           <mxGeometry x="2120" y="4290" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-453" value="内存" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="4390" width="100" height="50" as="geometry" />
+          <mxGeometry x="1570" y="4390" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-478" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7F00FF;fillColor=#0000FF;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-454" target="GdMtMQtGJzXE8QDH4rNj-453">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-454" value="磁盘" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="4440" width="100" height="50" as="geometry" />
+          <mxGeometry x="1570" y="4460" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-458" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#7F00FF;fillColor=#0000FF;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-455" target="GdMtMQtGJzXE8QDH4rNj-457">
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-458" value="flush" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#7F00FF;fillColor=#0000FF;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-455" target="GdMtMQtGJzXE8QDH4rNj-457">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-455" value="mappedByteBuffer" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFFFCC;" vertex="1" parent="1">
@@ -2397,6 +2403,41 @@
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-472" value="FlushRealTimeService&lt;br&gt;flush" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="1960" y="4290" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-476" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="4520" width="880" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-479" value="请求处理线程" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="3910" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-480" value="刷盘线程" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="4520" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-485" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#7F00FF;fillColor=#0000FF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-481" target="GdMtMQtGJzXE8QDH4rNj-436">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="4319.999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1410" y="4595" />
+              <mxPoint x="1410" y="4235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-486" value="通过future机制同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GdMtMQtGJzXE8QDH4rNj-485">
+          <mxGeometry x="0.0454" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-481" value="自旋每10ms刷盘&lt;br&gt;或唤醒刷盘" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="4570" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-482" value="自旋每200毫秒提交&lt;br&gt;或唤醒提交" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1878" y="4570" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-483" value="自旋每500ms刷盘&lt;br&gt;或唤醒刷盘" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1878" y="4620" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-484" value="自旋每500ms刷盘&lt;br&gt;或唤醒刷盘" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="2118" y="4560" width="190" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

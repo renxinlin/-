@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-30T06:43:47.235Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ajoWVrX-0Pq4KoyY2RZg" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-30T06:44:24.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="hHLd2x1bJnkXpf1zPxH9" version="16.2.7" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2450" dy="1905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2280,6 +2280,9 @@
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-427" value="写入文件" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="1850" y="3920" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-433" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#7F00FF;fillColor=#0000FF;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-428" target="GdMtMQtGJzXE8QDH4rNj-432">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-428" value="构建consumequeue&lt;br&gt;构建indexfile" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="1950" y="3920" width="120" height="50" as="geometry" />
         </mxCell>
@@ -2288,6 +2291,9 @@
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-431" value="主从同步" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="2150" y="4000" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-432" value="触发messagearriving" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FF99FF;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="3920" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

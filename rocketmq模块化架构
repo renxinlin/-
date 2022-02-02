@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T11:48:30.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="FwleOwlF6ukKrbE4X3Gi" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-02T12:31:03.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="8jyhJJ2nPgwajifX8YGt" version="16.2.7" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
-    <mxGraphModel dx="2259" dy="2987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2472" dy="2987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -529,13 +529,13 @@
         <mxCell id="r9P3kUow48pfhCPYGJET-206" value="流控100M或者1000条" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1000" y="670" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9P3kUow48pfhCPYGJET-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="r9P3kUow48pfhCPYGJET-207" target="r9P3kUow48pfhCPYGJET-202" edge="1">
+        <mxCell id="r9P3kUow48pfhCPYGJET-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="r9P3kUow48pfhCPYGJET-207" target="r9P3kUow48pfhCPYGJET-202" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="770" y="500" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1285" y="800" />
               <mxPoint x="900" y="800" />
-              <mxPoint x="900" y="503" />
+              <mxPoint x="900" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1165,22 +1165,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-459" value="服务端的信息&amp;lt;topic,服务端的messageQueue信息/&amp;gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="210" width="470" height="30" as="geometry" />
+          <mxGeometry x="1750" y="210" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-460" value="消费端的订阅信息 &amp;lt;topic，tag等订阅信息/&amp;gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="240" width="470" height="30" as="geometry" />
+          <mxGeometry x="1750" y="240" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-461" value="该jvm进程该消费者组对应的消费者应该处理的MessageQueue信息" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="270" width="470" height="30" as="geometry" />
+          <mxGeometry x="1750" y="270" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-464" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="r9P3kUow48pfhCPYGJET-462" target="r9P3kUow48pfhCPYGJET-461" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-713" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#FF3333;fillColor=#0000FF;" edge="1" parent="1" source="r9P3kUow48pfhCPYGJET-462" target="r9P3kUow48pfhCPYGJET-465">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-462" value="" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;shadow=1;fillColor=#66FF66;" parent="1" vertex="1">
-          <mxGeometry x="2290" y="240" width="30" height="30" as="geometry" />
+          <mxGeometry x="2168.75" y="240" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9P3kUow48pfhCPYGJET-465" value="rebalanceImpl的核心就是根据topicSubscribeInfoTable&lt;br&gt;处理processQueueTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" parent="1" vertex="1">
-          <mxGeometry x="2320" y="240" width="360" height="30" as="geometry" />
+          <mxGeometry x="1849.5" y="350" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-1" value="topicQueueTable" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="570" y="-10" width="100" height="40" as="geometry" />
@@ -2866,9 +2869,6 @@
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-685" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="1830" y="-1020" width="570" height="340" as="geometry" />
-        </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-686" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="2425" y="-1020" width="570" height="340" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-693" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FF3333;fillColor=#0000FF;" edge="1" parent="1" source="GdMtMQtGJzXE8QDH4rNj-687" target="GdMtMQtGJzXE8QDH4rNj-691">
           <mxGeometry relative="1" as="geometry" />

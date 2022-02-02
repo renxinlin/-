@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T11:45:43.375Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="qdGVRGeW9Gnqbx2GjvcD" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-02T11:48:30.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="FwleOwlF6ukKrbE4X3Gi" version="16.2.7" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2259" dy="2987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2927,7 +2927,7 @@
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-695" value="RebalancePushImpl[根据topic维度再平衡]" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="1830" y="-1150" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-696" value="allocateMessageQueueStrategy" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#D4E1F5;" vertex="1" parent="1">
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-696" value="allocateMessageQueueStrategy" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="1830" y="-1120" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-697" value="processQueueTable&lt;br&gt;消息队列和处理队列集合" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFFFCC;" vertex="1" parent="1">

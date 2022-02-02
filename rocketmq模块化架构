@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T11:25:15.457Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="-Ii-t5L6LCZb71A9JBbg" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-02T11:33:56.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_Z1EHjVmotOH8lx5ocoT" version="16.2.7" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2259" dy="1818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2870,7 +2870,7 @@
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-686" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="2425" y="-1020" width="570" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-687" value="RebalanceService" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-687" value="RebalanceService线程" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="1830" y="-731" width="570" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-688" value="MQClientInstance" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
@@ -2878,6 +2878,9 @@
         </mxCell>
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-689" value="consumerTable&lt;br&gt;MQConsumerInner集合" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="1830" y="-970" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-690" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="1829.75" y="-1140" width="570" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

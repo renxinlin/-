@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-03T14:11:46.280Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="2QLvq1FCq6S_qHnzJBLO" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-03T14:50:04.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="hpav4XuZf5g43Yn-PmvJ" version="16.5.2" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2145" dy="2914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3212,11 +3212,23 @@
         <mxCell id="5eNnoDTgfYno9o9qC_zR-37" value="&lt;b&gt;过&lt;br&gt;滤&lt;br&gt;器&lt;br&gt;的&lt;br&gt;构&lt;br&gt;建&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="2400" y="-120" width="38" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="5eNnoDTgfYno9o9qC_zR-39" value="&lt;b&gt;消息拉取&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
-          <mxGeometry x="2399.75" y="180" width="678.25" height="50" as="geometry" />
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-39" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2438" y="180" width="640" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5eNnoDTgfYno9o9qC_zR-40" value="&lt;b&gt;消息长轮询处理&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="2400" y="230" width="678.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-41" value="&lt;b&gt;消息&lt;br&gt;拉取&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="180" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-42" value="消息拉取" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="2438" y="180" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-43" value="基于消息拉取结果处理response响应头" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2438" y="210" width="312" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-44" value="执行消息hook" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2750" y="210" width="328" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

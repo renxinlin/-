@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-03T14:50:04.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="hpav4XuZf5g43Yn-PmvJ" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-03T15:04:27.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="eJmQFvPjVRpNK0sUKvOx" version="16.5.2" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2145" dy="2914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3221,6 +3221,9 @@
         <mxCell id="5eNnoDTgfYno9o9qC_zR-41" value="&lt;b&gt;消息&lt;br&gt;拉取&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="2400" y="180" width="38" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5eNnoDTgfYno9o9qC_zR-42" target="5eNnoDTgfYno9o9qC_zR-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5eNnoDTgfYno9o9qC_zR-42" value="消息拉取" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="2438" y="180" width="640" height="30" as="geometry" />
         </mxCell>
@@ -3229,6 +3232,64 @@
         </mxCell>
         <mxCell id="5eNnoDTgfYno9o9qC_zR-44" value="执行消息hook" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="2750" y="210" width="328" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-45" value="DefaultMessageStore.getMessage消息拉取" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="180" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-46" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="210" width="640" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-47" value="&lt;b&gt;获取ConsumeQueue&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="210" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.517;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5eNnoDTgfYno9o9qC_zR-48" target="5eNnoDTgfYno9o9qC_zR-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-53" value="获取32条" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5eNnoDTgfYno9o9qC_zR-50">
+          <mxGeometry x="0.0921" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-48" value="&lt;b&gt;判断offset是否位于minOffset和maxOffset之间&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="240" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-49" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="302.5" width="640" height="147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5eNnoDTgfYno9o9qC_zR-49" target="5eNnoDTgfYno9o9qC_zR-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3790" y="365" />
+              <mxPoint x="3790" y="280" />
+              <mxPoint x="3590" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-52" value="遍历800条" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5eNnoDTgfYno9o9qC_zR-51">
+          <mxGeometry x="0.1669" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-54" value="&lt;b&gt;获取consumequeue的offset size taghashcode信息&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="302.5" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-55" value="&lt;b&gt;判断本次预32条拉取是否完成,完成终止800条遍历&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="332.5" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-56" value="&lt;b&gt;tag hashcode过滤&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="362.5" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-59" value="&lt;b&gt;commitlog 数据获取&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="392.5" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-60" value="&lt;b&gt;commitlog sql92过滤&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3430" y="392.5" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-61" value="&lt;b&gt;是否推荐从节点读&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="422.5" width="140" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-63" value="&lt;b&gt;未被过滤消息添加到本次&lt;/b&gt;&lt;b&gt;拉取的消息集合&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="422.5" width="500" height="27.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

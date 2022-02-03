@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-03T13:53:07.752Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="QHuYKxEpLYvLKAqn1e-L" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-03T14:11:46.280Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="2QLvq1FCq6S_qHnzJBLO" version="16.5.2" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2145" dy="2914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3096,7 +3096,7 @@
           <mxGeometry x="2440" y="-500" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5eNnoDTgfYno9o9qC_zR-1" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="2438" y="-150" width="640" height="340" as="geometry" />
+          <mxGeometry x="2438" y="-150" width="640" height="330" as="geometry" />
         </mxCell>
         <mxCell id="5eNnoDTgfYno9o9qC_zR-2" value="PullMessageProcessor" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="2438" y="-150" width="640" height="30" as="geometry" />
@@ -3197,6 +3197,26 @@
         </mxCell>
         <mxCell id="5eNnoDTgfYno9o9qC_zR-29" value="过滤信息不存在" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="2994" y="70" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="5eNnoDTgfYno9o9qC_zR-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3100" y="-170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-32" value="sql92模式服务端是否支持filterSupportRetry" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="2438" y="130" width="640" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-36" value="根据subscriptionData和consumerFilterData元信息构建&lt;br&gt;ExpressionMessageFilter消息过滤器" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2434" y="150" width="644" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-37" value="&lt;b&gt;过&lt;br&gt;滤&lt;br&gt;器&lt;br&gt;的&lt;br&gt;构&lt;br&gt;建&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="-120" width="38" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-39" value="&lt;b&gt;消息拉取&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2399.75" y="180" width="678.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-40" value="&lt;b&gt;消息长轮询处理&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="230" width="678.25" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

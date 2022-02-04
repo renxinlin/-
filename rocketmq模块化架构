@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-04T15:10:05.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="CZ68u0K4b3M67Gx9DZI6" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-04T15:59:04.582Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Oxny7l9-AWk8MX1pJH9W" version="16.5.2" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
-    <mxGraphModel dx="2075" dy="2883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2310" dy="2986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3095,7 +3095,7 @@
         <mxCell id="GdMtMQtGJzXE8QDH4rNj-759" value="重置pullRequest的消费位点&lt;br&gt;移除掉对其的消费 &lt;br&gt;等待后续拉取nameServer相关信息触发变更&lt;br&gt;再触发再平衡后消费" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="2850" y="-500" width="230" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GdMtMQtGJzXE8QDH4rNj-761" value="触发消息消费&lt;br&gt;再次拉取" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" parent="1" vertex="1">
+        <mxCell id="GdMtMQtGJzXE8QDH4rNj-761" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;处理tag过滤&lt;/font&gt;&lt;/b&gt;&lt;br&gt;触发消息消费&lt;br&gt;再次拉取" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="2440" y="-500" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5eNnoDTgfYno9o9qC_zR-1" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#D4E1F5;" vertex="1" parent="1">
@@ -3343,6 +3343,11 @@
         </mxCell>
         <mxCell id="5eNnoDTgfYno9o9qC_zR-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5eNnoDTgfYno9o9qC_zR-72" target="5eNnoDTgfYno9o9qC_zR-67">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-108" value="同一对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5eNnoDTgfYno9o9qC_zR-74">
+          <mxGeometry x="0.0267" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5eNnoDTgfYno9o9qC_zR-72" value="ProcessQueue" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="2960.25" y="1015" width="100" height="50" as="geometry" />

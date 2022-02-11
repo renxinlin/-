@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T10:30:25.577Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="DTnqWKbRcTAuCcVrueiw" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T10:30:45.862Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="M0JdpQ4NO3zEEPacL2aE" version="16.5.2" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2521" dy="3078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3903,7 +3903,7 @@
         <mxCell id="5eNnoDTgfYno9o9qC_zR-297" value="消息于broker存在&lt;br&gt;响应成功&lt;br&gt;否则响应失败" style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="4250" y="3690" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5eNnoDTgfYno9o9qC_zR-299" value="SendMessageProcessor" style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-299" value="EndTransactionProcessor" style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="3550" y="3740" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5eNnoDTgfYno9o9qC_zR-302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;strokeColor=#00FF00;" edge="1" parent="1" source="5eNnoDTgfYno9o9qC_zR-301" target="5eNnoDTgfYno9o9qC_zR-287">

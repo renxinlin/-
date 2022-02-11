@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T10:28:51.290Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="43dqYic7b8BzHVPkpgx-" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T10:30:08.552Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Fd4n22jQvMNnH1XK9dte" version="16.5.2" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2222" dy="2947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3885,11 +3885,11 @@
         <mxCell id="5eNnoDTgfYno9o9qC_zR-292" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeColor=#B5739D;" edge="1" parent="1" source="5eNnoDTgfYno9o9qC_zR-289" target="5eNnoDTgfYno9o9qC_zR-291">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5eNnoDTgfYno9o9qC_zR-289" value="parseHalfMessageInner" style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="4480" y="3530" width="160" height="49" as="geometry" />
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-289" value="parseHalfMessageInner&lt;br&gt;&lt;b&gt;RMQ_SYS_TRANS_HALF_TOPIC&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="4480" y="3530" width="270" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="5eNnoDTgfYno9o9qC_zR-291" value="DefaultMessageStore&lt;br&gt;." style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="4750" y="3591" width="160" height="49" as="geometry" />
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-291" value="DefaultMessageStore&lt;br&gt;." style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="4770" y="3591" width="160" height="49" as="geometry" />
         </mxCell>
         <mxCell id="5eNnoDTgfYno9o9qC_zR-306" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;strokeColor=#00FF00;" edge="1" parent="1" source="5eNnoDTgfYno9o9qC_zR-295" target="5eNnoDTgfYno9o9qC_zR-304">
           <mxGeometry relative="1" as="geometry" />
@@ -3930,7 +3930,7 @@
         <mxCell id="5eNnoDTgfYno9o9qC_zR-311" value="sendFinalMessage&lt;br&gt;落盘commit消息 &lt;br&gt;[消费者可消费] 发送到真实主题" style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="4250" y="3790" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5eNnoDTgfYno9o9qC_zR-313" value="deletePrepareMessage&lt;br&gt;删除half消息&lt;br&gt;RMQ_SYS_TRANS_OP_HALF_TOPIC" style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-313" value="deletePrepareMessage&lt;br&gt;删除half消息&lt;br&gt;&lt;b&gt;RMQ_SYS_TRANS_OP_HALF_TOPIC&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="4480" y="3790" width="270" height="50" as="geometry" />
         </mxCell>
       </root>

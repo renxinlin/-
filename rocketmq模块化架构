@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T12:00:15.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="tEVJdv8_VDJhkL5_BynI" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T13:18:40.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="jxsbYRd7cfBJuk4JfG5d" version="16.5.2" type="github">
   <diagram id="crfA2QIqD1aeVpx_zon8" name="Page-1">
     <mxGraphModel dx="2521" dy="3078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3948,6 +3948,27 @@
         </mxCell>
         <mxCell id="5eNnoDTgfYno9o9qC_zR-313" value="deletePrepareMessage&lt;br&gt;删除half消息&lt;br&gt;&lt;b&gt;RMQ_SYS_TRANS_OP_HALF_TOPIC&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="4480" y="3790" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-322" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;strokeColor=#00FF00;" edge="1" parent="1" source="5eNnoDTgfYno9o9qC_zR-320" target="5eNnoDTgfYno9o9qC_zR-321">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-320" value="消费者启动订阅&lt;br&gt;%RETRY%消费组" style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3690" y="4080" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-324" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;strokeColor=#00FF00;" edge="1" parent="1" source="5eNnoDTgfYno9o9qC_zR-321" target="5eNnoDTgfYno9o9qC_zR-323">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-321" value="消费者消费失败发送重试消息&lt;br&gt;topic= %RETRY%+消费者组" style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="3960" y="4080" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-326" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;strokeColor=#00FF00;" edge="1" parent="1" source="5eNnoDTgfYno9o9qC_zR-323" target="5eNnoDTgfYno9o9qC_zR-325">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-323" value="MQ修改为延时消息&lt;br&gt;3~18级共重试16次" style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="4270" y="4080" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5eNnoDTgfYno9o9qC_zR-325" value="ScheduleMessageServicei处理延迟消息&lt;br&gt;发送至真正的主题" style="html=1;dashed=0;whitespace=wrap;fontSize=14;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="4600" y="4080" width="260" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

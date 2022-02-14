@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T11:44:37.545Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="d_aZ525M6iRFDqdvBK_S" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T11:45:57.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="JUHBaE2uQV8Hi8ajWyRd" version="16.5.6" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
     <mxGraphModel dx="2310" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -770,8 +770,8 @@
         <mxCell id="5ZGW7C6mTJEroUHkogU0-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=6;strokeColor=#3399FF;fillColor=#00FF00;" edge="1" parent="1" source="5ZGW7C6mTJEroUHkogU0-100" target="5ZGW7C6mTJEroUHkogU0-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5ZGW7C6mTJEroUHkogU0-100" value="ROOT_NODE" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#E6FFCC;" vertex="1" parent="1">
-          <mxGeometry x="2365" y="1754" width="90" height="50" as="geometry" />
+        <mxCell id="5ZGW7C6mTJEroUHkogU0-100" value="Constants.ROOT_NODE" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="2365" y="1750" width="145" height="54" as="geometry" />
         </mxCell>
         <mxCell id="5ZGW7C6mTJEroUHkogU0-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=6;strokeColor=#3399FF;fillColor=#00FF00;" edge="1" parent="1" source="5ZGW7C6mTJEroUHkogU0-101" target="5ZGW7C6mTJEroUHkogU0-114">
           <mxGeometry relative="1" as="geometry" />
@@ -786,13 +786,29 @@
           <mxGeometry x="2425" y="1944" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5ZGW7C6mTJEroUHkogU0-104" value="resoucename2" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#E6FFCC;" vertex="1" parent="1">
-          <mxGeometry x="1870" y="2110" width="100" height="50" as="geometry" />
+          <mxGeometry x="1870" y="2120" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5ZGW7C6mTJEroUHkogU0-108" value="contextHolder&lt;br&gt;存储所有context" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="1870" y="2270" width="120" height="50" as="geometry" />
+        <mxCell id="5ZGW7C6mTJEroUHkogU0-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=6;strokeColor=#3399FF;fillColor=#00FF00;" edge="1" parent="1" source="5ZGW7C6mTJEroUHkogU0-108" target="5ZGW7C6mTJEroUHkogU0-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1930" y="2180" />
+              <mxPoint x="1980" y="2180" />
+              <mxPoint x="1980" y="2110" />
+              <mxPoint x="1920" y="2110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="5ZGW7C6mTJEroUHkogU0-109" value="contextNameNodeMap&lt;br&gt;存储所有EntranceNode" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="2270" width="150" height="50" as="geometry" />
+        <mxCell id="5ZGW7C6mTJEroUHkogU0-108" value="ContextUtil.contextHolder&lt;br&gt;存储所有context" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="2270" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZGW7C6mTJEroUHkogU0-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=6;strokeColor=#3399FF;fillColor=#00FF00;" edge="1" parent="1" source="5ZGW7C6mTJEroUHkogU0-109" target="5ZGW7C6mTJEroUHkogU0-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZGW7C6mTJEroUHkogU0-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.613;entryY=0.965;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=6;strokeColor=#3399FF;fillColor=#00FF00;" edge="1" parent="1" source="5ZGW7C6mTJEroUHkogU0-109" target="5ZGW7C6mTJEroUHkogU0-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZGW7C6mTJEroUHkogU0-109" value="ContextUtil.contextNameNodeMap&lt;br&gt;存储所有EntranceNode" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="2270" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5ZGW7C6mTJEroUHkogU0-110" value="resoucename3" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#99FF99;" vertex="1" parent="1">
           <mxGeometry x="2110" y="1830" width="100" height="50" as="geometry" />

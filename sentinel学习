@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T09:37:37.993Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="lzFkaZ2ch4m1-I2Oj6PK" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T09:39:45.571Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="DNqG-9-1-W7VV1B07upM" version="16.5.6" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
     <mxGraphModel dx="2408" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -478,6 +478,15 @@
         </mxCell>
         <mxCell id="5ZGW7C6mTJEroUHkogU0-17" value="sentinel-dashboard" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1130" y="2060" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZGW7C6mTJEroUHkogU0-18" value="sentinel-extension" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1353" y="2060" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZGW7C6mTJEroUHkogU0-19" value="sentinel-transport" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2180" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZGW7C6mTJEroUHkogU0-20" value="sentinel-adapter" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2350" width="210" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

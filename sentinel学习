@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T11:00:44.793Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="UsDXLSQLvHDxw9vUWd7W" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T11:22:59.971Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="GPV6bQsZWBNkb7i6yyM8" version="16.5.6" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
-    <mxGraphModel dx="2222" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2310" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,7 +186,7 @@
         <mxCell id="jZ0KXaKC7n5OBmgWtSZm-48" value="FlowSlot调用flowRuleManger&lt;br&gt;获取所有规则与DefaultNode进行比较&lt;br&gt;得出是否限流" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1180" y="1250" width="280" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jZ0KXaKC7n5OBmgWtSZm-49" value="FlowSlot调用flowRuleManger&lt;br&gt;获取所有规则与DefaultNode进行比较&lt;br&gt;得出是否限流" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="jZ0KXaKC7n5OBmgWtSZm-49" value="DegradeSlot" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1460" y="1250" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-1" value="context" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
@@ -219,7 +219,7 @@
         <mxCell id="yPmX36HcYc68Sp4VG16W-24" value="FlowSlot调用flowRuleManger&lt;br&gt;获取所有规则与DefaultNode进行比较&lt;br&gt;得出是否限流" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1180" y="1330" width="280" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yPmX36HcYc68Sp4VG16W-25" value="FlowSlot调用flowRuleManger&lt;br&gt;获取所有规则与DefaultNode进行比较&lt;br&gt;得出是否限流" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="yPmX36HcYc68Sp4VG16W-25" value="DegradeSlot" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1460" y="1330" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yPmX36HcYc68Sp4VG16W-27" target="yPmX36HcYc68Sp4VG16W-28" edge="1">
@@ -249,7 +249,7 @@
         <mxCell id="yPmX36HcYc68Sp4VG16W-34" value="FlowSlot调用flowRuleManger&lt;br&gt;获取所有规则与DefaultNode进行比较&lt;br&gt;得出是否限流" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1180" y="1400" width="280" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yPmX36HcYc68Sp4VG16W-35" value="FlowSlot调用flowRuleManger&lt;br&gt;获取所有规则与DefaultNode进行比较&lt;br&gt;得出是否限流" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
+        <mxCell id="yPmX36HcYc68Sp4VG16W-35" value="DegradeSlot" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1460" y="1400" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yPmX36HcYc68Sp4VG16W-37" value="&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt;/**&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt; * contextname上限&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt; */&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;public final static int &lt;/span&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold ; font-style: italic&quot;&gt;MAX_CONTEXT_NAME_SIZE &lt;/span&gt;= &lt;span style=&quot;color: #0000ff&quot;&gt;2000&lt;/span&gt;;&lt;br&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt;/**&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt; *  一个resource一个SLOT_CHAIN  也就是资源数上限&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #808080 ; font-style: italic&quot;&gt; */&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;public final static int &lt;/span&gt;&lt;span style=&quot;color: #660e7a ; font-weight: bold ; font-style: italic&quot;&gt;MAX_SLOT_CHAIN_SIZE &lt;/span&gt;= &lt;span style=&quot;color: #0000ff&quot;&gt;6000&lt;/span&gt;;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;contextname和资源数超过指定数目不进行限流&lt;/pre&gt;" style="shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T08:07:31.503Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="KvkYcyuNND_Iap4Ew4P0" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-15T08:07:55.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="7xkywyo7zIqCwotE9zIF" version="16.5.6" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
     <mxGraphModel dx="2978" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -881,6 +881,14 @@
         </mxCell>
         <mxCell id="5ZGW7C6mTJEroUHkogU0-125" value="entry" style="html=1;dashed=0;whitespace=wrap;shadow=1;fontSize=6;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="2100" y="1770" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="pEZVygPoDSi8GOXMLe03-4" target="pEZVygPoDSi8GOXMLe03-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-55" value="RULE CHECK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="pEZVygPoDSi8GOXMLe03-54">
+          <mxGeometry x="-0.3723" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pEZVygPoDSi8GOXMLe03-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;created Meta Pool&lt;/font&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="475" y="3150" width="260" height="110" as="geometry" />

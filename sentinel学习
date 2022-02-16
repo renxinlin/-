@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T08:49:20.966Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="6M59WdYyno8lT6waUpcZ" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T08:51:31.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="930Lcy9OVPM8iwhwIbfD" version="16.5.6" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
     <mxGraphModel dx="3526" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1572,6 +1572,15 @@
         </mxCell>
         <mxCell id="pEZVygPoDSi8GOXMLe03-320" value="DegradeSlot降级" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=24;fillColor=#00FF00;" vertex="1" parent="1">
           <mxGeometry x="1407.5" y="5250" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-329" value="NodeSelectorSlot" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=24;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="395" y="4930" width="225" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-330" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=24;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="395" y="4810" width="225" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-331" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=24;fillColor=#99FFFF;" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="4720" width="225" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

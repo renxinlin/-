@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T09:08:15.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="MlcHVgSKz7zc1V6E-GiU" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T09:17:09.935Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="z3Re3IH05wAUAu-nNRkr" version="16.5.6" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
-    <mxGraphModel dx="3682" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3086" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1687,6 +1687,60 @@
         </mxCell>
         <mxCell id="pEZVygPoDSi8GOXMLe03-366" value="&lt;div style=&quot;font-size: 24px ; text-align: left&quot;&gt;一个资源&lt;/div&gt;&lt;div style=&quot;font-size: 24px ; text-align: left&quot;&gt;有且仅有&lt;/div&gt;&lt;div style=&quot;font-size: 24px ; text-align: left&quot;&gt;一个clusterNode&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="395" y="5150" width="225" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-367" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="4720" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-369" value="分钟级样本窗口&lt;br&gt;rollingCounterInMinute" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1392.5" y="4650" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-370" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="4730" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-371" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="4720" width="490" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-372" value="样本滑动窗口类结构设计" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="4670" width="183" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-373" value="StatisticNode包含监控统计信息&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="4720" width="213" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-374" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pEZVygPoDSi8GOXMLe03-375" target="pEZVygPoDSi8GOXMLe03-376">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-375" value="&lt;div&gt;Metric rollingCounterInSecond&lt;/div&gt;&lt;div&gt;Metric rollingCounterInMinute&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="4770" width="213" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-376" value="ArrayMetric 看做功能层面&lt;br&gt;封装了一系列对滑动窗口的操作" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2433" y="4760" width="177" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-377" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pEZVygPoDSi8GOXMLe03-378" target="pEZVygPoDSi8GOXMLe03-379">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-378" value="&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;data&lt;/span&gt;LeapArray存储滑动窗口数据" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2433" y="4820" width="177" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-379" value="LeapArray滑动窗口存储层接口" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="4840" width="283" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-380" value="AtomicReferenceArray&amp;lt;WindowWrap&amp;lt;MetricBucket&amp;gt;&amp;gt;&amp;nbsp;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="4890" width="283" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-381" value="AtomicReferenceArray滑动窗口 WindowWrap样本窗口MetricBucket 样本窗口统计数据" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="4940" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-382" value="AtomicReferenceArray&lt;br&gt;被作为环形数组使用" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2473" y="4870" width="137" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-383" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="4720" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-384" value="分钟级样本窗口&lt;br&gt;rollingCounterInMinute" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1777.5" y="4650" width="205" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pEZVygPoDSi8GOXMLe03-385" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;fontSize=18;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="4730" width="240" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

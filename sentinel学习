@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T07:41:50.359Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="KqdKbe-BHl5KtZuutxeF" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T07:44:39.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="GeHJYcMqLWAtNOPZMShz" version="16.5.6" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
     <mxGraphModel dx="3235" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2254,6 +2254,44 @@
         </mxCell>
         <mxCell id="L6XbOFRtN2QY8mL9mEoi-154" value="AOP" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="3370" y="2710" width="100" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.444;entryY=1.047;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;fillColor=#00FF00;" edge="1" parent="1" source="L6XbOFRtN2QY8mL9mEoi-155" target="L6XbOFRtN2QY8mL9mEoi-156">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2590" y="2950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-162" value="READ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L6XbOFRtN2QY8mL9mEoi-158">
+          <mxGeometry x="0.5562" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-155" value="REGISTER CENTER" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="2950" width="1150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#00FF00;" edge="1" parent="1" source="L6XbOFRtN2QY8mL9mEoi-156" target="L6XbOFRtN2QY8mL9mEoi-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-160" value="&amp;nbsp; &amp;nbsp;WRITE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L6XbOFRtN2QY8mL9mEoi-157">
+          <mxGeometry x="-0.0571" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-156" value="REGISTER API" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="2830" width="1150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-163" value="ZK" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="3000" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-164" value="NACOS" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="3000" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-165" value="REDIS" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="3000" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-166" value="ETCD......" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="3000" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

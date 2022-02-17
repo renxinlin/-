@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T03:59:35.852Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="_Xy_vm95UfisQDTePMY0" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T05:35:39.708Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="N8N-QhJZuMXe7MgwsZKT" version="16.5.6" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
-    <mxGraphModel dx="3348" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2566" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2010,13 +2010,20 @@
           <mxGeometry x="910.5" y="6018" width="160" height="22" as="geometry" />
         </mxCell>
         <mxCell id="L6XbOFRtN2QY8mL9mEoi-41" value="DefaultEmbeddedTokenServer&lt;br&gt;嵌入式模式" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="598" y="5400" width="182" height="50" as="geometry" />
+          <mxGeometry x="815.5" y="5320" width="182" height="50" as="geometry" />
         </mxCell>
         <mxCell id="L6XbOFRtN2QY8mL9mEoi-42" value="SentinelDefaultTokenServer&lt;br&gt;独立部署模式" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="797.5" y="5400" width="182.5" height="50" as="geometry" />
+          <mxGeometry x="622.5" y="5320" width="182.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="L6XbOFRtN2QY8mL9mEoi-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.451;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L6XbOFRtN2QY8mL9mEoi-43" target="L6XbOFRtN2QY8mL9mEoi-41">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L6XbOFRtN2QY8mL9mEoi-43" target="L6XbOFRtN2QY8mL9mEoi-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1221" y="5565" />
+              <mxPoint x="1221" y="5280" />
+              <mxPoint x="907" y="5280" />
+              <mxPoint x="907" y="5320" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="L6XbOFRtN2QY8mL9mEoi-43" value="ClusterStateManager" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1010" y="5540" width="190.5" height="50" as="geometry" />
@@ -2032,6 +2039,9 @@
         </mxCell>
         <mxCell id="L6XbOFRtN2QY8mL9mEoi-45" value="DynamicSentinelProperty&lt;br&gt;监听" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1010" y="5400" width="189" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-49" value="ZookeeperDataSource" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="5320" width="189" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

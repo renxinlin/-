@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T05:35:39.708Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="N8N-QhJZuMXe7MgwsZKT" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T05:41:24.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="dq_enAOIfMlLiMQydEfd" version="16.5.6" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
-    <mxGraphModel dx="2566" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2840" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2015,13 +2015,11 @@
         <mxCell id="L6XbOFRtN2QY8mL9mEoi-42" value="SentinelDefaultTokenServer&lt;br&gt;独立部署模式" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="622.5" y="5320" width="182.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="L6XbOFRtN2QY8mL9mEoi-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L6XbOFRtN2QY8mL9mEoi-43" target="L6XbOFRtN2QY8mL9mEoi-41">
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.805;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L6XbOFRtN2QY8mL9mEoi-43" target="L6XbOFRtN2QY8mL9mEoi-41">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1221" y="5565" />
-              <mxPoint x="1221" y="5280" />
-              <mxPoint x="907" y="5280" />
-              <mxPoint x="907" y="5320" />
+              <mxPoint x="1105" y="5600" />
+              <mxPoint x="962" y="5600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2040,8 +2038,36 @@
         <mxCell id="L6XbOFRtN2QY8mL9mEoi-45" value="DynamicSentinelProperty&lt;br&gt;监听" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1010" y="5400" width="189" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L6XbOFRtN2QY8mL9mEoi-49" target="L6XbOFRtN2QY8mL9mEoi-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="L6XbOFRtN2QY8mL9mEoi-49" value="ZookeeperDataSource" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1010" y="5320" width="189" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L6XbOFRtN2QY8mL9mEoi-51" target="L6XbOFRtN2QY8mL9mEoi-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-51" value="zookeeper" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="1075.25" y="5210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.001;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="L6XbOFRtN2QY8mL9mEoi-55" target="L6XbOFRtN2QY8mL9mEoi-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="999.9999999999995" y="5239.999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-55" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Vdeo_Conference_Terminal.svg;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="969.1" y="5212" width="31.8" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.94;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0.624;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L6XbOFRtN2QY8mL9mEoi-57" target="L6XbOFRtN2QY8mL9mEoi-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-60" value="/v2/flow" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L6XbOFRtN2QY8mL9mEoi-58">
+          <mxGeometry x="-0.146" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-57" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.account_portal" vertex="1" parent="1">
+          <mxGeometry x="852" y="5207.5" width="43" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

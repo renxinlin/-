@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T07:15:43.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="jan3RKDJ0Q0J_nXd2Vdl" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T07:18:36.815Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="PoCNl9Eley2fD0GZGUyJ" version="16.5.6" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
-    <mxGraphModel dx="3631" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4026" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2021,6 +2021,9 @@
         <mxCell id="L6XbOFRtN2QY8mL9mEoi-39" value="业&lt;br&gt;务&lt;br&gt;层" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6FFCC;" vertex="1" parent="1">
           <mxGeometry x="1360" y="6054" width="50" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;fillColor=#00FF00;" edge="1" parent="1" source="L6XbOFRtN2QY8mL9mEoi-40" target="L6XbOFRtN2QY8mL9mEoi-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="L6XbOFRtN2QY8mL9mEoi-40" value="token为获取的qps令牌数" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCFF;" vertex="1" parent="1">
           <mxGeometry x="910.5" y="6132" width="160" height="22" as="geometry" />
         </mxCell>
@@ -2212,6 +2215,9 @@
         </mxCell>
         <mxCell id="L6XbOFRtN2QY8mL9mEoi-122" value="http组件" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="1511.25" y="5710" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L6XbOFRtN2QY8mL9mEoi-133" value="ClusterParamFlowChecker&lt;br&gt;计数器限流" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="880" y="6210" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

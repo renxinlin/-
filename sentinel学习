@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-20T13:09:54.340Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="_4mlusdPhKCpznctUlsa" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-20T13:11:33.695Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="oLQs6j9hgEAIF65Lb2gs" version="16.5.6" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
-    <mxGraphModel dx="3742" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3220" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1708,7 +1708,7 @@
         <mxCell id="pEZVygPoDSi8GOXMLe03-367" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;fontSize=18;fillColor=#FFFFCC;" parent="1" vertex="1">
           <mxGeometry x="1368" y="4724" width="249" height="249" as="geometry" />
         </mxCell>
-        <mxCell id="pEZVygPoDSi8GOXMLe03-369" value="秒级样本窗口&lt;br&gt;rollingCounterInSecond" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="pEZVygPoDSi8GOXMLe03-369" value="秒级样本窗口Metric&lt;br&gt;rollingCounterInSecond" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1392.5" y="4650" width="205" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pEZVygPoDSi8GOXMLe03-370" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;fontSize=18;fillColor=#FFFFFF;" parent="1" vertex="1">
@@ -1833,7 +1833,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pEZVygPoDSi8GOXMLe03-420" value="分钟级样本窗口&lt;br&gt;rollingCounterInMinute" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="pEZVygPoDSi8GOXMLe03-420" value="分钟级样本窗口Metric&lt;br&gt;rollingCounterInMinute" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1809.5" y="4650" width="205" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pEZVygPoDSi8GOXMLe03-421" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;fontSize=18;fillColor=#FFFFFF;" parent="1" vertex="1">

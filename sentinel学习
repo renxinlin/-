@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-20T13:05:41.519Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="eQflP706bGhjeTSOnfDD" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-20T13:06:14.709Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="VU-9xGdLwWY-XSOtt7L2" version="16.5.6" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
     <mxGraphModel dx="3444" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2720,10 +2720,26 @@
         <mxCell id="x9EN_cJL-Lq9eQsL8V6p-34" value="按行解析&lt;br&gt;MetricNode node = MetricNode.&lt;b&gt;fromFatString&lt;/b&gt;(line)&amp;nbsp;&lt;br&gt;匹配资源唯一标志符" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="2682" y="4450" width="375" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="x9EN_cJL-Lq9eQsL8V6p-36" value="MetricTimerListener" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="4490" width="100" height="50" as="geometry" />
+        <mxCell id="x9EN_cJL-Lq9eQsL8V6p-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#00FF00;" edge="1" parent="1" source="x9EN_cJL-Lq9eQsL8V6p-36" target="x9EN_cJL-Lq9eQsL8V6p-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x9EN_cJL-Lq9eQsL8V6p-38" value="文件" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#CCE5FF;" vertex="1" parent="1">
+        <mxCell id="x9EN_cJL-Lq9eQsL8V6p-44" value="write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x9EN_cJL-Lq9eQsL8V6p-43">
+          <mxGeometry x="-0.0318" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x9EN_cJL-Lq9eQsL8V6p-36" value="MetricTimerListener" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="4450" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x9EN_cJL-Lq9eQsL8V6p-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fillColor=#00FF00;" edge="1" parent="1" source="x9EN_cJL-Lq9eQsL8V6p-38" target="x9EN_cJL-Lq9eQsL8V6p-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x9EN_cJL-Lq9eQsL8V6p-42" value="read" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x9EN_cJL-Lq9eQsL8V6p-40">
+          <mxGeometry x="-0.221" y="-7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x9EN_cJL-Lq9eQsL8V6p-38" value="磁盘文件" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="2171.25" y="4435" width="60" height="80" as="geometry" />
         </mxCell>
       </root>

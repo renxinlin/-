@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T02:42:42.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="_UV4aLkr8sDET38gG-ny" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T02:43:14.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Djl4gCHT_yd49P4ssdKS" version="16.6.1" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
     <mxGraphModel dx="3235" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2949,9 +2949,6 @@
         <mxCell id="x9EN_cJL-Lq9eQsL8V6p-111" value="MetricNode" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=14;fillColor=#CCE5FF;" parent="1" vertex="1">
           <mxGeometry x="4160" y="5150" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="A1s1s3nkhb1EcegPAI6H-2" value="管控台" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="4120" y="1870" width="100" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="A1s1s3nkhb1EcegPAI6H-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A1s1s3nkhb1EcegPAI6H-4" target="A1s1s3nkhb1EcegPAI6H-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -3042,6 +3039,14 @@
         </mxCell>
         <mxCell id="A1s1s3nkhb1EcegPAI6H-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF3333;" edge="1" parent="1" source="A1s1s3nkhb1EcegPAI6H-8" target="A1s1s3nkhb1EcegPAI6H-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="1" target="A1s1s3nkhb1EcegPAI6H-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4175" y="1883" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-36" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;labelBackgroundColor=#FF3333;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="4160" y="1870" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T02:30:08.779Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="0dWcv0RFp-JGbPwG62IL" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T02:31:30.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="xgoDHCLiZ26_UNN1dUXj" version="16.6.1" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
     <mxGraphModel dx="3137" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2976,7 +2976,7 @@
         <mxCell id="A1s1s3nkhb1EcegPAI6H-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A1s1s3nkhb1EcegPAI6H-11" target="A1s1s3nkhb1EcegPAI6H-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A1s1s3nkhb1EcegPAI6H-11" value="运维基于管控台&lt;br&gt;数据构建&lt;br&gt;consumeGroup" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-11" value="运维基于管控台&lt;br&gt;构建新的&lt;br&gt;consumeGroup" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="4530" y="1932" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="A1s1s3nkhb1EcegPAI6H-12" value="基于group和版本号&lt;br&gt;向ons创建" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">

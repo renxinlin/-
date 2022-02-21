@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T02:23:02.733Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Z_V6uRxDem_budvqOcCk" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T02:25:27.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="vu9We-3W76OAjXeGHHbn" version="16.6.1" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
-    <mxGraphModel dx="2566" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3137" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2949,8 +2949,29 @@
         <mxCell id="x9EN_cJL-Lq9eQsL8V6p-111" value="MetricNode" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=14;fillColor=#CCE5FF;" parent="1" vertex="1">
           <mxGeometry x="4160" y="5150" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="A1s1s3nkhb1EcegPAI6H-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="3970" y="1870" width="100" height="50" as="geometry" />
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-2" value="管控台" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4120" y="1870" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A1s1s3nkhb1EcegPAI6H-4" target="A1s1s3nkhb1EcegPAI6H-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-4" value="consumegroup&lt;br&gt;创建" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4400" y="1870" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-5" value="需求阶段" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3970" y="1800" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-6" value="开发阶段" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4250" y="1800" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-7" value="发布阶段" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4530" y="1800" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-8" value="测试阶段" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4810" y="1800" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-9" value="ons&lt;br&gt;创建consumegroup" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4400" y="1994" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

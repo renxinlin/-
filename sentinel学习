@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T02:32:41.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="_eSAYPpBCLf4iID4opd-" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T02:35:42.231Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="JBMtyqD1KL2Yc5frE9aZ" version="16.6.1" type="github">
   <diagram id="EmIIKKkNHc-ExxnbfPOY" name="Page-1">
     <mxGraphModel dx="3137" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2999,8 +2999,34 @@
         <mxCell id="A1s1s3nkhb1EcegPAI6H-15" value="管控台提供应用&lt;br&gt;consumeGroup集合" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="4530" y="1870" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A1s1s3nkhb1EcegPAI6H-17" target="A1s1s3nkhb1EcegPAI6H-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-23" value="全部创建成功 启动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A1s1s3nkhb1EcegPAI6H-22">
+          <mxGeometry x="-0.0924" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="A1s1s3nkhb1EcegPAI6H-17" value="ons&lt;br&gt;创建consumegroup" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="4665" y="2010" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="A1s1s3nkhb1EcegPAI6H-19" target="A1s1s3nkhb1EcegPAI6H-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4840" y="1890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-26" value="&lt;font color=&quot;#ff3333&quot;&gt;环境变量注入版本号&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A1s1s3nkhb1EcegPAI6H-25">
+          <mxGeometry x="0.0381" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-19" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=rgb(0, 0, 0);shadow=0;dashed=0;shape=mxgraph.ios7.icons.delete;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
+          <mxGeometry x="4810" y="1927" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A1s1s3nkhb1EcegPAI6H-24" value="agent&lt;br&gt;修改consumegroup&lt;br&gt;名称" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4960" y="1877" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

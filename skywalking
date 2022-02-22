@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T08:13:43.525Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="E3_hxPHwuRPvoHPWIj63" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-22T08:25:35.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="k6H4mvjg80Jeg0JzFQwG" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="3964" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-219" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="2090" width="630" height="185" as="geometry" />
+        </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-121" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="-1180" y="1250" width="500" height="221" as="geometry" />
         </mxCell>
@@ -762,22 +765,25 @@
           <mxGeometry x="-1065" y="2260" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-213" value="DynamicConfigurationService" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="2080" width="190" height="50" as="geometry" />
+          <mxGeometry x="-570" y="2090" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-214" value="ModuleProvider" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="2020" width="190" height="50" as="geometry" />
+          <mxGeometry x="-560" y="1980" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-215" value="ConfigWatcherRegister" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="2140" width="190" height="50" as="geometry" />
+          <mxGeometry x="-570" y="2155" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-216" value="NacosConfigWatcherRegister" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="2210" width="190" height="50" as="geometry" />
+          <mxGeometry x="-570" y="2225" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-217" value="ZookeeperConfigWatcherRegister" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-860" y="2210" width="190" height="50" as="geometry" />
+          <mxGeometry x="-780" y="2225" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-218" value="ApolloConfigWatcherRegister" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="2210" width="190" height="50" as="geometry" />
+          <mxGeometry x="-340" y="2225" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-220" value="ModuleProvider" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="1980" width="190" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

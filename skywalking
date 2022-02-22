@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T08:51:22.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="nCq3UNn9Y6c7bXxT9me2" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-22T08:52:02.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="7jYls42bDDC4vjEm88Yk" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
-    <mxGraphModel dx="3964" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3876" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="i1ZpZ4VTBthG-D3nko27-236" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="1980" width="830" height="590" as="geometry" />
+          <mxGeometry x="-800" y="2010" width="740" height="470" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-219" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="-780" y="2090" width="630" height="185" as="geometry" />
@@ -771,7 +771,7 @@
           <mxGeometry x="-570" y="2090" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-214" value="NoneConfigurationProvider&lt;br&gt;&amp;nbsp;ApolloConfigWatcherRegister" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-570" y="1980" width="190" height="50" as="geometry" />
+          <mxGeometry x="-570" y="2020" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-215" value="ConfigWatcherRegister" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="-570" y="2155" width="190" height="50" as="geometry" />
@@ -803,13 +803,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-223" value="获取远程配置" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="-525" y="2380" width="100" height="50" as="geometry" />
+          <mxGeometry x="-525" y="2288" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-228" target="i1ZpZ4VTBthG-D3nko27-213">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-10" y="2489" />
-              <mxPoint x="-10" y="2115" />
+              <mxPoint x="-140" y="2375" />
+              <mxPoint x="-140" y="2115" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -819,19 +819,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-228" value="ConfigChangeWatcher" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="-570" y="2464" width="190" height="50" as="geometry" />
+          <mxGeometry x="-570" y="2350" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-232" value="ConfigurationModule" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="1980" width="190" height="50" as="geometry" />
+          <mxGeometry x="-780" y="2020" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-233" value="刷新配置" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="-570" y="2514" width="190" height="50" as="geometry" />
+          <mxGeometry x="-570" y="2400" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-237" value="CoreModuleProvider" style="html=1;dashed=0;whitespace=wrap;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="2600" width="120" height="50" as="geometry" />
+          <mxGeometry x="-800" y="2480" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-240" value="其他模块..." style="html=1;dashed=0;whitespace=wrap;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="2600" width="120" height="50" as="geometry" />
+          <mxGeometry x="-670" y="2480" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-241" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
           <mxGeometry x="-1490" y="1954" width="210" height="50" as="geometry" />

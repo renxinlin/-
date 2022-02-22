@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T09:18:14.244Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Flgu_vrN960H4hdZvMv7" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-22T09:22:00.163Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="kG0B3mzMcBr2YbMco0zV" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="3724" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -918,6 +918,12 @@
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-266" value="OAP_SERVER" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-710" y="2850" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-270" value="GRPC_SERVER" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="2740" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-271" value="6.x之后,trace jvm监控 服务实例注册&amp;nbsp; 心跳等都是通过grpc完成" style="html=1;dashed=0;whitespace=wrap;shadow=0;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="2580" width="450" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

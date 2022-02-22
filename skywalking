@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T12:35:32.724Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="1Feg7vQ5WqNsJfWWjHWr" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-22T12:40:37.105Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="WJl1pn3LhM-N9CH9nCbw" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="5172" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -971,67 +971,67 @@
           <mxGeometry x="-2430" y="2780" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-333" value="oap-server模块" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-3200" y="1540" width="210" height="50" as="geometry" />
+          <mxGeometry x="-3200" y="1430" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-334" value="作用" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-2990" y="1540" width="210" height="50" as="geometry" />
+          <mxGeometry x="-2990" y="1430" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-336" value="oal-grammar&lt;br&gt;oal-rt" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-3200" y="2090" width="210" height="50" as="geometry" />
+          <mxGeometry x="-3200" y="1980" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-337" value="oal语言相关,不做了解" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-2990" y="2090" width="210" height="50" as="geometry" />
+          <mxGeometry x="-2990" y="1980" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-340" value="server-alarm-plugin" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-3200" y="1990" width="210" height="50" as="geometry" />
+          <mxGeometry x="-3200" y="1880" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-341" value="告警模块" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-2990" y="1990" width="210" height="50" as="geometry" />
+          <mxGeometry x="-2990" y="1880" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-342" value="server-bootstrap" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-3200" y="1640" width="210" height="50" as="geometry" />
+          <mxGeometry x="-3200" y="1530" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-343" value="负责server端的启动" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-2990" y="1640" width="210" height="50" as="geometry" />
+          <mxGeometry x="-2990" y="1530" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-344" value="&lt;div&gt;server-starter&lt;/div&gt;&lt;div&gt;server-starter-es7&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-3200" y="1590" width="210" height="50" as="geometry" />
+          <mxGeometry x="-3200" y="1480" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-345" value="不同的es版本启动方式&lt;br&gt;调用server-bootstrap" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-2990" y="1590" width="210" height="50" as="geometry" />
+          <mxGeometry x="-2990" y="1480" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-346" value="&lt;b&gt;server-cluster-plugin&lt;/b&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-3200" y="1840" width="210" height="50" as="geometry" />
+          <mxGeometry x="-3200" y="1730" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-347" value="集群模块【含多个子插件,功能相同】" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-2990" y="1840" width="210" height="50" as="geometry" />
+          <mxGeometry x="-2990" y="1730" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-348" value="server-configuration" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-3200" y="1740" width="210" height="50" as="geometry" />
+          <mxGeometry x="-3200" y="1630" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-349" value="配置模块&lt;br&gt;支持动态监听" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-2990" y="1740" width="210" height="50" as="geometry" />
+          <mxGeometry x="-2990" y="1630" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-352" value="server-core" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-3200" y="1690" width="210" height="50" as="geometry" />
+          <mxGeometry x="-3200" y="1580" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-353" value="核心模块 衔接所有功能" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-2990" y="1690" width="210" height="50" as="geometry" />
+          <mxGeometry x="-2990" y="1580" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-354" value="server-library" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-3200" y="2040" width="210" height="50" as="geometry" />
+          <mxGeometry x="-3200" y="1930" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-355" value="grpcserver和jettyserver 服务器工具包" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-2990" y="2040" width="210" height="50" as="geometry" />
+          <mxGeometry x="-2990" y="1930" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-356" value="server-query-plugin" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-3200" y="1940" width="210" height="50" as="geometry" />
+          <mxGeometry x="-3200" y="1830" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-357" value="skywalking-ui查询模块" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-2990" y="1940" width="210" height="50" as="geometry" />
+          <mxGeometry x="-2990" y="1830" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-358" value="server-receiver-plugin" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-3200" y="1890" width="210" height="50" as="geometry" />
+          <mxGeometry x="-3200" y="1780" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-364" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-359" target="i1ZpZ4VTBthG-D3nko27-72">
           <mxGeometry relative="1" as="geometry" />
@@ -1042,19 +1042,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-359" value="agent等通信模块" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-2990" y="1890" width="210" height="50" as="geometry" />
+          <mxGeometry x="-2990" y="1780" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-360" value="server-storage-plugin" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-3200" y="1790" width="210" height="50" as="geometry" />
+          <mxGeometry x="-3200" y="1680" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-361" value="存储模块【含多个子插件,功能相同】" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-2990" y="1790" width="210" height="50" as="geometry" />
+          <mxGeometry x="-2990" y="1680" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-362" value="......" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-3200" y="2140" width="210" height="50" as="geometry" />
+          <mxGeometry x="-3200" y="2030" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-363" value="......" style="html=1;dashed=0;whitespace=wrap;fillColor=#D4E1F5;" vertex="1" parent="1">
-          <mxGeometry x="-2990" y="2140" width="210" height="50" as="geometry" />
+          <mxGeometry x="-2990" y="2030" width="210" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

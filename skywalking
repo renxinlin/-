@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T16:46:59.160Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="umseRzIRtnxKiYkVOe85" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T17:05:40.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="55XgIYS2LB0ltAOq81vO" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="6020" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1572,6 +1572,41 @@
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-531" value="StreamProcessor" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="-3740" y="4370" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-535" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#FF00FF;fillColor=#67AB9F;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-533" target="i1ZpZ4VTBthG-D3nko27-534">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-541" value="notify" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="i1ZpZ4VTBthG-D3nko27-535">
+          <mxGeometry x="-0.2909" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-533" value="@stream" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-4040" y="4500" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-534" value="InventoryStreamProcessor" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-3890" y="4500" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-540" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#FF00FF;fillColor=#67AB9F;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-536" target="i1ZpZ4VTBthG-D3nko27-533">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-536" value="StreamAnnotationListener" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-4240" y="4500" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-537" value="MetricsStreamProcessor" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-3610" y="4700" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-538" value="RecordStreamProcessor" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-3610" y="4500" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-539" value="TopNStreamProcessor" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-3890" y="4700" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-542" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-3890" y="4560" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-544" value="StorageModels" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-4060" y="4700" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

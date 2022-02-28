@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T06:58:11.571Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="e09mNlZVdIgarUbovX7f" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T07:06:53.250Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="qOnqcenKBFrMClrOqMFV" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="6020" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1611,7 +1611,10 @@
         <mxCell id="i1ZpZ4VTBthG-D3nko27-545" value="单例" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="-3890" y="4450" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i1ZpZ4VTBthG-D3nko27-546" value="ApolloConfigurationProvider" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-567" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.698;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;strokeColor=#000000;fillColor=#67AB9F;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-546" target="i1ZpZ4VTBthG-D3nko27-560">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-546" value="ZookeeperConfigurationProvider" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
           <mxGeometry x="-4115" y="4890" width="175" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-556" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;fillColor=#67AB9F;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-547" target="i1ZpZ4VTBthG-D3nko27-546">
@@ -1631,6 +1634,68 @@
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-550" value="NoneConfigurationProvider" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
           <mxGeometry x="-3896" y="4890" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-576" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;fillColor=#67AB9F;exitX=0.624;exitY=0.012;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-561" target="i1ZpZ4VTBthG-D3nko27-575">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-577" value="支线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="i1ZpZ4VTBthG-D3nko27-576">
+          <mxGeometry x="0.0278" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-558" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-4115" y="4970" width="625" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-562" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;fillColor=#67AB9F;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-560" target="i1ZpZ4VTBthG-D3nko27-561">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-560" value="prepare&lt;br&gt;生命周期" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-4115" y="4970" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-569" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#000000;fillColor=#67AB9F;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-561" target="i1ZpZ4VTBthG-D3nko27-568">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-561" value="initConfigReader 配置拉取器&lt;br&gt;zk,apollo,nacos各自实现" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-3970" y="4970" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-566" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#000000;fillColor=#67AB9F;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-563" target="i1ZpZ4VTBthG-D3nko27-564">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-563" value="DynamicConfigurationService" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-3440" y="4840" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-579" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#000000;fillColor=#67AB9F;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-564" target="i1ZpZ4VTBthG-D3nko27-578">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-564" value="ConfigWatcherRegister" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-3440" y="4890" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-565" value="抽象类" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-3490" y="4890" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-572" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#000000;fillColor=#67AB9F;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-568" target="i1ZpZ4VTBthG-D3nko27-570">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-568" value="registerServiceImplementation&lt;br&gt;注册配置module要求的服务" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-3730" y="4970" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-574" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;fillColor=#67AB9F;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-570" target="i1ZpZ4VTBthG-D3nko27-573">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-570" value="start&lt;br&gt;生命周期" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-4115" y="5040" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-571" value="notifyAfterCompleted&lt;br&gt;生命周期" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-4115" y="5110" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-573" value="initConfigReader 配置拉取器&lt;br&gt;zk,apollo,nacos各自实现" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-3970" y="5040" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-575" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-3450" y="4970" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-578" value="ZookeeperConfigWatcherRegister" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="4890" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T17:06:40.410Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="NAny-B1HX128B70I-RrK" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T06:58:11.571Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="e09mNlZVdIgarUbovX7f" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="6020" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1610,6 +1610,27 @@
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-545" value="单例" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="-3890" y="4450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-546" value="ApolloConfigurationProvider" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-4115" y="4890" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-556" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;fillColor=#67AB9F;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-547" target="i1ZpZ4VTBthG-D3nko27-546">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-547" value="AbstractConfigurationProvider" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-4115" y="4850" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-555" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;fillColor=#67AB9F;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-548" target="i1ZpZ4VTBthG-D3nko27-547">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-557" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;fillColor=#67AB9F;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-548" target="i1ZpZ4VTBthG-D3nko27-550">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-548" value="ModuleProvider" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-4115" y="4810" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-550" value="NoneConfigurationProvider" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-3896" y="4890" width="175" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

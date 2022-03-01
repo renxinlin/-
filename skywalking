@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T15:34:10.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="VvTT_Re5Vd1os2-sQyOy" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T15:35:09.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="vojkdWS8Vsx9JYomhUgc" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="6759" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2313,7 +2313,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-797" value="&lt;font style=&quot;font-size: 12px&quot;&gt;StorageBuilder&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
-          <mxGeometry x="-5090" y="6550" width="90" height="40" as="geometry" />
+          <mxGeometry x="-5094.5" y="6530" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-799" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Record&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="-5300" y="6600" width="142.5" height="40" as="geometry" />
@@ -2339,8 +2339,35 @@
         <mxCell id="i1ZpZ4VTBthG-D3nko27-815" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;EndpointInventory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;NetworkAddressInventory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;ServiceInstanceInventory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;ServiceInventory&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;align=left;" vertex="1" parent="1">
           <mxGeometry x="-4970.5" y="6660" width="142.5" height="170" as="geometry" />
         </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-818" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-816" target="i1ZpZ4VTBthG-D3nko27-814">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-819" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-816" target="i1ZpZ4VTBthG-D3nko27-812">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4964" y="6590" />
+              <mxPoint x="-5062" y="6590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-820" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-816" target="i1ZpZ4VTBthG-D3nko27-799">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4987" y="6590" />
+              <mxPoint x="-5229" y="6590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-821" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.639;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-816" target="i1ZpZ4VTBthG-D3nko27-810">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4919" y="6590" />
+              <mxPoint x="-4716" y="6590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-816" value="&lt;font style=&quot;font-size: 12px&quot;&gt;StorageData&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
-          <mxGeometry x="-4982.5" y="6550" width="90" height="40" as="geometry" />
+          <mxGeometry x="-4987" y="6530" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

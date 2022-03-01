@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T09:30:00.263Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="NYc-1HCsHJULsJF-ZWdd" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T09:32:03.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="TgNY7-CDw1E7w-6ExZBq" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="7580" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2185,8 +2185,14 @@
         <mxCell id="i1ZpZ4VTBthG-D3nko27-747" value="根据Stream注解上配置的StreamProcessor&lt;br&gt;构建Processor内部的流式处理worker链路" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
           <mxGeometry x="-5290" y="5870" width="280" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-750" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#FF3333;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-748" target="i1ZpZ4VTBthG-D3nko27-749">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-748" value="模型对应es索引&lt;br&gt;如果支持自动创建索引&lt;br&gt;则相关工具类遍历&lt;br&gt;StorageModels内部的模型集合创建索引" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#FFFF99;align=left;" vertex="1" parent="1">
           <mxGeometry x="-5010" y="5775" width="220" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-749" value="存储ModuleProvider.start 进行创建es索引逻辑" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#FFFF99;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4750" y="5775" width="280" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

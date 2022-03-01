@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T08:50:30.039Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Nr0aB4Y1tCESTtspBFME" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T08:59:20.632Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="PXkaLQhfepCbLL3hKm73" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
-    <mxGraphModel dx="7014" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7580" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-714" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-5290" y="5440" width="625" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-689" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
           <mxGeometry x="-5290" y="5270" width="625" height="170" as="geometry" />
         </mxCell>
@@ -1927,9 +1930,6 @@
         <mxCell id="i1ZpZ4VTBthG-D3nko27-647" value="prepare" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#00FF00;" vertex="1" parent="1">
           <mxGeometry x="-5290" y="5100" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i1ZpZ4VTBthG-D3nko27-649" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-5290" y="5440" width="625" height="170" as="geometry" />
-        </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-650" value="notify&lt;br&gt;After&lt;br&gt;Completed" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#99FFCC;" vertex="1" parent="1">
           <mxGeometry x="-5350" y="5440" width="60" height="50" as="geometry" />
         </mxCell>
@@ -2006,7 +2006,10 @@
         <mxCell id="i1ZpZ4VTBthG-D3nko27-678" value="注册GRPCHandlerRegisterImpl&lt;br&gt;以及JettyHandlerRegisterImpl" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#00FF00;" vertex="1" parent="1">
           <mxGeometry x="-4850" y="5170" width="185" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i1ZpZ4VTBthG-D3nko27-680" value="annotationScan注册&lt;br&gt;StreamAnnotationListener" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#00FF00;" vertex="1" parent="1">
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-716" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#FF3333;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-680" target="i1ZpZ4VTBthG-D3nko27-715">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-680" value="向services注册各类功能服务" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#00FF00;" vertex="1" parent="1">
           <mxGeometry x="-5200" y="5220" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-681" value="annotationScan" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#FFFF99;" vertex="1" parent="1">
@@ -2052,6 +2055,45 @@
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-695" value="oalEngine.notifyAllListeners" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#00FF00;" vertex="1" parent="1">
           <mxGeometry x="-5200" y="5420" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-705" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#FF3333;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-703" target="i1ZpZ4VTBthG-D3nko27-704">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-703" value="notify&lt;br&gt;After&lt;br&gt;Completed" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="-5290" y="5440" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-709" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#FF3333;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-704" target="i1ZpZ4VTBthG-D3nko27-707">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-704" value="启动grpcServer和jettyServer" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="-5200" y="5468" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-706" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;strokeColor=#FF3333;fillColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5105" y="5481" as="sourcePoint" />
+            <mxPoint x="-5105" y="5481" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-711" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#FF3333;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-707" target="i1ZpZ4VTBthG-D3nko27-710">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-707" value="启动持久化调度PersistenceTimer" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="-4977" y="5468" width="207" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-713" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#FF3333;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-710" target="i1ZpZ4VTBthG-D3nko27-712">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-710" value="启动清理调度DataTTLKeeperTimer" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="-4977" y="5510" width="207" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-712" value="启动缓存更新调度CacheUpdateTimer" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="-4977" y="5550" width="207" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-715" value="annotationScan注册&lt;br&gt;StreamAnnotationListener" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="-5020" y="5220" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-717" value="services" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="-4745" y="5030" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T15:43:05.801Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="aXr6JoXafnyYx_wHM7A0" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T15:57:47.096Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="IverHcC_ANw1dka0IK17" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
-    <mxGraphModel dx="6759" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7244" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2393,8 +2393,14 @@
         <mxCell id="i1ZpZ4VTBthG-D3nko27-829" value="core模块根据&lt;br&gt;stream注解构建&lt;br&gt;StorageModels&lt;br&gt;内部的模型" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="-5220" y="6920" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="i1ZpZ4VTBthG-D3nko27-831" value="core模块根据&lt;br&gt;stream注解构建&lt;br&gt;StorageModels&lt;br&gt;内部的模型" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="-5220" y="7030" width="100" height="90" as="geometry" />
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-831" value="ModelInstaller通过&lt;br&gt;StorageModels&lt;br&gt;的模型集合数据创建es索引" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-5240" y="7040" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-835" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-834" target="i1ZpZ4VTBthG-D3nko27-831">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-834" value="&lt;font style=&quot;text-align: left&quot;&gt;StorageModuleProvider&lt;br&gt;start时候&lt;br&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-5400" y="7040" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

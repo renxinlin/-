@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T09:22:54.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="ZFKtRPubzRJ8aR2anX7Y" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T09:23:32.289Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="B3XcVylXhLo45KJyMsQ7" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="7580" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2167,8 +2167,14 @@
         <mxCell id="i1ZpZ4VTBthG-D3nko27-740" value="StreamAnnotationListener关心@Stream注解" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#FFFF99;" vertex="1" parent="1">
           <mxGeometry x="-5290" y="5640" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i1ZpZ4VTBthG-D3nko27-742" value="查找org.apache.skywalking&lt;br&gt;所有包含@Strean的类" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-744" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#FF3333;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-742" target="i1ZpZ4VTBthG-D3nko27-743">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-742" value="查找org.apache.skywalking&lt;br&gt;所有包含@Strean的数据条目类" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
           <mxGeometry x="-5290" y="5670" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-743" value="调用StreamAnnotationListener.notify" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="-5290" y="5720" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

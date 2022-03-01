@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T15:30:37.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="UNYu9e46j8U1UxzUtiXQ" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T15:33:05.257Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="xHXt423w1gjokNQ211IO" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="6759" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2324,7 +2324,7 @@
         <mxCell id="i1ZpZ4VTBthG-D3nko27-810" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Metrics&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="-5142.5" y="6600" width="142.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i1ZpZ4VTBthG-D3nko27-811" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;AbstractLogRecord&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;AlarmRecord&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;HTTPAccessLogRecord&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;JaegerSpanRecord&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;SegmentRecord&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;TopN&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;TopNDatabaseStatement&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;ZipkinSpanRecord&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;align=left;" vertex="1" parent="1">
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-811" value="&lt;font style=&quot;font-size: 12px&quot;&gt;@&lt;/font&gt;&lt;font&gt;&lt;font style=&quot;font-size: 6px&quot;&gt;MetricsFunction&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;ThermodynamicMetrics&lt;/span&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;align=left;" vertex="1" parent="1">
           <mxGeometry x="-5142.5" y="6660" width="142.5" height="170" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-812" value="&lt;font style=&quot;font-size: 12px&quot;&gt;ComparableStorageData&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">

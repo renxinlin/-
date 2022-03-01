@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T09:23:32.289Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="B3XcVylXhLo45KJyMsQ7" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T09:30:00.263Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="NYc-1HCsHJULsJF-ZWdd" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="7580" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2162,7 +2162,7 @@
           <mxGeometry x="-5290" y="5620" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-739" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-5290" y="5640" width="280" height="190" as="geometry" />
+          <mxGeometry x="-5290" y="5640" width="280" height="270" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-740" value="StreamAnnotationListener关心@Stream注解" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#FFFF99;" vertex="1" parent="1">
           <mxGeometry x="-5290" y="5640" width="280" height="30" as="geometry" />
@@ -2175,6 +2175,18 @@
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-743" value="调用StreamAnnotationListener.notify" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
           <mxGeometry x="-5290" y="5720" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-745" value="根据Stream注解构建Model模型&lt;br&gt;模型加入到StorageModels" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="-5290" y="5775" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-746" value="将来agent在上报数据时调用对应的&lt;br&gt;Processor内部worker&lt;br&gt;进行数据Stream流式处理" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#FFFF99;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-5010" y="5860" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-747" value="根据Stream注解上配置的StreamProcessor&lt;br&gt;构建Processor内部的流式处理worker链路" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="-5290" y="5870" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-748" value="模型对应es索引&lt;br&gt;如果支持自动创建索引&lt;br&gt;则相关工具类遍历&lt;br&gt;StorageModels内部的模型集合创建索引" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontColor=#000000;fillColor=#FFFF99;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-5010" y="5775" width="220" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T15:35:09.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="vojkdWS8Vsx9JYomhUgc" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T15:43:05.801Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="aXr6JoXafnyYx_wHM7A0" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="6759" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2315,25 +2315,25 @@
         <mxCell id="i1ZpZ4VTBthG-D3nko27-797" value="&lt;font style=&quot;font-size: 12px&quot;&gt;StorageBuilder&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="-5094.5" y="6530" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="i1ZpZ4VTBthG-D3nko27-799" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Record&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-799" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Record&lt;br&gt;一条数据&lt;br&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="-5300" y="6600" width="142.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-803" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;AbstractLogRecord&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;AlarmRecord&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;HTTPAccessLogRecord&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;JaegerSpanRecord&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;SegmentRecord&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;TopN&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;TopNDatabaseStatement&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;ZipkinSpanRecord&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;align=left;" vertex="1" parent="1">
           <mxGeometry x="-5300" y="6660" width="142.5" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="i1ZpZ4VTBthG-D3nko27-810" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Metrics&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-810" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Metrics&lt;br&gt;一条度量指标&lt;br&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="-4807.5" y="6600" width="142.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-811" value="&lt;font style=&quot;font-size: 12px&quot;&gt;@&lt;/font&gt;&lt;font&gt;&lt;font style=&quot;font-size: 6px&quot;&gt;MetricsFunction&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;ThermodynamicMetrics&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;@Stream&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;EndpointRelationServer&lt;br&gt;-SideMetrics&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;align=left;" vertex="1" parent="1">
           <mxGeometry x="-4807.5" y="6660" width="142.5" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="i1ZpZ4VTBthG-D3nko27-812" value="&lt;font style=&quot;font-size: 12px&quot;&gt;ComparableStorageData&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-812" value="&lt;font style=&quot;font-size: 12px&quot;&gt;ComparableStorageData&lt;br&gt;一条可比较数据&lt;br&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="-5133" y="6600" width="142.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-813" value="&lt;span style=&quot;font-size: 12px&quot;&gt;TopNDatabaseStatement&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;align=left;" vertex="1" parent="1">
           <mxGeometry x="-5133" y="6660" width="142.5" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="i1ZpZ4VTBthG-D3nko27-814" value="&lt;font style=&quot;font-size: 12px&quot;&gt;RegisterSource&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-814" value="&lt;font style=&quot;font-size: 12px&quot;&gt;RegisterSource&lt;br&gt;一条注册信息&lt;br&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="-4970.5" y="6600" width="142.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-815" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;EndpointInventory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;NetworkAddressInventory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;ServiceInstanceInventory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;ServiceInventory&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;align=left;" vertex="1" parent="1">
@@ -2368,6 +2368,33 @@
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-816" value="&lt;font style=&quot;font-size: 12px&quot;&gt;StorageData&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=18;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="-4987" y="6530" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-830" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-822" target="i1ZpZ4VTBthG-D3nko27-829">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-822" value="&lt;font style=&quot;text-align: left&quot;&gt;@Stream&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-5220" y="6850" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-828" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-824" target="i1ZpZ4VTBthG-D3nko27-827">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-824" value="&lt;font style=&quot;text-align: left&quot;&gt;@&lt;/font&gt;&lt;font style=&quot;font-size: 18px ; text-align: left&quot;&gt;&lt;font style=&quot;font-size: 6px&quot;&gt;MetricsFunction&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-4892" y="6850" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-826" value="storageData表示一条agent上报数据,分为4大类,子类实现上可能含有@Stream ,抽象类上可能含有&lt;font style=&quot;text-align: left&quot;&gt;@&lt;/font&gt;&lt;font style=&quot;font-size: 18px ; text-align: left&quot;&gt;&lt;font style=&quot;font-size: 6px&quot;&gt;MetricsFunction&lt;/font&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-5300" y="6830" width="635" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-827" value="oal引擎负责解析&lt;br&gt;根据抽象类构建&lt;br&gt;Metrics" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-4892" y="6920" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-832" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF3333;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-829" target="i1ZpZ4VTBthG-D3nko27-831">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-829" value="core模块根据&lt;br&gt;stream注解构建&lt;br&gt;StorageModels&lt;br&gt;内部的模型" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-5220" y="6920" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-831" value="core模块根据&lt;br&gt;stream注解构建&lt;br&gt;StorageModels&lt;br&gt;内部的模型" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-5220" y="7030" width="100" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

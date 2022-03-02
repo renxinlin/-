@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T07:27:48.328Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="XqYmjLl7FxvTs3etmxwL" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T07:37:34.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="sY7-G6HDb3u1H5QGz2s4" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="7419" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2941,6 +2941,54 @@
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1053" value="zk集群" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#FFCC99;" vertex="1" parent="1">
           <mxGeometry x="-5700" y="7420" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1065" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#000000;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1054" target="i1ZpZ4VTBthG-D3nko27-1055">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1054" value="&lt;span style=&quot;font-size: 6px&quot;&gt;AlarmStandardPersistence&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-5535" y="7780" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1055" value="&lt;span style=&quot;font-size: 6px&quot;&gt;AlarmCallback&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-5535" y="7740" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1056" value="&lt;span style=&quot;font-size: 6px&quot;&gt;AlarmModuleProvider&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-5880" y="7740" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1057" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-5880" y="7760" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1058" value="&lt;span style=&quot;font-size: 6px&quot;&gt;NotifyHandler&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-5880" y="7760" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1059" value="&lt;span style=&quot;font-size: 6px&quot;&gt;alarmRulesWatcher&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-5750" y="7760" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1064" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#000000;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1060" target="i1ZpZ4VTBthG-D3nko27-1061">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1060" value="&lt;span style=&quot;font-size: 6px&quot;&gt;AlarmRulesWatcher&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-5340" y="7780" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1061" value="&lt;span style=&quot;font-size: 6px&quot;&gt;ConfigChangeWatcher&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-5340" y="7740" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1066" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#000000;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1062" target="i1ZpZ4VTBthG-D3nko27-1063">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1062" value="&lt;span style=&quot;font-size: 6px&quot;&gt;NotifyHandler&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-5540" y="7870" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1063" value="&lt;span style=&quot;font-size: 6px&quot;&gt;MetricsNotify&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-5540" y="7830" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1068" value="&lt;span style=&quot;font-size: 6px&quot;&gt;alarmRulesWatcher&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-5880" y="7890" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1069" value="&lt;span style=&quot;font-size: 6px&quot;&gt;MetricsStreamProcessor&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-6260" y="7740" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1070" value="&lt;span style=&quot;font-size: 6px&quot;&gt;MetricsStreamProcessor&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-6260" y="7800" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

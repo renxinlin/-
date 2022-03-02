@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T02:42:46.224Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="8jZ1JlFjw8Xv6xMVo78R" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T02:43:26.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="siS-2uXW-TTmcP6Wkcio" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="8071" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2734,9 +2734,16 @@
             <mxPoint x="-3150" y="6370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i1ZpZ4VTBthG-D3nko27-960" value="不成功返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="i1ZpZ4VTBthG-D3nko27-959">
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-960" value="不成功继续调度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="i1ZpZ4VTBthG-D3nko27-959">
           <mxGeometry x="-0.0804" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-982" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFCCCC;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-955" target="i1ZpZ4VTBthG-D3nko27-966">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2940" y="6382" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-955" value="" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;shadow=0;fontSize=12;fontColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
@@ -2768,6 +2775,9 @@
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-976" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;异步&lt;/span&gt;&lt;br&gt;调度" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;fontSize=12;fontColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="-3080" y="6090" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-983" value="监控" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="6470" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

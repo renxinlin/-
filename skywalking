@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T08:08:27.029Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="nILhUXS6-HhOtuW5ADcJ" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T08:08:40.557Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="R1C1tGXWERSsJDrJUVuv" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="8071" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4330,6 +4330,11 @@
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1529" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCCC;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1515" target="i1ZpZ4VTBthG-D3nko27-1522">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1531" value="批量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;fontColor=#000000;" vertex="1" connectable="0" parent="i1ZpZ4VTBthG-D3nko27-1529">
+          <mxGeometry x="0.11" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1515" value="&lt;span style=&quot;font-size: 6px&quot;&gt;mergeDataCache&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="-6280" y="8800" width="100" height="50" as="geometry" />

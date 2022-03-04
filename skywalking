@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T18:10:30.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="0SaaJ12T3ml7LVEEWuSt" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-04T18:12:19.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="MKAk7aoubp5OWoAG9RD7" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
-    <mxGraphModel dx="8214" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8293" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1821" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCFFE6;fontSize=6;fontColor=#CCFFCC;fillColor=#E9EEF7;" vertex="1" parent="1">
-          <mxGeometry x="-4990.5" y="8310" width="390.5" height="210" as="geometry" />
+          <mxGeometry x="-4992" y="8309" width="392" height="210" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1767" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=#CCE5FF;fontSize=6;fontColor=#000000;fillColor=#E9EEF7;" vertex="1" parent="1">
           <mxGeometry x="-5880" y="9269" width="250" height="311" as="geometry" />
@@ -5021,10 +5021,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1785" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-4991.8" y="8235" width="391.8" height="75" as="geometry" />
+          <mxGeometry x="-4991.8" y="8250" width="391.8" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1787" value="&lt;span style=&quot;font-size: 6px&quot;&gt;RegisterServiceHandler&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="-4991.8" y="8235" width="391.8" height="20" as="geometry" />
+          <mxGeometry x="-4991.8" y="8249" width="391.8" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1801" value="&lt;span style=&quot;font-size: 6px&quot;&gt;InstanceDiscoveryServiceHandler&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#E5CCFF;" vertex="1" parent="1">
           <mxGeometry x="-5359" y="8235" width="230" height="20" as="geometry" />
@@ -5053,8 +5053,8 @@
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1811" value="&lt;span style=&quot;font-size: 6px&quot;&gt;NetworkAddress注册&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="-4716.4" y="8269" width="116.4" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="i1ZpZ4VTBthG-D3nko27-1813" value="etc..." style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="-4691.8" y="8289" width="91.8" height="20" as="geometry" />
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1813" value="ServiceAndNetworkAddress映射注册" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=6;fontColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-4860" y="8290" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1817" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;fontColor=#CCFFCC;strokeColor=#000000;fillColor=#CCCCCC;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1814" target="i1ZpZ4VTBthG-D3nko27-1816">
           <mxGeometry relative="1" as="geometry" />

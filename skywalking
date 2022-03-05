@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T18:20:20.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="4_3VsAo6HnQQVAcADg-t" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T18:22:22.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="nJ4cWq2GtiwdQrOcBGNa" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="8563" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5131,16 +5131,19 @@
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1842" value="加载agent.config" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#E9EEF7;" vertex="1" parent="1">
           <mxGeometry x="1300" y="920" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i1ZpZ4VTBthG-D3nko27-1847" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCCC;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1844" target="i1ZpZ4VTBthG-D3nko27-1846">
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1847" value="初始化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCCC;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1844" target="i1ZpZ4VTBthG-D3nko27-1846">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1844" value="ConfigInitializer.initialize" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#E9EEF7;" vertex="1" parent="1">
           <mxGeometry x="1530" y="920" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1846" value="&lt;span style=&quot;font-size: 6px&quot;&gt;Config&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#E9EEF7;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="910" width="50" height="50" as="geometry" />
+          <mxGeometry x="1790" y="910" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1851" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCCC;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1848" target="i1ZpZ4VTBthG-D3nko27-1850">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1863" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCCC;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1848" target="i1ZpZ4VTBthG-D3nko27-1862">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1848" value="PluginBootstrap.loadPlugins" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#E9EEF7;" vertex="1" parent="1">
@@ -5178,6 +5181,15 @@
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1860" value="添加ShutdownHook" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#E9EEF7;" vertex="1" parent="1">
           <mxGeometry x="1060" y="1340" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1865" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCCC;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1862" target="i1ZpZ4VTBthG-D3nko27-1864">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1862" value="初始化AgentClassLoader" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#E9EEF7;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="985" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1864" value="获取所有skywalking-plugin.def资源URL" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#E9EEF7;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="985" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

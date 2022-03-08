@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T02:38:27.730Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="bl8zTYnirtEUj1sF8czp" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-08T02:45:50.143Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Tw_ETSA32lKC3f5DMUBn" version="16.6.1" type="github">
   <diagram id="P9OxIjhZ-2aljPH-_Sd3" name="Page-1">
     <mxGraphModel dx="8740" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5483,7 +5483,81 @@
           <mxGeometry x="2610" y="1367" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i1ZpZ4VTBthG-D3nko27-1962" value="&lt;span style=&quot;font-size: 6px&quot;&gt;ServiceManager&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
-          <mxGeometry x="2080" y="1640" width="690" height="50" as="geometry" />
+          <mxGeometry x="2080" y="1640" width="730" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1968" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFFF;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1963" target="i1ZpZ4VTBthG-D3nko27-1967">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1963" value="&lt;span style=&quot;font-size: 6px&quot;&gt;loadAllServices&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1724" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1964" value="&lt;span style=&quot;font-size: 6px&quot;&gt;prepare&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="1724" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1965" value="&lt;span style=&quot;font-size: 6px&quot;&gt;startup&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2467.5" y="1724" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1966" value="&lt;span style=&quot;font-size: 6px&quot;&gt;onComplete&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="1724" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1970" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFFF;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1967" target="i1ZpZ4VTBthG-D3nko27-1969">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1967" value="SPi加载所有BootService" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1770" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1972" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFFF;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1969" target="i1ZpZ4VTBthG-D3nko27-1971">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1976" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;fontColor=#000000;" vertex="1" connectable="0" parent="i1ZpZ4VTBthG-D3nko27-1972">
+          <mxGeometry x="-0.1816" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1974" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFFF;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1969" target="i1ZpZ4VTBthG-D3nko27-1973">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1975" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;fontColor=#000000;" vertex="1" connectable="0" parent="i1ZpZ4VTBthG-D3nko27-1974">
+          <mxGeometry x="-0.0302" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1969" value="&lt;span style=&quot;font-size: 6px&quot;&gt;@DefaultImplementor&lt;/span&gt;" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="2068" y="1820" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1979" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFFF;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1971" target="i1ZpZ4VTBthG-D3nko27-1978">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1980" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFFF;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1971" target="i1ZpZ4VTBthG-D3nko27-1977">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1981" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;fontColor=#000000;" vertex="1" connectable="0" parent="i1ZpZ4VTBthG-D3nko27-1980">
+          <mxGeometry x="-0.075" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1971" value="&lt;span style=&quot;font-size: 6px&quot;&gt;@OverrideImplementor&lt;/span&gt;" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="2068" y="1890" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1973" value="该类的Service实现为自己" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="1820" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1983" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFFF;" edge="1" parent="1" source="i1ZpZ4VTBthG-D3nko27-1977" target="i1ZpZ4VTBthG-D3nko27-1982">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1984" value="如果目标类的service实现已经为OverrideImplementor则报错" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;fontColor=#000000;" vertex="1" connectable="0" parent="i1ZpZ4VTBthG-D3nko27-1983">
+          <mxGeometry x="-0.2079" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1977" value="获取注解上的目标类" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="1890" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1978" value="该类的Service实现为自己" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="2075.5" y="1960" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i1ZpZ4VTBthG-D3nko27-1982" value="设置目标类的Service实现为自己" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=6;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="1960" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

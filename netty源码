@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T10:48:43.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="S7a9D9dN-420u-K7oNZX" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T11:45:51.231Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="K_8QrUNAy2OkhlYwacHq" version="16.6.1" type="github">
   <diagram id="9m_JNqW81XgjUaA8Bi90" name="Page-1">
-    <mxGraphModel dx="5285" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4626" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-1956" value="AbstractChannelHandlerContext" style="html=1;dashed=0;whitespace=wrap;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="250" width="290" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-1259" value="环境一master" style="html=1;dashed=0;whitespace=wrap;fontSize=12;fontColor=#000000;fillColor=#CCFFE6;" vertex="1" parent="1">
           <mxGeometry x="361" y="1980" width="95" height="40" as="geometry" />
         </mxCell>
@@ -3158,6 +3161,9 @@
         </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-1883" value="一一一" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="-1798" y="2360.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-1957" value="自带EventExecutor" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="300" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

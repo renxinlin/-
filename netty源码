@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T04:43:41.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Au-MPPOCw5cId9HzhFB6" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T04:44:08.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="GyqacN-CfNxiQCysXaoN" version="16.6.1" type="github">
   <diagram id="9m_JNqW81XgjUaA8Bi90" name="Page-1">
     <mxGraphModel dx="2075" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -231,7 +231,7 @@
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;shadow=0;fontColor=#000000;strokeColor=#FF00FF;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-77" target="2M9Lw7kdw6xPsiIzPpM_-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-105" value="返回就绪链表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="2M9Lw7kdw6xPsiIzPpM_-104">
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-105" value="内核态就绪链表copy至就绪态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="2M9Lw7kdw6xPsiIzPpM_-104">
           <mxGeometry x="0.2406" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>

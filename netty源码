@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T07:57:04.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Wlep09Y2Td5HbmW17Hs3" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T08:20:29.731Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="44kjxzkNscSlgcu-sGEb" version="16.6.1" type="github">
   <diagram id="9m_JNqW81XgjUaA8Bi90" name="Page-1">
-    <mxGraphModel dx="2732" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3137" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1221,6 +1221,27 @@
         </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-496" value="终止" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="-520" y="2820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-500" value="当前分支只含有master" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="2880" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-501" value="当前需求含master和branch节点" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="2880" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-502" value="注入tag流量" style="html=1;dashed=0;whitespace=wrap;fontColor=#000000;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="2325" width="100" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-503" value="注入master流量" style="html=1;dashed=0;whitespace=wrap;fontColor=#000000;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="2373.5" width="100" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-504" value="entry流量" style="html=1;dashed=0;whitespace=wrap;fontColor=#000000;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="2300" width="67" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-505" value="app" style="html=1;dashed=0;whitespace=wrap;fontColor=#000000;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="2300" width="30" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-506" value="exit流量" style="html=1;dashed=0;whitespace=wrap;fontColor=#000000;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="2300" width="67" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

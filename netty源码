@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-20T13:17:27.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="zD5_69WQ6xQlu5Z8pD9I" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-20T13:18:11.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="URbv456w3DGviWMB14g6" version="16.6.1" type="github">
   <diagram id="9m_JNqW81XgjUaA8Bi90" name="Page-1">
     <mxGraphModel dx="3136" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2444,6 +2444,9 @@
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2239" value="Native.newEventFd" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
           <mxGeometry x="-260" y="320" width="135" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;fontSize=12;fontColor=#FF3333;strokeColor=#FF33FF;fillColor=#000000;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-2245" target="2M9Lw7kdw6xPsiIzPpM_-2249">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2245" value="channelFactory.newChannel&lt;br&gt;反射构建" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
           <mxGeometry x="-1110" y="550" width="220" height="30" as="geometry" />
         </mxCell>
@@ -2458,6 +2461,9 @@
         </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2251" value="ChannelInitializer构建注册handler处理server端注册事件&lt;br&gt;注册&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;S&lt;/b&gt;&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;erverBootstrapAcceptor&lt;/font&gt;&lt;/b&gt;处理客户端注册事件 添加childHandler,childeventLoop等" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
           <mxGeometry x="-1110" y="630" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2254" value="init" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="549.5" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

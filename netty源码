@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T07:01:17.410Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="xJLHqQNo9p3VDZe9dnsY" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-21T08:45:54.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="xPkHAPR0LGPE1TNNBGRo" version="16.6.1" type="github">
   <diagram id="9m_JNqW81XgjUaA8Bi90" name="Page-1">
-    <mxGraphModel dx="4634" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5246" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2848,9 +2848,9 @@
           <mxGeometry x="-2150" y="530" width="171" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2403" value="SingleThreadEventExecutor" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#33FF33;" vertex="1" parent="1">
-          <mxGeometry x="-2327" y="640" width="347" height="35" as="geometry" />
+          <mxGeometry x="-2327" y="630" width="347" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2404" value="&lt;font color=&quot;#000000&quot;&gt;NioEventLoop&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#FF3333;strokeColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2404" value="&lt;font color=&quot;#000000&quot;&gt;NioEventLoop&lt;br&gt;自旋运行处理IO就绪事件和taskQueue事件&lt;br&gt;&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#FF3333;strokeColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="-2327" y="690" width="347" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2412" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#808080;fillColor=#00CC00;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-2406" target="2M9Lw7kdw6xPsiIzPpM_-2411">
@@ -2882,6 +2882,82 @@
         </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2415" value="SelectableChannel&lt;br&gt;java原生channel" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="-2790" y="560" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2430" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.067;exitY=1.019;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#808080;fillColor=#00CC00;exitPerimeter=0;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-2423" target="2M9Lw7kdw6xPsiIzPpM_-2424">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2315" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2432" value="工厂" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="2M9Lw7kdw6xPsiIzPpM_-2430">
+          <mxGeometry x="-0.3371" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2423" value="KQueueSelectorProvider" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="-2327" y="890" width="177" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2431" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#808080;fillColor=#00CC00;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-2424" target="2M9Lw7kdw6xPsiIzPpM_-2429">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2424" value="KQueueSelectorImpl" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="-2139" y="1055" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2425" value="SelectorImpl" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="-2140" y="890" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2426" value="keys&lt;br&gt;key集合" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-2140" y="920" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2427" value="selectedKeys&lt;br&gt;就绪key集合" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-2140" y="950" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2428" value="publicKeys&lt;br&gt;代理[key集合]" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-2140" y="980" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2429" value="publicSelectedKeys&lt;br&gt;代理[就绪key集合]" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-2140" y="1010" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2439" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#808080;fillColor=#00CC00;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-2434" target="2M9Lw7kdw6xPsiIzPpM_-2437">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1960" y="1120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-1800" y="1125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2434" value="&lt;font color=&quot;#000000&quot;&gt;doSelect&lt;/font&gt;" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#FF3333;strokeColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2139" y="1085" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2440" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#808080;fillColor=#00CC00;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-2435" target="2M9Lw7kdw6xPsiIzPpM_-2427">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1970" y="1028" />
+              <mxPoint x="-1970" y="965" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2435" value="操作系统&lt;br&gt;kevent获取&lt;br&gt;IO多路复用选择器&lt;br&gt;底层模型上就绪事件" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="-1952" y="1012" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2438" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#808080;fillColor=#00CC00;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-2437" target="2M9Lw7kdw6xPsiIzPpM_-2435">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2437" value="KQueueArrayWrapper&lt;br&gt;JNI技术" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="-1951" y="890" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2441" value="SelectedSelectionKeySet&lt;br&gt;通过反射修改属性实现类" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="-2280" y="950" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2442" value="SelectedSelectionKeySet&lt;br&gt;作用:数组替换set,提高遍历" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="-2280" y="1010" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2443" value="Thread" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-2327" y="665" width="97" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2444" value="taskQueue事件处理队列" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-2140" y="665" width="160" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

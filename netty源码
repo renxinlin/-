@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T06:29:19.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="O18C219MUnP2p0-S5sWa" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-21T06:31:14.960Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="PovQa4v8jN2s1PpLFz20" version="16.6.1" type="github">
   <diagram id="9m_JNqW81XgjUaA8Bi90" name="Page-1">
     <mxGraphModel dx="4634" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2727,6 +2727,18 @@
         </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2370" value="SelectionKey&lt;br&gt;javachannel注册获得" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="-2920" y="560" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2371" value="DefaultChannelPipeline" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-2611" y="398" width="501" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2373" value="HeadContext" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-2611" y="439.5" width="131" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2375" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-2420" y="439" width="131" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2376" value="TailContext" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-2241" y="439.5" width="131" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

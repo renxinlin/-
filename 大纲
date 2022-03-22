@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T07:01:08.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="dXeoJ5OagJVfJPQuGGQb" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-22T12:02:34.127Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="XQoSjxm-hshFgKGq651V" version="16.6.1" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
-    <mxGraphModel dx="1546" dy="1483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2040" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1124,6 +1124,33 @@
         </mxCell>
         <mxCell id="aB7VfY66P8jb6JGylsyU-4" value="跳表" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
           <mxGeometry x="579.92" y="-310" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-1" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="59.92" y="7014" width="660" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-2" value="CA证书机构" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="259.92" y="7080" width="200.08" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-3" value="浏览器" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="89.99999999999997" y="7260" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PNcyUeHfjoGH-AS_lIHf-4" target="PNcyUeHfjoGH-AS_lIHf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-4" value="服务器" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="519.92" y="7260" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-5" value="浏览器厂商" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="7149" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-6" value="1证书加密公钥" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="260" y="7060" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-7" value="证书解密私钥" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="7060" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-8" value="1 植入CA的公钥" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="90.42" y="7199" width="199.58" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-22T12:10:42.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="HwPiUzFjDlTYS1TfdBdV" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-22T12:12:15.125Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="4OmjFGquRt3xeBh2DzBJ" version="16.6.1" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="2040" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1247,6 +1247,12 @@
         </mxCell>
         <mxCell id="PNcyUeHfjoGH-AS_lIHf-34" value="使用共享密钥进行&lt;br&gt;request-response" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFCC;" vertex="1" parent="1">
           <mxGeometry x="303.92" y="7580" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-40" value="CA的作用是确保服务端公钥不会被篡改" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="59.92" y="7340" width="280.08" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-41" value="CA自身的公钥是直接对接浏览器厂商植入浏览器,不存在通信篡改" style="html=1;dashed=0;whitespace=wrap;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="370" y="7340" width="350.92" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

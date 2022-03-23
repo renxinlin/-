@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T18:19:03.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="77-eSoKMhskPhvly675y" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T18:19:47.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="6R38BSr43uDEUp03ejCF" version="16.6.1" type="github">
   <diagram id="9m_JNqW81XgjUaA8Bi90" name="Page-1">
     <mxGraphModel dx="4508" dy="2864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3802,13 +3802,23 @@
           <mxGeometry x="-263" y="-583.25" width="130" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2751" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#808080;fillColor=#E6E6E6;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-2746" target="2M9Lw7kdw6xPsiIzPpM_-2748">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-360" y="-499" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2753" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#808080;fillColor=#E6E6E6;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-2746" target="2M9Lw7kdw6xPsiIzPpM_-2752">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2746" value="pipeline.fireChannelRead" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="-348" y="-523.75" width="138" height="32.5" as="geometry" />
         </mxCell>
-        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2748" value="ServerBootstrapAcceptor&lt;br&gt;.channelRead" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2748" value="ServerBootstrapAcceptor&lt;br&gt;.channelRead" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#66FF66;" vertex="1" parent="1">
           <mxGeometry x="-400" y="-471" width="140" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2752" value="用户自定义handler业务" style="html=1;dashed=0;whitespace=wrap;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-249" y="-472.5" width="119" height="32.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

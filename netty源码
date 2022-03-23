@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T17:19:10.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="uNrrgcldPVkH0uR1VwON" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T17:28:44.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="r4rTWO8_v21qc_5FTCTH" version="16.6.1" type="github">
   <diagram id="9m_JNqW81XgjUaA8Bi90" name="Page-1">
     <mxGraphModel dx="4404" dy="2818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3485,6 +3485,45 @@
         </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2637" value="按io和task时间占比执行&lt;br&gt;runAllTasks" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#33FF33;" vertex="1" parent="1">
           <mxGeometry x="-565" y="-407.75" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2643" value="" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-572.5" width="220" height="332.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2646" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#808080;fillColor=#00CC00;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-2644" target="2M9Lw7kdw6xPsiIzPpM_-2645">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2644" value="SelectedSelectionKeySetSelector.select&lt;br&gt;包装类执行" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-572.5" width="220" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2652" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#808080;fillColor=#00CC00;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-2645" target="2M9Lw7kdw6xPsiIzPpM_-2647">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2645" value="selectionKeys.reset&lt;br&gt;清空操作,无需用户手动触发" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-525" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2647" value="SelectorImpl.&amp;nbsp;selectNow" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-482.5" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2648" value="SelectorImpl.&amp;nbsp;lockAndDoSelect&lt;br&gt;加锁并且等待0毫秒" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-457.5" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2653" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#808080;fillColor=#00CC00;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-2649" target="2M9Lw7kdw6xPsiIzPpM_-2650">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2649" value="SelectorImpl. doSelect&lt;br&gt;执行select" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-432.5" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2650" value="KQueueSelectorImpl.doSelect" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#B3FF66;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-380" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2651" value="KQueueArrayWrapper.poll" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-355" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2654" value="KQueueSelectorImpl.updateSelectedKeys&lt;br&gt;更新selectKeys" style="html=1;dashed=0;whitespace=wrap;shadow=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#B3FF66;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-305" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-2655" value="KQueueArrayWrapper.kevent0&lt;br&gt;调用native方法" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="-330" width="220" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

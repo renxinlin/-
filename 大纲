@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T07:46:36.354Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="U2-GVArOUVyjZapXXEn2" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T07:48:32.188Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="QQq7fP563p0ZZgkB6Z-t" version="16.6.1" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="2040" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1314,23 +1314,23 @@
         <mxCell id="PNcyUeHfjoGH-AS_lIHf-59" value="过期键中选择ttl存活时间最小的键" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="3950" y="4970" width="430" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="PNcyUeHfjoGH-AS_lIHf-60" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3850" y="4992" width="100" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="PNcyUeHfjoGH-AS_lIHf-61" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3950" y="4992" width="430" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="PNcyUeHfjoGH-AS_lIHf-62" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3850" y="5015" width="100" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="PNcyUeHfjoGH-AS_lIHf-63" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3950" y="5015" width="430" height="23" as="geometry" />
-        </mxCell>
         <mxCell id="PNcyUeHfjoGH-AS_lIHf-64" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3850" y="5037" width="100" height="23" as="geometry" />
+          <mxGeometry x="3850" y="5068" width="100" height="23" as="geometry" />
         </mxCell>
         <mxCell id="PNcyUeHfjoGH-AS_lIHf-65" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3950" y="5037" width="430" height="23" as="geometry" />
+          <mxGeometry x="3950" y="5068" width="430" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-66" value="删除策略" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3850" y="5018" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-67" value="" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4380" y="4801.75" width="240" height="358" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-68" value="数据类型" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="4440" y="4802" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-69" value="数据类型" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="4440" y="4830" width="100" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

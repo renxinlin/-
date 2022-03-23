@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-23T07:38:17.253Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="N5L2gxb2QjRg-fR5DMaD" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-23T07:46:36.354Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="U2-GVArOUVyjZapXXEn2" version="16.6.1" type="github">
   <diagram id="rK9Lbz-rBTd2bPaPXuz8" name="Page-1">
     <mxGraphModel dx="2040" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1277,6 +1277,60 @@
         </mxCell>
         <mxCell id="PNcyUeHfjoGH-AS_lIHf-46" value="过期策略" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="3850" y="4802" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-47" value="noeviction" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3850" y="4857" width="100" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-48" value="返回错误" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="4857" width="430" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-49" value="allkeys-lru" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3850" y="4880" width="100" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-50" value="所有键进行LRU" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="4880" width="430" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-52" value="volatile-lru" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3850" y="4902" width="100" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-53" value="过期键进行LRU" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="4902" width="430" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-54" value="allkeys-random" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3850" y="4925" width="100" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-55" value="所有键随机" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="4925" width="430" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-56" value="volatile-random" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3850" y="4947" width="100" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-57" value="过期键随机" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="4947" width="430" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-58" value="volatile-ttl" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3850" y="4970" width="100" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-59" value="过期键中选择ttl存活时间最小的键" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="4970" width="430" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-60" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3850" y="4992" width="100" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-61" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="4992" width="430" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-62" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3850" y="5015" width="100" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-63" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="5015" width="430" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-64" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3850" y="5037" width="100" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcyUeHfjoGH-AS_lIHf-65" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="5037" width="430" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

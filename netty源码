@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T08:42:23.437Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="JcV2bXi3gmDz6DGsN7Eo" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-27T08:50:48.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="2H9fYpy61FWZN1TS3uq2" version="16.6.1" type="github">
   <diagram id="9m_JNqW81XgjUaA8Bi90" name="Page-1">
-    <mxGraphModel dx="6908" dy="3915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4121" dy="2694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3744,6 +3744,18 @@
         </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-3003" value="ServerBootstrapAcceptor" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFFF99;" vertex="1" parent="1">
           <mxGeometry x="2040" y="-1306.5" width="145.5" height="26.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-3008" value="NioSocketChannel.read" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="2980" y="-1570" width="770" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-3009" value="ByteBufAllocator&lt;br&gt;获取接收字节缓冲区" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="2980" y="-1510" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-3010" value="maxMessagesPerRead&lt;br&gt;获取一次事件读取次数" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="-1510" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-3011" value="RecvByteBufAllocator.Handle&lt;br&gt;获取接收字节缓冲区大小计算器" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#66FF66;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="-1510" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

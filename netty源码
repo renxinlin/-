@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T09:51:16.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="mPrW8k79uF5Vyz6wU5J0" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-27T09:52:00.767Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="8Spnl6YsMn7_faGV-FGu" version="16.6.1" type="github">
   <diagram id="9m_JNqW81XgjUaA8Bi90" name="Page-1">
     <mxGraphModel dx="4568" dy="2890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3921,7 +3921,7 @@
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-3076" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#808080;fillColor=#E6E6E6;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-3069" target="2M9Lw7kdw6xPsiIzPpM_-3075">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-3069" value="实际读取总字节&lt;br&gt;小于等于当前窗口两个单位" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-3069" value="实际读取总字节&lt;br&gt;小于等于当前&lt;b&gt;窗口两个单位&lt;/b&gt;" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="3420" y="-1234.5" width="240" height="55" as="geometry" />
         </mxCell>
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-3074" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=0;fontSize=12;fontColor=#000000;strokeColor=#808080;fillColor=#E6E6E6;" edge="1" parent="1" source="2M9Lw7kdw6xPsiIzPpM_-3070" target="2M9Lw7kdw6xPsiIzPpM_-3073">
@@ -3940,7 +3940,7 @@
         <mxCell id="2M9Lw7kdw6xPsiIzPpM_-3075" value="窗口增大一个单位" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="3680" y="-1232" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-3078" value="窗口单位&lt;br&gt;【小于512每次减16个字节,大于512每次翻一倍,最小64,最大65536】&lt;br&gt;64,80,...432,448,464,480,496,512,1024,2048,...,65536" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="2M9Lw7kdw6xPsiIzPpM_-3078" value="&lt;b&gt;窗口单位[1024下一个窗口单位2048,上一个窗口单位512]&lt;br&gt;&lt;/b&gt;【小于512每次减16个字节,大于512每次翻一倍,最小64,最大65536】&lt;br&gt;64,80,...432,448,464,480,496,512,1024,2048,...,65536" style="html=1;dashed=0;whitespace=wrap;shadow=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="3420" y="-1033" width="420" height="50" as="geometry" />
         </mxCell>
       </root>

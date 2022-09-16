@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T17:13:39.318Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fijHm8z3y3YMMBiEGcqD" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-16T17:19:16.092Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4sB1f-T4enZlyqy-X_3E" version="20.3.2" type="github" pages="2">
   <diagram id="0pdfVBRuH-IWIbiLCgcM" name="第 1 页">
     <mxGraphModel dx="1234" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="S9DiriSEcLFgl0aD539_-3" value="Sample" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="310" y="570" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="S9DiriSEcLFgl0aD539_-4" value="Collector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+        <mxCell id="S9DiriSEcLFgl0aD539_-4" value="SimpleCollector&amp;nbsp; [fullname,labelnames]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="520" y="370" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="S9DiriSEcLFgl0aD539_-5" value="MetricFamilySamples" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T16:51:26.651Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="hyPBXfrmRa5g8--CtZCE" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-16T17:01:47.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="O9zaAFHMvbl6GmcO3PzQ" version="20.3.2" type="github" pages="2">
   <diagram id="0pdfVBRuH-IWIbiLCgcM" name="第 1 页">
     <mxGraphModel dx="1234" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,11 +22,14 @@
         <mxCell id="aTJWstrRJMigceCd7NgD-9" value="altermanager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="10" y="210" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9LhZk7QeuFUi4QiekFCw-1" value="Collector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
-          <mxGeometry x="310" y="460" width="230" height="170" as="geometry" />
+        <mxCell id="S9DiriSEcLFgl0aD539_-1" value="Collector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="310" y="370" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9LhZk7QeuFUi4QiekFCw-2" value="Collector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
-          <mxGeometry x="310" y="640" width="230" height="170" as="geometry" />
+        <mxCell id="S9DiriSEcLFgl0aD539_-2" value="MetricFamilySamples" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="310" y="470" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S9DiriSEcLFgl0aD539_-3" value="Sample" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="310" y="570" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

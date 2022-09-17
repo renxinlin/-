@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T07:15:45.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vpRkRveVMop-M7itzAmk" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-17T07:16:12.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kpJ8dh-Qu_6gVaV7xaiD" version="20.3.2" type="github" pages="2">
   <diagram id="0pdfVBRuH-IWIbiLCgcM" name="第 1 页">
     <mxGraphModel dx="1645" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,15 +104,8 @@
         <mxCell id="PxKjy-zW9b6iLB1zoXQW-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CollectorRegistry&lt;br&gt;[defaultRegistry]&lt;br&gt;(metricFamilySamples,register)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="530" y="500" width="450" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PxKjy-zW9b6iLB1zoXQW-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.54;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PxKjy-zW9b6iLB1zoXQW-40" target="PxKjy-zW9b6iLB1zoXQW-33">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660" y="770" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="660" y="740" />
-              <mxPoint x="510" y="740" />
-              <mxPoint x="510" y="540" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="PxKjy-zW9b6iLB1zoXQW-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="PxKjy-zW9b6iLB1zoXQW-40" target="PxKjy-zW9b6iLB1zoXQW-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PxKjy-zW9b6iLB1zoXQW-40" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;TextFormat&lt;br&gt;&lt;/span&gt;(write004,writeOpenMetrics100)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="530" y="780" width="240" height="80" as="geometry" />

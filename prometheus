@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T07:36:52.482Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="QiBf1rGr1H1xWMo0V0uz" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-17T07:38:05.124Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="xgUxz3Nu8mgdD-DF3Kk-" version="20.3.2" type="github" pages="2">
   <diagram id="0pdfVBRuH-IWIbiLCgcM" name="第 1 页">
     <mxGraphModel dx="1645" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -216,6 +216,9 @@
         <mxCell id="PxKjy-zW9b6iLB1zoXQW-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="PxKjy-zW9b6iLB1zoXQW-104" target="PxKjy-zW9b6iLB1zoXQW-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PxKjy-zW9b6iLB1zoXQW-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="PxKjy-zW9b6iLB1zoXQW-104" target="PxKjy-zW9b6iLB1zoXQW-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PxKjy-zW9b6iLB1zoXQW-104" value="Collector" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFF00;" vertex="1" parent="1">
           <mxGeometry x="720" y="1270" width="130" height="60" as="geometry" />
         </mxCell>
@@ -227,6 +230,19 @@
         </mxCell>
         <mxCell id="PxKjy-zW9b6iLB1zoXQW-108" value="BufferPoolsExports&lt;br&gt;{MBean}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFF00;" vertex="1" parent="1">
           <mxGeometry x="890" y="1360" width="133" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PxKjy-zW9b6iLB1zoXQW-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PxKjy-zW9b6iLB1zoXQW-112" target="PxKjy-zW9b6iLB1zoXQW-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PxKjy-zW9b6iLB1zoXQW-115" value="初始化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="PxKjy-zW9b6iLB1zoXQW-114">
+          <mxGeometry x="-0.5907" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PxKjy-zW9b6iLB1zoXQW-112" value="DefaultExports&lt;br&gt;{完成hotspot收集器注册}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1200" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

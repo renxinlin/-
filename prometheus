@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T06:57:27.462Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="BU3KN1PwrviGB8Htxl15" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-17T06:58:09.634Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="m_ZYX0fzwLxqr_BCVGSY" version="20.3.2" type="github" pages="2">
   <diagram id="0pdfVBRuH-IWIbiLCgcM" name="第 1 页">
     <mxGraphModel dx="1371" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="PxKjy-zW9b6iLB1zoXQW-16" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PxKjy-zW9b6iLB1zoXQW-1" target="PxKjy-zW9b6iLB1zoXQW-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PxKjy-zW9b6iLB1zoXQW-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Collector [register,collect]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+        <mxCell id="PxKjy-zW9b6iLB1zoXQW-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Collector &lt;br&gt;[]&lt;br&gt;(register,collect&lt;br&gt;)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="310" y="620" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PxKjy-zW9b6iLB1zoXQW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PxKjy-zW9b6iLB1zoXQW-2" target="PxKjy-zW9b6iLB1zoXQW-3">
@@ -87,7 +87,7 @@
         <mxCell id="PxKjy-zW9b6iLB1zoXQW-23" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ExemplarSampler&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF99CC;" vertex="1" parent="1">
           <mxGeometry x="820" y="1030" width="230" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PxKjy-zW9b6iLB1zoXQW-32" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Collector [register,collect]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+        <mxCell id="PxKjy-zW9b6iLB1zoXQW-32" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CollectorRegistry&lt;br&gt;[defaultRegistry]&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="110" y="620" width="140" height="80" as="geometry" />
         </mxCell>
       </root>

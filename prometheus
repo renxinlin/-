@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T11:59:59.905Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ojtXOqodpQbauCF2vDjr" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-18T12:00:26.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="EKMUWpQOW2n6vhF8ByVg" version="20.3.2" type="github" pages="2">
   <diagram id="0pdfVBRuH-IWIbiLCgcM" name="第 1 页">
     <mxGraphModel dx="1763" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -300,6 +300,19 @@
         </mxCell>
         <mxCell id="PxKjy-zW9b6iLB1zoXQW-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="PxKjy-zW9b6iLB1zoXQW-126" target="PxKjy-zW9b6iLB1zoXQW-143">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PxKjy-zW9b6iLB1zoXQW-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="PxKjy-zW9b6iLB1zoXQW-126" target="PxKjy-zW9b6iLB1zoXQW-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2430" y="710" />
+              <mxPoint x="2500" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PxKjy-zW9b6iLB1zoXQW-148" value="包含" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="PxKjy-zW9b6iLB1zoXQW-146">
+          <mxGeometry x="-0.1127" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PxKjy-zW9b6iLB1zoXQW-126" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;PrometheusMeterRegistry&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;[collectorMap&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;]&lt;/span&gt;&lt;br&gt;（scrape,newCounter,newGauge）&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="2210" y="610" width="220" height="80" as="geometry" />

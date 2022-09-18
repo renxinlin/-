@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T12:45:39.550Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="N0Y1vx5e8QWLjkhQlrID" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-18T12:53:57.987Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="wFnPXMa_Dw6caODc8U1F" version="20.3.2" type="github" pages="2">
   <diagram id="0pdfVBRuH-IWIbiLCgcM" name="第 1 页">
     <mxGraphModel dx="1371" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -256,12 +256,12 @@
         <mxCell id="wbY9N1K57cj4OK4qzH9F-73" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;PrometheusMetricsExportAutoConfiguration&lt;br&gt;[CollectorRegistry]&lt;br&gt;{配置PrometheusScrapeEndpoint&lt;br&gt;PrometheusMeterRegistry&amp;nbsp; }&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="1590" y="460" width="540" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wbY9N1K57cj4OK4qzH9F-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeColor=#00FF00;" edge="1" parent="1" source="wbY9N1K57cj4OK4qzH9F-76" target="wbY9N1K57cj4OK4qzH9F-79">
+        <mxCell id="wbY9N1K57cj4OK4qzH9F-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;strokeColor=#00FF00;entryX=0.907;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wbY9N1K57cj4OK4qzH9F-76" target="wbY9N1K57cj4OK4qzH9F-79">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1640" y="980" />
-              <mxPoint x="1640" y="1490" />
             </Array>
+            <mxPoint x="1640" y="1480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wbY9N1K57cj4OK4qzH9F-75" value="&lt;span style=&quot;background-color: rgb(0, 255, 0);&quot;&gt;springboot抓取&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="wbY9N1K57cj4OK4qzH9F-74">

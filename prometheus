@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T12:06:33.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fvijcnZVEeX-aSjejNWs" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-18T12:07:55.725Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-9oE-f9pCvFIpNbiD7Ec" version="20.3.2" type="github" pages="2">
   <diagram id="0pdfVBRuH-IWIbiLCgcM" name="第 1 页">
     <mxGraphModel dx="949" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -362,7 +362,7 @@
         <mxCell id="PxKjy-zW9b6iLB1zoXQW-150" value="DoubleAdder" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="2160" y="885" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PxKjy-zW9b6iLB1zoXQW-151" value="Child" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#99FFFF;" vertex="1" parent="1">
+        <mxCell id="PxKjy-zW9b6iLB1zoXQW-151" value="Child&lt;br&gt;(samples)&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;{prometheus采样实际取DoubleAdder值}&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#99FFFF;" vertex="1" parent="1">
           <mxGeometry x="2500" y="885" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PxKjy-zW9b6iLB1zoXQW-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="PxKjy-zW9b6iLB1zoXQW-153" target="PxKjy-zW9b6iLB1zoXQW-151">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T11:50:49.518Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="mMCzd6DuZb9o3EjRSpB6" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-08T11:52:03.490Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="PJVOhHU2gWbRm7t0cFtz" version="20.3.2" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2907" dy="1263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -457,6 +457,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kgqox10jVjz5uYJvHqPl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.231;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kgqox10jVjz5uYJvHqPl-2" target="kgqox10jVjz5uYJvHqPl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kgqox10jVjz5uYJvHqPl-12" value="自旋处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgqox10jVjz5uYJvHqPl-11">
+          <mxGeometry x="-0.1328" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kgqox10jVjz5uYJvHqPl-2" value="TriggerCallbackThread&lt;br&gt;[callBackQueue]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="350" width="180" height="170" as="geometry" />
         </mxCell>
@@ -465,6 +473,9 @@
         </mxCell>
         <mxCell id="kgqox10jVjz5uYJvHqPl-3" value="JobThread" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="130" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="kgqox10jVjz5uYJvHqPl-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="511" y="354" width="520" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

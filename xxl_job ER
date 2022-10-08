@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T12:05:13.534Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RnBxTxJCJ89eXhXWTZPn" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-08T12:05:26.318Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="cXruc_W52JjzjWV7QX0g" version="20.3.2" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2907" dy="1263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -460,7 +460,7 @@
         <mxCell id="kgqox10jVjz5uYJvHqPl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.231;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kgqox10jVjz5uYJvHqPl-2" target="kgqox10jVjz5uYJvHqPl-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kgqox10jVjz5uYJvHqPl-12" value="自旋处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgqox10jVjz5uYJvHqPl-11">
+        <mxCell id="kgqox10jVjz5uYJvHqPl-12" value="线程自旋处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgqox10jVjz5uYJvHqPl-11">
           <mxGeometry x="-0.1328" y="2" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>

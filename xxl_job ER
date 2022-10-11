@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T10:59:15.614Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="TDB7keWPQaHjuCvTnOHA" version="20.3.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-11T11:23:45.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qW9FCk3MpUgWh-0uhQ1r" version="20.3.2" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2907" dy="1263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -565,7 +565,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0Kj-bXiq36m17mejr-VS" name="架构">
-    <mxGraphModel dx="1543" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1783" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -736,12 +736,6 @@
         </mxCell>
         <mxCell id="STis7D0lh8mYON2AGS_n-75" value="路由&lt;br&gt;ExecutorRouter" style="shape=xor;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="920" y="330" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="STis7D0lh8mYON2AGS_n-79" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="500" as="sourcePoint" />
-            <mxPoint x="610" y="450" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="STis7D0lh8mYON2AGS_n-88" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.sun;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="490" y="327.5" width="70" height="65" as="geometry" />

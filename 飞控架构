@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T07:11:27.006Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.6.0" etag="UROT1lFADcuWOZUqlcoO" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-07T07:12:13.929Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.6.0" etag="be65yO1wJQkmXlD6q6ub" type="github">
   <diagram id="RwzGmMVT2W_wp40M95BU" name="第 1 页">
     <mxGraphModel dx="1422" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,22 +8,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JvJMsqIpmKe2y3ZrAruW-1" value="Stm32&lt;br&gt;[姿态融合]" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="290" y="430" width="80" height="80" as="geometry" />
+          <mxGeometry x="320" y="400" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JvJMsqIpmKe2y3ZrAruW-2" value="mpu6050陀螺仪" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="130" y="430" width="80" height="80" as="geometry" />
+          <mxGeometry x="160" y="400" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JvJMsqIpmKe2y3ZrAruW-7" value="电机驱动" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="30" y="220" width="80" height="80" as="geometry" />
+          <mxGeometry x="40" y="240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JvJMsqIpmKe2y3ZrAruW-8" value="电机驱动" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="440" y="220" width="80" height="80" as="geometry" />
+          <mxGeometry x="440" y="240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JvJMsqIpmKe2y3ZrAruW-9" value="电机驱动" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="30" y="585" width="80" height="80" as="geometry" />
+          <mxGeometry x="40" y="560" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JvJMsqIpmKe2y3ZrAruW-10" value="电机驱动" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="440" y="585" width="80" height="80" as="geometry" />
+          <mxGeometry x="440" y="560" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

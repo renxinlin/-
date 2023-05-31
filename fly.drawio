@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T18:52:45.721Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="wpgxYigSsSu1nmMHd-cS" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T19:04:27.923Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="y9uTd5O8uSYMlk8hhriL" version="21.3.6" type="github">
   <diagram name="数据来源" id="WTDnlj9U_MqUgMRSjLG9">
     <mxGraphModel dx="1926" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -250,19 +250,19 @@
         <mxCell id="l6x2bDg0Po8idT4ENA6o-73" value="位置xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="230" y="480" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l6x2bDg0Po8idT4ENA6o-74" value="位置xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-74" value="位置ypid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="230" y="530" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l6x2bDg0Po8idT4ENA6o-75" value="位置xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-75" value="位置zpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="230" y="580" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l6x2bDg0Po8idT4ENA6o-76" value="速度xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="378" y="480" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l6x2bDg0Po8idT4ENA6o-77" value="速度xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-77" value="速度ypid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="378" y="530" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l6x2bDg0Po8idT4ENA6o-78" value="速度xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-78" value="速度zpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="378" y="580" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l6x2bDg0Po8idT4ENA6o-79" value="角度xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
@@ -308,6 +308,15 @@
         </mxCell>
         <mxCell id="l6x2bDg0Po8idT4ENA6o-104" value="加速度x" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="308" y="690" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-139" value="y模式" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="154" y="525" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-140" value="z模式" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="154" y="555" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-141" value="x模式" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="154" y="495" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

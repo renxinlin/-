@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T18:04:15.333Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gETq8MWtCgEEoMVixEtQ" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T18:04:58.760Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="pb7prZcibeUduOu6Iyzv" version="21.3.6" type="github">
   <diagram name="数据来源" id="WTDnlj9U_MqUgMRSjLG9">
     <mxGraphModel dx="1245" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -172,22 +172,22 @@
         <mxCell id="l6x2bDg0Po8idT4ENA6o-78" value="位置xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="378" y="580" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l6x2bDg0Po8idT4ENA6o-79" value="位置xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-79" value="角度xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="525" y="480" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l6x2bDg0Po8idT4ENA6o-80" value="位置xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-80" value="角度y pid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="525" y="530" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l6x2bDg0Po8idT4ENA6o-81" value="位置xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-81" value="角度z pid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="525" y="580" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l6x2bDg0Po8idT4ENA6o-82" value="位置xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-82" value="角速度xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="673" y="480" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l6x2bDg0Po8idT4ENA6o-83" value="位置xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-83" value="角速度ypid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="673" y="530" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l6x2bDg0Po8idT4ENA6o-84" value="位置xpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-84" value="角速度zpid" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="673" y="580" width="100" height="30" as="geometry" />
         </mxCell>
       </root>

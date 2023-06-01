@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T17:23:28.351Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="XtCbgQ4shCScU1CmjC76" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T17:25:53.956Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="E7023nBwcBXlNjKLAbtu" version="21.3.6" type="github">
   <diagram name="数据来源" id="WTDnlj9U_MqUgMRSjLG9">
-    <mxGraphModel dx="1494" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1346" dy="278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -369,6 +369,9 @@
         </mxCell>
         <mxCell id="l6x2bDg0Po8idT4ENA6o-170" value="Abs执行" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
           <mxGeometry x="243" y="450" width="74" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-171" value="定高模式下，油门为pid输出&lt;br&gt;手动模式下，油门为控制器设置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="390" y="220" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

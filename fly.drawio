@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-03T16:37:09.560Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="fMxoIojcgDClb_dCNQYa" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-03T16:48:28.174Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="M7WOzZx5fRXzDljtkjm3" version="21.3.6" type="github">
   <diagram name="数据来源" id="WTDnlj9U_MqUgMRSjLG9">
     <mxGraphModel dx="1761" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,7 +75,7 @@
         <mxCell id="l6x2bDg0Po8idT4ENA6o-142" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.287;entryY=-0.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l6x2bDg0Po8idT4ENA6o-18" target="l6x2bDg0Po8idT4ENA6o-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l6x2bDg0Po8idT4ENA6o-18" value="速度z&lt;br&gt;【遥控】" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-18" value="速度z&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 0, 0);&quot;&gt;【遥控】&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="308" y="370" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l6x2bDg0Po8idT4ENA6o-19" value="位置y" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
@@ -93,7 +93,7 @@
         <mxCell id="l6x2bDg0Po8idT4ENA6o-22" value="姿态y" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="455" y="340" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l6x2bDg0Po8idT4ENA6o-23" value="油门" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="l6x2bDg0Po8idT4ENA6o-23" value="油门&lt;br&gt;速度z&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 0, 0);&quot;&gt;【遥控】&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="455" y="370" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l6x2bDg0Po8idT4ENA6o-155" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.41;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l6x2bDg0Po8idT4ENA6o-24" target="l6x2bDg0Po8idT4ENA6o-134">
